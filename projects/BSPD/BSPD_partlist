@@ -1,0 +1,33 @@
+Partlist
+
+Exported from BPSD.brd at 13/12/2018 11:02
+
+EAGLE Version 9.2.2 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part       Value          Package      Library  Position (inch)       Orientation
+
+12+V       TPPAD1-13      P1-13        testpad  (0.5 0.95)            R270
+AND        4081N          DIL14        40xx     (1.45 1.3)            R270
+BRKSNSR    TPPAD1-13      P1-13        testpad  (0.2199001 1.43829983) R0
+C2                        C050-024X044 rcl      (0.3 0.85)            R270
+COMPARATOR LM2901N        DIL14        linear   (0.60294993 1.43575)  R270
+ES1        TPPAD1-13      P1-13        testpad  (1.98660002 0.11225)  R270
+ES2        TPPAD1-13      P1-13        testpad  (1.98 0.31)           R270
+ES3        TPPAD1-13      P1-13        testpad  (2.91564998 0.10744993) R270
+ES4        TPPAD1-13      P1-13        testpad  (2.92314985 0.30924988) R270
+GND        TPPAD1-13      P1-13        testpad  (0.5 0.75)            R270
+ISNSR      TPPAD1-13      P1-13        testpad  (0.21970005 1.22529983) R0
+R1                        0207/15      rcl      (0.66975 0.20955007)  R180
+R2                        0207/15      rcl      (1.61360002 0.73454995) R0
+R3                        0207/15      rcl      (0.83385015 0.64639985) R0
+R4                        0207/15      rcl      (2.03414998 0.77789998) R270
+R5                        0207/15      rcl      (1.78439985 1.41140022) R270
+R6                        0207/15      rcl      (1.11585002 1.17210002) R90
+R7                        0207/15      rcl      (0.67904995 0.52320005) R180
+R8                        0207/15      rcl      (1.52210002 0.48414998) R0
+R9                        0207/15      rcl      (2.47979995 1.3200999) R0
+R11                       0207/15      rcl      (0.71175 0.34964998)  R0
+RELAY      RT444012       RT2N/O       relay    (2.44860002 0.60660002) R270
+T1         BT169          TO92-2       triac    (2.02295005 1.31110015) R180

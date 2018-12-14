@@ -1,0 +1,15 @@
+Partlist
+
+Exported from BOTS_Latch.brd at 13/12/2018 11:16
+
+EAGLE Version 9.2.2 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value            Package                        Library          Position (inch)       Orientation
+
+J1       T821108A1S100CEU HDRV8W64P254_2X4_1778X895X915P T821108A1S100CEU (0.65 1.6)            R180
+K1       RT444012         RT2N/O                         relay            (0.45 0.7)            R270
+S1                        B3F-10XX                       switch-omron     (0.875 1.03)          R270
+SHTDWN+  TPPAD1-13        P1-13                          testpad          (0.85 0.2)            R0
+SHTDWN-  TPPAD1-13        P1-13                          testpad          (0.85 0.6)            R0
