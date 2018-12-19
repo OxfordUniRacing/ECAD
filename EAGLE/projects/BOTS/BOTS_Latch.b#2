@@ -481,7 +481,7 @@ design rules under a new name.</description>
 <element name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" package="B3F-10XX" package3d_urn="urn:adsk.eagle:package:27496/1" value="" x="22.225" y="26.162" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="22.225" y="26.162" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="22.225" y="26.162" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="25.908" y="29.21" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="21.59" y="30.988" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="176432" x="22.225" y="26.162" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="22.225" y="26.162" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="17.145" y="29.21" size="1.27" layer="27" ratio="10" rot="R270"/>
