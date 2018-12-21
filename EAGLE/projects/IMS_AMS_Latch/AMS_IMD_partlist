@@ -1,0 +1,27 @@
+Partlist
+
+Exported from IMD_AMS_Latch.sch at 21/12/2018 15:35
+
+EAGLE Version 9.2.2 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value            Device           Package                        Library          Sheet
+
+AMSIN    TPSPAD1-13       TPSPAD1-13       P1-13                          testpad          1
+AMSRESET                  10-XX            B3F-10XX                       switch-omron     1
+CON1     T821108A1S100CEU T821108A1S100CEU HDRV8W64P254_2X4_1778X895X915P T821108A1S100CEU 1
+CON2     T821108A1S100CEU T821108A1S100CEU HDRV8W64P254_2X4_1778X895X915P T821108A1S100CEU 1
+IC1      4011N            4011N            DIL14                          40xx             1
+IMDIN    TPSPAD1-13       TPSPAD1-13       P1-13                          testpad          1
+K1       EC2-12TNU        EC2-12TNU        EC212TNU                       SamacSys_Parts   1
+K2       EC2-12TNU        EC2-12TNU        EC212TNU                       SamacSys_Parts   1
+R1                        R-EU_0207/15     0207/15                        rcl              1
+R2       2.2K             R-EU_0207/15     0207/15                        rcl              1
+R3       2.2K             R-EU_0207/15     0207/15                        rcl              1
+R4                        R-EU_0207/15     0207/15                        rcl              1
+R5       1K               R-EU_0207/15     0207/15                        rcl              1
+R6       1K               R-EU_0207/15     0207/15                        rcl              1
+S1                        10-XX            B3F-10XX                       switch-omron     1
+T1       BT169            BT169            TO92-2                         triac            1
+T2       BT169            BT169            TO92-2                         triac            1
