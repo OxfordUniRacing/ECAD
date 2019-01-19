@@ -1453,14 +1453,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <package name="HDRV8W64P254_2X4_1778X895X915P">
 <description>&lt;b&gt;T821108A1S100CEU&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square"/>
-<pad name="2" x="0" y="2.54" drill="1.1" diameter="1.65"/>
-<pad name="3" x="2.54" y="0" drill="1.1" diameter="1.65"/>
-<pad name="4" x="2.54" y="2.54" drill="1.1" diameter="1.65"/>
-<pad name="5" x="5.08" y="0" drill="1.1" diameter="1.65"/>
-<pad name="6" x="5.08" y="2.54" drill="1.1" diameter="1.65"/>
-<pad name="7" x="7.62" y="0" drill="1.1" diameter="1.65"/>
-<pad name="8" x="7.62" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.9304" shape="square"/>
+<pad name="2" x="0" y="2.54" drill="1" diameter="1.9304"/>
+<pad name="3" x="2.54" y="0" drill="1" diameter="1.9304"/>
+<pad name="4" x="2.54" y="2.54" drill="1" diameter="1.9304"/>
+<pad name="5" x="5.08" y="0" drill="1" diameter="1.9304"/>
+<pad name="6" x="5.08" y="2.54" drill="1" diameter="1.9304"/>
+<pad name="7" x="7.62" y="0" drill="1" diameter="1.9304"/>
+<pad name="8" x="7.62" y="2.54" drill="1" diameter="1.9304"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-5.48" y1="-3.555" x2="-5.48" y2="6.095" width="0.05" layer="51"/>

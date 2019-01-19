@@ -9558,10 +9558,10 @@ Based on the following sources:
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="RELAY" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="RT44?*" device="4" package3d_urn="urn:adsk.eagle:package:24520/1" technology="012"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="ES1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
-<part name="ES2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
-<part name="ES4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
-<part name="ES3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="ES1+" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="ES21-" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="ES2-" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
+<part name="ES2+" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="ISNSR" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="BRKSNSR" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-13" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/15" package3d_urn="urn:adsk.eagle:package:23492/1"/>
@@ -9654,19 +9654,19 @@ Based on the following sources:
 <instance part="SUPPLY9" gate="GND" x="215.9" y="81.28" smashed="yes">
 <attribute name="VALUE" x="213.995" y="78.105" size="1.778" layer="96"/>
 </instance>
-<instance part="ES1" gate="G$1" x="233.68" y="109.22" smashed="yes">
+<instance part="ES1+" gate="G$1" x="233.68" y="109.22" smashed="yes">
 <attribute name="NAME" x="232.41" y="110.49" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="234.95" y="107.95" size="1.778" layer="97"/>
 </instance>
-<instance part="ES2" gate="G$1" x="233.68" y="78.74" smashed="yes" rot="R180">
+<instance part="ES21-" gate="G$1" x="233.68" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="234.95" y="77.47" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="232.41" y="80.01" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="ES4" gate="G$1" x="241.3" y="78.74" smashed="yes" rot="R180">
+<instance part="ES2-" gate="G$1" x="241.3" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="242.57" y="77.47" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="240.03" y="80.01" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="ES3" gate="G$1" x="241.3" y="109.22" smashed="yes">
+<instance part="ES2+" gate="G$1" x="241.3" y="109.22" smashed="yes">
 <attribute name="NAME" x="240.03" y="110.49" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="242.57" y="107.95" size="1.778" layer="97"/>
 </instance>
@@ -10010,28 +10010,28 @@ Based on the following sources:
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="ES1" gate="G$1" pin="TP"/>
+<pinref part="ES1+" gate="G$1" pin="TP"/>
 <pinref part="RELAY" gate="2" pin="S"/>
 <wire x1="233.68" y1="106.68" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="ES2" gate="G$1" pin="TP"/>
+<pinref part="ES21-" gate="G$1" pin="TP"/>
 <pinref part="RELAY" gate="2" pin="P"/>
 <wire x1="233.68" y1="81.28" x2="233.68" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="ES3" gate="G$1" pin="TP"/>
+<pinref part="ES2+" gate="G$1" pin="TP"/>
 <pinref part="RELAY" gate="3" pin="S"/>
 <wire x1="241.3" y1="106.68" x2="241.3" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="ES4" gate="G$1" pin="TP"/>
+<pinref part="ES2-" gate="G$1" pin="TP"/>
 <pinref part="RELAY" gate="3" pin="P"/>
 <wire x1="241.3" y1="81.28" x2="241.3" y2="88.9" width="0.1524" layer="91"/>
 </segment>

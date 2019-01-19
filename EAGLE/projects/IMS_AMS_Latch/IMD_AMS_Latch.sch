@@ -5657,14 +5657,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <package name="HDRV8W64P254_2X4_1778X895X915P">
 <description>&lt;b&gt;T821108A1S100CEU&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square"/>
-<pad name="2" x="0" y="2.54" drill="1.1" diameter="1.65"/>
-<pad name="3" x="2.54" y="0" drill="1.1" diameter="1.65"/>
-<pad name="4" x="2.54" y="2.54" drill="1.1" diameter="1.65"/>
-<pad name="5" x="5.08" y="0" drill="1.1" diameter="1.65"/>
-<pad name="6" x="5.08" y="2.54" drill="1.1" diameter="1.65"/>
-<pad name="7" x="7.62" y="0" drill="1.1" diameter="1.65"/>
-<pad name="8" x="7.62" y="2.54" drill="1.1" diameter="1.65"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.9304" shape="square"/>
+<pad name="2" x="0" y="2.54" drill="1" diameter="1.9304"/>
+<pad name="3" x="2.54" y="0" drill="1" diameter="1.9304"/>
+<pad name="4" x="2.54" y="2.54" drill="1" diameter="1.9304"/>
+<pad name="5" x="5.08" y="0" drill="1" diameter="1.9304"/>
+<pad name="6" x="5.08" y="2.54" drill="1" diameter="1.9304"/>
+<pad name="7" x="7.62" y="0" drill="1" diameter="1.9304"/>
+<pad name="8" x="7.62" y="2.54" drill="1" diameter="1.9304"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-5.48" y1="-3.555" x2="-5.48" y2="6.095" width="0.05" layer="51"/>
@@ -6035,7 +6035,7 @@ Based on the following sources:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="DIL14" urn="urn:adsk.eagle:footprint:715/1" library_version="2">
+<package name="DIL14" urn="urn:adsk.eagle:footprint:16136/1" library_version="3">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
 <wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.1524" layer="21"/>
 <wire x1="-8.89" y1="-2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
@@ -6107,7 +6107,7 @@ Based on the following sources:
 </package>
 </packages>
 <packages3d>
-<package3d name="DIL14" urn="urn:adsk.eagle:package:820/2" type="model" library_version="2">
+<package3d name="DIL14" urn="urn:adsk.eagle:package:16407/2" type="model" library_version="3">
 <description>Dual In Line Package</description>
 <packageinstances>
 <packageinstance name="DIL14"/>
@@ -6139,7 +6139,7 @@ Based on the following sources:
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="4011" urn="urn:adsk.eagle:component:885/3" prefix="IC" library_version="2">
+<deviceset name="4011" urn="urn:adsk.eagle:component:885/4" prefix="IC" library_version="3">
 <description>Quad 2-input &lt;b&gt;NAND&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="4011" x="15.24" y="5.08" swaplevel="1"/>
@@ -6167,7 +6167,7 @@ Based on the following sources:
 <connect gate="P" pin="VSS" pad="7"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:820/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16407/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -6242,7 +6242,7 @@ Based on the following sources:
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/15" package3d_urn="urn:adsk.eagle:package:23492/1" value="1K"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/15" package3d_urn="urn:adsk.eagle:package:23492/1" value="1K"/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
-<part name="IC1" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4011" device="N" package3d_urn="urn:adsk.eagle:package:820/2"/>
+<part name="IC1" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4011" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
