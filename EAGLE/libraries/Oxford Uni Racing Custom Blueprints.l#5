@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.2.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SAME70-XPLD">
+<pad name="J5040" x="0" y="17.78" drill="0.6"/>
+<pad name="J5041" x="0" y="15.24" drill="0.6"/>
+<pad name="J5042" x="0" y="12.7" drill="0.6"/>
+<pad name="J5043" x="0" y="10.16" drill="0.6"/>
+<pad name="J5044" x="0" y="7.62" drill="0.6"/>
+<pad name="J5045" x="0" y="5.08" drill="0.6"/>
+<pad name="J5046" x="0" y="2.54" drill="0.6"/>
+<pad name="J5047" x="0" y="0" drill="0.6"/>
+<wire x1="-1.108" y1="18.888" x2="1.108" y2="18.888" width="0.127" layer="21"/>
+<wire x1="1.108" y1="18.888" x2="1.108" y2="-1.108" width="0.127" layer="21"/>
+<wire x1="1.108" y1="-1.108" x2="-1.108" y2="-1.108" width="0.127" layer="21"/>
+<wire x1="-1.108" y1="-1.108" x2="-1.108" y2="18.888" width="0.127" layer="21"/>
+<pad name="J5020" x="0" y="40.64" drill="0.6"/>
+<pad name="J5021" x="0" y="38.1" drill="0.6"/>
+<pad name="J5022" x="0" y="35.56" drill="0.6"/>
+<pad name="J5023" x="0" y="33.02" drill="0.6"/>
+<pad name="J5024" x="0" y="30.48" drill="0.6"/>
+<pad name="J5025" x="0" y="27.94" drill="0.6"/>
+<pad name="J5026" x="0" y="25.4" drill="0.6"/>
+<pad name="J5027" x="0" y="22.86" drill="0.6"/>
+<wire x1="-1.108" y1="41.748" x2="1.108" y2="41.748" width="0.127" layer="21"/>
+<wire x1="1.108" y1="41.748" x2="1.108" y2="21.752" width="0.127" layer="21"/>
+<wire x1="1.108" y1="21.752" x2="-1.108" y2="21.752" width="0.127" layer="21"/>
+<wire x1="-1.108" y1="21.752" x2="-1.108" y2="41.748" width="0.127" layer="21"/>
+<pad name="J5010" x="0" y="63.5" drill="0.6"/>
+<pad name="J5011" x="0" y="60.96" drill="0.6"/>
+<pad name="J5012" x="0" y="58.42" drill="0.6"/>
+<pad name="J5013" x="0" y="55.88" drill="0.6"/>
+<pad name="J5014" x="0" y="53.34" drill="0.6"/>
+<pad name="J5015" x="0" y="50.8" drill="0.6"/>
+<pad name="J5016" x="0" y="48.26" drill="0.6"/>
+<pad name="J5017" x="0" y="45.72" drill="0.6"/>
+<wire x1="-1.108" y1="64.608" x2="1.108" y2="64.608" width="0.127" layer="21"/>
+<wire x1="1.108" y1="64.608" x2="1.108" y2="44.612" width="0.127" layer="21"/>
+<wire x1="1.108" y1="44.612" x2="-1.108" y2="44.612" width="0.127" layer="21"/>
+<wire x1="-1.108" y1="44.612" x2="-1.108" y2="64.608" width="0.127" layer="21"/>
+<pad name="J5070" x="48.26" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5071" x="45.72" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5072" x="43.18" y="-2.54" drill="0.6" rot="R48.3"/>
+<pad name="J5073" x="40.64" y="-2.54" drill="0.6"/>
+<pad name="J5074" x="38.1" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5075" x="35.56" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5076" x="33.02" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5077" x="30.48" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5078" x="27.94" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5079" x="25.4" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50710" x="22.86" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50711" x="20.32" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50712" x="17.78" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50713" x="15.24" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50714" x="12.7" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50715" x="10.16" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50716" x="7.62" y="-2.54" drill="0.6"/>
+<pad name="J50717" x="5.08" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50718" x="5.08" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50719" x="7.62" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50720" x="10.16" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50721" x="12.7" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50722" x="15.24" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50723" x="17.78" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50724" x="20.32" y="-5.08" drill="0.6"/>
+<pad name="J50725" x="22.86" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50726" x="25.4" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50727" x="27.94" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50728" x="30.48" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50729" x="33.02" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50730" x="35.56" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50731" x="38.1" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50732" x="40.64" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50733" x="43.18" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50734" x="45.72" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50735" x="48.26" y="-5.08" drill="0.6"/>
+<wire x1="49.368" y1="-1.432" x2="49.368" y2="-6.188" width="0.127" layer="21"/>
+<wire x1="49.368" y1="-6.188" x2="3.972" y2="-6.188" width="0.127" layer="21"/>
+<wire x1="3.972" y1="-6.188" x2="3.972" y2="-1.432" width="0.127" layer="21"/>
+<wire x1="3.972" y1="-1.432" x2="49.368" y2="-1.432" width="0.127" layer="21"/>
+<pad name="J5050" x="48.26" y="5.08" drill="0.6" rot="R180"/>
+<pad name="J5051" x="48.26" y="7.62" drill="0.6" rot="R180"/>
+<pad name="J5052" x="48.26" y="10.16" drill="0.6" rot="R180"/>
+<pad name="J5053" x="48.26" y="12.7" drill="0.6" rot="R180"/>
+<pad name="J5054" x="48.26" y="15.24" drill="0.6" rot="R180"/>
+<pad name="J5055" x="48.26" y="17.78" drill="0.6" rot="R180"/>
+<pad name="J5056" x="48.26" y="20.32" drill="0.6" rot="R180"/>
+<pad name="J5057" x="48.26" y="22.86" drill="0.6" rot="R180"/>
+<wire x1="49.368" y1="3.972" x2="47.152" y2="3.972" width="0.127" layer="21"/>
+<wire x1="47.152" y1="3.972" x2="47.152" y2="23.968" width="0.127" layer="21"/>
+<wire x1="47.152" y1="23.968" x2="49.368" y2="23.968" width="0.127" layer="21"/>
+<wire x1="49.368" y1="23.968" x2="49.368" y2="3.972" width="0.127" layer="21"/>
+<pad name="J5030" x="48.26" y="27.94" drill="0.6" rot="R180"/>
+<pad name="J5031" x="48.26" y="30.48" drill="0.6" rot="R180"/>
+<pad name="J5032" x="48.26" y="33.02" drill="0.6" rot="R180"/>
+<pad name="J5033" x="48.26" y="35.56" drill="0.6" rot="R180"/>
+<pad name="J5034" x="48.26" y="38.1" drill="0.6" rot="R180"/>
+<pad name="J5035" x="48.26" y="40.64" drill="0.6" rot="R180"/>
+<pad name="J5036" x="48.26" y="43.18" drill="0.6" rot="R180"/>
+<pad name="J5037" x="48.26" y="45.72" drill="0.6" rot="R180"/>
+<wire x1="49.368" y1="26.832" x2="47.152" y2="26.832" width="0.127" layer="21"/>
+<wire x1="47.152" y1="26.832" x2="47.152" y2="46.828" width="0.127" layer="21"/>
+<wire x1="47.152" y1="46.828" x2="49.368" y2="46.828" width="0.127" layer="21"/>
+<wire x1="49.368" y1="46.828" x2="49.368" y2="26.832" width="0.127" layer="21"/>
+<pad name="J5000" x="48.26" y="49.53" drill="0.6" rot="R180"/>
+<pad name="J5001" x="48.26" y="52.07" drill="0.6" rot="R180"/>
+<pad name="J5002" x="48.26" y="54.61" drill="0.6" rot="R180"/>
+<pad name="J5003" x="48.26" y="57.15" drill="0.6" rot="R180"/>
+<pad name="J5004" x="48.26" y="59.69" drill="0.6" rot="R180"/>
+<pad name="J5005" x="48.26" y="62.23" drill="0.6" rot="R180"/>
+<pad name="J5006" x="48.26" y="64.77" drill="0.6" rot="R180"/>
+<pad name="J5007" x="48.26" y="67.31" drill="0.6" rot="R180"/>
+<pad name="J5008" x="48.26" y="69.85" drill="0.6" rot="R180"/>
+<pad name="J5009" x="48.26" y="72.39" drill="0.6" rot="R180"/>
+<wire x1="49.368" y1="48.422" x2="47.152" y2="48.422" width="0.127" layer="21"/>
+<wire x1="47.152" y1="48.422" x2="47.152" y2="73.498" width="0.127" layer="21"/>
+<wire x1="47.152" y1="73.498" x2="49.368" y2="73.498" width="0.127" layer="21"/>
+<wire x1="49.368" y1="73.498" x2="49.368" y2="48.422" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SAME70-XPLD">
+<pin name="J5040-AD8" x="7.62" y="17.78" length="middle"/>
+<pin name="J5041-AD9" x="7.62" y="15.24" length="middle"/>
+<pin name="J5042-AD10" x="7.62" y="12.7" length="middle"/>
+<pin name="J5043-AD11" x="7.62" y="10.16" length="middle"/>
+<pin name="J5044-DAC0" x="7.62" y="7.62" length="middle"/>
+<pin name="J5045-DAC1" x="7.62" y="5.08" length="middle"/>
+<pin name="J5046-CANRX" x="7.62" y="2.54" length="middle"/>
+<pin name="J5047-CANTX" x="7.62" y="0" length="middle"/>
+<pin name="J5020-" x="7.62" y="43.18" length="middle"/>
+<pin name="J5021-AD1" x="7.62" y="40.64" length="middle"/>
+<pin name="J5022-AD2" x="7.62" y="38.1" length="middle"/>
+<pin name="J5023-AD3" x="7.62" y="35.56" length="middle"/>
+<pin name="J5024-AD4" x="7.62" y="33.02" length="middle"/>
+<pin name="J5025-AD5" x="7.62" y="30.48" length="middle"/>
+<pin name="J5026-AD6" x="7.62" y="27.94" length="middle"/>
+<pin name="J5027-AD7" x="7.62" y="25.4" length="middle"/>
+<pin name="J5010-VBAT" x="7.62" y="68.58" length="middle"/>
+<pin name="J5011-IOREF" x="7.62" y="66.04" length="middle"/>
+<pin name="J5012-RESET" x="7.62" y="63.5" length="middle"/>
+<pin name="J5013-3V3" x="7.62" y="60.96" length="middle"/>
+<pin name="J5014-5V0" x="7.62" y="58.42" length="middle"/>
+<pin name="J5015-GND" x="7.62" y="55.88" length="middle"/>
+<pin name="J5016-GND" x="7.62" y="53.34" length="middle"/>
+<pin name="J5017-VIN" x="7.62" y="50.8" length="middle"/>
+<pin name="J5070-5V0" x="27.94" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5071-D22" x="30.48" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5072-D24" x="33.02" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5073-D26" x="35.56" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5074-D28" x="38.1" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5075-D30" x="40.64" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5076-D32" x="43.18" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5077-D34" x="45.72" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5078-D36" x="48.26" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5079-D38" x="50.8" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50710-D40" x="53.34" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50711-D42" x="55.88" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50712-D44" x="58.42" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50713-D46" x="60.96" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50714-D48" x="63.5" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50715-D50" x="66.04" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50716-D52" x="68.58" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50717-GND" x="71.12" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50718-GND" x="73.66" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50719-D53" x="76.2" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50720-D51" x="78.74" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50721-D49" x="81.28" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50722-D47" x="83.82" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50723-D45" x="86.36" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50724-D43" x="88.9" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50725-D41" x="91.44" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50726-D39" x="93.98" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50727-D37" x="96.52" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50728-D35" x="99.06" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50729-D33" x="101.6" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50730-D31" x="104.14" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50731-D29" x="106.68" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50732-D27" x="109.22" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50733-D25" x="111.76" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50734-D23" x="114.3" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50735-5V0" x="116.84" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5050-D14" x="129.54" y="25.4" length="middle" rot="R180"/>
+<pin name="J5051-D15" x="129.54" y="22.86" length="middle" rot="R180"/>
+<pin name="J5052-D16" x="129.54" y="20.32" length="middle" rot="R180"/>
+<pin name="J5053-D17" x="129.54" y="17.78" length="middle" rot="R180"/>
+<pin name="J5054-D18" x="129.54" y="15.24" length="middle" rot="R180"/>
+<pin name="J5055-D19" x="129.54" y="12.7" length="middle" rot="R180"/>
+<pin name="J5056-D20" x="129.54" y="10.16" length="middle" rot="R180"/>
+<pin name="J5057-D21" x="129.54" y="7.62" length="middle" rot="R180"/>
+<pin name="J5030-D7" x="129.54" y="50.8" length="middle" rot="R180"/>
+<pin name="J5031-D6" x="129.54" y="48.26" length="middle" rot="R180"/>
+<pin name="J5032-D5" x="129.54" y="45.72" length="middle" rot="R180"/>
+<pin name="J5033-D4" x="129.54" y="43.18" length="middle" rot="R180"/>
+<pin name="J5034-D3" x="129.54" y="40.64" length="middle" rot="R180"/>
+<pin name="J5035-D2" x="129.54" y="38.1" length="middle" rot="R180"/>
+<pin name="J5036-D1(TXD)" x="129.54" y="35.56" length="middle" rot="R180"/>
+<pin name="J5037-D0(RXD)" x="129.54" y="33.02" length="middle" rot="R180"/>
+<pin name="J5000-SCL" x="129.54" y="81.28" length="middle" rot="R180"/>
+<pin name="J5001-SDA" x="129.54" y="78.74" length="middle" rot="R180"/>
+<pin name="J5002-AREF" x="129.54" y="76.2" length="middle" rot="R180"/>
+<pin name="J5003-GND" x="129.54" y="73.66" length="middle" rot="R180"/>
+<pin name="J5004-D13" x="129.54" y="71.12" length="middle" rot="R180"/>
+<pin name="J5005-D12" x="129.54" y="68.58" length="middle" rot="R180"/>
+<pin name="J5006-D11" x="129.54" y="66.04" length="middle" rot="R180"/>
+<pin name="J5007-D10" x="129.54" y="63.5" length="middle" rot="R180"/>
+<pin name="J5008-D9" x="129.54" y="60.96" length="middle" rot="R180"/>
+<pin name="J5009-D8" x="129.54" y="58.42" length="middle" rot="R180"/>
+<wire x1="124.46" y1="88.9" x2="124.46" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="124.46" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="88.9" width="0.254" layer="94"/>
+<wire x1="12.7" y1="88.9" x2="124.46" y2="88.9" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SAME70-XPLD">
+<gates>
+<gate name="G$1" symbol="SAME70-XPLD" x="2.54" y="15.24"/>
+</gates>
+<devices>
+<device name="" package="SAME70-XPLD">
+<connects>
+<connect gate="G$1" pin="J5000-SCL" pad="J5000"/>
+<connect gate="G$1" pin="J5001-SDA" pad="J5001"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
