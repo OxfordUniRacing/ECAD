@@ -600,10 +600,11 @@
 <instances>
 </instances>
 <busses>
-<bus name="B$1">
+<bus name="BUTTON_LINES">
 <segment>
 <wire x1="127" y1="71.12" x2="127" y2="167.64" width="0.762" layer="92"/>
 <wire x1="127" y1="167.64" x2="101.6" y2="167.64" width="0.762" layer="92"/>
+<label x="106.68" y="165.1" size="1.778" layer="95"/>
 </segment>
 </bus>
 <bus name="CAN1">

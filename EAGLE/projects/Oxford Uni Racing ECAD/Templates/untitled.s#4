@@ -789,6 +789,196 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 </deviceset>
 </devicesets>
 </library>
+<library name="linear-technology" urn="urn:adsk.eagle:library:261">
+<description>&lt;b&gt;Linear Technology Devices&lt;/b&gt;&lt;p&gt;
+http://www.linear-tech.com&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DIL08" urn="urn:adsk.eagle:footprint:15995/1" library_version="1">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SOIC8" urn="urn:adsk.eagle:footprint:15990/1" library_version="1">
+<description>&lt;b&gt;Small Outline IC&lt;/b&gt;</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="DIL08" urn="urn:adsk.eagle:package:16059/1" type="box" library_version="1">
+<description>Dual In Line Package</description>
+<packageinstances>
+<packageinstance name="DIL08"/>
+</packageinstances>
+</package3d>
+<package3d name="SOIC8" urn="urn:adsk.eagle:package:16057/1" type="box" library_version="1">
+<description>Small Outline IC</description>
+<packageinstances>
+<packageinstance name="SOIC8"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="LT1168" urn="urn:adsk.eagle:symbol:16014/1" library_version="1">
+<wire x1="-3.81" y1="5.715" x2="-3.81" y2="4.445" width="0.1524" layer="95"/>
+<wire x1="-4.445" y1="5.08" x2="-3.175" y2="5.08" width="0.1524" layer="95"/>
+<wire x1="-4.445" y1="-5.08" x2="-3.175" y2="-5.08" width="0.1524" layer="95"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="2.54" y2="-3.048" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="-3.048" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="0" x2="-5.08" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="4.6482" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-3.048" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-4.6482" x2="0" y2="-7.62" width="0.1524" layer="94"/>
+<text x="2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="3.81" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0.635" y="9.144" size="0.8128" layer="93">V+</text>
+<text x="0.635" y="-9.906" size="0.8128" layer="93">V-</text>
+<text x="3.048" y="-2.286" size="1.27" layer="95" rot="R90">REF</text>
+<text x="-4.318" y="2.032" size="1.27" layer="95">RG</text>
+<text x="-4.318" y="-3.048" size="1.27" layer="95">RG</text>
+<pin name="+IN" x="-7.62" y="5.08" visible="pad" length="short" direction="in"/>
+<pin name="-IN" x="-7.62" y="-5.08" visible="pad" length="short" direction="in"/>
+<pin name="RG@2" x="-7.62" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="REF" x="2.54" y="-7.62" visible="pad" length="short" direction="in" rot="R90"/>
+<pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="V+" x="0" y="10.16" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="RG@1" x="-7.62" y="2.54" visible="pad" length="short" direction="in"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LT1168" urn="urn:adsk.eagle:component:16095/1" prefix="IC" library_version="1">
+<description>&lt;b&gt;Low Power, Single Resistor Gain Programmable, Precision Instrumentation Amplifier&lt;/b&gt;&lt;p&gt;
+SourcE: LT1168.pdf</description>
+<gates>
+<gate name="P" symbol="LT1168" x="0" y="0"/>
+</gates>
+<devices>
+<device name="N8" package="DIL08">
+<connects>
+<connect gate="P" pin="+IN" pad="3"/>
+<connect gate="P" pin="-IN" pad="2"/>
+<connect gate="P" pin="OUT" pad="6"/>
+<connect gate="P" pin="REF" pad="5"/>
+<connect gate="P" pin="RG@1" pad="1"/>
+<connect gate="P" pin="RG@2" pad="8"/>
+<connect gate="P" pin="V+" pad="7"/>
+<connect gate="P" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16059/1"/>
+</package3dinstances>
+<technologies>
+<technology name="AC">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="AI">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="C">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LT1168CN8#PBF" constant="no"/>
+<attribute name="OC_FARNELL" value="1330587" constant="no"/>
+<attribute name="OC_NEWARK" value="57M2327" constant="no"/>
+</technology>
+<technology name="I">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LT1168IN8" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="57M2332" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S8" package="SOIC8">
+<connects>
+<connect gate="P" pin="+IN" pad="3"/>
+<connect gate="P" pin="-IN" pad="2"/>
+<connect gate="P" pin="OUT" pad="6"/>
+<connect gate="P" pin="REF" pad="5"/>
+<connect gate="P" pin="RG@1" pad="1"/>
+<connect gate="P" pin="RG@2" pad="8"/>
+<connect gate="P" pin="V+" pad="7"/>
+<connect gate="P" pin="V-" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16057/1"/>
+</package3dinstances>
+<technologies>
+<technology name="AC">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LT1168ACS8" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="57M2316" constant="no"/>
+</technology>
+<technology name="AI">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LT1168AIS8" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="57M2322" constant="no"/>
+</technology>
+<technology name="C">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LT1168CS8" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="57M2328" constant="no"/>
+</technology>
+<technology name="I">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="LT1168IS8" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="57M2334" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -801,6 +991,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <modules>
 <module name="TEST1" prefix="" dx="30.48" dy="20.32">
 <ports>
+<port name="N$1" side="left" coord="0" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -840,9 +1031,42 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 </sheet>
 </sheets>
 </module>
+<module name="SUBPOWER" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="N$1" side="left" coord="0" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+<part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0207/10" package3d_urn="urn:adsk.eagle:package:13275/1"/>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="R1" gate="G$1" x="38.1" y="30.48" smashed="yes">
+<attribute name="NAME" x="34.29" y="31.9786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="34.29" y="27.178" size="1.778" layer="96"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+</sheets>
+</module>
 </modules>
 <parts>
 <part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0204/7" package3d_urn="urn:adsk.eagle:package:13274/1"/>
+<part name="IC1" library="linear-technology" library_urn="urn:adsk.eagle:library:261" deviceset="LT1168" device="N8" package3d_urn="urn:adsk.eagle:package:16059/1" technology="AC"/>
 </parts>
 <sheets>
 <sheet>
@@ -862,6 +1086,40 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <busses>
 </busses>
 <nets>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<portref moduleinst="TEST1-1" port="N$1"/>
+<wire x1="99.06" y1="5.08" x2="99.06" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="2.54" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<moduleinsts>
+<moduleinst name="SUBPOWER1" module="SUBPOWER" x="91.44" y="48.26">
+<attribute name="NAME" x="91.44" y="48.26" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+</moduleinsts>
+<instances>
+<instance part="IC1" gate="P" x="25.4" y="48.26" smashed="yes">
+<attribute name="NAME" x="27.94" y="54.61" size="1.778" layer="95"/>
+<attribute name="VALUE" x="29.21" y="52.07" size="1.778" layer="96"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="N$2" class="0">
+<segment>
+<pinref part="IC1" gate="P" pin="OUT"/>
+<portref moduleinst="SUBPOWER1" port="N$1"/>
+<wire x1="71.12" y1="48.26" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

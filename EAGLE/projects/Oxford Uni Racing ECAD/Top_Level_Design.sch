@@ -607,28 +607,10 @@
 <label x="106.68" y="165.1" size="1.778" layer="95"/>
 </segment>
 </bus>
-<bus name="CAN1">
+<bus name="CAN0,CAN1">
 <segment>
-<wire x1="27.94" y1="25.4" x2="27.94" y2="10.16" width="0.762" layer="92"/>
-<wire x1="27.94" y1="10.16" x2="73.66" y2="10.16" width="0.762" layer="92"/>
-<wire x1="73.66" y1="10.16" x2="114.3" y2="10.16" width="0.762" layer="92"/>
-<wire x1="114.3" y1="25.4" x2="114.3" y2="10.16" width="0.762" layer="92"/>
-<wire x1="73.66" y1="-22.86" x2="73.66" y2="10.16" width="0.762" layer="92"/>
-<wire x1="114.3" y1="10.16" x2="210.82" y2="10.16" width="0.762" layer="92"/>
-<wire x1="210.82" y1="10.16" x2="210.82" y2="25.4" width="0.762" layer="92"/>
+<wire x1="27.94" y1="10.16" x2="213.36" y2="10.16" width="0.762" layer="92"/>
 <label x="86.36" y="7.62" size="1.778" layer="95"/>
-</segment>
-</bus>
-<bus name="CAN0">
-<segment>
-<wire x1="30.48" y1="25.4" x2="30.48" y2="12.7" width="0.762" layer="92"/>
-<wire x1="30.48" y1="12.7" x2="76.2" y2="12.7" width="0.762" layer="92"/>
-<wire x1="76.2" y1="12.7" x2="116.84" y2="12.7" width="0.762" layer="92"/>
-<wire x1="116.84" y1="12.7" x2="116.84" y2="25.4" width="0.762" layer="92"/>
-<wire x1="116.84" y1="12.7" x2="213.36" y2="12.7" width="0.762" layer="92"/>
-<wire x1="213.36" y1="12.7" x2="213.36" y2="25.4" width="0.762" layer="92"/>
-<wire x1="76.2" y1="-22.86" x2="76.2" y2="12.7" width="0.762" layer="92"/>
-<label x="86.36" y="15.24" size="1.778" layer="95"/>
 </segment>
 </bus>
 </busses>
@@ -1065,6 +1047,42 @@
 <portref moduleinst="PEDAL_BOARD1" port="ASS2"/>
 <wire x1="236.22" y1="25.4" x2="236.22" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="-12.7" x2="261.62" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CAN1" class="0">
+<segment>
+<portref moduleinst="WHEEL_BOARD1" port="CAN1"/>
+<wire x1="27.94" y1="10.16" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="VCU1" port="CAN1"/>
+<wire x1="73.66" y1="10.16" x2="73.66" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="DASHBOARD1" port="CAN1"/>
+<wire x1="114.3" y1="10.16" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="PEDAL_BOARD1" port="CAN1"/>
+<wire x1="210.82" y1="10.16" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CAN0" class="0">
+<segment>
+<portref moduleinst="WHEEL_BOARD1" port="CAN0"/>
+<wire x1="30.48" y1="25.4" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="VCU1" port="CAN0"/>
+<wire x1="76.2" y1="10.16" x2="76.2" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="DASHBOARD1" port="CAN0"/>
+<wire x1="116.84" y1="10.16" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="PEDAL_BOARD1" port="CAN0"/>
+<wire x1="213.36" y1="10.16" x2="213.36" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
