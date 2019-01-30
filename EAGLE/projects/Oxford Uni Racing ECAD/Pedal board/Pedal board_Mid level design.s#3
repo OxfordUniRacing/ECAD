@@ -31,6 +31,12 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
+<modules>
+<module name="CROSS_SHEET_WIRING" prefix="" dx="30.48" dy="20.32">
+<ports>
+</ports>
+<variantdefs>
+</variantdefs>
 <parts>
 </parts>
 <sheets>
@@ -42,16 +48,27 @@
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
-<segment>
-<wire x1="50.8" y1="45.72" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<wire x1="53.34" y1="27.94" x2="119.38" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
+</nets>
+</sheet>
+</sheets>
+</module>
+</modules>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<moduleinsts>
+<moduleinst name="CROSS_SHEET_WIRING1" module="CROSS_SHEET_WIRING" x="104.14" y="-17.78">
+<attribute name="NAME" x="104.14" y="-17.78" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+</moduleinsts>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 </sheets>

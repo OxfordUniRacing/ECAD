@@ -1,8 +1,16 @@
-Main project for Oxford Uni Racing ECAD <br><br>
+<b>Main project for Oxford Uni Racing ECAD </b><br><br>
 
 This project includes all schematics and board designs that will go on the car. <br><br>
 
-Structure - Divided into folders for corresponding boards (VCU, Wheel board, Pedal board etc.). Every folder contains one schematic with different sheets for corresponding modular design (ASS, CAN breakout, IO breakout, Power delivery etc.) <br><br>
+Structure: <br>
+- Top level design for visulising the wiring between boards <br>
+- Divided into folders for corresponding boards (VCU, Wheel board, Pedal board, Dashboard): <br>
+--- Every folder contains mid level design of the schematic for easier modular design. <br>
+--- Every folder contains one low level schematic with different sheets for corresponding modular design (ASS, CAN breakout, IO breakout, Power delivery etc.) <br>
+--- Every low level schematic has a shared module of the wiring between the different sheets.<br>
+<br>
 
-Templates - as the boards will share some features (General layout, Power delivery, CAN breakout etc.) it would be useful to implement them as templates (both on the schematic and board level) and import them when working on a new board.
+Design blocks - as the boards will share some features (General layout, Power delivery, CAN breakout etc.) it would be useful to implement them as design blocks (both on the schematic and board level) and import them when working on a new board.<br><br>
+
+<b>NOTE! Make sure you are keeping all design levels synchronised!</b>
 
