@@ -74,8 +74,10 @@
 <port name="GND_OUT" side="top" coord="-25.4" direction="io"/>
 <port name="BRAKE_POSS_S" side="top" coord="-20.32" direction="io"/>
 <port name="BRAKE_PRESS_S" side="top" coord="-17.78" direction="io"/>
-<port name="BOTS1_OUT" side="top" coord="-12.7" direction="io"/>
-<port name="BOTS1_IN" side="top" coord="-10.16" direction="io"/>
+<port name="POTS1_OUT" side="top" coord="-12.7" direction="io"/>
+<port name="POTS1_IN" side="top" coord="-10.16" direction="io"/>
+<port name="POTS2_OUT" side="top" coord="-5.08" direction="io"/>
+<port name="POTS2_IN" side="top" coord="-2.54" direction="io"/>
 <port name="BRAKE_LIGHT_+" side="top" coord="10.16" direction="io"/>
 <port name="BRAKE_LIGHT_-" side="top" coord="12.7" direction="io"/>
 <port name="THR1_PWR" side="right" coord="15.24" direction="io"/>
@@ -127,8 +129,6 @@
 <port name="MOTOR_CONTR_L_2" side="left" coord="2.54" direction="io"/>
 <port name="MOTOR_CONTR_R_1" side="left" coord="-5.08" direction="io"/>
 <port name="MOTOR_CONTR_R_2" side="left" coord="-7.62" direction="io"/>
-<port name="PWR_OUT" side="right" coord="2.54" direction="io"/>
-<port name="GND_OUT" side="right" coord="0" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -159,7 +159,6 @@
 <port name="DISPL_SPI_CL" side="top" coord="-7.62" direction="io"/>
 <port name="ASS1" side="bottom" coord="7.62" direction="io"/>
 <port name="ASS2" side="bottom" coord="10.16" direction="io"/>
-<port name="BUTTONS_LOTS_OF_LINES" side="top" coord="2.54" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -180,10 +179,6 @@
 </module>
 <module name="BRAKE_TEMP_S" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="PWR" side="right" coord="-7.62" direction="io"/>
-<port name="GND" side="right" coord="-5.08" direction="io"/>
-<port name="SDA" side="right" coord="7.62" direction="io"/>
-<port name="SCL" side="right" coord="5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -204,9 +199,6 @@
 </module>
 <module name="TYRE_TEMP_S" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="PWR" side="right" coord="-7.62" direction="io"/>
-<port name="GND" side="right" coord="-5.08" direction="io"/>
-<port name="OUT" side="right" coord="5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -227,9 +219,6 @@
 </module>
 <module name="WHEEL_SPEED_S" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="PWR" side="right" coord="-7.62" direction="io"/>
-<port name="GND" side="right" coord="-5.08" direction="io"/>
-<port name="OUT" side="right" coord="5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -250,9 +239,6 @@
 </module>
 <module name="SUSP_DISPL_S" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="PWR" side="right" coord="-7.62" direction="io"/>
-<port name="GND" side="right" coord="-5.08" direction="io"/>
-<port name="OUT" side="right" coord="5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -273,9 +259,6 @@
 </module>
 <module name="4YP_STARIN_S" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="PWR" side="right" coord="-7.62" direction="io"/>
-<port name="GND" side="right" coord="-5.08" direction="io"/>
-<port name="OUT" side="right" coord="5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -296,10 +279,6 @@
 </module>
 <module name="DISPLAY" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="PWR" side="right" coord="-7.62" direction="io"/>
-<port name="GND" side="right" coord="-5.08" direction="io"/>
-<port name="SDA" side="right" coord="7.62" direction="io"/>
-<port name="SCL" side="right" coord="5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -320,9 +299,6 @@
 </module>
 <module name="BUTTONS" prefix="" dx="30.48" dy="50.8">
 <ports>
-<port name="PWR" side="right" coord="-22.86" direction="io"/>
-<port name="GND" side="right" coord="-20.32" direction="io"/>
-<port name="BUTTONS_LOTS_OF_LINES" side="right" coord="7.62" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -366,122 +342,6 @@
 </module>
 <module name="BRAKE_POSS_S" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="PWR" side="right" coord="-7.62" direction="io"/>
-<port name="GND" side="right" coord="-5.08" direction="io"/>
-<port name="OUT" side="right" coord="5.08" direction="io"/>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-<module name="BRAKE_PRESSURE_S" prefix="" dx="30.48" dy="20.32">
-<ports>
-<port name="PWR" side="right" coord="-7.62" direction="io"/>
-<port name="GND" side="right" coord="-5.08" direction="io"/>
-<port name="OUT" side="right" coord="5.08" direction="io"/>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-<module name="BOTS" prefix="" dx="30.48" dy="20.32">
-<ports>
-<port name="IN" side="right" coord="-2.54" direction="io"/>
-<port name="OUT" side="right" coord="-5.08" direction="io"/>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-<module name="BRAKE_LIGHTS" prefix="" dx="30.48" dy="20.32">
-<ports>
-<port name="PWR_+" side="right" coord="-7.62" direction="io"/>
-<port name="PWR_-" side="right" coord="-5.08" direction="io"/>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-<module name="TELEMETRY" prefix="" dx="30.48" dy="20.32">
-<ports>
-<port name="GND" side="left" coord="-5.08" direction="io"/>
-<port name="PWR" side="left" coord="-2.54" direction="io"/>
-<port name="DATA_?" side="left" coord="2.54" direction="io"/>
-<port name="CLOCK_?" side="left" coord="5.08" direction="io"/>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-<module name="MOTOR_CONTROLLER" prefix="" dx="30.48" dy="20.32">
-<ports>
-<port name="LINE_1" side="right" coord="-2.54" direction="io"/>
-<port name="LINE_2" side="right" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -552,24 +412,6 @@
 </moduleinst>
 <moduleinst name="BRAKE_POSS_S1" module="BRAKE_POSS_S" x="165.1" y="119.38">
 <attribute name="NAME" x="165.1" y="119.38" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="BRAKE_PRESSURE_S1" module="BRAKE_PRESSURE_S" x="165.1" y="144.78">
-<attribute name="NAME" x="165.1" y="144.78" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="BOTS1" module="BOTS" x="165.1" y="170.18">
-<attribute name="NAME" x="165.1" y="170.18" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="BRAKE_LIGHTS1" module="BRAKE_LIGHTS" x="165.1" y="195.58">
-<attribute name="NAME" x="165.1" y="195.58" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="TELEMETRY1" module="TELEMETRY" x="175.26" y="-40.64">
-<attribute name="NAME" x="175.26" y="-40.64" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="MOTOR_CONTROLLER1" module="MOTOR_CONTROLLER" x="2.54" y="-35.56">
-<attribute name="NAME" x="2.54" y="-35.56" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="MOTOR_CONTROLLER2" module="MOTOR_CONTROLLER" x="2.54" y="-60.96">
-<attribute name="NAME" x="2.54" y="-60.96" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
