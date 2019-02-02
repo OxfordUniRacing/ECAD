@@ -502,8 +502,8 @@
 </module>
 <module name="BATTERY" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="PWR_OUT" side="left" coord="2.54" direction="io"/>
-<port name="GND_OUT" side="left" coord="0" direction="io"/>
+<port name="LV_POWER" side="left" coord="2.54" direction="io"/>
+<port name="LV_GND" side="left" coord="0" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -600,10 +600,11 @@
 <instances>
 </instances>
 <busses>
-<bus name="B$1">
+<bus name="BUTTON_LINES">
 <segment>
 <wire x1="127" y1="71.12" x2="127" y2="167.64" width="0.762" layer="92"/>
 <wire x1="127" y1="167.64" x2="101.6" y2="167.64" width="0.762" layer="92"/>
+<label x="106.68" y="165.1" size="1.778" layer="95"/>
 </segment>
 </bus>
 <bus name="CAN1">
@@ -994,7 +995,7 @@
 <portref moduleinst="WHEEL_BOARD1" port="PWR_IN"/>
 <wire x1="35.56" y1="25.4" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-5.08" x2="83.82" y2="-5.08" width="0.1524" layer="91"/>
-<portref moduleinst="BATTERY1" port="PWR_OUT"/>
+<portref moduleinst="BATTERY1" port="LV_POWER"/>
 <wire x1="83.82" y1="-5.08" x2="124.46" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="-5.08" x2="220.98" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-5.08" x2="279.4" y2="-5.08" width="0.1524" layer="91"/>
@@ -1013,7 +1014,7 @@
 </net>
 <net name="LV_GND" class="0">
 <segment>
-<portref moduleinst="BATTERY1" port="GND_OUT"/>
+<portref moduleinst="BATTERY1" port="LV_GND"/>
 <wire x1="279.4" y1="-30.48" x2="276.86" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="-30.48" x2="276.86" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="-7.62" x2="223.52" y2="-7.62" width="0.1524" layer="91"/>
