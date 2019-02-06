@@ -32,8 +32,18 @@
 </class>
 </classes>
 <modules>
-<module name="CROSS_SHEET_WIRING" prefix="" dx="30.48" dy="20.32">
+<module name="INTER_SHEET_CONNECTIONS" prefix="" dx="30.48" dy="76.2">
 <ports>
+<port name="12V" side="right" coord="35.56" direction="io"/>
+<port name="5V" side="right" coord="33.02" direction="io"/>
+<port name="3.3V" side="right" coord="30.48" direction="io"/>
+<port name="GND" side="right" coord="27.94" direction="io"/>
+<port name="CANH" side="right" coord="22.86" direction="io"/>
+<port name="CANL" side="right" coord="20.32" direction="io"/>
+<port name="BR_TMP_SDA" side="right" coord="15.24" direction="io"/>
+<port name="BR_TMP_SCL" side="right" coord="12.7" direction="io"/>
+<port name="TYRE_TMP" side="right" coord="7.62" direction="io"/>
+<port name="4YP_STRAIN" side="right" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -60,10 +70,76 @@
 <plain>
 </plain>
 <moduleinsts>
-<moduleinst name="CROSS_SHEET_WIRING1" module="CROSS_SHEET_WIRING" x="104.14" y="-17.78">
-<attribute name="NAME" x="104.14" y="-17.78" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="INTER_SHEET_CONNECTIONS1" module="INTER_SHEET_CONNECTIONS" x="55.88" y="-5.08">
+<attribute name="NAME" x="55.88" y="-5.08" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>INPUTS</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>POWER DELIVERY</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>MICROCONTROLLER</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>TYRE TEMPEREATURE SENSOR</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>BRAKE TEMPERATURE SENSOR</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>4YP STRAIN SENSOR</description>
+<plain>
+</plain>
 <instances>
 </instances>
 <busses>

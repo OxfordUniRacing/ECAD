@@ -34,6 +34,21 @@
 <modules>
 <module name="CROSS_SHEET_WIRING" prefix="" dx="91.44" dy="20.32">
 <ports>
+<port name="12V" side="top" coord="-43.18" direction="io"/>
+<port name="5V" side="top" coord="-40.64" direction="io"/>
+<port name="3.3V" side="top" coord="-38.1" direction="io"/>
+<port name="GND" side="top" coord="-35.56" direction="io"/>
+<port name="CAN0" side="top" coord="-30.48" direction="io"/>
+<port name="CAN1" side="top" coord="-27.94" direction="io"/>
+<port name="THR1" side="top" coord="-22.86" direction="io"/>
+<port name="THR2" side="top" coord="-20.32" direction="io"/>
+<port name="THR3" side="top" coord="-17.78" direction="io"/>
+<port name="BR_PR" side="top" coord="-12.7" direction="io"/>
+<port name="BR_POSS" side="top" coord="-10.16" direction="io"/>
+<port name="BRAKE_LIGHTS_OUT" side="top" coord="-5.08" direction="io"/>
+<port name="ASS1" side="top" coord="0" direction="io"/>
+<port name="ASS2" side="top" coord="2.54" direction="io"/>
+<port name="BATT_CURR" side="top" coord="7.62" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -82,12 +97,15 @@
 </sheet>
 </sheets>
 </module>
-<module name="INPUTS" prefix="" dx="30.48" dy="20.32">
+<module name="INPUTS" prefix="" dx="30.48" dy="40.64">
 <ports>
 <port name="12V" side="right" coord="7.62" direction="io"/>
 <port name="GND" side="right" coord="5.08" direction="io"/>
 <port name="CAN0" side="right" coord="0" direction="io"/>
 <port name="CAN1" side="right" coord="-2.54" direction="io"/>
+<port name="ASS1" side="right" coord="-7.62" direction="io"/>
+<port name="ASS2" side="right" coord="-10.16" direction="io"/>
+<port name="BATTERY_CURRENT_SENSE" side="right" coord="-15.24" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -157,6 +175,9 @@
 <ports>
 <port name="12V" side="bottom" coord="-12.7" direction="io"/>
 <port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="ASS1" side="bottom" coord="-2.54" direction="io"/>
+<port name="ASS2" side="bottom" coord="0" direction="io"/>
+<port name="BATTERY_CURRENT_SENSE" side="bottom" coord="5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -179,6 +200,8 @@
 <ports>
 <port name="12V" side="bottom" coord="-12.7" direction="io"/>
 <port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="ASS1" side="bottom" coord="-2.54" direction="io"/>
+<port name="ASS2" side="bottom" coord="0" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -275,8 +298,8 @@
 <plain>
 </plain>
 <moduleinsts>
-<moduleinst name="CROSS_SHEET_WIRING1" module="CROSS_SHEET_WIRING" x="99.06" y="-17.78">
-<attribute name="NAME" x="99.06" y="-17.78" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="CROSS_SHEET_WIRING1" module="CROSS_SHEET_WIRING" x="121.92" y="-38.1">
+<attribute name="NAME" x="121.92" y="-38.1" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="MICROCONTROLLER1" module="MICROCONTROLLER" x="104.14" y="50.8">
 <attribute name="NAME" x="104.14" y="50.8" size="2.032" layer="95" align="bottom-center"/>
@@ -309,9 +332,11 @@
 <instances>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,BRAKE_LIGHTS_OUT,BR_POSS,BR_PR,CAN0,CAN1,GND,THR1,THR2,THR3">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURR_SENSE,BRAKE_LIGHTS_OUT,BR_POSS,BR_PR,CAN0,CAN1,GND,THR1,THR2,THR3">
 <segment>
 <wire x1="43.18" y1="22.86" x2="353.06" y2="22.86" width="0.762" layer="92"/>
+<wire x1="43.18" y1="22.86" x2="43.18" y2="-12.7" width="0.762" layer="92"/>
+<wire x1="43.18" y1="-12.7" x2="165.1" y2="-12.7" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -320,7 +345,6 @@
 <segment>
 <portref moduleinst="INPUTS1" port="12V"/>
 <wire x1="35.56" y1="17.78" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="17.78" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="POWER_DELIVERY1" port="12V_IN"/>
@@ -338,17 +362,19 @@
 <portref moduleinst="BRAKE_LIGHTS1" port="POWER_IN_?V"/>
 <wire x1="259.08" y1="22.86" x2="259.08" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="12V"/>
+<wire x1="78.74" y1="-12.7" x2="78.74" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <portref moduleinst="INPUTS1" port="GND"/>
-<wire x1="35.56" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="15.24" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="45.72" y1="22.86" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="22.86" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
 <portref moduleinst="POWER_DELIVERY1" port="GND"/>
-<wire x1="45.72" y1="35.56" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="GND"/>
@@ -382,23 +408,29 @@
 <net name="CAN0" class="0">
 <segment>
 <portref moduleinst="INPUTS1" port="CAN0"/>
-<wire x1="35.56" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="10.16" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="CAN0"/>
 <wire x1="83.82" y1="22.86" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="CAN0"/>
+<wire x1="91.44" y1="-12.7" x2="91.44" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CAN1" class="0">
 <segment>
 <portref moduleinst="INPUTS1" port="CAN1"/>
-<wire x1="35.56" y1="7.62" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="7.62" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="7.62" x2="43.18" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="CAN1"/>
 <wire x1="86.36" y1="22.86" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="CAN1"/>
+<wire x1="93.98" y1="-12.7" x2="93.98" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -414,6 +446,10 @@
 <portref moduleinst="BRAKE_PRESSURE_S1" port="5V"/>
 <wire x1="142.24" y1="22.86" x2="142.24" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="5V"/>
+<wire x1="81.28" y1="-12.7" x2="81.28" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -428,6 +464,10 @@
 <portref moduleinst="BRAKE_POSS_S1" port="3.3V"/>
 <wire x1="340.36" y1="22.86" x2="340.36" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="3.3V"/>
+<wire x1="83.82" y1="-12.7" x2="83.82" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="THR1" class="0">
 <segment>
@@ -437,6 +477,10 @@
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="THR1"/>
 <wire x1="91.44" y1="22.86" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="THR1"/>
+<wire x1="99.06" y1="-12.7" x2="99.06" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="THR2" class="0">
@@ -448,6 +492,10 @@
 <portref moduleinst="MICROCONTROLLER1" port="THR2"/>
 <wire x1="93.98" y1="22.86" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="THR2"/>
+<wire x1="101.6" y1="-12.7" x2="101.6" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="THR3" class="0">
 <segment>
@@ -457,6 +505,10 @@
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="THR3"/>
 <wire x1="96.52" y1="22.86" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="THR3"/>
+<wire x1="104.14" y1="-12.7" x2="104.14" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BR_PR" class="0">
@@ -468,6 +520,10 @@
 <portref moduleinst="BRAKE_PRESSURE_S1" port="BR_PR"/>
 <wire x1="149.86" y1="22.86" x2="149.86" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="BR_PR"/>
+<wire x1="109.22" y1="-12.7" x2="109.22" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="BR_POSS" class="0">
 <segment>
@@ -478,11 +534,69 @@
 <portref moduleinst="BRAKE_POSS_S1" port="BR_POSS"/>
 <wire x1="347.98" y1="22.86" x2="347.98" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="BR_POSS"/>
+<wire x1="111.76" y1="-12.7" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="BRAKE_LIGHTS_OUT" class="0">
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="BRAKE_LIGHTS_OUT"/>
 <wire x1="109.22" y1="35.56" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="BRAKE_LIGHTS_OUT"/>
+<wire x1="116.84" y1="-12.7" x2="116.84" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS1" class="0">
+<segment>
+<portref moduleinst="INPUTS1" port="ASS1"/>
+<wire x1="35.56" y1="2.54" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BOTS1" port="ASS2"/>
+<wire x1="190.5" y1="22.86" x2="190.5" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BSPD1" port="ASS2"/>
+<wire x1="228.6" y1="22.86" x2="228.6" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="ASS1"/>
+<wire x1="121.92" y1="-12.7" x2="121.92" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS2" class="0">
+<segment>
+<portref moduleinst="INPUTS1" port="ASS2"/>
+<wire x1="35.56" y1="0" x2="43.18" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BOTS1" port="ASS1"/>
+<wire x1="187.96" y1="22.86" x2="187.96" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BSPD1" port="ASS1"/>
+<wire x1="226.06" y1="22.86" x2="226.06" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="ASS2"/>
+<wire x1="124.46" y1="-12.7" x2="124.46" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BATT_CURR_SENSE" class="0">
+<segment>
+<portref moduleinst="INPUTS1" port="BATTERY_CURRENT_SENSE"/>
+<wire x1="35.56" y1="-5.08" x2="43.18" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BOTS1" port="BATTERY_CURRENT_SENSE"/>
+<wire x1="195.58" y1="22.86" x2="195.58" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="BATT_CURR"/>
+<wire x1="129.54" y1="-12.7" x2="129.54" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

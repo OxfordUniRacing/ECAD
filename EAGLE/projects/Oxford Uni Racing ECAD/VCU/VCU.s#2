@@ -31,12 +31,6 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<modules>
-<module name="CROSS_SHEET_WIRING" prefix="" dx="30.48" dy="20.32">
-<ports>
-</ports>
-<variantdefs>
-</variantdefs>
 <parts>
 </parts>
 <sheets>
@@ -50,20 +44,65 @@
 <nets>
 </nets>
 </sheet>
-</sheets>
-</module>
-</modules>
-<parts>
-</parts>
-<sheets>
 <sheet>
+<description>INPUTS</description>
 <plain>
 </plain>
-<moduleinsts>
-<moduleinst name="CROSS_SHEET_WIRING1" module="CROSS_SHEET_WIRING" x="104.14" y="-17.78">
-<attribute name="NAME" x="104.14" y="-17.78" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-</moduleinsts>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>POWER DELIVERY</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>MICROCONTROLLER</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>MOTOR CONTROLLER &lt;B&gt;LEFT&lt;/B&gt; OUTPUT</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>MOTOR CONTROLLER &lt;B&gt;RIGHT&lt;/B&gt; OUTPUT</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>TELEMETRY ?</description>
+<plain>
+</plain>
 <instances>
 </instances>
 <busses>
