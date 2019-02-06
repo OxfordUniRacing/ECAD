@@ -379,6 +379,10 @@
 <portref moduleinst="CROSS_SHEET_WIRING1" port="MC_1_BRAKE_INPUT"/>
 <wire x1="111.76" y1="2.54" x2="111.76" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_1_BRAKE_INPUT"/>
+<wire x1="99.06" y1="38.1" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MC_1_RXD" class="0">
 <segment>
@@ -388,6 +392,10 @@
 <segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="MC_1_RXD"/>
 <wire x1="114.3" y1="2.54" x2="114.3" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_1_RXD"/>
+<wire x1="101.6" y1="38.1" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MC_1_TXD" class="0">
@@ -399,6 +407,10 @@
 <portref moduleinst="CROSS_SHEET_WIRING1" port="MC_1_TXD"/>
 <wire x1="116.84" y1="2.54" x2="116.84" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_1_TXD"/>
+<wire x1="104.14" y1="38.1" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MC_1_REVERSE_SWITCH" class="0">
 <segment>
@@ -408,6 +420,10 @@
 <segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="MC_1_REVERSE_SWITCH"/>
 <wire x1="119.38" y1="2.54" x2="119.38" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_1_REVERSE_SWITCH"/>
+<wire x1="106.68" y1="38.1" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MC_1_THROTTLE_POSITION" class="0">
@@ -419,6 +435,10 @@
 <portref moduleinst="CROSS_SHEET_WIRING1" port="MC_1_THROTTLE_INPUT"/>
 <wire x1="121.92" y1="2.54" x2="121.92" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_1_THROTTLE_INPUT"/>
+<wire x1="109.22" y1="38.1" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MC_2_BRAKE_INPUT" class="0">
 <segment>
@@ -428,6 +448,10 @@
 <segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="MC_2_BRAKE_INPUT"/>
 <wire x1="134.62" y1="2.54" x2="134.62" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_2_BRAKE_INPUT"/>
+<wire x1="116.84" y1="38.1" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MC_2_RXD" class="0">
@@ -439,6 +463,10 @@
 <portref moduleinst="CROSS_SHEET_WIRING1" port="MC_2_RXD"/>
 <wire x1="137.16" y1="2.54" x2="137.16" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_2_RXD"/>
+<wire x1="119.38" y1="38.1" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MC_2_TXD" class="0">
 <segment>
@@ -448,6 +476,10 @@
 <segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="MC_2_TXD"/>
 <wire x1="139.7" y1="2.54" x2="139.7" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_2_TXD"/>
+<wire x1="121.92" y1="38.1" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MC_2_REVERSE_SWITCH" class="0">
@@ -459,6 +491,10 @@
 <portref moduleinst="CROSS_SHEET_WIRING1" port="MC_2_REVERSE_SWITCH"/>
 <wire x1="142.24" y1="2.54" x2="142.24" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_2_REVERSE_SWITCH"/>
+<wire x1="124.46" y1="38.1" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MC_2_THROTTLE_INPUT" class="0">
 <segment>
@@ -468,6 +504,10 @@
 <segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="MC_2_THROTTLE_INPUT"/>
 <wire x1="144.78" y1="2.54" x2="144.78" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_2_THROTTLE_INPUT"/>
+<wire x1="127" y1="38.1" x2="127" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MC_2_IMPULSE_INPUT" class="0">
@@ -479,6 +519,10 @@
 <portref moduleinst="CROSS_SHEET_WIRING1" port="MC_2_IMPULSE_INPUT"/>
 <wire x1="147.32" y1="2.54" x2="147.32" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_2_IMPULSE_INPUT"/>
+<wire x1="129.54" y1="38.1" x2="129.54" y2="50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MC_1_IMPULSE_INPUT" class="0">
 <segment>
@@ -488,6 +532,10 @@
 <segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="MC_1_IMPULSE_INPUT"/>
 <wire x1="124.46" y1="2.54" x2="124.46" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_1_IMPULSE_INPUT"/>
+<wire x1="111.76" y1="38.1" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
