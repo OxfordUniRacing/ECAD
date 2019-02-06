@@ -104,7 +104,7 @@
 <ports>
 <port name="5V" side="bottom" coord="-12.7" direction="io"/>
 <port name="GND" side="bottom" coord="-10.16" direction="io"/>
-<port name="OUTPUT_???" side="bottom" coord="-5.08" direction="io"/>
+<port name="TY_TEMP_OUT_??" side="bottom" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -151,8 +151,8 @@
 <ports>
 <port name="5V" side="bottom" coord="-12.7" direction="io"/>
 <port name="GND" side="bottom" coord="-10.16" direction="io"/>
-<port name="SDA" side="bottom" coord="-5.08" direction="io"/>
-<port name="SCL" side="bottom" coord="-2.54" direction="io"/>
+<port name="BR_TMP_SDA" side="bottom" coord="-5.08" direction="io"/>
+<port name="BR_TMP_SCL" side="bottom" coord="-2.54" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -175,7 +175,7 @@
 <ports>
 <port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
 <port name="GND" side="bottom" coord="-10.16" direction="io"/>
-<port name="OUT" side="bottom" coord="-5.08" direction="io"/>
+<port name="SUSP_DISPL" side="bottom" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -198,7 +198,7 @@
 <ports>
 <port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
 <port name="GND" side="bottom" coord="-10.16" direction="io"/>
-<port name="OUT" side="bottom" coord="-5.08" direction="io"/>
+<port name="4YP_STRAIN" side="bottom" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -221,7 +221,7 @@
 <ports>
 <port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
 <port name="GND" side="bottom" coord="-10.16" direction="io"/>
-<port name="OUT" side="bottom" coord="-5.08" direction="io"/>
+<port name="WH_SPEED" side="bottom" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>

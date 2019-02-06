@@ -31,85 +31,12 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<modules>
-<module name="INTER_SHEET_CONNECTIONS" prefix="" dx="91.44" dy="20.32">
-<ports>
-</ports>
-<variantdefs>
-</variantdefs>
 <parts>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-<module name="INPUTS" prefix="" dx="30.48" dy="20.32">
-<ports>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-<module name="POWER_DELIVERY" prefix="" dx="30.48" dy="20.32">
-<ports>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-</modules>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<moduleinsts>
-<moduleinst name="INTER_SHEET_CONNECTIONS1" module="INTER_SHEET_CONNECTIONS" x="93.98" y="-30.48">
-<attribute name="NAME" x="93.98" y="-30.48" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="INPUTS1" module="INPUTS" x="10.16" y="17.78">
-<attribute name="NAME" x="10.16" y="17.78" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="POWER_DELIVERY1" module="POWER_DELIVERY" x="58.42" y="50.8">
-<attribute name="NAME" x="58.42" y="50.8" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-</moduleinsts>
 <instances>
 </instances>
 <busses>

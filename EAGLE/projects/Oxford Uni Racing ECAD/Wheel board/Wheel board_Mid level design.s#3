@@ -102,6 +102,9 @@
 </module>
 <module name="TYRE_TEMP_S" prefix="" dx="30.48" dy="20.32">
 <ports>
+<port name="5V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="OUTPUT_???" side="bottom" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -123,6 +126,9 @@
 <module name="MICROCONTROLLER" prefix="" dx="50.8" dy="20.32">
 <ports>
 <port name="5V" side="bottom" coord="-22.86" direction="io"/>
+<port name="GND" side="bottom" coord="-20.32" direction="io"/>
+<port name="CAN0" side="bottom" coord="-15.24" direction="io"/>
+<port name="CAN1" side="bottom" coord="-12.7" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -143,6 +149,10 @@
 </module>
 <module name="BRAKE_TEMP_S" prefix="" dx="30.48" dy="20.32">
 <ports>
+<port name="5V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="SDA" side="bottom" coord="-5.08" direction="io"/>
+<port name="SCL" side="bottom" coord="-2.54" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -163,6 +173,9 @@
 </module>
 <module name="SUSPENSION_DISPLACEMENT_S" prefix="" dx="30.48" dy="20.32">
 <ports>
+<port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="OUT" side="bottom" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -183,6 +196,9 @@
 </module>
 <module name="4YP_STRAIN_S" prefix="" dx="30.48" dy="20.32">
 <ports>
+<port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="OUT" side="bottom" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -203,6 +219,9 @@
 </module>
 <module name="WHEEL_SPEED_S" prefix="" dx="30.48" dy="20.32">
 <ports>
+<port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="OUT" side="bottom" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>

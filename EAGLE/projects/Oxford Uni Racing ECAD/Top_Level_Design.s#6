@@ -74,8 +74,6 @@
 <port name="GND_OUT" side="top" coord="-25.4" direction="io"/>
 <port name="BRAKE_POSS_S" side="top" coord="-20.32" direction="io"/>
 <port name="BRAKE_PRESS_S" side="top" coord="-17.78" direction="io"/>
-<port name="BOTS1_OUT" side="top" coord="-12.7" direction="io"/>
-<port name="BOTS1_IN" side="top" coord="-10.16" direction="io"/>
 <port name="BRAKE_LIGHT_+" side="top" coord="10.16" direction="io"/>
 <port name="BRAKE_LIGHT_-" side="top" coord="12.7" direction="io"/>
 <port name="THR1_PWR" side="right" coord="15.24" direction="io"/>
@@ -89,6 +87,7 @@
 <port name="THR3_SIG" side="right" coord="-10.16" direction="io"/>
 <port name="ASS1" side="bottom" coord="12.7" direction="io"/>
 <port name="ASS2" side="bottom" coord="15.24" direction="io"/>
+<port name="CURRENT_SENSE_PLAUSABILITY" side="bottom" coord="22.86" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -502,8 +501,125 @@
 </module>
 <module name="BATTERY" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="PWR_OUT" side="left" coord="2.54" direction="io"/>
-<port name="GND_OUT" side="left" coord="0" direction="io"/>
+<port name="LV_POWER" side="left" coord="2.54" direction="io"/>
+<port name="LV_GND" side="left" coord="0" direction="io"/>
+<port name="ASS1" side="bottom" coord="-12.7" direction="io"/>
+<port name="ASS2" side="bottom" coord="-10.16" direction="io"/>
+<port name="CURRENT_SENSE_PLAUSABILITY" side="top" coord="10.16" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="CRASH_INTERTIA_SWITCH" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="ASS1" side="top" coord="-7.62" direction="io"/>
+<port name="ASS2" side="top" coord="-5.08" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="EMERGENCY_BUTTON" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="ASS1" side="top" coord="-7.62" direction="io"/>
+<port name="ASS2" side="top" coord="-5.08" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="MASTER_SWITCH" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="IN" side="top" coord="-10.16" direction="io"/>
+<port name="OUT" side="top" coord="-7.62" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="DATA_LOGGER" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="CAN1" side="bottom" coord="-10.16" direction="io"/>
+<port name="CAN0" side="bottom" coord="-7.62" direction="io"/>
+<port name="PWR_IN" side="bottom" coord="2.54" direction="io"/>
+<port name="GND_IN" side="bottom" coord="5.08" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="INS" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="CAN1" side="bottom" coord="-10.16" direction="io"/>
+<port name="CAN0" side="bottom" coord="-7.62" direction="io"/>
+<port name="POWER_IN" side="bottom" coord="2.54" direction="io"/>
+<port name="GND_IN" side="bottom" coord="5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -578,8 +694,8 @@
 <moduleinst name="BRAKE_PRESSURE_S1" module="BRAKE_PRESSURE_S" x="165.1" y="144.78">
 <attribute name="NAME" x="165.1" y="144.78" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="BOTS1" module="BOTS" x="165.1" y="170.18">
-<attribute name="NAME" x="165.1" y="170.18" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="BOTS1" module="BOTS" x="403.86" y="-60.96" rot="R180">
+<attribute name="NAME" x="403.86" y="-60.96" size="2.032" layer="95" rot="R180" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="BRAKE_LIGHTS1" module="BRAKE_LIGHTS" x="165.1" y="195.58">
 <attribute name="NAME" x="165.1" y="195.58" size="2.032" layer="95" align="bottom-center"/>
@@ -596,6 +712,27 @@
 <moduleinst name="BATTERY1" module="BATTERY" x="299.72" y="-30.48">
 <attribute name="NAME" x="299.72" y="-30.48" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
+<moduleinst name="CRASH_INTERTIA_SWITCH1" module="CRASH_INTERTIA_SWITCH" x="223.52" y="-83.82">
+<attribute name="NAME" x="223.52" y="-83.82" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="EMERGENCY_BUTTON1" module="EMERGENCY_BUTTON" x="259.08" y="-83.82">
+<attribute name="NAME" x="259.08" y="-83.82" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="EMERGENCY_BUTTON2" module="EMERGENCY_BUTTON" x="294.64" y="-83.82">
+<attribute name="NAME" x="294.64" y="-83.82" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="EMERGENCY_BUTTON3" module="EMERGENCY_BUTTON" x="330.2" y="-83.82">
+<attribute name="NAME" x="330.2" y="-83.82" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="LV_MASTER_SWITCH1" module="MASTER_SWITCH" x="365.76" y="-83.82">
+<attribute name="NAME" value="LV_MASTER_SWITCH1" x="365.76" y="-83.82" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="DATA_LOGGER1" module="DATA_LOGGER" x="-15.24" y="40.64">
+<attribute name="NAME" x="-15.24" y="40.64" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="INS1" module="INS" x="-55.88" y="40.64">
+<attribute name="NAME" x="-55.88" y="40.64" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
 </moduleinsts>
 <instances>
 </instances>
@@ -607,28 +744,10 @@
 <label x="106.68" y="165.1" size="1.778" layer="95"/>
 </segment>
 </bus>
-<bus name="CAN1">
+<bus name="CAN0,CAN1">
 <segment>
-<wire x1="27.94" y1="25.4" x2="27.94" y2="10.16" width="0.762" layer="92"/>
-<wire x1="27.94" y1="10.16" x2="73.66" y2="10.16" width="0.762" layer="92"/>
-<wire x1="73.66" y1="10.16" x2="114.3" y2="10.16" width="0.762" layer="92"/>
-<wire x1="114.3" y1="25.4" x2="114.3" y2="10.16" width="0.762" layer="92"/>
-<wire x1="73.66" y1="-22.86" x2="73.66" y2="10.16" width="0.762" layer="92"/>
-<wire x1="114.3" y1="10.16" x2="210.82" y2="10.16" width="0.762" layer="92"/>
-<wire x1="210.82" y1="10.16" x2="210.82" y2="25.4" width="0.762" layer="92"/>
+<wire x1="-66.04" y1="10.16" x2="213.36" y2="10.16" width="0.762" layer="92"/>
 <label x="86.36" y="7.62" size="1.778" layer="95"/>
-</segment>
-</bus>
-<bus name="CAN0">
-<segment>
-<wire x1="30.48" y1="25.4" x2="30.48" y2="12.7" width="0.762" layer="92"/>
-<wire x1="30.48" y1="12.7" x2="76.2" y2="12.7" width="0.762" layer="92"/>
-<wire x1="76.2" y1="12.7" x2="116.84" y2="12.7" width="0.762" layer="92"/>
-<wire x1="116.84" y1="12.7" x2="116.84" y2="25.4" width="0.762" layer="92"/>
-<wire x1="116.84" y1="12.7" x2="213.36" y2="12.7" width="0.762" layer="92"/>
-<wire x1="213.36" y1="12.7" x2="213.36" y2="25.4" width="0.762" layer="92"/>
-<wire x1="76.2" y1="-22.86" x2="76.2" y2="12.7" width="0.762" layer="92"/>
-<label x="86.36" y="15.24" size="1.778" layer="95"/>
 </segment>
 </bus>
 </busses>
@@ -809,22 +928,6 @@
 <wire x1="203.2" y1="149.86" x2="185.42" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<portref moduleinst="PEDAL_BOARD1" port="BOTS1_OUT"/>
-<portref moduleinst="BOTS1" port="OUT"/>
-<wire x1="208.28" y1="71.12" x2="208.28" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="165.1" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<portref moduleinst="PEDAL_BOARD1" port="BOTS1_IN"/>
-<portref moduleinst="BOTS1" port="IN"/>
-<wire x1="210.82" y1="71.12" x2="210.82" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="167.64" x2="185.42" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$19" class="0">
 <segment>
 <portref moduleinst="PEDAL_BOARD1" port="BRAKE_LIGHT_+"/>
@@ -995,7 +1098,7 @@
 <portref moduleinst="WHEEL_BOARD1" port="PWR_IN"/>
 <wire x1="35.56" y1="25.4" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-5.08" x2="83.82" y2="-5.08" width="0.1524" layer="91"/>
-<portref moduleinst="BATTERY1" port="PWR_OUT"/>
+<portref moduleinst="BATTERY1" port="LV_POWER"/>
 <wire x1="83.82" y1="-5.08" x2="124.46" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="-5.08" x2="220.98" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-5.08" x2="279.4" y2="-5.08" width="0.1524" layer="91"/>
@@ -1010,11 +1113,19 @@
 <portref moduleinst="PEDAL_BOARD1" port="PWR_IN"/>
 <wire x1="220.98" y1="25.4" x2="220.98" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="220.98" y="-5.08"/>
+<wire x1="35.56" y1="-5.08" x2="-12.7" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="35.56" y="-5.08"/>
+<portref moduleinst="INS1" port="POWER_IN"/>
+<wire x1="-12.7" y1="-5.08" x2="-53.34" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="-5.08" x2="-53.34" y2="25.4" width="0.1524" layer="91"/>
+<portref moduleinst="DATA_LOGGER1" port="PWR_IN"/>
+<wire x1="-12.7" y1="25.4" x2="-12.7" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-12.7" y="-5.08"/>
 </segment>
 </net>
 <net name="LV_GND" class="0">
 <segment>
-<portref moduleinst="BATTERY1" port="GND_OUT"/>
+<portref moduleinst="BATTERY1" port="LV_GND"/>
 <wire x1="279.4" y1="-30.48" x2="276.86" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="-30.48" x2="276.86" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="-7.62" x2="223.52" y2="-7.62" width="0.1524" layer="91"/>
@@ -1033,13 +1144,23 @@
 <portref moduleinst="PEDAL_BOARD1" port="GND_IN"/>
 <wire x1="223.52" y1="25.4" x2="223.52" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="223.52" y="-7.62"/>
+<portref moduleinst="INS1" port="GND_IN"/>
+<wire x1="38.1" y1="-7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="-7.62" x2="-50.8" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="-7.62" x2="-50.8" y2="25.4" width="0.1524" layer="91"/>
+<junction x="38.1" y="-7.62"/>
+<portref moduleinst="DATA_LOGGER1" port="GND_IN"/>
+<wire x1="-10.16" y1="25.4" x2="-10.16" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-10.16" y="-7.62"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
 <portref moduleinst="VCU1" port="ASS2"/>
 <wire x1="93.98" y1="-22.86" x2="93.98" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="-15.24" x2="261.62" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="-15.24" x2="215.9" y2="-15.24" width="0.1524" layer="91"/>
+<portref moduleinst="CRASH_INTERTIA_SWITCH1" port="ASS1"/>
+<wire x1="215.9" y1="-68.58" x2="215.9" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -1064,7 +1185,124 @@
 <segment>
 <portref moduleinst="PEDAL_BOARD1" port="ASS2"/>
 <wire x1="236.22" y1="25.4" x2="236.22" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="-12.7" x2="261.62" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-12.7" x2="269.24" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="-12.7" x2="269.24" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="-50.8" x2="287.02" y2="-50.8" width="0.1524" layer="91"/>
+<portref moduleinst="BATTERY1" port="ASS1"/>
+<wire x1="287.02" y1="-50.8" x2="287.02" y2="-45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CAN1" class="0">
+<segment>
+<portref moduleinst="WHEEL_BOARD1" port="CAN1"/>
+<wire x1="27.94" y1="10.16" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="VCU1" port="CAN1"/>
+<wire x1="73.66" y1="10.16" x2="73.66" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="DASHBOARD1" port="CAN1"/>
+<wire x1="114.3" y1="10.16" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="PEDAL_BOARD1" port="CAN1"/>
+<wire x1="210.82" y1="10.16" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="INS1" port="CAN1"/>
+<wire x1="-66.04" y1="10.16" x2="-66.04" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="DATA_LOGGER1" port="CAN1"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CAN0" class="0">
+<segment>
+<portref moduleinst="WHEEL_BOARD1" port="CAN0"/>
+<wire x1="30.48" y1="25.4" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="VCU1" port="CAN0"/>
+<wire x1="76.2" y1="10.16" x2="76.2" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="DASHBOARD1" port="CAN0"/>
+<wire x1="116.84" y1="10.16" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="PEDAL_BOARD1" port="CAN0"/>
+<wire x1="213.36" y1="10.16" x2="213.36" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="INS1" port="CAN0"/>
+<wire x1="-63.5" y1="10.16" x2="-63.5" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="DATA_LOGGER1" port="CAN0"/>
+<wire x1="-22.86" y1="10.16" x2="-22.86" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<portref moduleinst="CRASH_INTERTIA_SWITCH1" port="ASS2"/>
+<wire x1="218.44" y1="-68.58" x2="218.44" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="-58.42" x2="251.46" y2="-58.42" width="0.1524" layer="91"/>
+<portref moduleinst="EMERGENCY_BUTTON1" port="ASS1"/>
+<wire x1="251.46" y1="-58.42" x2="251.46" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<portref moduleinst="EMERGENCY_BUTTON1" port="ASS2"/>
+<wire x1="254" y1="-68.58" x2="254" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="254" y1="-58.42" x2="287.02" y2="-58.42" width="0.1524" layer="91"/>
+<portref moduleinst="EMERGENCY_BUTTON2" port="ASS1"/>
+<wire x1="287.02" y1="-58.42" x2="287.02" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<portref moduleinst="EMERGENCY_BUTTON2" port="ASS2"/>
+<wire x1="289.56" y1="-68.58" x2="289.56" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-58.42" x2="322.58" y2="-58.42" width="0.1524" layer="91"/>
+<portref moduleinst="EMERGENCY_BUTTON3" port="ASS1"/>
+<wire x1="322.58" y1="-58.42" x2="322.58" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<portref moduleinst="EMERGENCY_BUTTON3" port="ASS2"/>
+<wire x1="325.12" y1="-68.58" x2="325.12" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="-58.42" x2="355.6" y2="-58.42" width="0.1524" layer="91"/>
+<portref moduleinst="LV_MASTER_SWITCH1" port="IN"/>
+<wire x1="355.6" y1="-58.42" x2="355.6" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<portref moduleinst="BATTERY1" port="ASS2"/>
+<wire x1="289.56" y1="-55.88" x2="289.56" y2="-45.72" width="0.1524" layer="91"/>
+<portref moduleinst="BOTS1" port="OUT"/>
+<wire x1="289.56" y1="-55.88" x2="383.54" y2="-55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<portref moduleinst="BOTS1" port="IN"/>
+<wire x1="383.54" y1="-58.42" x2="358.14" y2="-58.42" width="0.1524" layer="91"/>
+<portref moduleinst="LV_MASTER_SWITCH1" port="OUT"/>
+<wire x1="358.14" y1="-58.42" x2="358.14" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<portref moduleinst="PEDAL_BOARD1" port="CURRENT_SENSE_PLAUSABILITY"/>
+<wire x1="243.84" y1="25.4" x2="243.84" y2="2.54" width="0.1524" layer="91"/>
+<portref moduleinst="BATTERY1" port="CURRENT_SENSE_PLAUSABILITY"/>
+<wire x1="243.84" y1="2.54" x2="309.88" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="2.54" x2="309.88" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

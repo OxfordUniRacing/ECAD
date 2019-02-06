@@ -52,7 +52,6 @@
 <port name="TCS_ON_OFF" side="top" coord="10.16" direction="io"/>
 <port name="IGNITION_SWITCH" side="top" coord="15.24" direction="io"/>
 <port name="EMERGENCY_STOP" side="top" coord="20.32" direction="io"/>
-<port name="LV_SYSTEM_PWR" side="top" coord="12.7" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -135,7 +134,6 @@
 <port name="PEDAL_MAPPING" side="bottom" coord="-10.16" direction="io"/>
 <port name="BRAKE_BIAS" side="bottom" coord="-7.62" direction="io"/>
 <port name="TCS_ON_OFF" side="bottom" coord="-2.54" direction="io"/>
-<port name="LV_SYSTEM_PWR" side="bottom" coord="0" direction="io"/>
 <port name="IGNITION_SWITCH" side="bottom" coord="2.54" direction="io"/>
 <port name="EMERGENCY_STOP" side="bottom" coord="7.62" direction="io"/>
 </ports>
@@ -192,7 +190,6 @@
 <port name="PEDAL_MAPPING" side="bottom" coord="-2.54" direction="io"/>
 <port name="BRAKE_BIAS" side="bottom" coord="2.54" direction="io"/>
 <port name="EMERGENCY_STOP" side="bottom" coord="7.62" direction="io"/>
-<port name="LV_SYSTEM_PWR" side="bottom" coord="12.7" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -268,7 +265,7 @@
 <instances>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CAN0,CAN1,DISPL_SCL,DISPL_SDA,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,LV_SYSTEM_PWR,PEDAL_MAPPING,PWR_REDUCTION,TCS_ON_OFF">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CAN0,CAN1,DISPL_SCL,DISPL_SDA,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,PEDAL_MAPPING,PWR_REDUCTION,TCS_ON_OFF">
 <segment>
 <wire x1="332.74" y1="35.56" x2="327.66" y2="35.56" width="0.762" layer="92"/>
 <wire x1="327.66" y1="35.56" x2="58.42" y2="35.56" width="0.762" layer="92"/>
@@ -505,20 +502,6 @@
 <segment>
 <portref moduleinst="INTER_SHEET_CONNECTIONS1" port="TCS_ON_OFF"/>
 <wire x1="121.92" y1="2.54" x2="121.92" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="LV_SYSTEM_PWR" class="0">
-<segment>
-<portref moduleinst="MICROCONTROLLER1" port="LV_SYSTEM_PWR"/>
-<wire x1="147.32" y1="35.56" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="BUTTONS1" port="LV_SYSTEM_PWR"/>
-<wire x1="294.64" y1="35.56" x2="294.64" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="LV_SYSTEM_PWR"/>
-<wire x1="124.46" y1="2.54" x2="124.46" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IGNITION_SWITCH" class="0">
