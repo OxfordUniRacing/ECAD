@@ -54,6 +54,10 @@
 </module>
 <module name="INPUTS" prefix="" dx="30.48" dy="20.32">
 <ports>
+<port name="12V" side="right" coord="7.62" direction="io"/>
+<port name="GND" side="right" coord="5.08" direction="io"/>
+<port name="CAN0" side="right" coord="0" direction="io"/>
+<port name="CAN1" side="right" coord="-2.54" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -74,6 +78,150 @@
 </module>
 <module name="POWER_DELIVERY" prefix="" dx="30.48" dy="20.32">
 <ports>
+<port name="12V_IN" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="5V_OUT" side="bottom" coord="-5.08" direction="io"/>
+<port name="3.3V_OUT" side="bottom" coord="-2.54" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="TYRE_TEMP_S" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="5V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="OUTPUT_???" side="bottom" coord="-5.08" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="MICROCONTROLLER" prefix="" dx="50.8" dy="20.32">
+<ports>
+<port name="5V" side="bottom" coord="-22.86" direction="io"/>
+<port name="GND" side="bottom" coord="-20.32" direction="io"/>
+<port name="CAN0" side="bottom" coord="-15.24" direction="io"/>
+<port name="CAN1" side="bottom" coord="-12.7" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="BRAKE_TEMP_S" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="5V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="SDA" side="bottom" coord="-5.08" direction="io"/>
+<port name="SCL" side="bottom" coord="-2.54" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="SUSPENSION_DISPLACEMENT_S" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="OUT" side="bottom" coord="-5.08" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="4YP_STRAIN_S" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="OUT" side="bottom" coord="-5.08" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="WHEEL_SPEED_S" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="OUT" side="bottom" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -108,6 +256,24 @@
 </moduleinst>
 <moduleinst name="POWER_DELIVERY1" module="POWER_DELIVERY" x="58.42" y="50.8">
 <attribute name="NAME" x="58.42" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="TYRE_TEMP_S1" module="TYRE_TEMP_S" x="200.66" y="50.8">
+<attribute name="NAME" x="200.66" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="MICROCONTROLLER1" module="MICROCONTROLLER" x="109.22" y="50.8">
+<attribute name="NAME" x="109.22" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="BRAKE_TEMP_S1" module="BRAKE_TEMP_S" x="160.02" y="50.8">
+<attribute name="NAME" x="160.02" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="SUSPENSION_DISPLACEMENT_S1" module="SUSPENSION_DISPLACEMENT_S" x="241.3" y="50.8">
+<attribute name="NAME" x="241.3" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="4YP_STRAIN_S1" module="4YP_STRAIN_S" x="281.94" y="50.8">
+<attribute name="NAME" x="281.94" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="WHEEL_SPEED_S1" module="WHEEL_SPEED_S" x="320.04" y="50.8">
+<attribute name="NAME" x="320.04" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>

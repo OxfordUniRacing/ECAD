@@ -78,29 +78,6 @@
 </nets>
 </sheet>
 <sheet>
-<description>TYRE TEMPEREATURE SENSOR</description>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-<sheet>
-<description>BRAKE TEMPERATURE SENSOR</description>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-<sheet>
-<description>4YP STRAIN SENSOR</description>
 <plain>
 </plain>
 <instances>

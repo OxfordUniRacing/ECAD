@@ -43,9 +43,7 @@
 <port name="BR_TMP_SDA" side="top" coord="-22.86" direction="io"/>
 <port name="BR_TMP_SCL" side="top" coord="-20.32" direction="io"/>
 <port name="TY_TMP" side="top" coord="-15.24" direction="io"/>
-<port name="SUSP_DISPL" side="top" coord="-10.16" direction="io"/>
 <port name="4YP_STRAIN" side="top" coord="-5.08" direction="io"/>
-<port name="WH_SPEED" side="top" coord="0" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -144,9 +142,7 @@
 <port name="BR_TMP_SDA" side="bottom" coord="-7.62" direction="io"/>
 <port name="BR_TMP_SCL" side="bottom" coord="-5.08" direction="io"/>
 <port name="TY_TMP" side="bottom" coord="0" direction="io"/>
-<port name="SUSP_DISPL" side="bottom" coord="5.08" direction="io"/>
 <port name="4YP_STRAIN" side="bottom" coord="10.16" direction="io"/>
-<port name="WH_SPEED" side="bottom" coord="15.24" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -284,20 +280,14 @@
 <moduleinst name="BRAKE_TEMP_S1" module="BRAKE_TEMP_S" x="160.02" y="50.8">
 <attribute name="NAME" x="160.02" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="SUSPENSION_DISPLACEMENT_S1" module="SUSPENSION_DISPLACEMENT_S" x="241.3" y="50.8">
-<attribute name="NAME" x="241.3" y="50.8" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
 <moduleinst name="4YP_STRAIN_S1" module="4YP_STRAIN_S" x="281.94" y="50.8">
 <attribute name="NAME" x="281.94" y="50.8" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="WHEEL_SPEED_S1" module="WHEEL_SPEED_S" x="320.04" y="50.8">
-<attribute name="NAME" x="320.04" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
 </instances>
 <busses>
-<bus name="3.3V,4YP_STRAIN,5V,12V,BR_TMP_SCL,BR_TMP_SDA,CAN0,CAN1,GND,SUSP_DISPL,TYRE_TEMP_OUT_??,WH_SPEED">
+<bus name="3.3V,4YP_STRAIN,5V,12V,BR_TMP_SCL,BR_TMP_SDA,CAN0,CAN1,GND,TYRE_TEMP_OUT_??">
 <segment>
 <wire x1="314.96" y1="25.4" x2="40.64" y2="25.4" width="0.762" layer="92"/>
 <wire x1="40.64" y1="25.4" x2="40.64" y2="-7.62" width="0.762" layer="92"/>
@@ -338,16 +328,8 @@
 <wire x1="190.5" y1="25.4" x2="190.5" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="SUSPENSION_DISPLACEMENT_S1" port="GND"/>
-<wire x1="231.14" y1="25.4" x2="231.14" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="4YP_STRAIN_S1" port="GND"/>
 <wire x1="271.78" y1="25.4" x2="271.78" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="WHEEL_SPEED_S1" port="GND"/>
-<wire x1="309.88" y1="25.4" x2="309.88" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="INPUTS1" port="GND"/>
@@ -386,16 +368,8 @@
 <wire x1="55.88" y1="25.4" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="SUSPENSION_DISPLACEMENT_S1" port="3.3V"/>
-<wire x1="228.6" y1="25.4" x2="228.6" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="4YP_STRAIN_S1" port="3.3V"/>
 <wire x1="269.24" y1="25.4" x2="269.24" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="WHEEL_SPEED_S1" port="3.3V"/>
-<wire x1="307.34" y1="25.4" x2="307.34" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="INTER_SHEET_CONNECTIONS1" port="3.3V"/>
@@ -468,26 +442,8 @@
 <wire x1="109.22" y1="25.4" x2="109.22" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="MICROCONTROLLER1" port="WH_SPEED"/>
-<wire x1="124.46" y1="25.4" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="INTER_SHEET_CONNECTIONS1" port="TY_TMP"/>
 <wire x1="78.74" y1="-7.62" x2="78.74" y2="-15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SUSP_DISPL" class="0">
-<segment>
-<portref moduleinst="SUSPENSION_DISPLACEMENT_S1" port="SUSP_DISPL"/>
-<wire x1="236.22" y1="25.4" x2="236.22" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="MICROCONTROLLER1" port="SUSP_DISPL"/>
-<wire x1="114.3" y1="25.4" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="SUSP_DISPL"/>
-<wire x1="83.82" y1="-7.62" x2="83.82" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="4YP_STRAIN" class="0">
@@ -502,16 +458,6 @@
 <segment>
 <portref moduleinst="INTER_SHEET_CONNECTIONS1" port="4YP_STRAIN"/>
 <wire x1="88.9" y1="-7.62" x2="88.9" y2="-15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="WH_SPEED" class="0">
-<segment>
-<portref moduleinst="WHEEL_SPEED_S1" port="WH_SPEED"/>
-<wire x1="314.96" y1="25.4" x2="314.96" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="WH_SPEED"/>
-<wire x1="93.98" y1="-7.62" x2="93.98" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

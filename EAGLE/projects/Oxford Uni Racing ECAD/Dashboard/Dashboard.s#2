@@ -370,40 +370,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EC2-12NU.pdf"
 </nets>
 </sheet>
 <sheet>
-<description>INPUTS</description>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-<sheet>
-<description>POWER DELIVERY</description>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-<sheet>
-<description>MICROCONTROLLER</description>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-<sheet>
-<description>TS LATCH</description>
 <plain>
 <text x="215.9" y="20.32" size="1.9304" layer="94">Jack Bruford - Oxford Uni Racing</text>
 </plain>
@@ -575,39 +541,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EC2-12NU.pdf"
 <wire x1="129.54" y1="88.9" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-</nets>
-</sheet>
-<sheet>
-<description>CAN OUTPUT</description>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-<sheet>
-<description>DISPLAY MODULE</description>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-<sheet>
-<description>BUTTONS</description>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
 </nets>
 </sheet>
 </sheets>

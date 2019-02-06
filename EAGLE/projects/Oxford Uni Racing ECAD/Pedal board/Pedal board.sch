@@ -9822,6 +9822,40 @@ Based on the following sources:
 </nets>
 </sheet>
 <sheet>
+<description>INPUTS</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>POWER DELIVERY</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>MICROCONTROLLER</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>BOTS</description>
 <plain>
 <text x="81.28" y="88.9" size="1.778" layer="97">BOTS connected to pins 3 &amp; 4</text>
 <text x="218.44" y="20.32" size="2.54" layer="94">Jack Bruford - OUR</text>
@@ -9981,6 +10015,7 @@ Based on the following sources:
 </nets>
 </sheet>
 <sheet>
+<description>BPSD</description>
 <plain>
 <text x="216.662" y="20.066" size="2.54" layer="94">Jack Bruford - OUR</text>
 </plain>
@@ -10452,6 +10487,50 @@ Based on the following sources:
 <wire x1="43.18" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
+</nets>
+</sheet>
+<sheet>
+<description>BRAKE PRESSURE SENSOR</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>BRAKE POSSITION SENSOR</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>THROTTLE PEDAL SENSORS</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<description>BRAKE LIGHTS</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 </sheets>

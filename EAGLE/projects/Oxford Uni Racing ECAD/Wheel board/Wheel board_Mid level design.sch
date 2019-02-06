@@ -185,57 +185,11 @@
 </sheet>
 </sheets>
 </module>
-<module name="SUSPENSION_DISPLACEMENT_S" prefix="" dx="30.48" dy="20.32">
-<ports>
-<port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
-<port name="GND" side="bottom" coord="-10.16" direction="io"/>
-<port name="SUSP_DISPL" side="bottom" coord="-5.08" direction="io"/>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
 <module name="4YP_STRAIN_S" prefix="" dx="30.48" dy="20.32">
 <ports>
 <port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
 <port name="GND" side="bottom" coord="-10.16" direction="io"/>
 <port name="4YP_STRAIN" side="bottom" coord="-5.08" direction="io"/>
-</ports>
-<variantdefs>
-</variantdefs>
-<parts>
-</parts>
-<sheets>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-</sheets>
-</module>
-<module name="WHEEL_SPEED_S" prefix="" dx="30.48" dy="20.32">
-<ports>
-<port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
-<port name="GND" side="bottom" coord="-10.16" direction="io"/>
-<port name="WH_SPEED" side="bottom" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
