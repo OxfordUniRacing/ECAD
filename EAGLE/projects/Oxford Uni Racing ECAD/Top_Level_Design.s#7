@@ -317,11 +317,19 @@
 </sheet>
 </sheets>
 </module>
-<module name="BUTTONS" prefix="" dx="30.48" dy="50.8">
+<module name="BUTTONS" prefix="" dx="30.48" dy="91.44">
 <ports>
-<port name="PWR" side="right" coord="-22.86" direction="io"/>
-<port name="GND" side="right" coord="-20.32" direction="io"/>
-<port name="BUTTONS_LOTS_OF_LINES" side="right" coord="7.62" direction="io"/>
+<port name="PWR" side="right" coord="-43.18" direction="io"/>
+<port name="GND" side="right" coord="-40.64" direction="io"/>
+<port name="DRIVER_SELECT" side="right" coord="-35.56" direction="io"/>
+<port name="EVENT_SELECT" side="right" coord="-33.02" direction="io"/>
+<port name="TCS_ON_OFF" side="right" coord="-27.94" direction="io"/>
+<port name="IGNITION_SWITCH" side="right" coord="-25.4" direction="io"/>
+<port name="LV_SYSTEM_PWR" side="right" coord="-22.86" direction="io"/>
+<port name="EMERGENCY_STOP" side="right" coord="-17.78" direction="io"/>
+<port name="PEDAL_MAPPING" side="right" coord="-12.7" direction="io"/>
+<port name="BRAKE_BIAS" side="right" coord="-10.16" direction="io"/>
+<port name="PWR_REDUCTION" side="right" coord="-7.62" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -676,8 +684,8 @@
 <moduleinst name="DISPLAY1" module="DISPLAY" x="81.28" y="119.38">
 <attribute name="NAME" x="81.28" y="119.38" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="BUTTONS1" module="BUTTONS" x="81.28" y="160.02">
-<attribute name="NAME" x="81.28" y="160.02" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="BUTTONS1" module="BUTTONS" x="81.28" y="180.34">
+<attribute name="NAME" x="81.28" y="180.34" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="THROTTLE_PEDAL_1" module="THROTTLE_PEDAL_" x="335.28" y="63.5">
 <attribute name="NAME" x="335.28" y="63.5" size="2.032" layer="95" align="bottom-center"/>
@@ -739,9 +747,8 @@
 <busses>
 <bus name="BUTTON_LINES">
 <segment>
-<wire x1="127" y1="71.12" x2="127" y2="167.64" width="0.762" layer="92"/>
-<wire x1="127" y1="167.64" x2="101.6" y2="167.64" width="0.762" layer="92"/>
-<label x="106.68" y="165.1" size="1.778" layer="95"/>
+<wire x1="127" y1="71.12" x2="127" y2="187.96" width="0.762" layer="92"/>
+<label x="127" y="162.56" size="1.778" layer="95"/>
 </segment>
 </bus>
 <bus name="CAN0,CAN1">
@@ -851,25 +858,25 @@
 <net name="N$9" class="0">
 <segment>
 <portref moduleinst="DASHBOARD1" port="PWR_OUT"/>
-<portref moduleinst="BUTTONS1" port="PWR"/>
 <wire x1="106.68" y1="71.12" x2="106.68" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="111.76" x2="106.68" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="137.16" x2="101.6" y2="137.16" width="0.1524" layer="91"/>
 <portref moduleinst="DISPLAY1" port="PWR"/>
 <wire x1="101.6" y1="111.76" x2="106.68" y2="111.76" width="0.1524" layer="91"/>
 <junction x="106.68" y="111.76"/>
+<portref moduleinst="BUTTONS1" port="PWR"/>
+<wire x1="106.68" y1="137.16" x2="101.6" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <portref moduleinst="DASHBOARD1" port="GND_OUT"/>
-<portref moduleinst="BUTTONS1" port="GND"/>
 <wire x1="109.22" y1="71.12" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="114.3" x2="109.22" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="139.7" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
 <portref moduleinst="DISPLAY1" port="GND"/>
 <wire x1="101.6" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
 <junction x="109.22" y="114.3"/>
+<portref moduleinst="BUTTONS1" port="GND"/>
+<wire x1="109.22" y1="139.7" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -1303,6 +1310,44 @@
 <portref moduleinst="BATTERY1" port="CURRENT_SENSE_PLAUSABILITY"/>
 <wire x1="243.84" y1="2.54" x2="309.88" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="2.54" x2="309.88" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BUTTON_LINES" class="0">
+<segment>
+<portref moduleinst="BUTTONS1" port="DRIVER_SELECT"/>
+<wire x1="127" y1="144.78" x2="101.6" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BUTTONS1" port="EVENT_SELECT"/>
+<wire x1="127" y1="147.32" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BUTTONS1" port="TCS_ON_OFF"/>
+<wire x1="127" y1="152.4" x2="101.6" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BUTTONS1" port="IGNITION_SWITCH"/>
+<wire x1="127" y1="154.94" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BUTTONS1" port="LV_SYSTEM_PWR"/>
+<wire x1="127" y1="157.48" x2="101.6" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BUTTONS1" port="EMERGENCY_STOP"/>
+<wire x1="127" y1="162.56" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BUTTONS1" port="PEDAL_MAPPING"/>
+<wire x1="127" y1="167.64" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BUTTONS1" port="BRAKE_BIAS"/>
+<wire x1="127" y1="170.18" x2="101.6" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BUTTONS1" port="PWR_REDUCTION"/>
+<wire x1="127" y1="172.72" x2="101.6" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
