@@ -16279,8 +16279,9 @@ Metric Code Size 5664</description>
 <part name="J6" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device=""/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND32" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="GND33" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="J5" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device=""/>
+<part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17985,15 +17986,19 @@ Metric Code Size 5664</description>
 <instance part="GND32" gate="1" x="129.54" y="43.18" smashed="yes" rot="R270">
 <attribute name="VALUE" x="127" y="45.466" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY21" gate="G$1" x="167.64" y="45.72" smashed="yes" rot="R270">
-<attribute name="VALUE" x="170.434" y="45.72" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="J5" gate="G$1" x="142.24" y="25.4" smashed="yes">
+<attribute name="NAME" x="143.51" y="33.02" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="143.51" y="30.48" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="GND33" gate="1" x="175.26" y="43.18" smashed="yes" rot="R90">
-<attribute name="VALUE" x="177.8" y="43.434" size="1.778" layer="96" rot="R180" align="top-center"/>
+<instance part="GND7" gate="1" x="129.54" y="22.86" smashed="yes" rot="R270">
+<attribute name="VALUE" x="129.286" y="22.86" size="1.778" layer="96" rot="R270" align="top-center"/>
+</instance>
+<instance part="SUPPLY16" gate="G$1" x="167.64" y="45.72" smashed="yes" rot="R270">
+<attribute name="VALUE" x="170.434" y="45.72" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHTS_OUT,BR_POSS,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHT_PWR_OUT,BRAKE_LIGHTS_OUT,BR_POSS,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
 <segment>
 <wire x1="0" y1="0" x2="0" y2="88.9" width="0.762" layer="92"/>
 </segment>
@@ -18014,9 +18019,9 @@ Metric Code Size 5664</description>
 <wire x1="27.94" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="SUPPLY16" gate="G$1" pin="5V"/>
 <pinref part="J6" gate="G$1" pin="2"/>
-<pinref part="SUPPLY21" gate="G$1" pin="5V"/>
-<wire x1="162.56" y1="45.72" x2="167.64" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="45.72" x2="162.56" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -18073,9 +18078,9 @@ Metric Code Size 5664</description>
 <wire x1="142.24" y1="43.18" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="4"/>
-<pinref part="GND33" gate="1" pin="GND"/>
-<wire x1="162.56" y1="43.18" x2="172.72" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="3"/>
+<wire x1="142.24" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -18178,6 +18183,17 @@ Metric Code Size 5664</description>
 <pinref part="J6" gate="G$1" pin="7"/>
 <wire x1="142.24" y1="38.1" x2="139.7" y2="38.1" width="0.1524" layer="91"/>
 <label x="124.46" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BRAKE_LIGHT_PWR_OUT" class="0">
+<segment>
+<label x="10.16" y="22.86" size="1.778" layer="95"/>
+<wire x1="10.16" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="8"/>
+<wire x1="162.56" y1="17.78" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
+<label x="165.1" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

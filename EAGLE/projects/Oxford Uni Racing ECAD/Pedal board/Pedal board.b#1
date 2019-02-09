@@ -2192,14 +2192,22 @@ design rules under a new name.</description>
 <attribute name="RS_PART_NUMBER" value="1702738" x="6.35" y="-120.65" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="8.89" y="-120.65" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J5" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="T821108A1S100CEU" x="8.89" y="-130.81" smashed="yes">
-<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="6.35" y="-130.81" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="9.15mm" x="6.35" y="-130.81" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol" x="6.35" y="-130.81" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="6.35" y="-130.81" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="8.89" y="-130.81" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1702738" x="6.35" y="-130.81" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="8.89" y="-130.81" size="1.27" layer="27" align="center"/>
+<element name="J7" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="T821108A1S100CEU" x="8.89" y="-140.97" smashed="yes">
+<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="6.35" y="-140.97" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="9.15mm" x="6.35" y="-140.97" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" x="6.35" y="-140.97" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="6.35" y="-140.97" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="8.89" y="-140.97" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1702738" x="6.35" y="-140.97" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="8.89" y="-140.97" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R12" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K" x="5.08" y="-147.32" smashed="yes">
+<attribute name="NAME" x="2.54" y="-146.0246" size="0.9906" layer="25" ratio="12"/>
+<attribute name="VALUE" x="3.4544" y="-147.8026" size="0.9906" layer="27" ratio="12"/>
+</element>
+<element name="R13" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="47K" x="5.08" y="-152.4" smashed="yes">
+<attribute name="NAME" x="2.54" y="-151.1046" size="0.9906" layer="25" ratio="12"/>
+<attribute name="VALUE" x="3.4544" y="-152.8826" size="0.9906" layer="27" ratio="12"/>
 </element>
 </elements>
 <signals>
@@ -2331,7 +2339,7 @@ design rules under a new name.</description>
 <contactref element="J2" pad="4"/>
 <contactref element="J4" pad="3"/>
 <contactref element="J6" pad="3"/>
-<contactref element="J5" pad="3"/>
+<contactref element="R13" pad="1"/>
 <wire x1="149.86" y1="36.83" x2="149.86" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="149.86" y1="34.29" x2="149.86" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="134.62" y1="22.86" x2="149.86" y2="34.29" width="0" layer="19" extent="16-16"/>
@@ -2341,7 +2349,7 @@ design rules under a new name.</description>
 <wire x1="19.124928125" y1="-63.86195" x2="19.3294" y2="-37.5412" width="0" layer="19" extent="1-1"/>
 <wire x1="12.75714375" y1="-86.45144375" x2="13.55979375" y2="-86.45144375" width="0" layer="19" extent="16-16"/>
 <wire x1="11.43" y1="-120.65" x2="24.63165" y2="-97.547428125" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="-130.81" x2="11.43" y2="-120.65" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="-152.4" x2="11.43" y2="-120.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="SHTDWN+" pad="TP"/>
@@ -2665,12 +2673,14 @@ design rules under a new name.</description>
 <contactref element="C8" pad="1"/>
 <wire x1="134.62" y1="7.62" x2="129.54" y2="7.62" width="1.27" layer="16"/>
 <wire x1="129.54" y1="7.62" x2="125.73" y2="7.62" width="1.27" layer="16"/>
+<contactref element="J7" pad="8"/>
 <wire x1="111.76" y1="7.62" x2="125.73" y2="7.62" width="0" layer="19" extent="16-16"/>
 <wire x1="90.17" y1="20.32" x2="102.87" y2="7.62" width="0" layer="19" extent="16-16"/>
 <wire x1="71.11193125" y1="-68.1202625" x2="102.87" y2="7.62" width="0" layer="19" extent="16-16"/>
 <wire x1="23.8506" y1="-31.0388" x2="11.376653125" y2="-63.733675" width="0" layer="19" extent="16-16"/>
+<wire x1="16.51" y1="-138.43" x2="8.8866375" y2="-98.7666375" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="CAN_L">
+<signal name="CANL">
 <contactref element="X2" pad="2"/>
 <wire x1="85.09" y1="14.7717375" x2="85.21065" y2="14.6510875" width="0.6096" layer="16"/>
 <wire x1="85.21065" y1="14.6510875" x2="85.21065" y2="13.97" width="0.6096" layer="16"/>
@@ -2684,7 +2694,7 @@ design rules under a new name.</description>
 <wire x1="85.21065" y1="8.84555" x2="85.21065" y2="13.97" width="0.6096" layer="16"/>
 <wire x1="85.09" y1="20.32" x2="85.09" y2="22.86" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="CAN_H">
+<signal name="CANH">
 <contactref element="X2" pad="7"/>
 <wire x1="83.9343" y1="11.5824" x2="82.55" y2="12.9667" width="1.27" layer="16"/>
 <contactref element="CAN_TERMINATION1" pad="2"/>
@@ -2757,8 +2767,16 @@ design rules under a new name.</description>
 <signal name="ST_WH_POSS">
 <contactref element="J6" pad="7"/>
 </signal>
-<signal name="BRAKE_LIGHT_PWR_OUT">
-<contactref element="J5" pad="8"/>
+<signal name="BRAKE_LIGHTS_OUT">
+<contactref element="R12" pad="1"/>
+</signal>
+<signal name="N$25">
+<contactref element="R12" pad="2"/>
+<contactref element="R13" pad="2"/>
+<wire x1="8.89" y1="-147.32" x2="8.89" y2="-152.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$28">
+<contactref element="J7" pad="3"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
