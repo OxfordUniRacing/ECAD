@@ -3612,7 +3612,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <busses>
 </busses>
 <nets>
-<net name="CAN_L" class="0">
+<net name="CANL" class="0">
 <segment>
 <pinref part="X1" gate="-2" pin="F"/>
 <wire x1="50.8" y1="5.08" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
@@ -3658,7 +3658,7 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="CAN_H" class="0">
+<net name="CANH" class="0">
 <segment>
 <pinref part="X1" gate="-7" pin="F"/>
 <wire x1="50.8" y1="-7.62" x2="48.26" y2="-7.62" width="0.1524" layer="91"/>
@@ -4205,7 +4205,7 @@ design rules under a new name.</description>
 </element>
 </elements>
 <signals>
-<signal name="CAN_L">
+<signal name="CANL">
 <contactref element="X1" pad="2"/>
 <wire x1="1.27" y1="-24.9317375" x2="1.14935" y2="-24.8110875" width="0.6096" layer="16"/>
 <wire x1="1.14935" y1="-24.8110875" x2="1.14935" y2="-24.13" width="0.6096" layer="16"/>
@@ -4234,7 +4234,7 @@ design rules under a new name.</description>
 <wire x1="-1.27" y1="-22.86" x2="-1.27" y2="-30.48" width="1.27" layer="16"/>
 <wire x1="-1.27" y1="-30.48" x2="-1.27" y2="-33.02" width="1.27" layer="16"/>
 </signal>
-<signal name="CAN_H">
+<signal name="CANH">
 <contactref element="X1" pad="7"/>
 <wire x1="2.4257" y1="-21.7424" x2="3.81" y2="-23.1267" width="1.27" layer="16"/>
 <contactref element="CAN_TERMINATION" pad="2"/>
