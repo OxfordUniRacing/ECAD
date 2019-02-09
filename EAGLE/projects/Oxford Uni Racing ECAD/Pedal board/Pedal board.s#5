@@ -16279,9 +16279,9 @@ Metric Code Size 5664</description>
 <part name="J6" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device=""/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND32" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="J5" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17986,15 +17986,15 @@ Metric Code Size 5664</description>
 <instance part="GND32" gate="1" x="129.54" y="43.18" smashed="yes" rot="R270">
 <attribute name="VALUE" x="127" y="45.466" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY16" gate="G$1" x="167.64" y="38.1" smashed="yes" rot="R270">
-<attribute name="VALUE" x="170.434" y="38.1" size="1.778" layer="96" rot="R270" align="bottom-center"/>
-</instance>
 <instance part="J5" gate="G$1" x="142.24" y="25.4" smashed="yes">
 <attribute name="NAME" x="143.51" y="33.02" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="143.51" y="30.48" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GND7" gate="1" x="129.54" y="22.86" smashed="yes" rot="R270">
 <attribute name="VALUE" x="129.286" y="22.86" size="1.778" layer="96" rot="R270" align="top-center"/>
+</instance>
+<instance part="SUPPLY16" gate="G$1" x="167.64" y="45.72" smashed="yes" rot="R270">
+<attribute name="VALUE" x="170.434" y="45.72" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -18020,8 +18020,8 @@ Metric Code Size 5664</description>
 </segment>
 <segment>
 <pinref part="SUPPLY16" gate="G$1" pin="5V"/>
-<pinref part="J6" gate="G$1" pin="8"/>
-<wire x1="167.64" y1="38.1" x2="162.56" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="45.72" x2="162.56" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -18189,6 +18189,11 @@ Metric Code Size 5664</description>
 <segment>
 <label x="10.16" y="22.86" size="1.778" layer="95"/>
 <wire x1="10.16" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="8"/>
+<wire x1="162.56" y1="17.78" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
+<label x="165.1" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

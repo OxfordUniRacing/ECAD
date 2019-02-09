@@ -16418,7 +16418,7 @@ Metric Code Size 5664</description>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="GND28" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="CAN_TERMINATION1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="120"/>
-<part name="J3" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device=""/>
+<part name="J3" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="PWR_CAN"/>
 <part name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM317TS" device="" package3d_urn="urn:adsk.eagle:package:30353/1"/>
 <part name="R14" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="240"/>
 <part name="R15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="390"/>
@@ -16434,8 +16434,8 @@ Metric Code Size 5664</description>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND29" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="J2" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device=""/>
-<part name="J4" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device=""/>
+<part name="J2" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="THR_1_2"/>
+<part name="J4" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="THR_3"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -16443,7 +16443,7 @@ Metric Code Size 5664</description>
 <part name="GND30" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="J6" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device=""/>
+<part name="J6" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="BR_POS_PRESS_STWH"/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND32" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
