@@ -2,7 +2,7 @@
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
 <eagle version="9.2.2">
 <designblock>
-<description>&lt;b&gt;5v Switching power delivery using LM317&lt;/b&gt;</description>
+<description>&lt;b&gt;3.3v Linear power delivery using LM317&lt;/b&gt;</description>
 <attributes>
 <attribute name="BOARDSIZE" value="695 x 765 mil"/>
 <attribute name="LAYERS" value="1: 16"/>

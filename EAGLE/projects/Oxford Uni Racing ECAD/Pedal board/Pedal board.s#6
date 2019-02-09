@@ -10533,6 +10533,17 @@ Based on the following sources:
 <nets>
 </nets>
 </sheet>
+<sheet>
+<description>STEERING WHEEL POSITION SENSOR</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
 </sheets>
 </schematic>
 </drawing>
