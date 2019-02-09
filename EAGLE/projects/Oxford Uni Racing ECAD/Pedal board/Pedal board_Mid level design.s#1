@@ -49,6 +49,7 @@
 <port name="ASS1" side="top" coord="0" direction="io"/>
 <port name="ASS2" side="top" coord="2.54" direction="io"/>
 <port name="BATT_CURR" side="top" coord="7.62" direction="io"/>
+<port name="ST_WH_POSS" side="top" coord="12.7" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -79,6 +80,7 @@
 <port name="BR_PR" side="bottom" coord="-2.54" direction="io"/>
 <port name="BR_POSS" side="bottom" coord="0" direction="io"/>
 <port name="BRAKE_LIGHTS_OUT" side="bottom" coord="5.08" direction="io"/>
+<port name="ST_WHEEL_POSS" side="bottom" coord="10.16" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -290,6 +292,29 @@
 </sheet>
 </sheets>
 </module>
+<module name="STEERING_WHEEL_POSS" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="ST_WH_POSS" side="bottom" coord="0" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
 </modules>
 <parts>
 </parts>
@@ -328,13 +353,16 @@
 <moduleinst name="BRAKE_POSS_S1" module="BRAKE_POSS_S" x="353.06" y="50.8">
 <attribute name="NAME" x="353.06" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
+<moduleinst name="STEERING_WHEEL_POSS1" module="STEERING_WHEEL_POSS" x="398.78" y="50.8">
+<attribute name="NAME" x="398.78" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
 </moduleinsts>
 <instances>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURR_SENSE,BRAKE_LIGHTS_OUT,BR_POSS,BR_PR,CAN0,CAN1,GND,THR1,THR2,THR3">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURR_SENSE,BRAKE_LIGHTS_OUT,BR_POSS,BR_PR,CAN0,CAN1,GND,ST_WH_POSS,THR1,THR2,THR3">
 <segment>
-<wire x1="43.18" y1="22.86" x2="353.06" y2="22.86" width="0.762" layer="92"/>
+<wire x1="43.18" y1="22.86" x2="414.02" y2="22.86" width="0.762" layer="92"/>
 <wire x1="43.18" y1="22.86" x2="43.18" y2="-12.7" width="0.762" layer="92"/>
 <wire x1="43.18" y1="-12.7" x2="165.1" y2="-12.7" width="0.762" layer="92"/>
 </segment>
@@ -404,6 +432,10 @@
 <portref moduleinst="BRAKE_POSS_S1" port="GND"/>
 <wire x1="342.9" y1="22.86" x2="342.9" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="STEERING_WHEEL_POSS1" port="GND"/>
+<wire x1="388.62" y1="22.86" x2="388.62" y2="35.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CAN0" class="0">
 <segment>
@@ -467,6 +499,10 @@
 <segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="3.3V"/>
 <wire x1="83.82" y1="-12.7" x2="83.82" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="STEERING_WHEEL_POSS1" port="3.3V"/>
+<wire x1="386.08" y1="22.86" x2="386.08" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="THR1" class="0">
@@ -597,6 +633,20 @@
 <segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="BATT_CURR"/>
 <wire x1="129.54" y1="-12.7" x2="129.54" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ST_WH_POSS" class="0">
+<segment>
+<portref moduleinst="STEERING_WHEEL_POSS1" port="ST_WH_POSS"/>
+<wire x1="398.78" y1="35.56" x2="398.78" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="ST_WHEEL_POSS"/>
+<wire x1="114.3" y1="22.86" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="ST_WH_POSS"/>
+<wire x1="134.62" y1="-12.7" x2="134.62" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

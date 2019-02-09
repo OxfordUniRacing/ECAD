@@ -224,8 +224,9 @@
 </module>
 <module name="BRAKE_LIGHTS" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="POWER_IN_?V" side="bottom" coord="-12.7" direction="io"/>
 <port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="12V" side="bottom" coord="-12.7" direction="io"/>
+<port name="BRAKE_LIGHTS_CONTROL_SIGNAL" side="bottom" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -315,6 +316,35 @@
 </sheet>
 </sheets>
 </module>
+<module name="OUTPUTS" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="5V" side="bottom" coord="-12.7" direction="io"/>
+<port name="3.3V" side="bottom" coord="-10.16" direction="io"/>
+<port name="GND" side="bottom" coord="-7.62" direction="io"/>
+<port name="THR_POSS1" side="bottom" coord="-5.08" direction="io"/>
+<port name="THR_POSS2" side="bottom" coord="-2.54" direction="io"/>
+<port name="THR_POSS3" side="bottom" coord="0" direction="io"/>
+<port name="BR_POSS" side="bottom" coord="2.54" direction="io"/>
+<port name="BR_PRESS" side="bottom" coord="5.08" direction="io"/>
+<port name="ST_WH_POSS" side="bottom" coord="7.62" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
 </modules>
 <parts>
 </parts>
@@ -335,9 +365,6 @@
 <moduleinst name="POWER_DELIVERY1" module="POWER_DELIVERY" x="53.34" y="50.8">
 <attribute name="NAME" x="53.34" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="BRAKE_PRESSURE_S1" module="BRAKE_PRESSURE_S" x="154.94" y="50.8">
-<attribute name="NAME" x="154.94" y="50.8" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
 <moduleinst name="BOTS1" module="BOTS" x="190.5" y="50.8">
 <attribute name="NAME" x="190.5" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
@@ -347,14 +374,8 @@
 <moduleinst name="BRAKE_LIGHTS1" module="BRAKE_LIGHTS" x="271.78" y="50.8">
 <attribute name="NAME" x="271.78" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="THROTTLE_S1" module="THROTTLE_S" x="312.42" y="50.8">
-<attribute name="NAME" x="312.42" y="50.8" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="BRAKE_POSS_S1" module="BRAKE_POSS_S" x="353.06" y="50.8">
-<attribute name="NAME" x="353.06" y="50.8" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="STEERING_WHEEL_POSS1" module="STEERING_WHEEL_POSS" x="398.78" y="50.8">
-<attribute name="NAME" x="398.78" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="OUTPUTS1" module="OUTPUTS" x="154.94" y="50.8">
+<attribute name="NAME" x="154.94" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
@@ -387,7 +408,6 @@
 <wire x1="215.9" y1="22.86" x2="215.9" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="BRAKE_LIGHTS1" port="POWER_IN_?V"/>
 <wire x1="259.08" y1="22.86" x2="259.08" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -409,10 +429,6 @@
 <wire x1="78.74" y1="22.86" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="BRAKE_PRESSURE_S1" port="GND"/>
-<wire x1="144.78" y1="22.86" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="BOTS1" port="GND"/>
 <wire x1="180.34" y1="22.86" x2="180.34" y2="35.56" width="0.1524" layer="91"/>
 </segment>
@@ -425,16 +441,8 @@
 <wire x1="261.62" y1="22.86" x2="261.62" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="THROTTLE_S1" port="GND"/>
-<wire x1="302.26" y1="22.86" x2="302.26" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="BRAKE_POSS_S1" port="GND"/>
-<wire x1="342.9" y1="22.86" x2="342.9" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="STEERING_WHEEL_POSS1" port="GND"/>
-<wire x1="388.62" y1="22.86" x2="388.62" y2="35.56" width="0.1524" layer="91"/>
+<portref moduleinst="OUTPUTS1" port="GND"/>
+<wire x1="147.32" y1="22.86" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN0" class="0">
@@ -475,12 +483,12 @@
 <wire x1="76.2" y1="22.86" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="BRAKE_PRESSURE_S1" port="5V"/>
-<wire x1="142.24" y1="22.86" x2="142.24" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="5V"/>
 <wire x1="81.28" y1="-12.7" x2="81.28" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="OUTPUTS1" port="5V"/>
+<wire x1="142.24" y1="22.86" x2="142.24" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -489,27 +497,15 @@
 <wire x1="55.88" y1="35.56" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="THROTTLE_S1" port="3.3V"/>
-<wire x1="299.72" y1="22.86" x2="299.72" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="BRAKE_POSS_S1" port="3.3V"/>
-<wire x1="340.36" y1="22.86" x2="340.36" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="3.3V"/>
 <wire x1="83.82" y1="-12.7" x2="83.82" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="STEERING_WHEEL_POSS1" port="3.3V"/>
-<wire x1="386.08" y1="22.86" x2="386.08" y2="35.56" width="0.1524" layer="91"/>
+<portref moduleinst="OUTPUTS1" port="3.3V"/>
+<wire x1="144.78" y1="22.86" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="THR1" class="0">
-<segment>
-<portref moduleinst="THROTTLE_S1" port="THR_POS_1"/>
-<wire x1="307.34" y1="35.56" x2="307.34" y2="22.86" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="THR1"/>
 <wire x1="91.44" y1="22.86" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
@@ -518,12 +514,12 @@
 <portref moduleinst="CROSS_SHEET_WIRING1" port="THR1"/>
 <wire x1="99.06" y1="-12.7" x2="99.06" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="149.86" y1="22.86" x2="149.86" y2="35.56" width="0.1524" layer="91"/>
+<portref moduleinst="OUTPUTS1" port="THR_POSS1"/>
+</segment>
 </net>
 <net name="THR2" class="0">
-<segment>
-<portref moduleinst="THROTTLE_S1" port="THR_POS_2"/>
-<wire x1="309.88" y1="35.56" x2="309.88" y2="22.86" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="THR2"/>
 <wire x1="93.98" y1="22.86" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
@@ -532,12 +528,12 @@
 <portref moduleinst="CROSS_SHEET_WIRING1" port="THR2"/>
 <wire x1="101.6" y1="-12.7" x2="101.6" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="OUTPUTS1" port="THR_POSS2"/>
+<wire x1="152.4" y1="22.86" x2="152.4" y2="35.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="THR3" class="0">
-<segment>
-<portref moduleinst="THROTTLE_S1" port="THR_POS_3"/>
-<wire x1="312.42" y1="35.56" x2="312.42" y2="22.86" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="THR3"/>
 <wire x1="96.52" y1="22.86" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
@@ -546,6 +542,10 @@
 <portref moduleinst="CROSS_SHEET_WIRING1" port="THR3"/>
 <wire x1="104.14" y1="-12.7" x2="104.14" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="OUTPUTS1" port="THR_POSS3"/>
+<wire x1="154.94" y1="22.86" x2="154.94" y2="35.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="BR_PR" class="0">
 <segment>
@@ -553,12 +553,12 @@
 <wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="BRAKE_PRESSURE_S1" port="BR_PR"/>
-<wire x1="149.86" y1="22.86" x2="149.86" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="BR_PR"/>
 <wire x1="109.22" y1="-12.7" x2="109.22" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="OUTPUTS1" port="BR_PRESS"/>
+<wire x1="160.02" y1="22.86" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BR_POSS" class="0">
@@ -567,12 +567,12 @@
 <wire x1="104.14" y1="35.56" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="BRAKE_POSS_S1" port="BR_POSS"/>
-<wire x1="347.98" y1="22.86" x2="347.98" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="BR_POSS"/>
 <wire x1="111.76" y1="-12.7" x2="111.76" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="OUTPUTS1" port="BR_POSS"/>
+<wire x1="157.48" y1="22.86" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BRAKE_LIGHTS_OUT" class="0">
@@ -583,6 +583,10 @@
 <segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="BRAKE_LIGHTS_OUT"/>
 <wire x1="116.84" y1="-12.7" x2="116.84" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BRAKE_LIGHTS1" port="BRAKE_LIGHTS_CONTROL_SIGNAL"/>
+<wire x1="266.7" y1="22.86" x2="266.7" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ASS1" class="0">
@@ -637,16 +641,16 @@
 </net>
 <net name="ST_WH_POSS" class="0">
 <segment>
-<portref moduleinst="STEERING_WHEEL_POSS1" port="ST_WH_POSS"/>
-<wire x1="398.78" y1="35.56" x2="398.78" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="MICROCONTROLLER1" port="ST_WHEEL_POSS"/>
 <wire x1="114.3" y1="22.86" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="ST_WH_POSS"/>
 <wire x1="134.62" y1="-12.7" x2="134.62" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="OUTPUTS1" port="ST_WH_POSS"/>
+<wire x1="162.56" y1="22.86" x2="162.56" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
