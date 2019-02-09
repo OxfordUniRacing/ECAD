@@ -4,7 +4,7 @@
 <designblock>
 <description>&lt;b&gt;3.3v Linear power delivery using LM317&lt;/b&gt;</description>
 <attributes>
-<attribute name="BOARDSIZE" value="695 x 765 mil"/>
+<attribute name="BOARDSIZE" value="695 x 773 mil"/>
 <attribute name="LAYERS" value="1: 16"/>
 </attributes>
 <drawings>
@@ -6060,18 +6060,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="12V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
-<symbol name="5V" urn="urn:adsk.eagle:symbol:39412/1" library_version="1">
-<description>&lt;h3&gt;5V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-</symbol>
 <symbol name="DGND" urn="urn:adsk.eagle:symbol:39415/1" library_version="1">
 <description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+</symbol>
+<symbol name="3.3V" urn="urn:adsk.eagle:symbol:39411/1" library_version="1">
+<description>&lt;h3&gt;3.3V Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6089,11 +6089,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="5V" urn="urn:adsk.eagle:component:39433/1" prefix="SUPPLY" library_version="1">
-<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
+<deviceset name="GND" urn="urn:adsk.eagle:component:39439/1" prefix="GND" library_version="1">
+<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="5V" x="0" y="0"/>
+<gate name="1" symbol="DGND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -6103,11 +6103,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND" urn="urn:adsk.eagle:component:39439/1" prefix="GND" library_version="1">
-<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
+<deviceset name="3.3V" urn="urn:adsk.eagle:component:39435/1" prefix="SUPPLY" library_version="1">
+<description>&lt;h3&gt;3.3V Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Power supply symbol for a specifically-stated 3.3V source.&lt;/p&gt;</description>
 <gates>
-<gate name="1" symbol="DGND" x="0" y="0"/>
+<gate name="G$1" symbol="3.3V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -6135,8 +6135,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:6240357/1" value="0.1uF"/>
 <part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:6240357/1" value="1uF"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
-<part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6166,11 +6166,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY1" gate="G$1" x="45.72" y="12.7" smashed="yes" rot="R90">
 <attribute name="VALUE" x="42.926" y="12.7" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="93.98" y="12.7" smashed="yes" rot="R270">
-<attribute name="VALUE" x="91.694" y="12.7" size="1.778" layer="96" rot="R270" align="bottom-center"/>
-</instance>
 <instance part="GND1" gate="1" x="63.5" y="-25.4" smashed="yes">
 <attribute name="VALUE" x="63.5" y="-25.654" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="93.98" y="12.7" smashed="yes" rot="R270">
+<attribute name="VALUE" x="96.774" y="12.7" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -6185,21 +6185,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="50.8" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="10.16" x2="50.8" y2="12.7" width="0.1524" layer="91"/>
 <junction x="50.8" y="12.7"/>
-</segment>
-</net>
-<net name="5V" class="0">
-<segment>
-<pinref part="IC1" gate="1" pin="OUT"/>
-<pinref part="SUPPLY2" gate="G$1" pin="5V"/>
-<wire x1="71.12" y1="12.7" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="12.7" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="12.7" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="10.16" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
-<junction x="83.82" y="12.7"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="10.16" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
-<junction x="73.66" y="12.7"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6226,6 +6211,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="2.54" x2="83.82" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-22.86" x2="63.5" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="IC1" gate="1" pin="OUT"/>
+<wire x1="71.12" y1="12.7" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="12.7" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="12.7" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="10.16" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
+<junction x="83.82" y="12.7"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="10.16" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
+<junction x="73.66" y="12.7"/>
+<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 </nets>
@@ -6722,15 +6722,6 @@ design rules under a new name.</description>
 <wire x1="34.29" y1="12.7" x2="39.37" y2="12.7" width="1.27" layer="16"/>
 <wire x1="39.37" y1="12.7" x2="43.18" y2="12.7" width="1.27" layer="16"/>
 </signal>
-<signal name="5V">
-<contactref element="IC1" pad="2"/>
-<contactref element="C2" pad="1"/>
-<contactref element="R1" pad="2"/>
-<wire x1="31.75" y1="12.7" x2="31.75" y2="5.08" width="1.27" layer="16"/>
-<wire x1="31.75" y1="5.08" x2="31.75" y2="-1.27" width="1.27" layer="16"/>
-<wire x1="31.75" y1="-1.27" x2="31.75" y2="-2.54" width="1.27" layer="16"/>
-<wire x1="29.21" y1="-1.27" x2="31.75" y2="-1.27" width="1.27" layer="16"/>
-</signal>
 <signal name="N$1">
 <contactref element="IC1" pad="1"/>
 <contactref element="R2" pad="2"/>
@@ -6748,6 +6739,15 @@ design rules under a new name.</description>
 <wire x1="36.83" y1="8.89" x2="36.83" y2="5.08" width="1.27" layer="16"/>
 <wire x1="36.83" y1="5.08" x2="34.29" y2="2.54" width="1.27" layer="16"/>
 <wire x1="34.29" y1="2.54" x2="34.29" y2="-2.54" width="1.27" layer="16"/>
+</signal>
+<signal name="3.3V">
+<contactref element="IC1" pad="2"/>
+<contactref element="C2" pad="1"/>
+<contactref element="R1" pad="2"/>
+<wire x1="31.75" y1="12.7" x2="31.75" y2="5.08" width="1.27" layer="16"/>
+<wire x1="31.75" y1="5.08" x2="31.75" y2="-1.27" width="1.27" layer="16"/>
+<wire x1="31.75" y1="-1.27" x2="31.75" y2="-2.54" width="1.27" layer="16"/>
+<wire x1="29.21" y1="-1.27" x2="31.75" y2="-1.27" width="1.27" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
