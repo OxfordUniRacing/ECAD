@@ -6822,14 +6822,13 @@ Metric Code Size 5664</description>
 <part name="GND24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="CAN_TERMINATION2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="120"/>
 <part name="J2" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="CAN_OUT"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="J4" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="DISPL"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="J5" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="DISPL"/>
+<part name="J5" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="BUTTONS"/>
 </parts>
 <sheets>
 <sheet>
@@ -8006,10 +8005,6 @@ Metric Code Size 5664</description>
 <instance part="GND16" gate="1" x="86.36" y="73.66" smashed="yes" rot="R270">
 <attribute name="VALUE" x="86.106" y="73.66" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="CAN_TERMINATION2" gate="G$1" x="109.22" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="107.95" y="56.9214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="112.522" y="52.07" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="J2" gate="G$1" x="101.6" y="76.2" smashed="yes">
 <attribute name="NAME" x="102.87" y="83.82" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="102.87" y="81.28" size="1.778" layer="96" align="center-left"/>
@@ -8089,16 +8084,12 @@ Metric Code Size 5664</description>
 <segment>
 <wire x1="121.92" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 <label x="124.46" y="68.58" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="8"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="7"/>
 <wire x1="101.6" y1="68.58" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
 <label x="91.44" y="68.58" size="1.778" layer="95"/>
-<wire x1="99.06" y1="68.58" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="CAN_TERMINATION2" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="68.58" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
-<junction x="109.22" y="60.96"/>
-<pinref part="J2" gate="G$1" pin="7"/>
-<pinref part="J2" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="CANL" class="0">
@@ -8107,18 +8098,14 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="88.9" y="71.12" size="1.778" layer="95"/>
-<wire x1="101.6" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="71.12" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="CAN_TERMINATION2" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="50.8" x2="127" y2="50.8" width="0.1524" layer="91"/>
-<junction x="109.22" y="50.8"/>
-<wire x1="127" y1="50.8" x2="127" y2="71.12" width="0.1524" layer="91"/>
 <label x="127" y="71.12" size="1.778" layer="95"/>
 <wire x1="127" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="5"/>
 <pinref part="J2" gate="G$1" pin="6"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="5"/>
+<wire x1="101.6" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
+<label x="88.9" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ASS1" class="0">

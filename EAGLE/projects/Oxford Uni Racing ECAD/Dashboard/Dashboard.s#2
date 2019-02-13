@@ -6829,6 +6829,7 @@ Metric Code Size 5664</description>
 <part name="J4" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="DISPL"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="J5" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="DISPL"/>
 </parts>
 <sheets>
 <sheet>
@@ -8301,7 +8302,7 @@ Metric Code Size 5664</description>
 <segment>
 <pinref part="J4" gate="G$1" pin="5"/>
 <wire x1="93.98" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
-<label x="78.74" y="50.8" size="1.778" layer="95"/>
+<label x="76.2" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DISPL_SCL" class="0">
@@ -8312,7 +8313,7 @@ Metric Code Size 5664</description>
 <segment>
 <pinref part="J4" gate="G$1" pin="7"/>
 <wire x1="93.98" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
-<label x="78.74" y="48.26" size="1.778" layer="95"/>
+<label x="76.2" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVER_SELECT" class="0">
@@ -8382,6 +8383,10 @@ Metric Code Size 5664</description>
 </instance>
 <instance part="GND8" gate="1" x="40.64" y="63.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="40.894" y="63.5" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="J5" gate="G$1" x="96.52" y="45.72" smashed="yes">
+<attribute name="NAME" x="97.79" y="53.34" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="97.79" y="50.8" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -8461,11 +8466,21 @@ Metric Code Size 5664</description>
 <label x="10.16" y="35.56" size="1.778" layer="95"/>
 <wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="45.72" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
+<label x="73.66" y="45.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="EVENT_SELECT" class="0">
 <segment>
 <label x="10.16" y="33.02" size="1.778" layer="95"/>
 <wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="3"/>
+<wire x1="96.52" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
+<label x="73.66" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWR_REDUCTION" class="0">
@@ -8473,11 +8488,21 @@ Metric Code Size 5664</description>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
 <wire x1="10.16" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
+<label x="119.38" y="45.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PEDAL_MAPPING" class="0">
 <segment>
 <label x="10.16" y="25.4" size="1.778" layer="95"/>
 <wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="4"/>
+<wire x1="116.84" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
+<label x="119.38" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BRAKE_BIAS" class="0">
@@ -8485,11 +8510,21 @@ Metric Code Size 5664</description>
 <label x="10.16" y="22.86" size="1.778" layer="95"/>
 <wire x1="10.16" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="6"/>
+<wire x1="116.84" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
+<label x="119.38" y="40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TCS_ON/OFF" class="0">
 <segment>
 <label x="10.16" y="17.78" size="1.778" layer="95"/>
 <wire x1="10.16" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="8"/>
+<wire x1="116.84" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
+<label x="119.38" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IGNITION_SWITCH" class="0">
@@ -8497,11 +8532,21 @@ Metric Code Size 5664</description>
 <label x="10.16" y="12.7" size="1.778" layer="95"/>
 <wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="5"/>
+<wire x1="96.52" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
+<label x="73.66" y="40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="EMERGENCY_STOP" class="0">
 <segment>
 <label x="10.16" y="7.62" size="1.778" layer="95"/>
 <wire x1="10.16" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="7"/>
+<wire x1="96.52" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
+<label x="73.66" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
