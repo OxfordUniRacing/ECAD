@@ -16655,6 +16655,8 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <part name="GND31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/15" package3d_urn="urn:adsk.eagle:package:23492/1"/>
+<part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17898,6 +17900,13 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <instance part="SUPPLY7" gate="G$1" x="215.9" y="132.08" smashed="yes">
 <attribute name="VALUE" x="215.9" y="134.874" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="R20" gate="G$1" x="185.42" y="101.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="186.9186" y="105.41" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="182.118" y="105.41" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY15" gate="G$1" x="185.42" y="91.44" smashed="yes" rot="R180">
+<attribute name="VALUE" x="185.42" y="88.646" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHTS_OUT,BR_POSS,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
@@ -18069,8 +18078,12 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <net name="N$13" class="0">
 <segment>
 <pinref part="COMPARATOR" gate="C" pin="OUT"/>
-<wire x1="190.5" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="114.3" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="AND" gate="B" pin="I1"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="106.68" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
+<junction x="185.42" y="114.3"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -18184,6 +18197,11 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <pinref part="T1" gate="1" pin="A"/>
 <wire x1="215.9" y1="132.08" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="12V"/>
+</segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="SUPPLY15" gate="G$1" pin="12V"/>
+<wire x1="185.42" y1="96.52" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
