@@ -32,7 +32,179 @@
 </class>
 </classes>
 <modules>
-<module name="CROSS_SHEET_WIRING" prefix="" dx="30.48" dy="20.32">
+<module name="CROSS_SHEET_WIRING" prefix="" dx="91.44" dy="20.32">
+<ports>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="MICROCONTROLLER" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="5V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="INPUTS" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="12V" side="right" coord="7.62" direction="io"/>
+<port name="GND" side="right" coord="5.08" direction="io"/>
+<port name="CAN0" side="right" coord="0" direction="io"/>
+<port name="CAN1" side="right" coord="-2.54" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="POWER_DELIVERY" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="12V_IN" side="bottom" coord="-10.16" direction="io"/>
+<port name="GND" side="bottom" coord="-5.08" direction="io"/>
+<port name="5V_OUT" side="bottom" coord="0" direction="io"/>
+<port name="3.3V_OUT" side="bottom" coord="2.54" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="BRAKE_PRESSURE_S" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="5V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="BOTS" prefix="" dx="30.48" dy="20.32">
+<ports>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="BSPD" prefix="" dx="30.48" dy="20.32">
+<ports>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="BRAKE_LIGHTS" prefix="" dx="30.48" dy="20.32">
+<ports>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="THROTTLE_S" prefix="" dx="30.48" dy="20.32">
 <ports>
 </ports>
 <variantdefs>
@@ -60,8 +232,32 @@
 <plain>
 </plain>
 <moduleinsts>
-<moduleinst name="CROSS_SHEET_WIRING1" module="CROSS_SHEET_WIRING" x="104.14" y="-17.78">
-<attribute name="NAME" x="104.14" y="-17.78" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="CROSS_SHEET_WIRING1" module="CROSS_SHEET_WIRING" x="99.06" y="-17.78">
+<attribute name="NAME" x="99.06" y="-17.78" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="MICROCONTROLLER1" module="MICROCONTROLLER" x="104.14" y="50.8">
+<attribute name="NAME" x="104.14" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="INPUTS1" module="INPUTS" x="15.24" y="10.16">
+<attribute name="NAME" x="15.24" y="10.16" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="POWER_DELIVERY1" module="POWER_DELIVERY" x="58.42" y="50.8">
+<attribute name="NAME" x="58.42" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="BRAKE_PRESSURE_S1" module="BRAKE_PRESSURE_S" x="147.32" y="50.8">
+<attribute name="NAME" x="147.32" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="BOTS1" module="BOTS" x="187.96" y="50.8">
+<attribute name="NAME" x="187.96" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="BSPD1" module="BSPD" x="228.6" y="50.8">
+<attribute name="NAME" x="228.6" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="BRAKE_LIGHTS1" module="BRAKE_LIGHTS" x="271.78" y="50.8">
+<attribute name="NAME" x="271.78" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="THROTTLE_S1" module="THROTTLE_S" x="312.42" y="50.8">
+<attribute name="NAME" x="312.42" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>

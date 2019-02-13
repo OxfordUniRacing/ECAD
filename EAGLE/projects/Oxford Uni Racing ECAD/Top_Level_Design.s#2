@@ -114,9 +114,7 @@
 <port name="ASS1" side="top" coord="5.08" direction="io"/>
 <port name="ASS2" side="top" coord="7.62" direction="io"/>
 <port name="MOTOR_CONTR_L_1" side="left" coord="5.08" direction="io"/>
-<port name="MOTOR_CONTR_L_2" side="left" coord="2.54" direction="io"/>
 <port name="MOTOR_CONTR_R_1" side="left" coord="-5.08" direction="io"/>
-<port name="MOTOR_CONTR_R_2" side="left" coord="-7.62" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -477,8 +475,7 @@
 </module>
 <module name="MOTOR_CONTROLLER" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="LINE_1" side="right" coord="-2.54" direction="io"/>
-<port name="LINE_2" side="right" coord="-5.08" direction="io"/>
+<port name="DATA" side="right" coord="-2.54" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -799,6 +796,20 @@
 <label x="86.36" y="7.62" size="1.778" layer="95"/>
 </segment>
 </bus>
+<bus name="B$1">
+<segment>
+<wire x1="55.88" y1="-40.64" x2="40.64" y2="-40.64" width="0.762" layer="92"/>
+<wire x1="40.64" y1="-40.64" x2="40.64" y2="-38.1" width="0.762" layer="92"/>
+<wire x1="40.64" y1="-38.1" x2="22.86" y2="-38.1" width="0.762" layer="92"/>
+</segment>
+</bus>
+<bus name="B$2">
+<segment>
+<wire x1="22.86" y1="-63.5" x2="40.64" y2="-63.5" width="0.762" layer="92"/>
+<wire x1="40.64" y1="-63.5" x2="40.64" y2="-50.8" width="0.762" layer="92"/>
+<wire x1="40.64" y1="-50.8" x2="55.88" y2="-50.8" width="0.762" layer="92"/>
+</segment>
+</bus>
 </busses>
 <nets>
 <net name="N$1" class="0">
@@ -1056,42 +1067,6 @@
 <wire x1="289.56" y1="53.34" x2="289.56" y2="45.72" width="0.1524" layer="91"/>
 <portref moduleinst="THROTTLE_PEDAL_2" port="PWR"/>
 <wire x1="289.56" y1="45.72" x2="314.96" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<portref moduleinst="VCU1" port="MOTOR_CONTR_L_1"/>
-<wire x1="55.88" y1="-40.64" x2="43.18" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-40.64" x2="43.18" y2="-38.1" width="0.1524" layer="91"/>
-<portref moduleinst="MOTOR_CONTROLLER1" port="LINE_1"/>
-<wire x1="43.18" y1="-38.1" x2="22.86" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<portref moduleinst="VCU1" port="MOTOR_CONTR_L_2"/>
-<wire x1="55.88" y1="-43.18" x2="40.64" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-43.18" x2="40.64" y2="-40.64" width="0.1524" layer="91"/>
-<portref moduleinst="MOTOR_CONTROLLER1" port="LINE_2"/>
-<wire x1="40.64" y1="-40.64" x2="22.86" y2="-40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<portref moduleinst="VCU1" port="MOTOR_CONTR_R_2"/>
-<wire x1="55.88" y1="-53.34" x2="43.18" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-53.34" x2="43.18" y2="-66.04" width="0.1524" layer="91"/>
-<portref moduleinst="MOTOR_CONTROLLER2" port="LINE_2"/>
-<wire x1="43.18" y1="-66.04" x2="22.86" y2="-66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<portref moduleinst="MOTOR_CONTROLLER2" port="LINE_1"/>
-<wire x1="22.86" y1="-63.5" x2="40.64" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-63.5" x2="40.64" y2="-50.8" width="0.1524" layer="91"/>
-<portref moduleinst="VCU1" port="MOTOR_CONTR_R_1"/>
-<wire x1="40.64" y1="-50.8" x2="55.88" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LV_POWER" class="0">

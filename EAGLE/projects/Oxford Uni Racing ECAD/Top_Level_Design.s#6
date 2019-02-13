@@ -327,7 +327,6 @@
 <port name="EVENT_SELECT" side="right" coord="-33.02" direction="io"/>
 <port name="TCS_ON_OFF" side="right" coord="-27.94" direction="io"/>
 <port name="IGNITION_SWITCH" side="right" coord="-25.4" direction="io"/>
-<port name="LV_SYSTEM_PWR" side="right" coord="-22.86" direction="io"/>
 <port name="EMERGENCY_STOP" side="right" coord="-17.78" direction="io"/>
 <port name="PEDAL_MAPPING" side="right" coord="-12.7" direction="io"/>
 <port name="BRAKE_BIAS" side="right" coord="-10.16" direction="io"/>
@@ -602,10 +601,9 @@
 </module>
 <module name="DATA_LOGGER" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="CAN1" side="bottom" coord="-10.16" direction="io"/>
-<port name="CAN0" side="bottom" coord="-7.62" direction="io"/>
 <port name="PWR_IN" side="bottom" coord="2.54" direction="io"/>
 <port name="GND_IN" side="bottom" coord="5.08" direction="io"/>
+<port name="DATA" side="bottom" coord="-12.7" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -1259,10 +1257,6 @@
 <portref moduleinst="INS1" port="CAN1"/>
 <wire x1="-66.04" y1="10.16" x2="-66.04" y2="25.4" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<portref moduleinst="DATA_LOGGER1" port="CAN1"/>
-<wire x1="-25.4" y1="10.16" x2="-25.4" y2="25.4" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="CAN0" class="0">
 <segment>
@@ -1284,10 +1278,6 @@
 <segment>
 <portref moduleinst="INS1" port="CAN0"/>
 <wire x1="-63.5" y1="10.16" x2="-63.5" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="DATA_LOGGER1" port="CAN0"/>
-<wire x1="-22.86" y1="10.16" x2="-22.86" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -1369,10 +1359,6 @@
 <segment>
 <portref moduleinst="BUTTONS1" port="IGNITION_SWITCH"/>
 <wire x1="127" y1="154.94" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="BUTTONS1" port="LV_SYSTEM_PWR"/>
-<wire x1="127" y1="157.48" x2="101.6" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="BUTTONS1" port="EMERGENCY_STOP"/>
