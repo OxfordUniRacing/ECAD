@@ -16151,6 +16151,68 @@ Metric Code Size 5664</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="ngspice-simulation" urn="urn:adsk.eagle:library:527439">
+<description>SPICE compatible library parts</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="FET-N" urn="urn:adsk.eagle:symbol:5272031/1" library_version="16">
+<description>N-Type MOS Field Effect Transistor (MOSFET)</description>
+<pin name="G" x="-10.16" y="0" length="middle"/>
+<pin name="D" x="5.08" y="12.7" length="middle" rot="R270"/>
+<pin name="S" x="5.08" y="-12.7" length="middle" rot="R90"/>
+<wire x1="-1.016" y1="5.08" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.842" x2="1.27" y2="4.064" width="0.254" layer="94"/>
+<wire x1="1.27" y1="4.064" x2="1.27" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-4.064" x2="1.27" y2="-6.096" width="0.254" layer="94"/>
+<wire x1="5.08" y1="4.064" x2="1.27" y2="4.064" width="0.254" layer="94"/>
+<wire x1="5.08" y1="4.064" x2="5.08" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-4.064" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="-4.064" x2="1.27" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-4.064" x2="3.81" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-4.064" x2="3.81" y2="-4.826" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-4.064" x2="5.08" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<circle x="2.032" y="0" radius="7.228965625" width="0.254" layer="94"/>
+<text x="10.16" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="10.16" y="-2.54" size="1.778" layer="97">&gt;SPICEMODEL</text>
+<text x="10.16" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="10.16" y="-5.08" size="1.778" layer="97">&gt;SPICEEXTRA</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FET_N" urn="urn:adsk.eagle:component:5272055/1" prefix="M" uservalue="yes" library_version="16">
+<description>N-Type MOS Field Effect Transistor (MOSFET)</description>
+<gates>
+<gate name="G$1" symbol="FET-N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+<spice>
+<pinmapping spiceprefix="M">
+<pinmap gate="G$1" pin="D" pinorder="1"/>
+<pinmap gate="G$1" pin="G" pinorder="2"/>
+<pinmap gate="G$1" pin="S" pinorder="3"/>
+</pinmapping>
+<model name="NFET">
+**********************
+* Autodesk EAGLE - Spice Model File
+* Date: 9/17/17
+* basic nfet intrinsic model
+**********************
+.MODEL NFET NMOS (LEVEL=3)</model>
+</spice>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16279,9 +16341,14 @@ Metric Code Size 5664</description>
 <part name="J6" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device=""/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND32" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="J5" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device=""/>
-<part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="IRLML1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="FET_N" device=""/>
+<part name="J7" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device=""/>
+<part name="R12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
+<part name="R13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="47K"/>
+<part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17931,7 +17998,7 @@ Metric Code Size 5664</description>
 <text x="0" y="0" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
 <text x="170.18" y="91.44" size="1.778" layer="91">THROTTLE POSS 1 AND 2</text>
 <text x="170.18" y="71.12" size="1.778" layer="91">THROTTLE POSS 3</text>
-<text x="170.18" y="50.8" size="1.778" layer="91">BRAKE POSS AND PRESS</text>
+<text x="170.18" y="50.8" size="1.778" layer="91">BRAKE POSS AND PRESS, AND STEERING WHEEL POSS</text>
 </plain>
 <instances>
 <instance part="SUPPLY48" gate="G$1" x="22.86" y="83.82" smashed="yes" rot="R270">
@@ -17982,19 +18049,12 @@ Metric Code Size 5664</description>
 <instance part="GND32" gate="1" x="129.54" y="43.18" smashed="yes" rot="R270">
 <attribute name="VALUE" x="127" y="45.466" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J5" gate="G$1" x="142.24" y="25.4" smashed="yes">
-<attribute name="NAME" x="143.51" y="33.02" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="143.51" y="30.48" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="GND7" gate="1" x="129.54" y="22.86" smashed="yes" rot="R270">
-<attribute name="VALUE" x="129.286" y="22.86" size="1.778" layer="96" rot="R270" align="top-center"/>
-</instance>
 <instance part="SUPPLY16" gate="G$1" x="167.64" y="45.72" smashed="yes" rot="R270">
 <attribute name="VALUE" x="170.434" y="45.72" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHT_PWR_OUT,BRAKE_LIGHTS_OUT,BR_POSS,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHTS_OUT,BR_POSS,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
 <segment>
 <wire x1="0" y1="0" x2="0" y2="88.9" width="0.762" layer="92"/>
 </segment>
@@ -18072,11 +18132,6 @@ Metric Code Size 5664</description>
 <pinref part="J6" gate="G$1" pin="3"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="142.24" y1="43.18" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="3"/>
-<wire x1="142.24" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -18181,23 +18236,13 @@ Metric Code Size 5664</description>
 <label x="124.46" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BRAKE_LIGHT_PWR_OUT" class="0">
-<segment>
-<label x="10.16" y="22.86" size="1.778" layer="95"/>
-<wire x1="10.16" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="8"/>
-<wire x1="162.56" y1="17.78" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
-<label x="165.1" y="17.78" size="1.778" layer="95"/>
-</segment>
-</net>
 </nets>
 </sheet>
 <sheet>
 <description>BRAKE LIGHTS</description>
 <plain>
 <text x="0" y="0" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
+<text x="198.12" y="111.76" size="1.778" layer="91">BRAKE LIGHTS CONNECTOR</text>
 </plain>
 <instances>
 <instance part="SUPPLY51" gate="G$1" x="22.86" y="83.82" smashed="yes" rot="R270">
@@ -18211,6 +18256,31 @@ Metric Code Size 5664</description>
 </instance>
 <instance part="GND10" gate="1" x="40.64" y="76.2" smashed="yes" rot="R90">
 <attribute name="VALUE" x="40.894" y="76.2" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="IRLML1" gate="G$1" x="157.48" y="66.04" smashed="yes">
+<attribute name="NAME" x="167.64" y="68.58" size="1.778" layer="95"/>
+<attribute name="VALUE" x="167.64" y="66.04" size="1.778" layer="96"/>
+</instance>
+<instance part="J7" gate="G$1" x="170.18" y="106.68" smashed="yes">
+<attribute name="NAME" x="171.45" y="114.3" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="171.45" y="111.76" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="R12" gate="G$1" x="132.08" y="66.04" smashed="yes">
+<attribute name="NAME" x="128.27" y="67.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="128.27" y="62.738" size="1.778" layer="96"/>
+</instance>
+<instance part="R13" gate="G$1" x="142.24" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="140.7414" y="52.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="145.542" y="52.07" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY19" gate="G$1" x="200.66" y="99.06" smashed="yes" rot="R270">
+<attribute name="VALUE" x="203.454" y="99.06" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="GND7" gate="1" x="162.56" y="40.64" smashed="yes">
+<attribute name="VALUE" x="162.56" y="40.386" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND8" gate="1" x="142.24" y="40.64" smashed="yes">
+<attribute name="VALUE" x="142.24" y="40.386" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -18226,6 +18296,11 @@ Metric Code Size 5664</description>
 <label x="10.16" y="83.82" size="1.778" layer="95"/>
 <pinref part="SUPPLY51" gate="G$1" pin="12V"/>
 <wire x1="22.86" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY19" gate="G$1" pin="12V"/>
+<pinref part="J7" gate="G$1" pin="8"/>
+<wire x1="200.66" y1="99.06" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -18247,6 +18322,16 @@ Metric Code Size 5664</description>
 <label x="10.16" y="76.2" size="1.778" layer="95"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="38.1" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="50.8" x2="142.24" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IRLML1" gate="G$1" pin="S"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="162.56" y1="53.34" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -18319,6 +18404,31 @@ Metric Code Size 5664</description>
 <segment>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
 <wire x1="10.16" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="127" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="IRLML1" gate="G$1" pin="G"/>
+<wire x1="137.16" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="66.04" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="60.96" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
+<junction x="142.24" y="66.04"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="IRLML1" gate="G$1" pin="D"/>
+<wire x1="162.56" y1="78.74" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="3"/>
+<wire x1="162.56" y1="104.14" x2="170.18" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

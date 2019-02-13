@@ -16633,8 +16633,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND29" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J2" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="THR_1_2"/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -16655,6 +16653,8 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <part name="R16" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="240"/>
 <part name="R17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
 <part name="GND31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18292,12 +18292,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <attribute name="NAME" x="143.51" y="93.98" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="143.51" y="91.44" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="137.16" y="86.36" smashed="yes" rot="R90">
-<attribute name="VALUE" x="134.366" y="86.36" size="1.778" layer="96" rot="R90" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY9" gate="G$1" x="167.64" y="86.36" smashed="yes" rot="R270">
-<attribute name="VALUE" x="170.434" y="86.36" size="1.778" layer="96" rot="R270" align="bottom-center"/>
-</instance>
 <instance part="GND23" gate="1" x="129.54" y="83.82" smashed="yes" rot="R270">
 <attribute name="VALUE" x="129.286" y="83.82" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
@@ -18338,6 +18332,12 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <instance part="GND31" gate="1" x="279.4" y="2.54" smashed="yes">
 <attribute name="VALUE" x="279.4" y="2.286" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="SUPPLY8" gate="G$1" x="137.16" y="86.36" smashed="yes" rot="R90">
+<attribute name="VALUE" x="134.366" y="86.36" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY9" gate="G$1" x="167.64" y="86.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="170.434" y="86.36" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHTS_OUT,BR_POSS,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
@@ -18370,22 +18370,22 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <pinref part="J6" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="45.72" x2="162.56" y2="45.72" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="86.36" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="86.36" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY9" gate="G$1" pin="5V"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <label x="10.16" y="78.74" size="1.778" layer="95"/>
 <pinref part="SUPPLY50" gate="G$1" pin="3.3V"/>
 <wire x1="33.02" y1="78.74" x2="0" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
-<wire x1="142.24" y1="86.36" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
-<wire x1="162.56" y1="86.36" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="1"/>

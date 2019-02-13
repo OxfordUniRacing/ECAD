@@ -16633,13 +16633,10 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND29" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J2" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="THR_1_2"/>
-<part name="J4" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="THR_3"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="GND30" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="J6" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="BR_POS_PRESS_STWH"/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -16737,12 +16734,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <segment>
 <label x="10.16" y="60.96" size="1.778" layer="95"/>
 <wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="THR3" class="0">
-<segment>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
-<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BR_POSS" class="0">
@@ -17003,12 +16994,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="THR3" class="0">
-<segment>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
-<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="BR_POSS" class="0">
 <segment>
 <label x="10.16" y="53.34" size="1.778" layer="95"/>
@@ -17258,12 +17243,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="THR3" class="0">
-<segment>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
-<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="BR_POSS" class="0">
 <segment>
 <label x="10.16" y="53.34" size="1.778" layer="95"/>
@@ -17409,12 +17388,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <segment>
 <label x="10.16" y="60.96" size="1.778" layer="95"/>
 <wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="THR3" class="0">
-<segment>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
-<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BR_POSS" class="0">
@@ -18251,12 +18224,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <wire x1="-43.18" y1="66.04" x2="-53.34" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="THR3" class="0">
-<segment>
-<label x="-43.18" y="63.5" size="1.778" layer="95"/>
-<wire x1="-43.18" y1="63.5" x2="-53.34" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="BR_POSS" class="0">
 <segment>
 <label x="-43.18" y="58.42" size="1.778" layer="95"/>
@@ -18306,7 +18273,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <plain>
 <text x="0" y="0" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
 <text x="170.18" y="91.44" size="1.778" layer="91">THROTTLE POSS 1 AND 2</text>
-<text x="170.18" y="71.12" size="1.778" layer="91">THROTTLE POSS 3</text>
 <text x="170.18" y="50.8" size="1.778" layer="91">BRAKE POSS AND PRESS, AND STEERING WHEEL POSS</text>
 </plain>
 <instances>
@@ -18326,10 +18292,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <attribute name="NAME" x="143.51" y="93.98" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="143.51" y="91.44" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="J4" gate="G$1" x="142.24" y="66.04" smashed="yes">
-<attribute name="NAME" x="143.51" y="73.66" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="143.51" y="71.12" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="SUPPLY8" gate="G$1" x="137.16" y="86.36" smashed="yes" rot="R90">
 <attribute name="VALUE" x="134.366" y="86.36" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
@@ -18341,12 +18303,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 </instance>
 <instance part="GND25" gate="1" x="175.26" y="83.82" smashed="yes" rot="R90">
 <attribute name="VALUE" x="175.514" y="83.82" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="GND30" gate="1" x="129.54" y="63.5" smashed="yes" rot="R270">
-<attribute name="VALUE" x="129.286" y="63.5" size="1.778" layer="96" rot="R270" align="top-center"/>
-</instance>
-<instance part="SUPPLY15" gate="G$1" x="137.16" y="66.04" smashed="yes" rot="R90">
-<attribute name="VALUE" x="134.366" y="66.04" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
 <instance part="J6" gate="G$1" x="142.24" y="45.72" smashed="yes">
 <attribute name="NAME" x="143.51" y="53.34" size="1.778" layer="95" align="center-left"/>
@@ -18432,11 +18388,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <wire x1="162.56" y1="86.36" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="1"/>
-<pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
-<wire x1="142.24" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J6" gate="G$1" pin="1"/>
 <pinref part="SUPPLY20" gate="G$1" pin="3.3V"/>
 <wire x1="142.24" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
@@ -18457,11 +18408,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <pinref part="J2" gate="G$1" pin="4"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 <wire x1="162.56" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="3"/>
-<pinref part="GND30" gate="1" pin="GND"/>
-<wire x1="142.24" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="3"/>
@@ -18511,17 +18457,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <pinref part="J2" gate="G$1" pin="6"/>
 <wire x1="162.56" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 <label x="165.1" y="81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="THR3" class="0">
-<segment>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
-<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="5"/>
-<wire x1="142.24" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
-<label x="134.62" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BR_POSS" class="0">

@@ -18664,12 +18664,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="THR3" class="0">
-<segment>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
-<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="BR_POSS" class="0">
 <segment>
 <label x="10.16" y="53.34" size="1.778" layer="95"/>

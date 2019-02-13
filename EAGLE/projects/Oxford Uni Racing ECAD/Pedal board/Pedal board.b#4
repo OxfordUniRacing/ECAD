@@ -2137,7 +2137,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="83.82" y="27.9146" size="0.9906" layer="25" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="82.9056" y="29.6926" size="0.9906" layer="27" ratio="12" rot="R180"/>
 </element>
-<element name="J3" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="T821108A1S100CEU" x="90.17" y="22.86" smashed="yes" rot="R180">
+<element name="J3" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="PWR_CAN" x="90.17" y="22.86" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="93.98" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="9.15mm" x="93.98" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Amphenol" x="93.98" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2186,7 +2186,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="138.049" y="13.589" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="138.049" y="18.034" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="J2" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="T821108A1S100CEU" x="147.32" y="34.29" smashed="yes">
+<element name="J2" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="THR_1_2" x="147.32" y="34.29" smashed="yes">
 <attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="143.51" y="34.29" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="9.15mm" x="143.51" y="34.29" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Amphenol" x="143.51" y="34.29" size="1.778" layer="27" display="off"/>
@@ -2195,7 +2195,7 @@ design rules under a new name.</description>
 <attribute name="RS_PART_NUMBER" value="1702738" x="143.51" y="34.29" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="149.86" y="31.75" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J4" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="T821108A1S100CEU" x="147.32" y="45.72" smashed="yes">
+<element name="J4" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="THR_3" x="147.32" y="45.72" smashed="yes">
 <attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="144.78" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="9.15mm" x="144.78" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Amphenol" x="144.78" y="45.72" size="1.778" layer="27" display="off"/>
@@ -2204,7 +2204,7 @@ design rules under a new name.</description>
 <attribute name="RS_PART_NUMBER" value="1702738" x="144.78" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="149.86" y="43.18" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J6" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="T821108A1S100CEU" x="8.89" y="-120.65" smashed="yes">
+<element name="J6" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="BR_POS_PRESS_STWH" x="8.89" y="-120.65" smashed="yes">
 <attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="6.35" y="-120.65" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="9.15mm" x="6.35" y="-120.65" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Amphenol" x="6.35" y="-120.65" size="1.778" layer="27" display="off"/>
