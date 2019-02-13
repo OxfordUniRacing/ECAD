@@ -370,6 +370,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EC2-12NU.pdf"
 </nets>
 </sheet>
 <sheet>
+<description>TS LATCH</description>
 <plain>
 <text x="215.9" y="20.32" size="1.9304" layer="94">Jack Bruford - Oxford Uni Racing</text>
 </plain>
