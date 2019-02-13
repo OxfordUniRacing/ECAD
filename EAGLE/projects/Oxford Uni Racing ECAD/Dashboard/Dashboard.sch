@@ -6826,6 +6826,9 @@ Metric Code Size 5664</description>
 <part name="J2" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="CAN_OUT"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="J4" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="DISPL"/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="GND17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8209,6 +8212,16 @@ Metric Code Size 5664</description>
 <instance part="GND7" gate="1" x="40.64" y="63.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="40.894" y="63.5" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
+<instance part="J4" gate="G$1" x="93.98" y="55.88" smashed="yes">
+<attribute name="NAME" x="95.25" y="63.5" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="95.25" y="60.96" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY4" gate="G$1" x="88.9" y="55.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="78.74" y="58.166" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="GND17" gate="1" x="81.28" y="53.34" smashed="yes" rot="R270">
+<attribute name="VALUE" x="78.74" y="55.626" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_SCL,DISPL_SDA,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,PEDAL_MAPPING,PWR_REDUCTION,TCS_ON/OFF">
@@ -8231,6 +8244,11 @@ Metric Code Size 5664</description>
 <pinref part="SUPPLY28" gate="G$1" pin="5V"/>
 <wire x1="27.94" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="SUPPLY4" gate="G$1" pin="5V"/>
+<wire x1="93.98" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -8244,6 +8262,11 @@ Metric Code Size 5664</description>
 <label x="10.16" y="63.5" size="1.778" layer="95"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="38.1" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="3"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="93.98" y1="53.34" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -8275,11 +8298,21 @@ Metric Code Size 5664</description>
 <label x="10.16" y="43.18" size="1.778" layer="95"/>
 <wire x1="10.16" y1="43.18" x2="0" y2="43.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="5"/>
+<wire x1="93.98" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
+<label x="76.2" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DISPL_SCL" class="0">
 <segment>
 <label x="10.16" y="40.64" size="1.778" layer="95"/>
 <wire x1="10.16" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="7"/>
+<wire x1="93.98" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
+<label x="76.2" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVER_SELECT" class="0">
