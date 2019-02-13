@@ -8301,7 +8301,7 @@ Metric Code Size 5664</description>
 <segment>
 <pinref part="J4" gate="G$1" pin="5"/>
 <wire x1="93.98" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
-<label x="78.74" y="50.8" size="1.778" layer="95"/>
+<label x="76.2" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DISPL_SCL" class="0">
@@ -8312,7 +8312,7 @@ Metric Code Size 5664</description>
 <segment>
 <pinref part="J4" gate="G$1" pin="7"/>
 <wire x1="93.98" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
-<label x="78.74" y="48.26" size="1.778" layer="95"/>
+<label x="76.2" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DRIVER_SELECT" class="0">
