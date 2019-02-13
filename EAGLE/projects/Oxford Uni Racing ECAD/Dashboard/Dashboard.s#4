@@ -526,6 +526,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="0" y="0" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
+<text x="55.88" y="0" size="1.778" layer="91">Basic general pcb layout in terms of general dimensions and mounting holes</text>
 </plain>
 <instances>
 <instance part="SUPPLY9" gate="G$1" x="22.86" y="71.12" smashed="yes" rot="R270">
