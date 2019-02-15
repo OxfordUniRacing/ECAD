@@ -6741,6 +6741,374 @@ Metric Code Size 5664</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Oxford Uni Racing Custom Blueprints">
+<packages>
+<package name="SAMC21-XPLAINED-PRO">
+<pad name="J803-0" x="0" y="12.7" drill="0.6"/>
+<pad name="J803-1" x="0" y="10.16" drill="0.6"/>
+<pad name="J803-2" x="0" y="7.62" drill="0.6"/>
+<pad name="J803-3" x="0" y="5.08" drill="0.6"/>
+<pad name="J803-4" x="0" y="2.54" drill="0.6"/>
+<pad name="J803-5" x="0" y="0" drill="0.6"/>
+<wire x1="-1.108" y1="13.808" x2="1.108" y2="13.808" width="0.127" layer="21"/>
+<wire x1="1.108" y1="13.808" x2="1.108" y2="-1.108" width="0.127" layer="21"/>
+<wire x1="1.108" y1="-1.108" x2="-1.108" y2="-1.108" width="0.127" layer="21"/>
+<wire x1="-1.108" y1="-1.108" x2="-1.108" y2="13.808" width="0.127" layer="21"/>
+<pad name="J802-0" x="0" y="35.56" drill="0.6"/>
+<pad name="J802-1" x="0" y="33.02" drill="0.6"/>
+<pad name="J802-2" x="0" y="30.48" drill="0.6"/>
+<pad name="J802-3" x="0" y="27.94" drill="0.6"/>
+<pad name="J802-4" x="0" y="25.4" drill="0.6"/>
+<pad name="J802-5" x="0" y="22.86" drill="0.6"/>
+<pad name="J802-6" x="0" y="20.32" drill="0.6"/>
+<pad name="J802-7" x="0" y="17.78" drill="0.6"/>
+<wire x1="-1.108" y1="36.668" x2="1.108" y2="36.668" width="0.127" layer="21"/>
+<wire x1="1.108" y1="36.668" x2="1.108" y2="16.672" width="0.127" layer="21"/>
+<wire x1="1.108" y1="16.672" x2="-1.108" y2="16.672" width="0.127" layer="21"/>
+<wire x1="-1.108" y1="16.672" x2="-1.108" y2="36.668" width="0.127" layer="21"/>
+<pad name="EXT3-0" x="39.37" y="-24.13" drill="0.6" rot="R180"/>
+<pad name="EXT3-1" x="39.37" y="-26.67" drill="0.6" rot="R180"/>
+<pad name="EXT3-2" x="36.83" y="-24.13" drill="0.6" rot="R180"/>
+<pad name="EXT3-3" x="36.83" y="-26.67" drill="0.6" rot="R180"/>
+<pad name="EXT3-4" x="34.29" y="-24.13" drill="0.6" rot="R180"/>
+<pad name="EXT3-5" x="34.29" y="-26.67" drill="0.6" rot="R180"/>
+<pad name="EXT3-6" x="31.75" y="-24.13" drill="0.6" rot="R180"/>
+<pad name="EXT3-7" x="31.75" y="-26.67" drill="0.6" rot="R180"/>
+<pad name="EXT3-8" x="29.21" y="-24.13" drill="0.6" rot="R180"/>
+<pad name="EXT3-9" x="29.21" y="-26.67" drill="0.6" rot="R180"/>
+<pad name="EXT3-10" x="26.67" y="-24.13" drill="0.6" rot="R180"/>
+<pad name="EXT3-11" x="26.67" y="-26.67" drill="0.6" rot="R180"/>
+<pad name="EXT3-12" x="24.13" y="-24.13" drill="0.6" rot="R180"/>
+<pad name="EXT3-13" x="24.13" y="-26.67" drill="0.6" rot="R180"/>
+<pad name="EXT3-14" x="21.59" y="-24.13" drill="0.6" rot="R180"/>
+<pad name="EXT3-15" x="21.59" y="-26.67" drill="0.6" rot="R180"/>
+<pad name="EXT3-16" x="19.05" y="-24.13" drill="0.6" rot="R180"/>
+<pad name="EXT3-17" x="19.05" y="-26.67" drill="0.6" rot="R180"/>
+<pad name="EXT3-18" x="16.51" y="-24.13" drill="0.6" rot="R180"/>
+<pad name="EXT3-19" x="16.51" y="-26.67" drill="0.6" rot="R180"/>
+<wire x1="40.478" y1="-27.778" x2="15.402" y2="-27.778" width="0.127" layer="21"/>
+<wire x1="15.402" y1="-27.778" x2="15.402" y2="-23.022" width="0.127" layer="21"/>
+<wire x1="15.402" y1="-23.022" x2="40.478" y2="-23.022" width="0.127" layer="21"/>
+<wire x1="40.478" y1="-23.022" x2="40.478" y2="-27.778" width="0.127" layer="21"/>
+<pad name="J804-0" x="48.26" y="0" drill="0.6" rot="R180"/>
+<pad name="J804-1" x="48.26" y="2.54" drill="0.6" rot="R180"/>
+<pad name="J804-2" x="48.26" y="5.08" drill="0.6" rot="R180"/>
+<pad name="J804-3" x="48.26" y="7.62" drill="0.6" rot="R180"/>
+<pad name="J804-4" x="48.26" y="10.16" drill="0.6" rot="R180"/>
+<pad name="J804-5" x="48.26" y="12.7" drill="0.6" rot="R180"/>
+<pad name="J804-6" x="48.26" y="15.24" drill="0.6" rot="R180"/>
+<pad name="J804-7" x="48.26" y="17.78" drill="0.6" rot="R180"/>
+<wire x1="49.368" y1="-1.108" x2="47.152" y2="-1.108" width="0.127" layer="21"/>
+<wire x1="47.152" y1="-1.108" x2="47.152" y2="18.888" width="0.127" layer="21"/>
+<wire x1="47.152" y1="18.888" x2="49.368" y2="18.888" width="0.127" layer="21"/>
+<wire x1="49.368" y1="18.888" x2="49.368" y2="-1.108" width="0.127" layer="21"/>
+<pad name="J801-0" x="48.26" y="21.59" drill="0.6" rot="R180"/>
+<pad name="J801-1" x="48.26" y="24.13" drill="0.6" rot="R180"/>
+<pad name="J801-2" x="48.26" y="26.67" drill="0.6" rot="R180"/>
+<pad name="J801-3" x="48.26" y="29.21" drill="0.6" rot="R180"/>
+<pad name="J801-4" x="48.26" y="31.75" drill="0.6" rot="R180"/>
+<pad name="J801-5" x="48.26" y="34.29" drill="0.6" rot="R180"/>
+<pad name="J801-6" x="48.26" y="36.83" drill="0.6" rot="R180"/>
+<pad name="J801-7" x="48.26" y="39.37" drill="0.6" rot="R180"/>
+<pad name="J801-8" x="48.26" y="41.91" drill="0.6" rot="R180"/>
+<pad name="J801-9" x="48.26" y="44.45" drill="0.6" rot="R180"/>
+<wire x1="49.368" y1="20.482" x2="47.152" y2="20.482" width="0.127" layer="21"/>
+<wire x1="47.152" y1="20.482" x2="47.152" y2="45.558" width="0.127" layer="21"/>
+<wire x1="47.152" y1="45.558" x2="49.368" y2="45.558" width="0.127" layer="21"/>
+<wire x1="49.368" y1="45.558" x2="49.368" y2="20.482" width="0.127" layer="21"/>
+<pad name="EXT-2-0" x="72.39" y="20.32" drill="0.6"/>
+<pad name="EXT-2-1" x="74.93" y="20.32" drill="0.6"/>
+<pad name="EXT-2-2" x="72.39" y="17.78" drill="0.6"/>
+<pad name="EXT-2-3" x="74.93" y="17.78" drill="0.6"/>
+<pad name="EXT-2-4" x="72.39" y="15.24" drill="0.6"/>
+<pad name="EXT-2-5" x="74.93" y="15.24" drill="0.6"/>
+<pad name="EXT-2-6" x="72.39" y="12.7" drill="0.6"/>
+<pad name="EXT-2-7" x="74.93" y="12.7" drill="0.6"/>
+<pad name="EXT-2-8" x="72.39" y="10.16" drill="0.6"/>
+<pad name="EXT-2-9" x="74.93" y="10.16" drill="0.6"/>
+<pad name="EXT-2-10" x="72.39" y="7.62" drill="0.6"/>
+<pad name="EXT-2-11" x="74.93" y="7.62" drill="0.6"/>
+<pad name="EXT-2-12" x="72.39" y="5.08" drill="0.6"/>
+<pad name="EXT-2-13" x="74.93" y="5.08" drill="0.6"/>
+<pad name="EXT-2-14" x="72.39" y="2.54" drill="0.6"/>
+<pad name="EXT-2-15" x="74.93" y="2.54" drill="0.6"/>
+<pad name="EXT-2-16" x="72.39" y="0" drill="0.6"/>
+<pad name="EXT-2-17" x="74.93" y="0" drill="0.6"/>
+<pad name="EXT-2-18" x="72.39" y="-2.54" drill="0.6"/>
+<pad name="EXT-2-19" x="74.93" y="-2.54" drill="0.6"/>
+<wire x1="71.282" y1="21.428" x2="76.038" y2="21.428" width="0.127" layer="21"/>
+<wire x1="76.038" y1="21.428" x2="76.038" y2="-3.648" width="0.127" layer="21"/>
+<wire x1="76.038" y1="-3.648" x2="71.282" y2="-3.648" width="0.127" layer="21"/>
+<wire x1="71.282" y1="-3.648" x2="71.282" y2="21.428" width="0.127" layer="21"/>
+<pad name="EXT-1-0" x="72.39" y="55.88" drill="0.6"/>
+<pad name="EXT-1-1" x="74.93" y="55.88" drill="0.6"/>
+<pad name="EXT-1-2" x="72.39" y="53.34" drill="0.6"/>
+<pad name="EXT-1-3" x="74.93" y="53.34" drill="0.6"/>
+<pad name="EXT-1-4" x="72.39" y="50.8" drill="0.6"/>
+<pad name="EXT-1-5" x="74.93" y="50.8" drill="0.6"/>
+<pad name="EXT-1-6" x="72.39" y="48.26" drill="0.6"/>
+<pad name="EXT-1-7" x="74.93" y="48.26" drill="0.6"/>
+<pad name="EXT-1-8" x="72.39" y="45.72" drill="0.6"/>
+<pad name="EXT-1-9" x="74.93" y="45.72" drill="0.6"/>
+<pad name="EXT-1-10" x="72.39" y="43.18" drill="0.6"/>
+<pad name="EXT-1-11" x="74.93" y="43.18" drill="0.6"/>
+<pad name="EXT-1-12" x="72.39" y="40.64" drill="0.6"/>
+<pad name="EXT-1-13" x="74.93" y="40.64" drill="0.6"/>
+<pad name="EXT-1-14" x="72.39" y="38.1" drill="0.6"/>
+<pad name="EXT-1-15" x="74.93" y="38.1" drill="0.6"/>
+<pad name="EXT-1-16" x="72.39" y="35.56" drill="0.6"/>
+<pad name="EXT-1-17" x="74.93" y="35.56" drill="0.6"/>
+<pad name="EXT-1-18" x="72.39" y="33.02" drill="0.6"/>
+<pad name="EXT-1-19" x="74.93" y="33.02" drill="0.6"/>
+<wire x1="71.282" y1="56.988" x2="76.038" y2="56.988" width="0.127" layer="21"/>
+<wire x1="76.038" y1="56.988" x2="76.038" y2="31.912" width="0.127" layer="21"/>
+<wire x1="76.038" y1="31.912" x2="71.282" y2="31.912" width="0.127" layer="21"/>
+<wire x1="71.282" y1="31.912" x2="71.282" y2="56.988" width="0.127" layer="21"/>
+<pad name="J800-0" x="27.94" y="0" drill="0.6" rot="R180"/>
+<pad name="J800-1" x="27.94" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="J800-2" x="25.4" y="0" drill="0.6" rot="R180"/>
+<pad name="J800-3" x="25.4" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="J800-4" x="22.86" y="0" drill="0.6" rot="R180"/>
+<pad name="J800-5" x="22.86" y="-2.54" drill="0.6" rot="R180"/>
+<wire x1="29.048" y1="-3.648" x2="21.752" y2="-3.648" width="0.127" layer="21"/>
+<wire x1="21.752" y1="-3.648" x2="21.752" y2="1.108" width="0.127" layer="21"/>
+<wire x1="21.752" y1="1.108" x2="29.048" y2="1.108" width="0.127" layer="21"/>
+<wire x1="29.048" y1="1.108" x2="29.048" y2="-3.648" width="0.127" layer="21"/>
+<pad name="CAN-0" x="2.54" y="64.77" drill="0.6" rot="R180"/>
+<pad name="CAN-1" x="2.54" y="67.31" drill="0.6" rot="R180"/>
+<wire x1="3.648" y1="63.662" x2="1.432" y2="63.662" width="0.127" layer="21"/>
+<wire x1="1.432" y1="63.662" x2="1.432" y2="68.418" width="0.127" layer="21"/>
+<wire x1="1.432" y1="68.418" x2="3.648" y2="68.418" width="0.127" layer="21"/>
+<wire x1="3.648" y1="68.418" x2="3.648" y2="63.662" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SAMC21-XPLAINED-PRO">
+<pin name="J802-0-RFU" x="-5.08" y="50.8" length="middle"/>
+<pin name="J802-1-IOREF" x="-5.08" y="48.26" length="middle"/>
+<pin name="J802-2-RESET" x="-5.08" y="45.72" length="middle"/>
+<pin name="J802-3.3V" x="-5.08" y="43.18" length="middle"/>
+<pin name="J802-4-5V" x="-5.08" y="40.64" length="middle"/>
+<pin name="J802-5-GND" x="-5.08" y="38.1" length="middle"/>
+<pin name="J802-6GND" x="-5.08" y="35.56" length="middle"/>
+<pin name="J802-7-VIN" x="-5.08" y="33.02" length="middle"/>
+<pin name="CAN0-CANH" x="-5.08" y="66.04" length="middle"/>
+<pin name="CAN1-CANL" x="-5.08" y="68.58" length="middle"/>
+<pin name="EXP-3-0" x="20.32" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-1-GND" x="22.86" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-2-PB07" x="25.4" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-3-PB06" x="27.94" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-4-PB04" x="30.48" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-5-PB05" x="33.02" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-6-PA14" x="35.56" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-7-PA15" x="38.1" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-8-PA28" x="40.64" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-9-PA27" x="43.18" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-10-PA12" x="45.72" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-11-PA13" x="48.26" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-12-PA23" x="50.8" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-13-PA22" x="53.34" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-14-PA02" x="55.88" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-15-PB00" x="58.42" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-16-PB02" x="60.96" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-17-PB01" x="63.5" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-18-GND" x="66.04" y="-5.08" length="middle" rot="R90"/>
+<pin name="EXP-3-19-VCC" x="68.58" y="-5.08" length="middle" rot="R90"/>
+<pin name="J804-0-PA23" x="91.44" y="10.16" length="middle" rot="R180"/>
+<pin name="J804-1-PA22" x="91.44" y="12.7" length="middle" rot="R180"/>
+<pin name="J804-2-PA20" x="91.44" y="15.24" length="middle" rot="R180"/>
+<pin name="J804-3-PB12" x="91.44" y="17.78" length="middle" rot="R180"/>
+<pin name="J804-4-PA21" x="91.44" y="20.32" length="middle" rot="R180"/>
+<pin name="J804-5-PB13" x="91.44" y="22.86" length="middle" rot="R180"/>
+<pin name="J804-6-PB30" x="91.44" y="25.4" length="middle" rot="R180"/>
+<pin name="J804-7-PB04" x="91.44" y="27.94" length="middle" rot="R180"/>
+<pin name="J8010-PB05" x="91.44" y="38.1" length="middle" rot="R180"/>
+<pin name="J8011-PB31" x="91.44" y="40.64" length="middle" rot="R180"/>
+<pin name="J8012-PA27" x="91.44" y="43.18" length="middle" rot="R180"/>
+<pin name="J8013-PB00" x="91.44" y="45.72" length="middle" rot="R180"/>
+<pin name="J8014-PB02" x="91.44" y="48.26" length="middle" rot="R180"/>
+<pin name="J8015-PB01" x="91.44" y="50.8" length="middle" rot="R180"/>
+<pin name="J8016-GND" x="91.44" y="53.34" length="middle" rot="R180"/>
+<pin name="J8017-PA03" x="91.44" y="55.88" length="middle" rot="R180"/>
+<pin name="J8018-PA12" x="91.44" y="58.42" length="middle" rot="R180"/>
+<pin name="J8019-PA13" x="91.44" y="60.96" length="middle" rot="R180"/>
+<pin name="EXT-2-0" x="91.44" y="124.46" length="middle" rot="R180"/>
+<pin name="EXT-2-1-GND" x="91.44" y="121.92" length="middle" rot="R180"/>
+<pin name="EXT-2-2-PA08" x="91.44" y="119.38" length="middle" rot="R180"/>
+<pin name="EXT-2-3-PA09" x="91.44" y="116.84" length="middle" rot="R180"/>
+<pin name="EXT-2-4-PA10" x="91.44" y="114.3" length="middle" rot="R180"/>
+<pin name="EXT-2-5-PA11" x="91.44" y="111.76" length="middle" rot="R180"/>
+<pin name="EXT-2-6-PB30" x="91.44" y="109.22" length="middle" rot="R180"/>
+<pin name="EXT-2-7-PB31" x="91.44" y="106.68" length="middle" rot="R180"/>
+<pin name="EXT-2-8-PB16" x="91.44" y="104.14" length="middle" rot="R180"/>
+<pin name="EXT-2-9-PB17" x="91.44" y="101.6" length="middle" rot="R180"/>
+<pin name="EXT-2-10-PA12" x="91.44" y="99.06" length="middle" rot="R180"/>
+<pin name="EXT-2-11-PA13" x="91.44" y="96.52" length="middle" rot="R180"/>
+<pin name="EXT-2-12-PA23" x="91.44" y="93.98" length="middle" rot="R180"/>
+<pin name="EXT-2-13-PA22" x="91.44" y="91.44" length="middle" rot="R180"/>
+<pin name="EXT-2-14-PB03" x="91.44" y="88.9" length="middle" rot="R180"/>
+<pin name="EXT-2-15-PB00" x="91.44" y="86.36" length="middle" rot="R180"/>
+<pin name="EXT-2-16-PB02" x="91.44" y="83.82" length="middle" rot="R180"/>
+<pin name="EXT-2-17-PB01" x="91.44" y="81.28" length="middle" rot="R180"/>
+<pin name="EXT-2-18-GND" x="91.44" y="78.74" length="middle" rot="R180"/>
+<pin name="EXT-2-19-VCC" x="91.44" y="76.2" length="middle" rot="R180"/>
+<pin name="EXP-1-0" x="91.44" y="182.88" length="middle" rot="R180"/>
+<pin name="EXP-1-1-GND" x="91.44" y="180.34" length="middle" rot="R180"/>
+<pin name="EXP-1-2-PB09" x="91.44" y="177.8" length="middle" rot="R180"/>
+<pin name="EXP-1-3-PB08" x="91.44" y="175.26" length="middle" rot="R180"/>
+<pin name="EXP-1-4-PA20" x="91.44" y="172.72" length="middle" rot="R180"/>
+<pin name="EXP-1-5-PA21" x="91.44" y="170.18" length="middle" rot="R180"/>
+<pin name="EXP-1-6-PB12" x="91.44" y="167.64" length="middle" rot="R180"/>
+<pin name="EXP-1-7-PB13" x="91.44" y="165.1" length="middle" rot="R180"/>
+<pin name="EXP-1-8-PB14" x="91.44" y="162.56" length="middle" rot="R180"/>
+<pin name="EXP-1-9-PB15" x="91.44" y="160.02" length="middle" rot="R180"/>
+<pin name="EXP-1-10-PA12" x="91.44" y="157.48" length="middle" rot="R180"/>
+<pin name="EXP-1-11-PA13" x="91.44" y="154.94" length="middle" rot="R180"/>
+<pin name="EXP-1-12-PA23" x="91.44" y="152.4" length="middle" rot="R180"/>
+<pin name="EXP-1-13-PA22" x="91.44" y="149.86" length="middle" rot="R180"/>
+<pin name="EXP-1-14-PA17" x="91.44" y="147.32" length="middle" rot="R180"/>
+<pin name="EXP-1-15-PA18" x="91.44" y="144.78" length="middle" rot="R180"/>
+<pin name="EXP-1-16-PA16" x="91.44" y="142.24" length="middle" rot="R180"/>
+<pin name="EXP-1-17-PA19" x="91.44" y="139.7" length="middle" rot="R180"/>
+<pin name="EXP-1-18-GND" x="91.44" y="137.16" length="middle" rot="R180"/>
+<pin name="EXP-1-19-VCC" x="91.44" y="134.62" length="middle" rot="R180"/>
+<wire x1="0" y1="0" x2="86.36" y2="0" width="0.254" layer="94"/>
+<wire x1="86.36" y1="0" x2="86.36" y2="193.04" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="193.04" width="0.254" layer="94"/>
+<wire x1="0" y1="193.04" x2="86.36" y2="193.04" width="0.254" layer="94"/>
+<text x="38.1" y="116.84" size="1.778" layer="94">&gt;NAME</text>
+<text x="38.1" y="109.22" size="1.778" layer="94">&gt;VALUE</text>
+<pin name="J803-0-PB09" x="-5.08" y="25.4" length="middle"/>
+<pin name="J803-1-PB08" x="-5.08" y="22.86" length="middle"/>
+<pin name="J803-2-PA08" x="-5.08" y="20.32" length="middle"/>
+<pin name="J803-3-PA09" x="-5.08" y="17.78" length="middle"/>
+<pin name="J803-4-PB07" x="-5.08" y="15.24" length="middle"/>
+<pin name="J803-5-PB06" x="-5.08" y="12.7" length="middle"/>
+<pin name="J800-0-PB02-MISO" x="35.56" y="198.12" length="middle" rot="R270"/>
+<pin name="J800-1-5V" x="38.1" y="198.12" length="middle" rot="R270"/>
+<pin name="J800-2-PB01-SCK" x="40.64" y="198.12" length="middle" rot="R270"/>
+<pin name="J800-3-PB00-MOSI" x="43.18" y="198.12" length="middle" rot="R270"/>
+<pin name="J800-4-RESETN" x="45.72" y="198.12" length="middle" rot="R270"/>
+<pin name="J800-5-GND" x="48.26" y="198.12" length="middle" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SAMC21-XPLAINED-PRO">
+<gates>
+<gate name="G$1" symbol="SAMC21-XPLAINED-PRO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SAMC21-XPLAINED-PRO">
+<connects>
+<connect gate="G$1" pin="CAN0-CANH" pad="CAN-0"/>
+<connect gate="G$1" pin="CAN1-CANL" pad="CAN-1"/>
+<connect gate="G$1" pin="EXP-1-0" pad="EXT-1-0"/>
+<connect gate="G$1" pin="EXP-1-1-GND" pad="EXT-1-1"/>
+<connect gate="G$1" pin="EXP-1-10-PA12" pad="EXT-1-10"/>
+<connect gate="G$1" pin="EXP-1-11-PA13" pad="EXT-1-11"/>
+<connect gate="G$1" pin="EXP-1-12-PA23" pad="EXT-1-12"/>
+<connect gate="G$1" pin="EXP-1-13-PA22" pad="EXT-1-13"/>
+<connect gate="G$1" pin="EXP-1-14-PA17" pad="EXT-1-14"/>
+<connect gate="G$1" pin="EXP-1-15-PA18" pad="EXT-1-15"/>
+<connect gate="G$1" pin="EXP-1-16-PA16" pad="EXT-1-16"/>
+<connect gate="G$1" pin="EXP-1-17-PA19" pad="EXT-1-17"/>
+<connect gate="G$1" pin="EXP-1-18-GND" pad="EXT-1-18"/>
+<connect gate="G$1" pin="EXP-1-19-VCC" pad="EXT-1-19"/>
+<connect gate="G$1" pin="EXP-1-2-PB09" pad="EXT-1-2"/>
+<connect gate="G$1" pin="EXP-1-3-PB08" pad="EXT-1-3"/>
+<connect gate="G$1" pin="EXP-1-4-PA20" pad="EXT-1-4"/>
+<connect gate="G$1" pin="EXP-1-5-PA21" pad="EXT-1-5"/>
+<connect gate="G$1" pin="EXP-1-6-PB12" pad="EXT-1-6"/>
+<connect gate="G$1" pin="EXP-1-7-PB13" pad="EXT-1-7"/>
+<connect gate="G$1" pin="EXP-1-8-PB14" pad="EXT-1-8"/>
+<connect gate="G$1" pin="EXP-1-9-PB15" pad="EXT-1-9"/>
+<connect gate="G$1" pin="EXP-3-0" pad="EXT3-0"/>
+<connect gate="G$1" pin="EXP-3-1-GND" pad="EXT3-1"/>
+<connect gate="G$1" pin="EXP-3-10-PA12" pad="EXT3-10"/>
+<connect gate="G$1" pin="EXP-3-11-PA13" pad="EXT3-11"/>
+<connect gate="G$1" pin="EXP-3-12-PA23" pad="EXT3-12"/>
+<connect gate="G$1" pin="EXP-3-13-PA22" pad="EXT3-13"/>
+<connect gate="G$1" pin="EXP-3-14-PA02" pad="EXT3-14"/>
+<connect gate="G$1" pin="EXP-3-15-PB00" pad="EXT3-15"/>
+<connect gate="G$1" pin="EXP-3-16-PB02" pad="EXT3-16"/>
+<connect gate="G$1" pin="EXP-3-17-PB01" pad="EXT3-17"/>
+<connect gate="G$1" pin="EXP-3-18-GND" pad="EXT3-18"/>
+<connect gate="G$1" pin="EXP-3-19-VCC" pad="EXT3-19"/>
+<connect gate="G$1" pin="EXP-3-2-PB07" pad="EXT3-2"/>
+<connect gate="G$1" pin="EXP-3-3-PB06" pad="EXT3-3"/>
+<connect gate="G$1" pin="EXP-3-4-PB04" pad="EXT3-4"/>
+<connect gate="G$1" pin="EXP-3-5-PB05" pad="EXT3-5"/>
+<connect gate="G$1" pin="EXP-3-6-PA14" pad="EXT3-6"/>
+<connect gate="G$1" pin="EXP-3-7-PA15" pad="EXT3-7"/>
+<connect gate="G$1" pin="EXP-3-8-PA28" pad="EXT3-8"/>
+<connect gate="G$1" pin="EXP-3-9-PA27" pad="EXT3-9"/>
+<connect gate="G$1" pin="EXT-2-0" pad="EXT-2-0"/>
+<connect gate="G$1" pin="EXT-2-1-GND" pad="EXT-2-1"/>
+<connect gate="G$1" pin="EXT-2-10-PA12" pad="EXT-2-10"/>
+<connect gate="G$1" pin="EXT-2-11-PA13" pad="EXT-2-11"/>
+<connect gate="G$1" pin="EXT-2-12-PA23" pad="EXT-2-12"/>
+<connect gate="G$1" pin="EXT-2-13-PA22" pad="EXT-2-13"/>
+<connect gate="G$1" pin="EXT-2-14-PB03" pad="EXT-2-14"/>
+<connect gate="G$1" pin="EXT-2-15-PB00" pad="EXT-2-15"/>
+<connect gate="G$1" pin="EXT-2-16-PB02" pad="EXT-2-16"/>
+<connect gate="G$1" pin="EXT-2-17-PB01" pad="EXT-2-17"/>
+<connect gate="G$1" pin="EXT-2-18-GND" pad="EXT-2-18"/>
+<connect gate="G$1" pin="EXT-2-19-VCC" pad="EXT-2-19"/>
+<connect gate="G$1" pin="EXT-2-2-PA08" pad="EXT-2-2"/>
+<connect gate="G$1" pin="EXT-2-3-PA09" pad="EXT-2-3"/>
+<connect gate="G$1" pin="EXT-2-4-PA10" pad="EXT-2-4"/>
+<connect gate="G$1" pin="EXT-2-5-PA11" pad="EXT-2-5"/>
+<connect gate="G$1" pin="EXT-2-6-PB30" pad="EXT-2-6"/>
+<connect gate="G$1" pin="EXT-2-7-PB31" pad="EXT-2-7"/>
+<connect gate="G$1" pin="EXT-2-8-PB16" pad="EXT-2-8"/>
+<connect gate="G$1" pin="EXT-2-9-PB17" pad="EXT-2-9"/>
+<connect gate="G$1" pin="J800-0-PB02-MISO" pad="J800-0"/>
+<connect gate="G$1" pin="J800-1-5V" pad="J800-1"/>
+<connect gate="G$1" pin="J800-2-PB01-SCK" pad="J800-2"/>
+<connect gate="G$1" pin="J800-3-PB00-MOSI" pad="J800-3"/>
+<connect gate="G$1" pin="J800-4-RESETN" pad="J800-4"/>
+<connect gate="G$1" pin="J800-5-GND" pad="J800-5"/>
+<connect gate="G$1" pin="J8010-PB05" pad="J801-0"/>
+<connect gate="G$1" pin="J8011-PB31" pad="J801-1"/>
+<connect gate="G$1" pin="J8012-PA27" pad="J801-2"/>
+<connect gate="G$1" pin="J8013-PB00" pad="J801-3"/>
+<connect gate="G$1" pin="J8014-PB02" pad="J801-4"/>
+<connect gate="G$1" pin="J8015-PB01" pad="J801-5"/>
+<connect gate="G$1" pin="J8016-GND" pad="J801-6"/>
+<connect gate="G$1" pin="J8017-PA03" pad="J801-7"/>
+<connect gate="G$1" pin="J8018-PA12" pad="J801-8"/>
+<connect gate="G$1" pin="J8019-PA13" pad="J801-9"/>
+<connect gate="G$1" pin="J802-0-RFU" pad="J802-0"/>
+<connect gate="G$1" pin="J802-1-IOREF" pad="J802-1"/>
+<connect gate="G$1" pin="J802-2-RESET" pad="J802-2"/>
+<connect gate="G$1" pin="J802-3.3V" pad="J802-3"/>
+<connect gate="G$1" pin="J802-4-5V" pad="J802-4"/>
+<connect gate="G$1" pin="J802-5-GND" pad="J802-5"/>
+<connect gate="G$1" pin="J802-6GND" pad="J802-6"/>
+<connect gate="G$1" pin="J802-7-VIN" pad="J802-7"/>
+<connect gate="G$1" pin="J803-0-PB09" pad="J803-0"/>
+<connect gate="G$1" pin="J803-1-PB08" pad="J803-1"/>
+<connect gate="G$1" pin="J803-2-PA08" pad="J803-2"/>
+<connect gate="G$1" pin="J803-3-PA09" pad="J803-3"/>
+<connect gate="G$1" pin="J803-4-PB07" pad="J803-4"/>
+<connect gate="G$1" pin="J803-5-PB06" pad="J803-5"/>
+<connect gate="G$1" pin="J804-0-PA23" pad="J804-0"/>
+<connect gate="G$1" pin="J804-1-PA22" pad="J804-1"/>
+<connect gate="G$1" pin="J804-2-PA20" pad="J804-2"/>
+<connect gate="G$1" pin="J804-3-PB12" pad="J804-3"/>
+<connect gate="G$1" pin="J804-4-PA21" pad="J804-4"/>
+<connect gate="G$1" pin="J804-5-PB13" pad="J804-5"/>
+<connect gate="G$1" pin="J804-6-PB30" pad="J804-6"/>
+<connect gate="G$1" pin="J804-7-PB04" pad="J804-7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6829,6 +7197,9 @@ Metric Code Size 5664</description>
 <part name="SUPPLY30" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="U$1" library="Oxford Uni Racing Custom Blueprints" deviceset="SAMC21-XPLAINED-PRO" device=""/>
+<part name="SUPPLY32" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6964,7 +7335,7 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MSIO" class="0">
+<net name="MISO" class="0">
 <segment>
 <label x="10.16" y="91.44" size="1.778" layer="95"/>
 <wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
@@ -7246,7 +7617,7 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MSIO" class="0">
+<net name="MISO" class="0">
 <segment>
 <label x="10.16" y="91.44" size="1.778" layer="95"/>
 <wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
@@ -7543,7 +7914,7 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MSIO" class="0">
+<net name="MISO" class="0">
 <segment>
 <label x="10.16" y="91.44" size="1.778" layer="95"/>
 <wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
@@ -7575,6 +7946,16 @@ Metric Code Size 5664</description>
 <instance part="GND4" gate="1" x="40.64" y="63.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="40.894" y="63.5" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
+<instance part="U$1" gate="G$1" x="167.64" y="-2.54" smashed="yes">
+<attribute name="NAME" x="205.74" y="114.3" size="1.778" layer="94"/>
+<attribute name="VALUE" x="205.74" y="106.68" size="1.778" layer="94"/>
+</instance>
+<instance part="SUPPLY32" gate="G$1" x="144.78" y="38.1" smashed="yes" rot="R90">
+<attribute name="VALUE" x="141.986" y="38.1" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="GND21" gate="1" x="137.16" y="35.56" smashed="yes" rot="R270">
+<attribute name="VALUE" x="136.906" y="35.56" size="1.778" layer="96" rot="R270" align="top-center"/>
+</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,MOSI,MSIO,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
@@ -7597,6 +7978,11 @@ Metric Code Size 5664</description>
 <pinref part="SUPPLY18" gate="G$1" pin="5V"/>
 <wire x1="27.94" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J802-4-5V"/>
+<wire x1="162.56" y1="38.1" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="SUPPLY32" gate="G$1" pin="5V"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -7611,17 +7997,37 @@ Metric Code Size 5664</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="38.1" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J802-5-GND"/>
+<wire x1="162.56" y1="35.56" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="J802-6GND"/>
+<wire x1="144.78" y1="35.56" x2="139.7" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="33.02" x2="144.78" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="33.02" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
+<junction x="144.78" y="35.56"/>
+</segment>
 </net>
 <net name="CANH" class="0">
 <segment>
 <label x="10.16" y="58.42" size="1.778" layer="95"/>
 <wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="CAN0-CANH"/>
+<wire x1="162.56" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
+<label x="144.78" y="63.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CANL" class="0">
 <segment>
 <label x="10.16" y="55.88" size="1.778" layer="95"/>
 <wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="CAN1-CANL"/>
+<wire x1="162.56" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
+<label x="144.78" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ASS1" class="0">
@@ -7677,6 +8083,11 @@ Metric Code Size 5664</description>
 <label x="10.16" y="83.82" size="1.778" layer="95"/>
 <wire x1="10.16" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J800-2-PB01-SCK"/>
+<wire x1="208.28" y1="195.58" x2="208.28" y2="208.28" width="0.1524" layer="91"/>
+<label x="208.28" y="208.28" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="DISPL_CS" class="0">
 <segment>
@@ -7689,11 +8100,21 @@ Metric Code Size 5664</description>
 <label x="10.16" y="88.9" size="1.778" layer="95"/>
 <wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J800-3-PB00-MOSI"/>
+<wire x1="210.82" y1="195.58" x2="210.82" y2="208.28" width="0.1524" layer="91"/>
+<label x="210.82" y="208.28" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
-<net name="MSIO" class="0">
+<net name="MISO" class="0">
 <segment>
 <label x="10.16" y="91.44" size="1.778" layer="95"/>
 <wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J800-0-PB02-MISO"/>
+<wire x1="203.2" y1="195.58" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
+<label x="203.2" y="208.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="TSMS" class="0">
@@ -7997,7 +8418,7 @@ Metric Code Size 5664</description>
 <wire x1="-50.8" y1="96.52" x2="-60.96" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MSIO" class="0">
+<net name="MISO" class="0">
 <segment>
 <label x="-50.8" y="99.06" size="1.778" layer="95"/>
 <wire x1="-50.8" y1="99.06" x2="-60.96" y2="99.06" width="0.1524" layer="91"/>
@@ -8204,7 +8625,7 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MSIO" class="0">
+<net name="MISO" class="0">
 <segment>
 <label x="10.16" y="91.44" size="1.778" layer="95"/>
 <wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
@@ -8277,20 +8698,6 @@ Metric Code Size 5664</description>
 <label x="10.16" y="63.5" size="1.778" layer="95"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="38.1" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DISPL_SDA" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="5"/>
-<wire x1="93.98" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
-<label x="76.2" y="50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DISPL_SCL" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="7"/>
-<wire x1="93.98" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
-<label x="76.2" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -8372,11 +8779,21 @@ Metric Code Size 5664</description>
 <label x="10.16" y="83.82" size="1.778" layer="95"/>
 <wire x1="10.16" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="7"/>
+<wire x1="93.98" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
+<label x="83.82" y="48.26" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DISPL_CS" class="0">
 <segment>
 <label x="10.16" y="86.36" size="1.778" layer="95"/>
 <wire x1="10.16" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="8"/>
+<wire x1="114.3" y1="48.26" x2="116.84" y2="48.26" width="0.1524" layer="91"/>
+<label x="116.84" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -8384,11 +8801,21 @@ Metric Code Size 5664</description>
 <label x="10.16" y="88.9" size="1.778" layer="95"/>
 <wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="6"/>
+<wire x1="114.3" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
+<label x="116.84" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="MSIO" class="0">
+<net name="MISO" class="0">
 <segment>
 <label x="10.16" y="91.44" size="1.778" layer="95"/>
 <wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="5"/>
+<wire x1="93.98" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
+<label x="83.82" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TSMS" class="0">
@@ -8580,7 +9007,7 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MSIO" class="0">
+<net name="MISO" class="0">
 <segment>
 <label x="10.16" y="91.44" size="1.778" layer="95"/>
 <wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
