@@ -19825,9 +19825,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <plain>
 <text x="218.44" y="20.32" size="2.54" layer="94">Jack Bruford - OUR</text>
 <text x="7.62" y="10.16" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
-<text x="86.36" y="81.28" size="1.778" layer="91">bots between pins 3 and 4
-reset switch between pins 7 and 8
-ass connection </text>
+<text x="86.36" y="81.28" size="1.778" layer="91">bots between pins 7 and 8
+reset switch between pins 3 and 4
+ass connection 5 and 6</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -19839,8 +19839,8 @@ ass connection </text>
 <attribute name="VALUE" x="135.89" y="124.079" size="1.778" layer="96" rot="R180"/>
 <attribute name="PART" x="135.89" y="121.92" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="K1" gate="2" x="154.94" y="86.36" smashed="yes">
-<attribute name="PART" x="152.4" y="83.82" size="1.778" layer="95" rot="R90"/>
+<instance part="K1" gate="2" x="154.94" y="104.14" smashed="yes">
+<attribute name="PART" x="152.4" y="101.6" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="K1" gate="3" x="91.44" y="68.58" smashed="yes" rot="R90">
 <attribute name="PART" x="93.98" y="66.04" size="1.778" layer="95" rot="R180"/>
@@ -19915,7 +19915,7 @@ ass connection </text>
 <pinref part="K1" gate="1" pin="1"/>
 <wire x1="137.16" y1="121.92" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="K1" gate="2" pin="S"/>
-<wire x1="154.94" y1="91.44" x2="154.94" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="109.22" x2="154.94" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="99.06" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
@@ -20029,11 +20029,9 @@ ass connection </text>
 <net name="N$29" class="0">
 <segment>
 <pinref part="K1" gate="2" pin="P"/>
-<wire x1="129.54" y1="55.88" x2="154.94" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="81.28" x2="154.94" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="99.06" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="101.6" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="93.98" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
