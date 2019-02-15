@@ -7198,6 +7198,8 @@ Metric Code Size 5664</description>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="U$1" library="Oxford Uni Racing Custom Blueprints" deviceset="SAMC21-XPLAINED-PRO" device=""/>
+<part name="SUPPLY32" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7948,6 +7950,12 @@ Metric Code Size 5664</description>
 <attribute name="NAME" x="205.74" y="114.3" size="1.778" layer="94"/>
 <attribute name="VALUE" x="205.74" y="106.68" size="1.778" layer="94"/>
 </instance>
+<instance part="SUPPLY32" gate="G$1" x="144.78" y="38.1" smashed="yes" rot="R90">
+<attribute name="VALUE" x="141.986" y="38.1" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="GND21" gate="1" x="137.16" y="35.56" smashed="yes" rot="R270">
+<attribute name="VALUE" x="136.906" y="35.56" size="1.778" layer="96" rot="R270" align="top-center"/>
+</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,MOSI,MSIO,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
@@ -7970,6 +7978,11 @@ Metric Code Size 5664</description>
 <pinref part="SUPPLY18" gate="G$1" pin="5V"/>
 <wire x1="27.94" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J802-4-5V"/>
+<wire x1="162.56" y1="38.1" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="SUPPLY32" gate="G$1" pin="5V"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -7984,17 +7997,37 @@ Metric Code Size 5664</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="38.1" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J802-5-GND"/>
+<wire x1="162.56" y1="35.56" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="J802-6GND"/>
+<wire x1="144.78" y1="35.56" x2="139.7" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="33.02" x2="144.78" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="33.02" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
+<junction x="144.78" y="35.56"/>
+</segment>
 </net>
 <net name="CANH" class="0">
 <segment>
 <label x="10.16" y="58.42" size="1.778" layer="95"/>
 <wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="CAN0-CANH"/>
+<wire x1="162.56" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
+<label x="144.78" y="63.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CANL" class="0">
 <segment>
 <label x="10.16" y="55.88" size="1.778" layer="95"/>
 <wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="CAN1-CANL"/>
+<wire x1="162.56" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
+<label x="144.78" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ASS1" class="0">
