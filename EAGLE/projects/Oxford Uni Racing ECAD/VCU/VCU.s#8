@@ -6616,6 +6616,347 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 </deviceset>
 </devicesets>
 </library>
+<library name="Oxford Uni Racing Custom Blueprints">
+<packages>
+<package name="SAME70-XPLD">
+<pad name="J5040" x="0" y="17.78" drill="0.6"/>
+<pad name="J5041" x="0" y="15.24" drill="0.6"/>
+<pad name="J5042" x="0" y="12.7" drill="0.6"/>
+<pad name="J5043" x="0" y="10.16" drill="0.6"/>
+<pad name="J5044" x="0" y="7.62" drill="0.6"/>
+<pad name="J5045" x="0" y="5.08" drill="0.6"/>
+<pad name="J5046" x="0" y="2.54" drill="0.6"/>
+<pad name="J5047" x="0" y="0" drill="0.6"/>
+<wire x1="-1.108" y1="18.888" x2="1.108" y2="18.888" width="0.127" layer="21"/>
+<wire x1="1.108" y1="18.888" x2="1.108" y2="-1.108" width="0.127" layer="21"/>
+<wire x1="1.108" y1="-1.108" x2="-1.108" y2="-1.108" width="0.127" layer="21"/>
+<wire x1="-1.108" y1="-1.108" x2="-1.108" y2="18.888" width="0.127" layer="21"/>
+<pad name="J5020" x="0" y="40.64" drill="0.6"/>
+<pad name="J5021" x="0" y="38.1" drill="0.6"/>
+<pad name="J5022" x="0" y="35.56" drill="0.6"/>
+<pad name="J5023" x="0" y="33.02" drill="0.6"/>
+<pad name="J5024" x="0" y="30.48" drill="0.6"/>
+<pad name="J5025" x="0" y="27.94" drill="0.6"/>
+<pad name="J5026" x="0" y="25.4" drill="0.6"/>
+<pad name="J5027" x="0" y="22.86" drill="0.6"/>
+<wire x1="-1.108" y1="41.748" x2="1.108" y2="41.748" width="0.127" layer="21"/>
+<wire x1="1.108" y1="41.748" x2="1.108" y2="21.752" width="0.127" layer="21"/>
+<wire x1="1.108" y1="21.752" x2="-1.108" y2="21.752" width="0.127" layer="21"/>
+<wire x1="-1.108" y1="21.752" x2="-1.108" y2="41.748" width="0.127" layer="21"/>
+<pad name="J5010" x="0" y="63.5" drill="0.6"/>
+<pad name="J5011" x="0" y="60.96" drill="0.6"/>
+<pad name="J5012" x="0" y="58.42" drill="0.6"/>
+<pad name="J5013" x="0" y="55.88" drill="0.6"/>
+<pad name="J5014" x="0" y="53.34" drill="0.6"/>
+<pad name="J5015" x="0" y="50.8" drill="0.6"/>
+<pad name="J5016" x="0" y="48.26" drill="0.6"/>
+<pad name="J5017" x="0" y="45.72" drill="0.6"/>
+<wire x1="-1.108" y1="64.608" x2="1.108" y2="64.608" width="0.127" layer="21"/>
+<wire x1="1.108" y1="64.608" x2="1.108" y2="44.612" width="0.127" layer="21"/>
+<wire x1="1.108" y1="44.612" x2="-1.108" y2="44.612" width="0.127" layer="21"/>
+<wire x1="-1.108" y1="44.612" x2="-1.108" y2="64.608" width="0.127" layer="21"/>
+<pad name="J5070" x="48.26" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5071" x="45.72" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5072" x="43.18" y="-2.54" drill="0.6" rot="R48.3"/>
+<pad name="J5073" x="40.64" y="-2.54" drill="0.6"/>
+<pad name="J5074" x="38.1" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5075" x="35.56" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5076" x="33.02" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5077" x="30.48" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5078" x="27.94" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J5079" x="25.4" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50710" x="22.86" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50711" x="20.32" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50712" x="17.78" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50713" x="15.24" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50714" x="12.7" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50715" x="10.16" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50716" x="7.62" y="-2.54" drill="0.6"/>
+<pad name="J50717" x="5.08" y="-2.54" drill="0.6" rot="R270"/>
+<pad name="J50718" x="5.08" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50719" x="7.62" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50720" x="10.16" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50721" x="12.7" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50722" x="15.24" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50723" x="17.78" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50724" x="20.32" y="-5.08" drill="0.6"/>
+<pad name="J50725" x="22.86" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50726" x="25.4" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50727" x="27.94" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50728" x="30.48" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50729" x="33.02" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50730" x="35.56" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50731" x="38.1" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50732" x="40.64" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50733" x="43.18" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50734" x="45.72" y="-5.08" drill="0.6" rot="R270"/>
+<pad name="J50735" x="48.26" y="-5.08" drill="0.6"/>
+<wire x1="49.368" y1="-1.432" x2="49.368" y2="-6.188" width="0.127" layer="21"/>
+<wire x1="49.368" y1="-6.188" x2="3.972" y2="-6.188" width="0.127" layer="21"/>
+<wire x1="3.972" y1="-6.188" x2="3.972" y2="-1.432" width="0.127" layer="21"/>
+<wire x1="3.972" y1="-1.432" x2="49.368" y2="-1.432" width="0.127" layer="21"/>
+<pad name="J5050" x="48.26" y="22.86" drill="0.6"/>
+<pad name="J5051" x="48.26" y="20.32" drill="0.6"/>
+<pad name="J5052" x="48.26" y="17.78" drill="0.6"/>
+<pad name="J5053" x="48.26" y="15.24" drill="0.6"/>
+<pad name="J5054" x="48.26" y="12.7" drill="0.6"/>
+<pad name="J5055" x="48.26" y="10.16" drill="0.6"/>
+<pad name="J5056" x="48.26" y="7.62" drill="0.6"/>
+<pad name="J5057" x="48.26" y="5.08" drill="0.6"/>
+<wire x1="47.152" y1="23.968" x2="49.368" y2="23.968" width="0.127" layer="21"/>
+<wire x1="49.368" y1="23.968" x2="49.368" y2="3.972" width="0.127" layer="21"/>
+<wire x1="49.368" y1="3.972" x2="47.152" y2="3.972" width="0.127" layer="21"/>
+<wire x1="47.152" y1="3.972" x2="47.152" y2="23.968" width="0.127" layer="21"/>
+<pad name="J5030" x="48.26" y="45.72" drill="0.6"/>
+<pad name="J5031" x="48.26" y="43.18" drill="0.6"/>
+<pad name="J5032" x="48.26" y="40.64" drill="0.6"/>
+<pad name="J5033" x="48.26" y="38.1" drill="0.6"/>
+<pad name="J5034" x="48.26" y="35.56" drill="0.6"/>
+<pad name="J5035" x="48.26" y="33.02" drill="0.6"/>
+<pad name="J5036" x="48.26" y="30.48" drill="0.6"/>
+<pad name="J5037" x="48.26" y="27.94" drill="0.6"/>
+<wire x1="47.152" y1="46.828" x2="49.368" y2="46.828" width="0.127" layer="21"/>
+<wire x1="49.368" y1="46.828" x2="49.368" y2="26.832" width="0.127" layer="21"/>
+<wire x1="49.368" y1="26.832" x2="47.152" y2="26.832" width="0.127" layer="21"/>
+<wire x1="47.152" y1="26.832" x2="47.152" y2="46.828" width="0.127" layer="21"/>
+<pad name="J5000" x="48.26" y="72.39" drill="0.6"/>
+<pad name="J5001" x="48.26" y="69.85" drill="0.6"/>
+<pad name="J5002" x="48.26" y="67.31" drill="0.6"/>
+<pad name="J5003" x="48.26" y="64.77" drill="0.6"/>
+<pad name="J5004" x="48.26" y="62.23" drill="0.6"/>
+<pad name="J5005" x="48.26" y="59.69" drill="0.6"/>
+<pad name="J5006" x="48.26" y="57.15" drill="0.6"/>
+<pad name="J5007" x="48.26" y="54.61" drill="0.6"/>
+<pad name="J5008" x="48.26" y="52.07" drill="0.6"/>
+<pad name="J5009" x="48.26" y="49.53" drill="0.6"/>
+<wire x1="47.152" y1="73.498" x2="49.368" y2="73.498" width="0.127" layer="21"/>
+<wire x1="49.368" y1="73.498" x2="49.368" y2="48.422" width="0.127" layer="21"/>
+<wire x1="49.368" y1="48.422" x2="47.152" y2="48.422" width="0.127" layer="21"/>
+<wire x1="47.152" y1="48.422" x2="47.152" y2="73.498" width="0.127" layer="21"/>
+<pad name="J506-0" x="27.94" y="27.94" drill="0.6" rot="R180"/>
+<pad name="J506-1" x="25.4" y="27.94" drill="0.6" rot="R180"/>
+<pad name="J506-2" x="22.86" y="27.94" drill="0.6" rot="R180"/>
+<pad name="J506-3" x="22.86" y="25.4" drill="0.6" rot="R180"/>
+<pad name="J506-4" x="25.4" y="25.4" drill="0.6" rot="R180"/>
+<pad name="J506-5" x="27.94" y="25.4" drill="0.6" rot="R180"/>
+<wire x1="29.048" y1="24.292" x2="21.752" y2="24.292" width="0.127" layer="21"/>
+<wire x1="21.752" y1="24.292" x2="21.752" y2="29.048" width="0.127" layer="21"/>
+<wire x1="21.752" y1="29.048" x2="29.048" y2="29.048" width="0.127" layer="21"/>
+<wire x1="29.048" y1="29.048" x2="29.048" y2="24.292" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SAME70-XPLD">
+<pin name="J5040-AD8" x="7.62" y="27.94" length="middle"/>
+<pin name="J5041-AD9" x="7.62" y="25.4" length="middle"/>
+<pin name="J5042-AD10" x="7.62" y="22.86" length="middle"/>
+<pin name="J5043-AD11" x="7.62" y="20.32" length="middle"/>
+<pin name="J5044-DAC0" x="7.62" y="17.78" length="middle"/>
+<pin name="J5045-DAC1" x="7.62" y="15.24" length="middle"/>
+<pin name="J5046-CANRX" x="7.62" y="12.7" length="middle"/>
+<pin name="J5047-CANTX" x="7.62" y="10.16" length="middle"/>
+<pin name="J5020-AD0" x="7.62" y="53.34" length="middle"/>
+<pin name="J5021-AD1" x="7.62" y="50.8" length="middle"/>
+<pin name="J5022-AD2" x="7.62" y="48.26" length="middle"/>
+<pin name="J5023-AD3" x="7.62" y="45.72" length="middle"/>
+<pin name="J5024-AD4" x="7.62" y="43.18" length="middle"/>
+<pin name="J5025-AD5" x="7.62" y="40.64" length="middle"/>
+<pin name="J5026-AD6" x="7.62" y="38.1" length="middle"/>
+<pin name="J5027-AD7" x="7.62" y="35.56" length="middle"/>
+<pin name="J5010-VBAT" x="7.62" y="78.74" length="middle"/>
+<pin name="J5011-IOREF" x="7.62" y="76.2" length="middle"/>
+<pin name="J5012-RESET" x="7.62" y="73.66" length="middle"/>
+<pin name="J5013-3V3" x="7.62" y="71.12" length="middle"/>
+<pin name="J5014-5V0" x="7.62" y="68.58" length="middle"/>
+<pin name="J5015-GND" x="7.62" y="66.04" length="middle"/>
+<pin name="J5016-GND" x="7.62" y="63.5" length="middle"/>
+<pin name="J5017-VIN" x="7.62" y="60.96" length="middle"/>
+<pin name="J5070-5V0" x="27.94" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5071-D22" x="30.48" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5072-D24" x="33.02" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5073-D26" x="35.56" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5074-D28" x="38.1" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5075-D30" x="40.64" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5076-D32" x="43.18" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5077-D34" x="45.72" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5078-D36" x="48.26" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5079-D38" x="50.8" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50710-D40" x="53.34" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50711-D42" x="55.88" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50712-D44" x="58.42" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50713-D46" x="60.96" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50714-D48" x="63.5" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50715-D50" x="66.04" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50716-D52" x="68.58" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50717-GND" x="71.12" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50718-GND" x="73.66" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50719-D53" x="76.2" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50720-D51" x="78.74" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50721-D49" x="81.28" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50722-D47" x="83.82" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50723-D45" x="86.36" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50724-D43" x="88.9" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50725-D41" x="91.44" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50726-D39" x="93.98" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50727-D37" x="96.52" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50728-D35" x="99.06" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50729-D33" x="101.6" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50730-D31" x="104.14" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50731-D29" x="106.68" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50732-D27" x="109.22" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50733-D25" x="111.76" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50734-D23" x="114.3" y="-12.7" length="middle" rot="R90"/>
+<pin name="J50735-5V0" x="116.84" y="-12.7" length="middle" rot="R90"/>
+<pin name="J5050-D14" x="129.54" y="25.4" length="middle" rot="R180"/>
+<pin name="J5051-D15" x="129.54" y="22.86" length="middle" rot="R180"/>
+<pin name="J5052-D16" x="129.54" y="20.32" length="middle" rot="R180"/>
+<pin name="J5053-D17" x="129.54" y="17.78" length="middle" rot="R180"/>
+<pin name="J5054-D18" x="129.54" y="15.24" length="middle" rot="R180"/>
+<pin name="J5055-D19" x="129.54" y="12.7" length="middle" rot="R180"/>
+<pin name="J5056-D20" x="129.54" y="10.16" length="middle" rot="R180"/>
+<pin name="J5057-D21" x="129.54" y="7.62" length="middle" rot="R180"/>
+<pin name="J5030-D7" x="129.54" y="50.8" length="middle" rot="R180"/>
+<pin name="J5031-D6" x="129.54" y="48.26" length="middle" rot="R180"/>
+<pin name="J5032-D5" x="129.54" y="45.72" length="middle" rot="R180"/>
+<pin name="J5033-D4" x="129.54" y="43.18" length="middle" rot="R180"/>
+<pin name="J5034-D3" x="129.54" y="40.64" length="middle" rot="R180"/>
+<pin name="J5035-D2" x="129.54" y="38.1" length="middle" rot="R180"/>
+<pin name="J5036-D1(TXD)" x="129.54" y="35.56" length="middle" rot="R180"/>
+<pin name="J5037-D0(RXD)" x="129.54" y="33.02" length="middle" rot="R180"/>
+<pin name="J5000-SCL" x="129.54" y="81.28" length="middle" rot="R180"/>
+<pin name="J5001-SDA" x="129.54" y="78.74" length="middle" rot="R180"/>
+<pin name="J5002-AREF" x="129.54" y="76.2" length="middle" rot="R180"/>
+<pin name="J5003-GND" x="129.54" y="73.66" length="middle" rot="R180"/>
+<pin name="J5004-D13" x="129.54" y="71.12" length="middle" rot="R180"/>
+<pin name="J5005-D12" x="129.54" y="68.58" length="middle" rot="R180"/>
+<pin name="J5006-D11" x="129.54" y="66.04" length="middle" rot="R180"/>
+<pin name="J5007-D10" x="129.54" y="63.5" length="middle" rot="R180"/>
+<pin name="J5008-D9" x="129.54" y="60.96" length="middle" rot="R180"/>
+<pin name="J5009-D8" x="129.54" y="58.42" length="middle" rot="R180"/>
+<wire x1="124.46" y1="88.9" x2="124.46" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="124.46" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="88.9" width="0.254" layer="94"/>
+<wire x1="12.7" y1="88.9" x2="124.46" y2="88.9" width="0.254" layer="94"/>
+<text x="60.96" y="63.5" size="1.778" layer="94">&gt;NAME</text>
+<text x="60.96" y="55.88" size="1.778" layer="94">&gt;VALUE</text>
+<pin name="J506-0-MISO" x="60.96" y="93.98" length="middle" rot="R270"/>
+<pin name="J506-1-SCK" x="63.5" y="93.98" length="middle" rot="R270"/>
+<pin name="J506-2-RST" x="66.04" y="93.98" length="middle" rot="R270"/>
+<pin name="J506-3-GND" x="68.58" y="93.98" length="middle" rot="R270"/>
+<pin name="J506-4-MOSI" x="71.12" y="93.98" length="middle" rot="R270"/>
+<pin name="J506-5-5V" x="73.66" y="93.98" length="middle" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SAME70-XPLD">
+<description>SAME70-XPLD development board blueprint</description>
+<gates>
+<gate name="G$1" symbol="SAME70-XPLD" x="2.54" y="15.24"/>
+</gates>
+<devices>
+<device name="" package="SAME70-XPLD">
+<connects>
+<connect gate="G$1" pin="J5000-SCL" pad="J5000"/>
+<connect gate="G$1" pin="J5001-SDA" pad="J5001"/>
+<connect gate="G$1" pin="J5002-AREF" pad="J5002"/>
+<connect gate="G$1" pin="J5003-GND" pad="J5003"/>
+<connect gate="G$1" pin="J5004-D13" pad="J5004"/>
+<connect gate="G$1" pin="J5005-D12" pad="J5005"/>
+<connect gate="G$1" pin="J5006-D11" pad="J5006"/>
+<connect gate="G$1" pin="J5007-D10" pad="J5007"/>
+<connect gate="G$1" pin="J5008-D9" pad="J5008"/>
+<connect gate="G$1" pin="J5009-D8" pad="J5009"/>
+<connect gate="G$1" pin="J5010-VBAT" pad="J5010"/>
+<connect gate="G$1" pin="J5011-IOREF" pad="J5011"/>
+<connect gate="G$1" pin="J5012-RESET" pad="J5012"/>
+<connect gate="G$1" pin="J5013-3V3" pad="J5013"/>
+<connect gate="G$1" pin="J5014-5V0" pad="J5014"/>
+<connect gate="G$1" pin="J5015-GND" pad="J5015"/>
+<connect gate="G$1" pin="J5016-GND" pad="J5016"/>
+<connect gate="G$1" pin="J5017-VIN" pad="J5017"/>
+<connect gate="G$1" pin="J5020-AD0" pad="J5020"/>
+<connect gate="G$1" pin="J5021-AD1" pad="J5021"/>
+<connect gate="G$1" pin="J5022-AD2" pad="J5022"/>
+<connect gate="G$1" pin="J5023-AD3" pad="J5023"/>
+<connect gate="G$1" pin="J5024-AD4" pad="J5024"/>
+<connect gate="G$1" pin="J5025-AD5" pad="J5025"/>
+<connect gate="G$1" pin="J5026-AD6" pad="J5026"/>
+<connect gate="G$1" pin="J5027-AD7" pad="J5027"/>
+<connect gate="G$1" pin="J5030-D7" pad="J5030"/>
+<connect gate="G$1" pin="J5031-D6" pad="J5031"/>
+<connect gate="G$1" pin="J5032-D5" pad="J5032"/>
+<connect gate="G$1" pin="J5033-D4" pad="J5033"/>
+<connect gate="G$1" pin="J5034-D3" pad="J5034"/>
+<connect gate="G$1" pin="J5035-D2" pad="J5035"/>
+<connect gate="G$1" pin="J5036-D1(TXD)" pad="J5036"/>
+<connect gate="G$1" pin="J5037-D0(RXD)" pad="J5037"/>
+<connect gate="G$1" pin="J5040-AD8" pad="J5040"/>
+<connect gate="G$1" pin="J5041-AD9" pad="J5041"/>
+<connect gate="G$1" pin="J5042-AD10" pad="J5042"/>
+<connect gate="G$1" pin="J5043-AD11" pad="J5043"/>
+<connect gate="G$1" pin="J5044-DAC0" pad="J5044"/>
+<connect gate="G$1" pin="J5045-DAC1" pad="J5045"/>
+<connect gate="G$1" pin="J5046-CANRX" pad="J5046"/>
+<connect gate="G$1" pin="J5047-CANTX" pad="J5047"/>
+<connect gate="G$1" pin="J5050-D14" pad="J5050"/>
+<connect gate="G$1" pin="J5051-D15" pad="J5051"/>
+<connect gate="G$1" pin="J5052-D16" pad="J5052"/>
+<connect gate="G$1" pin="J5053-D17" pad="J5053"/>
+<connect gate="G$1" pin="J5054-D18" pad="J5054"/>
+<connect gate="G$1" pin="J5055-D19" pad="J5055"/>
+<connect gate="G$1" pin="J5056-D20" pad="J5056"/>
+<connect gate="G$1" pin="J5057-D21" pad="J5057"/>
+<connect gate="G$1" pin="J506-0-MISO" pad="J506-0"/>
+<connect gate="G$1" pin="J506-1-SCK" pad="J506-1"/>
+<connect gate="G$1" pin="J506-2-RST" pad="J506-2"/>
+<connect gate="G$1" pin="J506-3-GND" pad="J506-3"/>
+<connect gate="G$1" pin="J506-4-MOSI" pad="J506-4"/>
+<connect gate="G$1" pin="J506-5-5V" pad="J506-5"/>
+<connect gate="G$1" pin="J5070-5V0" pad="J5070"/>
+<connect gate="G$1" pin="J5071-D22" pad="J5071"/>
+<connect gate="G$1" pin="J50710-D40" pad="J50710"/>
+<connect gate="G$1" pin="J50711-D42" pad="J50711"/>
+<connect gate="G$1" pin="J50712-D44" pad="J50712"/>
+<connect gate="G$1" pin="J50713-D46" pad="J50713"/>
+<connect gate="G$1" pin="J50714-D48" pad="J50714"/>
+<connect gate="G$1" pin="J50715-D50" pad="J50715"/>
+<connect gate="G$1" pin="J50716-D52" pad="J50716"/>
+<connect gate="G$1" pin="J50717-GND" pad="J50717"/>
+<connect gate="G$1" pin="J50718-GND" pad="J50718"/>
+<connect gate="G$1" pin="J50719-D53" pad="J50719"/>
+<connect gate="G$1" pin="J5072-D24" pad="J5072"/>
+<connect gate="G$1" pin="J50720-D51" pad="J50720"/>
+<connect gate="G$1" pin="J50721-D49" pad="J50721"/>
+<connect gate="G$1" pin="J50722-D47" pad="J50722"/>
+<connect gate="G$1" pin="J50723-D45" pad="J50723"/>
+<connect gate="G$1" pin="J50724-D43" pad="J50724"/>
+<connect gate="G$1" pin="J50725-D41" pad="J50725"/>
+<connect gate="G$1" pin="J50726-D39" pad="J50726"/>
+<connect gate="G$1" pin="J50727-D37" pad="J50727"/>
+<connect gate="G$1" pin="J50728-D35" pad="J50728"/>
+<connect gate="G$1" pin="J50729-D33" pad="J50729"/>
+<connect gate="G$1" pin="J5073-D26" pad="J5073"/>
+<connect gate="G$1" pin="J50730-D31" pad="J50730"/>
+<connect gate="G$1" pin="J50731-D29" pad="J50731"/>
+<connect gate="G$1" pin="J50732-D27" pad="J50732"/>
+<connect gate="G$1" pin="J50733-D25" pad="J50733"/>
+<connect gate="G$1" pin="J50734-D23" pad="J50734"/>
+<connect gate="G$1" pin="J50735-5V0" pad="J50735"/>
+<connect gate="G$1" pin="J5074-D28" pad="J5074"/>
+<connect gate="G$1" pin="J5075-D30" pad="J5075"/>
+<connect gate="G$1" pin="J5076-D32" pad="J5076"/>
+<connect gate="G$1" pin="J5077-D34" pad="J5077"/>
+<connect gate="G$1" pin="J5078-D36" pad="J5078"/>
+<connect gate="G$1" pin="J5079-D38" pad="J5079"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6681,6 +7022,13 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="U$1" library="Oxford Uni Racing Custom Blueprints" deviceset="SAME70-XPLD" device=""/>
+<part name="GND14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7445,6 +7793,10 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <instance part="GND4" gate="1" x="40.64" y="88.9" smashed="yes" rot="R90">
 <attribute name="VALUE" x="40.894" y="88.9" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
+<instance part="U$1" gate="G$1" x="157.48" y="33.02" smashed="yes">
+<attribute name="NAME" x="218.44" y="96.52" size="1.778" layer="94"/>
+<attribute name="VALUE" x="218.44" y="88.9" size="1.778" layer="94"/>
+</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,ASS1,ASS2,CANH,CANL,GND,MC_1_BRAKE_INPUT,MC_1_IMPULSE_INPUT,MC_1_REVERSE_SWITCH,MC_1_RXD,MC_1_THROTTLE_INPUT,MC_1_TXD,MC_2_BRAKE_INPUT,MC_2_IMPULSE_INPUT,MC_2_REVERSE_SWITCH,MC_2_RXD,MC_2_THROTTLE_INPUT,MC_2_TXD">
@@ -7517,11 +7869,21 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <label x="10.16" y="63.5" size="1.778" layer="95"/>
 <wire x1="10.16" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J5034-D3"/>
+<wire x1="287.02" y1="73.66" x2="304.8" y2="73.66" width="0.1524" layer="91"/>
+<label x="304.8" y="73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MC_1_TXD" class="0">
 <segment>
 <label x="10.16" y="60.96" size="1.778" layer="95"/>
 <wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J5035-D2"/>
+<wire x1="287.02" y1="71.12" x2="304.8" y2="71.12" width="0.1524" layer="91"/>
+<label x="304.8" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MC_1_REVERSE_SWITCH" class="0">
@@ -7534,6 +7896,11 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <segment>
 <label x="10.16" y="55.88" size="1.778" layer="95"/>
 <wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J5044-DAC0"/>
+<wire x1="165.1" y1="50.8" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
+<label x="121.92" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MC_1_IMPULSE_INPUT" class="0">
@@ -7553,11 +7920,21 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <label x="10.16" y="43.18" size="1.778" layer="95"/>
 <wire x1="10.16" y1="43.18" x2="0" y2="43.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J5020-AD0"/>
+<wire x1="165.1" y1="86.36" x2="149.86" y2="86.36" width="0.1524" layer="91"/>
+<label x="137.16" y="86.36" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MC_2_TXD" class="0">
 <segment>
 <label x="10.16" y="40.64" size="1.778" layer="95"/>
 <wire x1="10.16" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J5007-D10"/>
+<wire x1="287.02" y1="96.52" x2="304.8" y2="96.52" width="0.1524" layer="91"/>
+<label x="304.8" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MC_2_REVERSE_SWITCH" class="0">
@@ -7570,6 +7947,11 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <segment>
 <label x="10.16" y="35.56" size="1.778" layer="95"/>
 <wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J5045-DAC1"/>
+<wire x1="165.1" y1="48.26" x2="149.86" y2="48.26" width="0.1524" layer="91"/>
+<label x="121.92" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MC_2_IMPULSE_INPUT" class="0">
@@ -7584,6 +7966,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <description>MOTOR CONTROLLER &lt;B&gt;LEFT&lt;/B&gt; OUTPUT</description>
 <plain>
 <text x="0" y="0" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
+<text x="58.42" y="68.58" size="1.778" layer="91">MC_1_BRAKE_INPUT</text>
+<text x="58.42" y="60.96" size="1.778" layer="91">MC_1_REVERSE_SWITCH</text>
+<text x="121.92" y="66.04" size="1.778" layer="91">MC_1_IMPULSE_INPUT</text>
 </plain>
 <instances>
 <instance part="SUPPLY13" gate="G$1" x="22.86" y="96.52" smashed="yes" rot="R270">
@@ -7607,6 +7992,15 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 </instance>
 <instance part="SUPPLY19" gate="G$1" x="119.38" y="68.58" smashed="yes" rot="R270">
 <attribute name="VALUE" x="124.46" y="68.834" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND14" gate="1" x="152.4" y="66.04" smashed="yes" rot="R90">
+<attribute name="VALUE" x="154.94" y="66.294" size="1.778" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="GND15" gate="1" x="53.34" y="68.58" smashed="yes" rot="R270">
+<attribute name="VALUE" x="50.8" y="68.326" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND16" gate="1" x="53.34" y="60.96" smashed="yes" rot="R270">
+<attribute name="VALUE" x="50.8" y="60.706" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -7654,6 +8048,21 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="111.76" y1="60.96" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="7"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+<wire x1="91.44" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="55.88" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="4"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="111.76" y1="66.04" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CANH" class="0">
 <segment>
@@ -7684,11 +8093,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <label x="10.16" y="66.04" size="1.778" layer="95"/>
 <wire x1="10.16" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
-<label x="58.42" y="68.58" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MC_1_RXD" class="0">
 <segment>
@@ -7717,11 +8121,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <label x="10.16" y="58.42" size="1.778" layer="95"/>
 <wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="7"/>
-<wire x1="91.44" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
-<label x="58.42" y="60.96" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MC_1_THROTTLE_INPUT" class="0">
 <segment>
@@ -7738,11 +8137,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <segment>
 <label x="10.16" y="53.34" size="1.778" layer="95"/>
 <wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="111.76" y1="66.04" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
-<label x="121.92" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MC_2_BRAKE_INPUT" class="0">
@@ -7787,6 +8181,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <description>MOTOR CONTROLLER &lt;B&gt;RIGHT&lt;/B&gt; OUTPUT</description>
 <plain>
 <text x="0" y="0" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
+<text x="73.66" y="60.96" size="1.778" layer="91">MC_2_BRAKE_INPUT</text>
+<text x="73.66" y="53.34" size="1.778" layer="91">MC_2_REVERSE_SWITCH</text>
+<text x="137.16" y="58.42" size="1.778" layer="91">MC_2_IMPULSE_INPUT</text>
 </plain>
 <instances>
 <instance part="SUPPLY16" gate="G$1" x="22.86" y="96.52" smashed="yes" rot="R270">
@@ -7810,6 +8207,15 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 </instance>
 <instance part="SUPPLY20" gate="G$1" x="132.08" y="60.96" smashed="yes" rot="R270">
 <attribute name="VALUE" x="137.16" y="61.214" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND17" gate="1" x="167.64" y="58.42" smashed="yes" rot="R90">
+<attribute name="VALUE" x="170.18" y="58.674" size="1.778" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="GND18" gate="1" x="68.58" y="60.96" smashed="yes" rot="R270">
+<attribute name="VALUE" x="66.04" y="60.706" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND19" gate="1" x="68.58" y="53.34" smashed="yes" rot="R270">
+<attribute name="VALUE" x="66.04" y="53.086" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -7857,6 +8263,21 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="124.46" y1="53.34" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND18" gate="1" pin="GND"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="60.96" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="7"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<wire x1="104.14" y1="53.34" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="J4" gate="G$1" pin="4"/>
+<wire x1="165.1" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CANH" class="0">
 <segment>
@@ -7923,11 +8344,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <label x="10.16" y="45.72" size="1.778" layer="95"/>
 <wire x1="10.16" y1="45.72" x2="0" y2="45.72" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
-<label x="73.66" y="60.96" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MC_2_RXD" class="0">
 <segment>
@@ -7956,11 +8372,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <label x="10.16" y="38.1" size="1.778" layer="95"/>
 <wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="7"/>
-<wire x1="104.14" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
-<label x="73.66" y="53.34" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MC_2_THROTTLE_INPUT" class="0">
 <segment>
@@ -7977,11 +8388,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <segment>
 <label x="10.16" y="33.02" size="1.778" layer="95"/>
 <wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="4"/>
-<wire x1="124.46" y1="58.42" x2="127" y2="58.42" width="0.1524" layer="91"/>
-<label x="134.62" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

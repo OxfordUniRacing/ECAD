@@ -9513,7 +9513,7 @@ Wickmann</description>
 <wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="12V_BATTERY" class="0">
 <segment>
 <wire x1="162.56" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="1"/>
@@ -9526,6 +9526,7 @@ Wickmann</description>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="93.98" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
 <junction x="172.72" y="93.98"/>
+<label x="187.96" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

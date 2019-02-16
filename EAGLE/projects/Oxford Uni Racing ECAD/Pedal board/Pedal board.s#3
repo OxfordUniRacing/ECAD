@@ -18396,7 +18396,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EC2-12TNU.pdf
 <part name="GND19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
@@ -18463,6 +18462,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EC2-12TNU.pdf
 <part name="U$1" library="Oxford Uni Racing Custom Blueprints" deviceset="SAMC21-XPLAINED-PRO" device=""/>
 <part name="SUPPLY23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19149,7 +19149,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EC2-12TNU.pdf
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHTS_OUT,BR_POSS,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHTS_OUT,BR_POSS,BR_POSS2,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
 <segment>
 <wire x1="0" y1="0" x2="0" y2="88.9" width="0.762" layer="92"/>
 </segment>
@@ -19226,11 +19226,21 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EC2-12TNU.pdf
 <label x="10.16" y="63.5" size="1.778" layer="95"/>
 <wire x1="10.16" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J803-0-PB09"/>
+<wire x1="175.26" y1="17.78" x2="162.56" y2="17.78" width="0.1524" layer="91"/>
+<label x="147.32" y="17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="THR2" class="0">
 <segment>
 <label x="10.16" y="60.96" size="1.778" layer="95"/>
 <wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J803-1-PB08"/>
+<wire x1="175.26" y1="15.24" x2="162.56" y2="15.24" width="0.1524" layer="91"/>
+<label x="147.32" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BR_POSS" class="0">
@@ -19238,17 +19248,32 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EC2-12TNU.pdf
 <label x="10.16" y="53.34" size="1.778" layer="95"/>
 <wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J803-3-PA09"/>
+<wire x1="175.26" y1="10.16" x2="162.56" y2="10.16" width="0.1524" layer="91"/>
+<label x="147.32" y="10.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="BR_PRESS" class="0">
 <segment>
 <label x="10.16" y="50.8" size="1.778" layer="95"/>
 <wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J803-2-PA08"/>
+<wire x1="175.26" y1="12.7" x2="162.56" y2="12.7" width="0.1524" layer="91"/>
+<label x="147.32" y="12.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="BRAKE_LIGHTS_OUT" class="0">
 <segment>
 <label x="10.16" y="45.72" size="1.778" layer="95"/>
 <wire x1="10.16" y1="45.72" x2="0" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J804-2-PA20"/>
+<wire x1="271.78" y1="7.62" x2="289.56" y2="7.62" width="0.1524" layer="91"/>
+<label x="289.56" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ASS1" class="0">
@@ -19273,6 +19298,22 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EC2-12TNU.pdf
 <segment>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
 <wire x1="10.16" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J803-5-PB06"/>
+<wire x1="175.26" y1="5.08" x2="162.56" y2="5.08" width="0.1524" layer="91"/>
+<label x="147.32" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BR_POSS2" class="0">
+<segment>
+<wire x1="0" y1="55.88" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
+<label x="10.16" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J803-4-PB07"/>
+<wire x1="175.26" y1="7.62" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
+<label x="147.32" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -19611,9 +19652,6 @@ Connect BATT_CURRENT to pin 5</text>
 <instance part="GND21" gate="1" x="53.34" y="129.54" smashed="yes">
 <attribute name="VALUE" x="53.34" y="129.286" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="25.4" y="152.4" smashed="yes">
-<attribute name="VALUE" x="25.4" y="155.194" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY2" gate="G$1" x="53.34" y="154.94" smashed="yes">
 <attribute name="VALUE" x="53.34" y="157.734" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -19655,6 +19693,9 @@ Connect BATT_CURRENT to pin 5</text>
 </instance>
 <instance part="GND13" gate="1" x="149.86" y="96.52" smashed="yes">
 <attribute name="VALUE" x="149.86" y="96.266" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="25.4" y="152.4" smashed="yes">
+<attribute name="VALUE" x="25.4" y="155.194" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -19861,11 +19902,6 @@ Connect BATT_CURRENT to pin 5</text>
 <wire x1="185.42" y1="96.52" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R21" gate="1" pin="E"/>
-<pinref part="SUPPLY1" gate="G$1" pin="12V"/>
-<wire x1="25.4" y1="147.32" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R22" gate="1" pin="E"/>
 <wire x1="25.4" y1="88.9" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="12V"/>
@@ -19876,6 +19912,11 @@ Connect BATT_CURRENT to pin 5</text>
 <label x="-43.18" y="86.36" size="1.778" layer="95"/>
 <pinref part="SUPPLY40" gate="G$1" pin="5V"/>
 <wire x1="-25.4" y1="86.36" x2="-53.34" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R21" gate="1" pin="E"/>
+<wire x1="25.4" y1="147.32" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="G$1" pin="5V"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -20067,7 +20108,7 @@ Connect BATT_CURRENT to pin 5</text>
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHTS_OUT,BR_POSS,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHTS_OUT,BR_POSS,BR_POSS2,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
 <segment>
 <wire x1="0" y1="0" x2="0" y2="88.9" width="0.762" layer="92"/>
 </segment>
@@ -20274,6 +20315,10 @@ Connect BATT_CURRENT to pin 5</text>
 <pinref part="J6" gate="G$1" pin="7"/>
 <wire x1="142.24" y1="38.1" x2="139.7" y2="38.1" width="0.1524" layer="91"/>
 <label x="124.46" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="0" y1="55.88" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
+<label x="10.16" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
