@@ -312,10 +312,9 @@
 <port name="EVENT_SELECT" side="right" coord="-33.02" direction="io"/>
 <port name="TCS_ON_OFF" side="right" coord="-27.94" direction="io"/>
 <port name="IGNITION_SWITCH" side="right" coord="-25.4" direction="io"/>
-<port name="EMERGENCY_STOP" side="right" coord="-17.78" direction="io"/>
 <port name="PEDAL_MAPPING" side="right" coord="-12.7" direction="io"/>
-<port name="BRAKE_BIAS" side="right" coord="-10.16" direction="io"/>
 <port name="PWR_REDUCTION" side="right" coord="-7.62" direction="io"/>
+<port name="TSMS" side="right" coord="-17.78" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -1178,16 +1177,8 @@
 <wire x1="127" y1="154.94" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="BUTTONS1" port="EMERGENCY_STOP"/>
-<wire x1="127" y1="162.56" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="BUTTONS1" port="PEDAL_MAPPING"/>
 <wire x1="127" y1="167.64" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="BUTTONS1" port="BRAKE_BIAS"/>
-<wire x1="127" y1="170.18" x2="101.6" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="BUTTONS1" port="PWR_REDUCTION"/>

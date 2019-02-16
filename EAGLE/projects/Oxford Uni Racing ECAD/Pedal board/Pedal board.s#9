@@ -19825,9 +19825,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <plain>
 <text x="218.44" y="20.32" size="2.54" layer="94">Jack Bruford - OUR</text>
 <text x="7.62" y="10.16" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
-<text x="86.36" y="81.28" size="1.778" layer="91">bots between pins 3 and 4
-reset switch between pins 7 and 8
-ass connection </text>
+<text x="86.36" y="81.28" size="1.778" layer="91">bots between pins 7 and 8
+reset switch between pins 3 and 4
+ass connection 5 and 6</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">

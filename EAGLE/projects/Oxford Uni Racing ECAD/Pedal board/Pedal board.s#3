@@ -20242,9 +20242,9 @@ Connect BATT_CURRENT to pin 5</text>
 <wire x1="10.16" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="7"/>
-<wire x1="142.24" y1="38.1" x2="139.7" y2="38.1" width="0.1524" layer="91"/>
-<label x="124.46" y="38.1" size="1.778" layer="95"/>
+<pinref part="J6" gate="G$1" pin="8"/>
+<wire x1="162.56" y1="38.1" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
+<label x="165.1" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -20267,6 +20267,13 @@ Connect BATT_CURRENT to pin 5</text>
 <pinref part="J6" gate="G$1" pin="6"/>
 <pinref part="IC1" gate="G$1" pin="IN+"/>
 <wire x1="162.56" y1="40.64" x2="231.14" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BR_POSS2" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="7"/>
+<wire x1="142.24" y1="38.1" x2="139.7" y2="38.1" width="0.1524" layer="91"/>
+<label x="124.46" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

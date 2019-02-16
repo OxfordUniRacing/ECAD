@@ -844,16 +844,25 @@ design rules under a new name.</description>
 <attribute name="RS_PART_NUMBER" value="1702738" x="6.35" y="-59.69" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="6.35" y="-59.69" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J5" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="BUTTONS" x="6.35" y="-69.85" smashed="yes">
-<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="6.35" y="-69.85" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="9.15mm" x="6.35" y="-69.85" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol" x="6.35" y="-69.85" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="6.35" y="-69.85" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="-69.85" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1702738" x="6.35" y="-69.85" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="6.35" y="-69.85" size="1.27" layer="27" align="center"/>
-</element>
 <element name="U$1" library="Oxford Uni Racing Custom Blueprints" package="SAMC21-XPLAINED-PRO" value="SAMC21-XPLAINED-PRO" x="-77.47" y="-44.45" smashed="yes"/>
+<element name="J6" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="BUTTONS" x="-72.39" y="-80.01" smashed="yes">
+<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="-72.39" y="-80.01" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="9.15mm" x="-72.39" y="-80.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" x="-72.39" y="-80.01" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="-72.39" y="-80.01" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-72.39" y="-80.01" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1702738" x="-72.39" y="-80.01" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-72.39" y="-80.01" size="1.27" layer="27" align="center"/>
+</element>
+<element name="J7" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="BUTTONS" x="-72.39" y="-90.17" smashed="yes">
+<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="9.15mm" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-72.39" y="-90.17" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1702738" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-72.39" y="-90.17" size="1.27" layer="27" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -921,12 +930,16 @@ design rules under a new name.</description>
 <contactref element="J2" pad="4"/>
 <contactref element="J2" pad="3"/>
 <contactref element="J4" pad="3"/>
+<contactref element="U$1" pad="J802-5"/>
+<contactref element="U$1" pad="J802-6"/>
 <wire x1="120.65" y1="16.51" x2="132.08" y2="8.89" width="0" layer="19" extent="16-16"/>
 <wire x1="101.6" y1="11.43" x2="111.76" y2="8.89" width="0" layer="19" extent="16-16"/>
 <wire x1="20.32" y1="-4.86" x2="92.71" y2="8.7376" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="-43.18" x2="7.62" y2="-27.94" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="-45.72" x2="8.89" y2="-43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="-59.69" x2="8.89" y2="-45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-77.47" y1="-21.59" x2="3.81" y2="-18" width="0" layer="19" extent="1-1"/>
+<wire x1="-77.47" y1="-24.13" x2="-77.47" y2="-21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVERSWITCH-">
 <contactref element="J1" pad="4"/>
@@ -1027,9 +1040,11 @@ design rules under a new name.</description>
 <wire x1="95.37065" y1="8.84555" x2="95.37065" y2="13.97" width="0.6096" layer="16"/>
 <contactref element="J2" pad="6"/>
 <contactref element="J2" pad="5"/>
+<contactref element="U$1" pad="CAN-1"/>
 <wire x1="95.25" y1="20.32" x2="95.25" y2="22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="11.43" y1="-43.18" x2="95.37065" y2="8.84555" width="0" layer="19" extent="16-16"/>
 <wire x1="11.43" y1="-45.72" x2="11.43" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-74.93" y1="22.86" x2="11.43" y2="-43.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANH">
 <contactref element="X2" pad="7"/>
@@ -1043,8 +1058,10 @@ design rules under a new name.</description>
 <wire x1="87.63" y1="27.94" x2="87.63" y2="29.21" width="1.27" layer="16"/>
 <contactref element="J2" pad="8"/>
 <contactref element="J2" pad="7"/>
+<contactref element="U$1" pad="CAN-0"/>
 <wire x1="13.97" y1="-43.18" x2="92.71" y2="12.9667" width="0" layer="19" extent="16-16"/>
 <wire x1="13.97" y1="-45.72" x2="13.97" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-74.93" y1="20.32" x2="13.97" y2="-43.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="X2" pad="9"/>
@@ -1058,10 +1075,16 @@ design rules under a new name.</description>
 <contactref element="J2" pad="1"/>
 <contactref element="J2" pad="2"/>
 <contactref element="J4" pad="1"/>
-<wire x1="88.5571" y1="11.5824" x2="143.51" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="-43.18" x2="88.5571" y2="11.5824" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="-45.72" x2="6.35" y2="-43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="-59.69" x2="6.35" y2="-45.72" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="J802-4"/>
+<contactref element="J6" pad="2"/>
+<contactref element="J7" pad="2"/>
+<wire x1="-72.39" y1="-77.47" x2="-72.39" y2="-87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-77.47" y1="-19.05" x2="-72.39" y2="-77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="-59.69" x2="-72.39" y2="-77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="-45.72" x2="6.35" y2="-59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="-43.18" x2="6.35" y2="-45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="88.5571" y1="11.5824" x2="6.35" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="143.51" y1="13.97" x2="88.5571" y2="11.5824" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC2" pad="1"/>
@@ -1086,29 +1109,14 @@ design rules under a new name.</description>
 <wire x1="146.05" y1="6.35" x2="146.05" y2="10.16" width="1.27" layer="16"/>
 <wire x1="146.05" y1="12.7" x2="146.05" y2="10.16" width="1.27" layer="16"/>
 </signal>
-<signal name="DRIVER_SELECT">
-<contactref element="J5" pad="1"/>
-</signal>
-<signal name="EVENT_SELECT">
-<contactref element="J5" pad="3"/>
-</signal>
 <signal name="IGNITION_SWITCH">
-<contactref element="J5" pad="5"/>
-</signal>
-<signal name="EMERGENCY_STOP">
-<contactref element="J5" pad="7"/>
+<contactref element="J6" pad="8"/>
 </signal>
 <signal name="PWR_REDUCTION">
-<contactref element="J5" pad="2"/>
-</signal>
-<signal name="PEDAL_MAPPING">
-<contactref element="J5" pad="4"/>
-</signal>
-<signal name="BRAKE_BIAS">
-<contactref element="J5" pad="6"/>
+<contactref element="J6" pad="4"/>
 </signal>
 <signal name="TCS_ON/OFF">
-<contactref element="J5" pad="8"/>
+<contactref element="J6" pad="6"/>
 </signal>
 <signal name="MISO">
 <contactref element="U$1" pad="J800-0"/>
@@ -1127,6 +1135,39 @@ design rules under a new name.</description>
 </signal>
 <signal name="DISPL_CS">
 <contactref element="J4" pad="8"/>
+</signal>
+<signal name="DRIVER_SELECT_1">
+<contactref element="J7" pad="1"/>
+</signal>
+<signal name="DRIVER_SELECT_2">
+<contactref element="J7" pad="3"/>
+</signal>
+<signal name="DRIVER_SELECT_3">
+<contactref element="J7" pad="5"/>
+</signal>
+<signal name="DRIVER_SELECT_4">
+<contactref element="J7" pad="7"/>
+</signal>
+<signal name="PEDAL_MAPPING_2">
+<contactref element="J7" pad="4"/>
+</signal>
+<signal name="PEDAL_MAPPING_1">
+<contactref element="J7" pad="6"/>
+</signal>
+<signal name="DRIVER_SELECT_5">
+<contactref element="J7" pad="8"/>
+</signal>
+<signal name="EVENT_SELECT_1">
+<contactref element="J6" pad="1"/>
+</signal>
+<signal name="EVENT_SELECT_2">
+<contactref element="J6" pad="3"/>
+</signal>
+<signal name="EVENT_SELECT_3">
+<contactref element="J6" pad="5"/>
+</signal>
+<signal name="EVENT_SELECT_4">
+<contactref element="J6" pad="7"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

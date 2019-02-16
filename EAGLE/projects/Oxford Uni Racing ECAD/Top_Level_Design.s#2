@@ -80,9 +80,6 @@
 <port name="THR2_PWR" side="right" coord="5.08" direction="io"/>
 <port name="THR2_GND" side="right" coord="2.54" direction="io"/>
 <port name="THR2_SIG" side="right" coord="0" direction="io"/>
-<port name="THR3_PWR" side="right" coord="-5.08" direction="io"/>
-<port name="THR3_GND" side="right" coord="-7.62" direction="io"/>
-<port name="THR3_SIG" side="right" coord="-10.16" direction="io"/>
 <port name="ASS1" side="bottom" coord="12.7" direction="io"/>
 <port name="ASS2" side="bottom" coord="15.24" direction="io"/>
 <port name="CURRENT_SENSE_PLAUSABILITY" side="bottom" coord="22.86" direction="io"/>
@@ -718,9 +715,6 @@
 <moduleinst name="THROTTLE_PEDAL_2" module="THROTTLE_PEDAL_" x="335.28" y="40.64">
 <attribute name="NAME" x="335.28" y="40.64" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="THROTTLE_PEDAL_3" module="THROTTLE_PEDAL_" x="335.28" y="17.78">
-<attribute name="NAME" x="335.28" y="17.78" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
 <moduleinst name="BRAKE_POSS_S1" module="BRAKE_POSS_S" x="165.1" y="119.38">
 <attribute name="NAME" x="165.1" y="119.38" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
@@ -941,33 +935,6 @@
 <wire x1="276.86" y1="58.42" x2="276.86" y2="63.5" width="0.1524" layer="91"/>
 <portref moduleinst="THROTTLE_PEDAL_1" port="SIG"/>
 <wire x1="276.86" y1="63.5" x2="314.96" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<portref moduleinst="PEDAL_BOARD1" port="THR3_SIG"/>
-<wire x1="256.54" y1="38.1" x2="274.32" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="38.1" x2="274.32" y2="17.78" width="0.1524" layer="91"/>
-<portref moduleinst="THROTTLE_PEDAL_3" port="SIG"/>
-<wire x1="274.32" y1="17.78" x2="314.96" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<portref moduleinst="PEDAL_BOARD1" port="THR3_GND"/>
-<wire x1="256.54" y1="40.64" x2="276.86" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="40.64" x2="276.86" y2="20.32" width="0.1524" layer="91"/>
-<portref moduleinst="THROTTLE_PEDAL_3" port="GND"/>
-<wire x1="276.86" y1="20.32" x2="314.96" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<portref moduleinst="PEDAL_BOARD1" port="THR3_PWR"/>
-<wire x1="256.54" y1="43.18" x2="279.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="43.18" x2="279.4" y2="22.86" width="0.1524" layer="91"/>
-<portref moduleinst="THROTTLE_PEDAL_3" port="PWR"/>
-<wire x1="279.4" y1="22.86" x2="314.96" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">

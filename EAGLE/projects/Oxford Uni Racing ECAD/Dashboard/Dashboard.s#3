@@ -7123,17 +7123,11 @@ Metric Code Size 5664</description>
 <part name="J1" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device=""/>
 <part name="K1" library="SamacSys_Parts" deviceset="EC2-12NU" device=""/>
 <part name="K2" library="SamacSys_Parts" deviceset="EC2-12NU" device=""/>
-<part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
-<part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="GND14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY33" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="X2" library="con-thomas-betts" library_urn="urn:adsk.eagle:library:191" deviceset="D-SUB9-" device="H2M09ST" package3d_urn="urn:adsk.eagle:package:10567/1"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
@@ -7168,31 +7162,6 @@ Metric Code Size 5664</description>
 <part name="J4" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="DISPL"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="J5" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="BUTTONS"/>
-<part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
-<part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
-<part name="SUPPLY16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
-<part name="SUPPLY18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
-<part name="SUPPLY22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
-<part name="SUPPLY24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY26" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
-<part name="SUPPLY27" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY28" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY29" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY30" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -7200,109 +7169,72 @@ Metric Code Size 5664</description>
 <part name="U$1" library="Oxford Uni Racing Custom Blueprints" deviceset="SAMC21-XPLAINED-PRO" device=""/>
 <part name="SUPPLY32" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="J6" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="BUTTONS"/>
+<part name="J7" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="BUTTONS"/>
+<part name="SUPPLY34" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY37" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY26" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="SUPPLY27" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY28" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="SUPPLY24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="SUPPLY22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="SUPPLY16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="SUPPLY18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY33" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="0" y="0" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
 <text x="55.88" y="0" size="1.778" layer="91">Basic general pcb layout in terms of general dimensions and mounting holes</text>
+<text x="0" y="0" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
 </plain>
 <instances>
-<instance part="SUPPLY9" gate="G$1" x="22.86" y="71.12" smashed="yes" rot="R270">
-<attribute name="VALUE" x="25.654" y="71.12" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY9" gate="G$1" x="22.86" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="25.654" y="88.9" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="27.94" y="68.58" smashed="yes" rot="R270">
-<attribute name="VALUE" x="30.734" y="68.58" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY10" gate="G$1" x="27.94" y="86.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="30.734" y="86.36" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="33.02" y="66.04" smashed="yes" rot="R270">
-<attribute name="VALUE" x="35.814" y="66.04" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY11" gate="G$1" x="33.02" y="83.82" smashed="yes" rot="R270">
+<attribute name="VALUE" x="35.814" y="83.82" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="GND1" gate="1" x="40.64" y="63.5" smashed="yes" rot="R90">
-<attribute name="VALUE" x="40.894" y="63.5" size="1.778" layer="96" rot="R90" align="top-center"/>
+<instance part="GND1" gate="1" x="40.64" y="81.28" smashed="yes" rot="R90">
+<attribute name="VALUE" x="40.894" y="81.28" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,MOSI,MSIO,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,DRIVER_SELECT_1,DRIVER_SELECT_2,DRIVER_SELECT_3,DRIVER_SELECT_4,DRIVER_SELECT_5,EMERGENCY_STOP,EVENT_SELECT,EVENT_SELECT_1,EVENT_SELECT_2,EVENT_SELECT_3,EVENT_SELECT_4,GND,IGNITION_SWITCH,MISO,MOSI,MSIO,PEDAL_MAPPING,PEDAL_MAPPING_1,PEDAL_MAPPING_2,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
 <segment>
-<wire x1="0" y1="0" x2="0" y2="109.22" width="0.762" layer="92"/>
+<wire x1="0" y1="0" x2="0" y2="121.92" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
 <nets>
-<net name="12V" class="0">
-<segment>
-<label x="10.16" y="71.12" size="1.778" layer="95"/>
-<pinref part="SUPPLY9" gate="G$1" pin="12V"/>
-<wire x1="22.86" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="5V" class="0">
-<segment>
-<label x="10.16" y="68.58" size="1.778" layer="95"/>
-<pinref part="SUPPLY10" gate="G$1" pin="5V"/>
-<wire x1="27.94" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="3.3V" class="0">
-<segment>
-<label x="10.16" y="66.04" size="1.778" layer="95"/>
-<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
-<wire x1="33.02" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GND" class="0">
-<segment>
-<label x="10.16" y="63.5" size="1.778" layer="95"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="38.1" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CANH" class="0">
-<segment>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
-<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CANL" class="0">
-<segment>
-<label x="10.16" y="55.88" size="1.778" layer="95"/>
-<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ASS1" class="0">
-<segment>
-<label x="10.16" y="50.8" size="1.778" layer="95"/>
-<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ASS2" class="0">
-<segment>
-<label x="10.16" y="48.26" size="1.778" layer="95"/>
-<wire x1="10.16" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DRIVER_SELECT" class="0">
-<segment>
-<label x="10.16" y="35.56" size="1.778" layer="95"/>
-<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="EVENT_SELECT" class="0">
-<segment>
-<label x="10.16" y="33.02" size="1.778" layer="95"/>
-<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PWR_REDUCTION" class="0">
 <segment>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
 <wire x1="10.16" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PEDAL_MAPPING" class="0">
-<segment>
-<label x="10.16" y="25.4" size="1.778" layer="95"/>
-<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TCS_ON/OFF" class="0">
@@ -7317,34 +7249,152 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SCK" class="0">
+<net name="12V" class="0">
+<segment>
+<label x="10.16" y="88.9" size="1.778" layer="95"/>
+<pinref part="SUPPLY9" gate="G$1" pin="12V"/>
+<wire x1="22.86" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<label x="10.16" y="86.36" size="1.778" layer="95"/>
+<pinref part="SUPPLY10" gate="G$1" pin="5V"/>
+<wire x1="27.94" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
 <segment>
 <label x="10.16" y="83.82" size="1.778" layer="95"/>
-<wire x1="10.16" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
+<wire x1="33.02" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<label x="10.16" y="81.28" size="1.778" layer="95"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="38.1" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CANH" class="0">
+<segment>
+<label x="10.16" y="76.2" size="1.778" layer="95"/>
+<wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CANL" class="0">
+<segment>
+<label x="10.16" y="73.66" size="1.778" layer="95"/>
+<wire x1="10.16" y1="73.66" x2="0" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS1" class="0">
+<segment>
+<label x="10.16" y="68.58" size="1.778" layer="95"/>
+<wire x1="10.16" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS2" class="0">
+<segment>
+<label x="10.16" y="66.04" size="1.778" layer="95"/>
+<wire x1="10.16" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCK" class="0">
+<segment>
+<label x="10.16" y="101.6" size="1.778" layer="95"/>
+<wire x1="10.16" y1="101.6" x2="0" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DISPL_CS" class="0">
 <segment>
-<label x="10.16" y="86.36" size="1.778" layer="95"/>
-<wire x1="10.16" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
+<label x="10.16" y="104.14" size="1.778" layer="95"/>
+<wire x1="10.16" y1="104.14" x2="0" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<label x="10.16" y="88.9" size="1.778" layer="95"/>
-<wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
+<label x="10.16" y="106.68" size="1.778" layer="95"/>
+<wire x1="10.16" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
 <segment>
-<label x="10.16" y="91.44" size="1.778" layer="95"/>
-<wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
+<label x="10.16" y="109.22" size="1.778" layer="95"/>
+<wire x1="10.16" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TSMS" class="0">
 <segment>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_1" class="0">
+<segment>
+<label x="10.16" y="60.96" size="1.778" layer="95"/>
+<wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_2" class="0">
+<segment>
+<label x="10.16" y="58.42" size="1.778" layer="95"/>
+<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_3" class="0">
+<segment>
+<label x="10.16" y="55.88" size="1.778" layer="95"/>
+<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_4" class="0">
+<segment>
+<label x="10.16" y="53.34" size="1.778" layer="95"/>
+<wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_2" class="0">
+<segment>
+<label x="10.16" y="22.86" size="1.778" layer="95"/>
+<wire x1="10.16" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_1" class="0">
+<segment>
+<label x="10.16" y="25.4" size="1.778" layer="95"/>
+<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_5" class="0">
+<segment>
+<label x="10.16" y="50.8" size="1.778" layer="95"/>
+<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_1" class="0">
+<segment>
+<label x="10.16" y="40.64" size="1.778" layer="95"/>
+<wire x1="10.16" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_2" class="0">
+<segment>
+<label x="10.16" y="38.1" size="1.778" layer="95"/>
+<wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_3" class="0">
+<segment>
+<label x="10.16" y="35.56" size="1.778" layer="95"/>
+<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_4" class="0">
+<segment>
+<label x="10.16" y="33.02" size="1.778" layer="95"/>
+<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -7409,23 +7459,23 @@ Metric Code Size 5664</description>
 <attribute name="NAME" x="163.83" y="91.44" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="163.83" y="88.9" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="SUPPLY12" gate="G$1" x="22.86" y="71.12" smashed="yes" rot="R270">
-<attribute name="VALUE" x="25.654" y="71.12" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY12" gate="G$1" x="22.86" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="25.654" y="88.9" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY13" gate="G$1" x="27.94" y="68.58" smashed="yes" rot="R270">
-<attribute name="VALUE" x="30.734" y="68.58" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY13" gate="G$1" x="27.94" y="86.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="30.734" y="86.36" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY14" gate="G$1" x="33.02" y="66.04" smashed="yes" rot="R270">
-<attribute name="VALUE" x="35.814" y="66.04" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY14" gate="G$1" x="33.02" y="83.82" smashed="yes" rot="R270">
+<attribute name="VALUE" x="35.814" y="83.82" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="GND2" gate="1" x="40.64" y="63.5" smashed="yes" rot="R90">
-<attribute name="VALUE" x="40.894" y="63.5" size="1.778" layer="96" rot="R90" align="top-center"/>
+<instance part="GND2" gate="1" x="40.64" y="81.28" smashed="yes" rot="R90">
+<attribute name="VALUE" x="40.894" y="81.28" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,MOSI,MSIO,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,DRIVER_SELECT_1,DRIVER_SELECT_2,DRIVER_SELECT_3,DRIVER_SELECT_4,DRIVER_SELECT_5,EMERGENCY_STOP,EVENT_SELECT,EVENT_SELECT_1,EVENT_SELECT_2,EVENT_SELECT_3,EVENT_SELECT_4,GND,IGNITION_SWITCH,MISO,MOSI,MSIO,PEDAL_MAPPING,PEDAL_MAPPING_1,PEDAL_MAPPING_2,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
 <segment>
-<wire x1="0" y1="0" x2="0" y2="109.22" width="0.762" layer="92"/>
+<wire x1="0" y1="0" x2="0" y2="121.92" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -7446,9 +7496,9 @@ Metric Code Size 5664</description>
 <pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<label x="10.16" y="71.12" size="1.778" layer="95"/>
+<label x="10.16" y="88.9" size="1.778" layer="95"/>
 <pinref part="SUPPLY12" gate="G$1" pin="12V"/>
-<wire x1="22.86" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -7459,9 +7509,9 @@ Metric Code Size 5664</description>
 <wire x1="96.52" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="10.16" y="68.58" size="1.778" layer="95"/>
+<label x="10.16" y="86.36" size="1.778" layer="95"/>
 <pinref part="SUPPLY13" gate="G$1" pin="5V"/>
-<wire x1="27.94" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -7489,9 +7539,9 @@ Metric Code Size 5664</description>
 <pinref part="J3" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<label x="10.16" y="63.5" size="1.778" layer="95"/>
+<label x="10.16" y="81.28" size="1.778" layer="95"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="38.1" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -7515,8 +7565,8 @@ Metric Code Size 5664</description>
 <pinref part="J3" gate="G$1" pin="8"/>
 </segment>
 <segment>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
-<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
+<label x="10.16" y="76.2" size="1.778" layer="95"/>
+<wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANL" class="0">
@@ -7540,51 +7590,14 @@ Metric Code Size 5664</description>
 <pinref part="J3" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<label x="10.16" y="55.88" size="1.778" layer="95"/>
-<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="3.3V" class="0">
-<segment>
-<label x="10.16" y="66.04" size="1.778" layer="95"/>
-<pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
-<wire x1="33.02" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ASS1" class="0">
-<segment>
-<label x="10.16" y="50.8" size="1.778" layer="95"/>
-<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ASS2" class="0">
-<segment>
-<label x="10.16" y="48.26" size="1.778" layer="95"/>
-<wire x1="10.16" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DRIVER_SELECT" class="0">
-<segment>
-<label x="10.16" y="35.56" size="1.778" layer="95"/>
-<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="EVENT_SELECT" class="0">
-<segment>
-<label x="10.16" y="33.02" size="1.778" layer="95"/>
-<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
+<label x="10.16" y="73.66" size="1.778" layer="95"/>
+<wire x1="10.16" y1="73.66" x2="0" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWR_REDUCTION" class="0">
 <segment>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
 <wire x1="10.16" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PEDAL_MAPPING" class="0">
-<segment>
-<label x="10.16" y="25.4" size="1.778" layer="95"/>
-<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TCS_ON/OFF" class="0">
@@ -7599,34 +7612,119 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SCK" class="0">
+<net name="3.3V" class="0">
 <segment>
 <label x="10.16" y="83.82" size="1.778" layer="95"/>
-<wire x1="10.16" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
+<wire x1="33.02" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS1" class="0">
+<segment>
+<label x="10.16" y="68.58" size="1.778" layer="95"/>
+<wire x1="10.16" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS2" class="0">
+<segment>
+<label x="10.16" y="66.04" size="1.778" layer="95"/>
+<wire x1="10.16" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCK" class="0">
+<segment>
+<label x="10.16" y="101.6" size="1.778" layer="95"/>
+<wire x1="10.16" y1="101.6" x2="0" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DISPL_CS" class="0">
 <segment>
-<label x="10.16" y="86.36" size="1.778" layer="95"/>
-<wire x1="10.16" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
+<label x="10.16" y="104.14" size="1.778" layer="95"/>
+<wire x1="10.16" y1="104.14" x2="0" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<label x="10.16" y="88.9" size="1.778" layer="95"/>
-<wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
+<label x="10.16" y="106.68" size="1.778" layer="95"/>
+<wire x1="10.16" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
 <segment>
-<label x="10.16" y="91.44" size="1.778" layer="95"/>
-<wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
+<label x="10.16" y="109.22" size="1.778" layer="95"/>
+<wire x1="10.16" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TSMS" class="0">
 <segment>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_1" class="0">
+<segment>
+<label x="10.16" y="60.96" size="1.778" layer="95"/>
+<wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_2" class="0">
+<segment>
+<label x="10.16" y="58.42" size="1.778" layer="95"/>
+<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_3" class="0">
+<segment>
+<label x="10.16" y="55.88" size="1.778" layer="95"/>
+<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_4" class="0">
+<segment>
+<label x="10.16" y="53.34" size="1.778" layer="95"/>
+<wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_2" class="0">
+<segment>
+<label x="10.16" y="22.86" size="1.778" layer="95"/>
+<wire x1="10.16" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_1" class="0">
+<segment>
+<label x="10.16" y="25.4" size="1.778" layer="95"/>
+<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_5" class="0">
+<segment>
+<label x="10.16" y="50.8" size="1.778" layer="95"/>
+<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_1" class="0">
+<segment>
+<label x="10.16" y="40.64" size="1.778" layer="95"/>
+<wire x1="10.16" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_2" class="0">
+<segment>
+<label x="10.16" y="38.1" size="1.778" layer="95"/>
+<wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_3" class="0">
+<segment>
+<label x="10.16" y="35.56" size="1.778" layer="95"/>
+<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_4" class="0">
+<segment>
+<label x="10.16" y="33.02" size="1.778" layer="95"/>
+<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -7695,23 +7793,23 @@ Metric Code Size 5664</description>
 <instance part="GND24" gate="1" x="129.54" y="-10.16" smashed="yes">
 <attribute name="VALUE" x="129.54" y="-10.414" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY15" gate="G$1" x="22.86" y="71.12" smashed="yes" rot="R270">
-<attribute name="VALUE" x="25.654" y="71.12" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY15" gate="G$1" x="22.86" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="25.654" y="88.9" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY16" gate="G$1" x="27.94" y="68.58" smashed="yes" rot="R270">
-<attribute name="VALUE" x="30.734" y="68.58" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY16" gate="G$1" x="27.94" y="86.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="30.734" y="86.36" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY17" gate="G$1" x="33.02" y="66.04" smashed="yes" rot="R270">
-<attribute name="VALUE" x="35.814" y="66.04" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY17" gate="G$1" x="33.02" y="83.82" smashed="yes" rot="R270">
+<attribute name="VALUE" x="35.814" y="83.82" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="GND3" gate="1" x="40.64" y="63.5" smashed="yes" rot="R90">
-<attribute name="VALUE" x="40.894" y="63.5" size="1.778" layer="96" rot="R90" align="top-center"/>
+<instance part="GND3" gate="1" x="40.64" y="81.28" smashed="yes" rot="R90">
+<attribute name="VALUE" x="40.894" y="81.28" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,MOSI,MSIO,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,DRIVER_SELECT_1,DRIVER_SELECT_2,DRIVER_SELECT_3,DRIVER_SELECT_4,DRIVER_SELECT_5,EMERGENCY_STOP,EVENT_SELECT,EVENT_SELECT_1,EVENT_SELECT_2,EVENT_SELECT_3,EVENT_SELECT_4,GND,IGNITION_SWITCH,MISO,MOSI,MSIO,PEDAL_MAPPING,PEDAL_MAPPING_1,PEDAL_MAPPING_2,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
 <segment>
-<wire x1="0" y1="0" x2="0" y2="109.22" width="0.762" layer="92"/>
+<wire x1="0" y1="0" x2="0" y2="121.92" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -7736,9 +7834,9 @@ Metric Code Size 5664</description>
 <junction x="116.84" y="27.94"/>
 </segment>
 <segment>
-<label x="10.16" y="71.12" size="1.778" layer="95"/>
+<label x="10.16" y="88.9" size="1.778" layer="95"/>
 <pinref part="SUPPLY15" gate="G$1" pin="12V"/>
-<wire x1="22.86" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -7756,9 +7854,9 @@ Metric Code Size 5664</description>
 <junction x="139.7" y="27.94"/>
 </segment>
 <segment>
-<label x="10.16" y="68.58" size="1.778" layer="95"/>
+<label x="10.16" y="86.36" size="1.778" layer="95"/>
 <pinref part="SUPPLY16" gate="G$1" pin="5V"/>
-<wire x1="27.94" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -7776,9 +7874,9 @@ Metric Code Size 5664</description>
 <pinref part="SUPPLY36" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<label x="10.16" y="66.04" size="1.778" layer="95"/>
+<label x="10.16" y="83.82" size="1.778" layer="95"/>
 <pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
-<wire x1="33.02" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -7807,9 +7905,9 @@ Metric Code Size 5664</description>
 <wire x1="149.86" y1="-7.62" x2="129.54" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="10.16" y="63.5" size="1.778" layer="95"/>
+<label x="10.16" y="81.28" size="1.778" layer="95"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="38.1" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -7836,52 +7934,10 @@ Metric Code Size 5664</description>
 <junction x="129.54" y="12.7"/>
 </segment>
 </net>
-<net name="CANH" class="0">
-<segment>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
-<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CANL" class="0">
-<segment>
-<label x="10.16" y="55.88" size="1.778" layer="95"/>
-<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ASS1" class="0">
-<segment>
-<label x="10.16" y="50.8" size="1.778" layer="95"/>
-<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ASS2" class="0">
-<segment>
-<label x="10.16" y="48.26" size="1.778" layer="95"/>
-<wire x1="10.16" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DRIVER_SELECT" class="0">
-<segment>
-<label x="10.16" y="35.56" size="1.778" layer="95"/>
-<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="EVENT_SELECT" class="0">
-<segment>
-<label x="10.16" y="33.02" size="1.778" layer="95"/>
-<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PWR_REDUCTION" class="0">
 <segment>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
 <wire x1="10.16" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PEDAL_MAPPING" class="0">
-<segment>
-<label x="10.16" y="25.4" size="1.778" layer="95"/>
-<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TCS_ON/OFF" class="0">
@@ -7896,34 +7952,124 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="CANH" class="0">
+<segment>
+<label x="10.16" y="76.2" size="1.778" layer="95"/>
+<wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CANL" class="0">
+<segment>
+<label x="10.16" y="73.66" size="1.778" layer="95"/>
+<wire x1="10.16" y1="73.66" x2="0" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS1" class="0">
+<segment>
+<label x="10.16" y="68.58" size="1.778" layer="95"/>
+<wire x1="10.16" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS2" class="0">
+<segment>
+<label x="10.16" y="66.04" size="1.778" layer="95"/>
+<wire x1="10.16" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="SCK" class="0">
 <segment>
-<label x="10.16" y="83.82" size="1.778" layer="95"/>
-<wire x1="10.16" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+<label x="10.16" y="101.6" size="1.778" layer="95"/>
+<wire x1="10.16" y1="101.6" x2="0" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DISPL_CS" class="0">
 <segment>
-<label x="10.16" y="86.36" size="1.778" layer="95"/>
-<wire x1="10.16" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
+<label x="10.16" y="104.14" size="1.778" layer="95"/>
+<wire x1="10.16" y1="104.14" x2="0" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<label x="10.16" y="88.9" size="1.778" layer="95"/>
-<wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
+<label x="10.16" y="106.68" size="1.778" layer="95"/>
+<wire x1="10.16" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
 <segment>
-<label x="10.16" y="91.44" size="1.778" layer="95"/>
-<wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
+<label x="10.16" y="109.22" size="1.778" layer="95"/>
+<wire x1="10.16" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TSMS" class="0">
 <segment>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_1" class="0">
+<segment>
+<label x="10.16" y="60.96" size="1.778" layer="95"/>
+<wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_2" class="0">
+<segment>
+<label x="10.16" y="58.42" size="1.778" layer="95"/>
+<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_3" class="0">
+<segment>
+<label x="10.16" y="55.88" size="1.778" layer="95"/>
+<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_4" class="0">
+<segment>
+<label x="10.16" y="53.34" size="1.778" layer="95"/>
+<wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_2" class="0">
+<segment>
+<label x="10.16" y="22.86" size="1.778" layer="95"/>
+<wire x1="10.16" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_1" class="0">
+<segment>
+<label x="10.16" y="25.4" size="1.778" layer="95"/>
+<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_5" class="0">
+<segment>
+<label x="10.16" y="50.8" size="1.778" layer="95"/>
+<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_1" class="0">
+<segment>
+<label x="10.16" y="40.64" size="1.778" layer="95"/>
+<wire x1="10.16" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_2" class="0">
+<segment>
+<label x="10.16" y="38.1" size="1.778" layer="95"/>
+<wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_3" class="0">
+<segment>
+<label x="10.16" y="35.56" size="1.778" layer="95"/>
+<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_4" class="0">
+<segment>
+<label x="10.16" y="33.02" size="1.778" layer="95"/>
+<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -7934,18 +8080,6 @@ Metric Code Size 5664</description>
 <text x="0" y="0" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
 </plain>
 <instances>
-<instance part="SUPPLY8" gate="G$1" x="22.86" y="71.12" smashed="yes" rot="R270">
-<attribute name="VALUE" x="25.654" y="71.12" size="1.778" layer="96" rot="R270" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY18" gate="G$1" x="27.94" y="68.58" smashed="yes" rot="R270">
-<attribute name="VALUE" x="30.734" y="68.58" size="1.778" layer="96" rot="R270" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY19" gate="G$1" x="33.02" y="66.04" smashed="yes" rot="R270">
-<attribute name="VALUE" x="35.814" y="66.04" size="1.778" layer="96" rot="R270" align="bottom-center"/>
-</instance>
-<instance part="GND4" gate="1" x="40.64" y="63.5" smashed="yes" rot="R90">
-<attribute name="VALUE" x="40.894" y="63.5" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
 <instance part="U$1" gate="G$1" x="167.64" y="-2.54" smashed="yes">
 <attribute name="NAME" x="205.74" y="114.3" size="1.778" layer="94"/>
 <attribute name="VALUE" x="205.74" y="106.68" size="1.778" layer="94"/>
@@ -7956,47 +8090,40 @@ Metric Code Size 5664</description>
 <instance part="GND21" gate="1" x="137.16" y="35.56" smashed="yes" rot="R270">
 <attribute name="VALUE" x="136.906" y="35.56" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
+<instance part="SUPPLY8" gate="G$1" x="22.86" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="25.654" y="88.9" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY18" gate="G$1" x="27.94" y="86.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="30.734" y="86.36" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY19" gate="G$1" x="33.02" y="83.82" smashed="yes" rot="R270">
+<attribute name="VALUE" x="35.814" y="83.82" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="GND4" gate="1" x="40.64" y="81.28" smashed="yes" rot="R90">
+<attribute name="VALUE" x="40.894" y="81.28" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,MOSI,MSIO,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,DRIVER_SELECT_1,DRIVER_SELECT_2,DRIVER_SELECT_3,DRIVER_SELECT_4,DRIVER_SELECT_5,EMERGENCY_STOP,EVENT_SELECT,EVENT_SELECT_1,EVENT_SELECT_2,EVENT_SELECT_3,EVENT_SELECT_4,GND,IGNITION_SWITCH,MISO,MOSI,MSIO,PEDAL_MAPPING,PEDAL_MAPPING_1,PEDAL_MAPPING_2,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
 <segment>
-<wire x1="0" y1="0" x2="0" y2="109.22" width="0.762" layer="92"/>
+<wire x1="0" y1="0" x2="0" y2="121.92" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
 <nets>
-<net name="12V" class="0">
-<segment>
-<label x="10.16" y="71.12" size="1.778" layer="95"/>
-<pinref part="SUPPLY8" gate="G$1" pin="12V"/>
-<wire x1="22.86" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="5V" class="0">
-<segment>
-<label x="10.16" y="68.58" size="1.778" layer="95"/>
-<pinref part="SUPPLY18" gate="G$1" pin="5V"/>
-<wire x1="27.94" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="J802-4-5V"/>
 <wire x1="162.56" y1="38.1" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY32" gate="G$1" pin="5V"/>
 </segment>
-</net>
-<net name="3.3V" class="0">
 <segment>
-<label x="10.16" y="66.04" size="1.778" layer="95"/>
-<pinref part="SUPPLY19" gate="G$1" pin="3.3V"/>
-<wire x1="33.02" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
+<label x="10.16" y="86.36" size="1.778" layer="95"/>
+<pinref part="SUPPLY18" gate="G$1" pin="5V"/>
+<wire x1="27.94" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
-<segment>
-<label x="10.16" y="63.5" size="1.778" layer="95"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="38.1" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="J802-5-GND"/>
 <wire x1="162.56" y1="35.56" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
@@ -8007,51 +8134,65 @@ Metric Code Size 5664</description>
 <wire x1="144.78" y1="33.02" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
 <junction x="144.78" y="35.56"/>
 </segment>
+<segment>
+<label x="10.16" y="81.28" size="1.778" layer="95"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="38.1" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CANH" class="0">
-<segment>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
-<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="CAN0-CANH"/>
 <wire x1="162.56" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
 <label x="144.78" y="63.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="10.16" y="76.2" size="1.778" layer="95"/>
+<wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CANL" class="0">
-<segment>
-<label x="10.16" y="55.88" size="1.778" layer="95"/>
-<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="CAN1-CANL"/>
 <wire x1="162.56" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
 <label x="144.78" y="66.04" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="ASS1" class="0">
 <segment>
-<label x="10.16" y="50.8" size="1.778" layer="95"/>
-<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
+<label x="10.16" y="73.66" size="1.778" layer="95"/>
+<wire x1="10.16" y1="73.66" x2="0" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ASS2" class="0">
+<net name="SCK" class="0">
 <segment>
-<label x="10.16" y="48.26" size="1.778" layer="95"/>
-<wire x1="10.16" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="J800-2-PB01-SCK"/>
+<wire x1="208.28" y1="195.58" x2="208.28" y2="208.28" width="0.1524" layer="91"/>
+<label x="208.28" y="208.28" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<label x="10.16" y="101.6" size="1.778" layer="95"/>
+<wire x1="10.16" y1="101.6" x2="0" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DRIVER_SELECT" class="0">
+<net name="MOSI" class="0">
 <segment>
-<label x="10.16" y="35.56" size="1.778" layer="95"/>
-<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="J800-3-PB00-MOSI"/>
+<wire x1="210.82" y1="195.58" x2="210.82" y2="208.28" width="0.1524" layer="91"/>
+<label x="210.82" y="208.28" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<label x="10.16" y="106.68" size="1.778" layer="95"/>
+<wire x1="10.16" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EVENT_SELECT" class="0">
+<net name="MISO" class="0">
 <segment>
-<label x="10.16" y="33.02" size="1.778" layer="95"/>
-<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="J800-0-PB02-MISO"/>
+<wire x1="203.2" y1="195.58" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
+<label x="203.2" y="208.28" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<label x="10.16" y="109.22" size="1.778" layer="95"/>
+<wire x1="10.16" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWR_REDUCTION" class="0">
@@ -8059,11 +8200,10 @@ Metric Code Size 5664</description>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
 <wire x1="10.16" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="PEDAL_MAPPING" class="0">
 <segment>
-<label x="10.16" y="25.4" size="1.778" layer="95"/>
-<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
+<label x="210.82" y="-17.78" size="1.778" layer="95" rot="R270"/>
+<wire x1="210.82" y1="-17.78" x2="210.82" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="EXP-3-9-PA27"/>
 </segment>
 </net>
 <net name="TCS_ON/OFF" class="0">
@@ -8071,50 +8211,58 @@ Metric Code Size 5664</description>
 <label x="10.16" y="17.78" size="1.778" layer="95"/>
 <wire x1="10.16" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<label x="208.28" y="-17.78" size="1.778" layer="95" rot="R270"/>
+<wire x1="208.28" y1="-17.78" x2="208.28" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="EXP-3-8-PA28"/>
+</segment>
 </net>
 <net name="IGNITION_SWITCH" class="0">
 <segment>
 <label x="10.16" y="12.7" size="1.778" layer="95"/>
 <wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<label x="223.52" y="-17.78" size="1.778" layer="95" rot="R270"/>
+<wire x1="223.52" y1="-17.78" x2="223.52" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="EXP-3-14-PA02"/>
+</segment>
 </net>
-<net name="SCK" class="0">
+<net name="12V" class="0">
+<segment>
+<label x="10.16" y="88.9" size="1.778" layer="95"/>
+<pinref part="SUPPLY8" gate="G$1" pin="12V"/>
+<wire x1="22.86" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
 <segment>
 <label x="10.16" y="83.82" size="1.778" layer="95"/>
-<wire x1="10.16" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SUPPLY19" gate="G$1" pin="3.3V"/>
+<wire x1="33.02" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="ASS1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="J800-2-PB01-SCK"/>
-<wire x1="208.28" y1="195.58" x2="208.28" y2="208.28" width="0.1524" layer="91"/>
-<label x="208.28" y="208.28" size="1.778" layer="95" rot="R90"/>
+<label x="10.16" y="68.58" size="1.778" layer="95"/>
+<wire x1="10.16" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS2" class="0">
+<segment>
+<label x="10.16" y="66.04" size="1.778" layer="95"/>
+<wire x1="10.16" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DISPL_CS" class="0">
 <segment>
-<label x="10.16" y="86.36" size="1.778" layer="95"/>
-<wire x1="10.16" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="MOSI" class="0">
-<segment>
-<label x="10.16" y="88.9" size="1.778" layer="95"/>
-<wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
+<label x="10.16" y="104.14" size="1.778" layer="95"/>
+<wire x1="10.16" y1="104.14" x2="0" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="J800-3-PB00-MOSI"/>
-<wire x1="210.82" y1="195.58" x2="210.82" y2="208.28" width="0.1524" layer="91"/>
-<label x="210.82" y="208.28" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="MISO" class="0">
-<segment>
-<label x="10.16" y="91.44" size="1.778" layer="95"/>
-<wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="J800-0-PB02-MISO"/>
-<wire x1="203.2" y1="195.58" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
-<label x="203.2" y="208.28" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="J804-7-PB04"/>
+<wire x1="259.08" y1="25.4" x2="269.24" y2="25.4" width="0.1524" layer="91"/>
+<label x="269.24" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TSMS" class="0">
@@ -8123,13 +8271,134 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="DRIVER_SELECT_1" class="0">
+<segment>
+<label x="10.16" y="60.96" size="1.778" layer="95"/>
+<wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="269.24" y="22.86" size="1.778" layer="95"/>
+<wire x1="269.24" y1="22.86" x2="259.08" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="J804-6-PB30"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_2" class="0">
+<segment>
+<label x="10.16" y="58.42" size="1.778" layer="95"/>
+<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="269.24" y="20.32" size="1.778" layer="95"/>
+<wire x1="269.24" y1="20.32" x2="259.08" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="J804-5-PB13"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_3" class="0">
+<segment>
+<label x="10.16" y="55.88" size="1.778" layer="95"/>
+<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="269.24" y="17.78" size="1.778" layer="95"/>
+<wire x1="269.24" y1="17.78" x2="259.08" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="J804-4-PA21"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_4" class="0">
+<segment>
+<label x="10.16" y="53.34" size="1.778" layer="95"/>
+<wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="269.24" y="15.24" size="1.778" layer="95"/>
+<wire x1="269.24" y1="15.24" x2="259.08" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="J804-3-PB12"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_2" class="0">
+<segment>
+<label x="10.16" y="22.86" size="1.778" layer="95"/>
+<wire x1="10.16" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="269.24" y="35.56" size="1.778" layer="95"/>
+<wire x1="269.24" y1="35.56" x2="259.08" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="J8010-PB05"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_1" class="0">
+<segment>
+<label x="10.16" y="25.4" size="1.778" layer="95"/>
+<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="269.24" y="38.1" size="1.778" layer="95"/>
+<wire x1="269.24" y1="38.1" x2="259.08" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="J8011-PB31"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_5" class="0">
+<segment>
+<label x="10.16" y="50.8" size="1.778" layer="95"/>
+<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="269.24" y="12.7" size="1.778" layer="95"/>
+<wire x1="269.24" y1="12.7" x2="259.08" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="J804-2-PA20"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_1" class="0">
+<segment>
+<label x="10.16" y="40.64" size="1.778" layer="95"/>
+<wire x1="10.16" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="200.66" y="-17.78" size="1.778" layer="95" rot="R270"/>
+<wire x1="200.66" y1="-17.78" x2="200.66" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="EXP-3-5-PB05"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_2" class="0">
+<segment>
+<label x="10.16" y="38.1" size="1.778" layer="95"/>
+<wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="198.12" y="-17.78" size="1.778" layer="95" rot="R270"/>
+<wire x1="198.12" y1="-17.78" x2="198.12" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="EXP-3-4-PB04"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_3" class="0">
+<segment>
+<label x="10.16" y="35.56" size="1.778" layer="95"/>
+<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="195.58" y="-17.78" size="1.778" layer="95" rot="R270"/>
+<wire x1="195.58" y1="-17.78" x2="195.58" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="EXP-3-3-PB06"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_4" class="0">
+<segment>
+<label x="10.16" y="33.02" size="1.778" layer="95"/>
+<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="193.04" y="-17.78" size="1.778" layer="95" rot="R270"/>
+<wire x1="193.04" y1="-17.78" x2="193.04" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="EXP-3-2-PB07"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <description>TS LATCH</description>
 <plain>
 <text x="215.9" y="20.32" size="1.9304" layer="94">Jack Bruford - Oxford Uni Racing</text>
-<text x="-60.96" y="7.62" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
+<text x="-68.58" y="10.16" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -8164,32 +8433,29 @@ Metric Code Size 5664</description>
 <instance part="GND13" gate="1" x="177.8" y="81.28" smashed="yes" rot="R90">
 <attribute name="VALUE" x="178.054" y="81.28" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND14" gate="1" x="71.12" y="30.48" smashed="yes" rot="R90">
-<attribute name="VALUE" x="81.28" y="30.734" size="1.778" layer="96" rot="R180" align="top-center"/>
-</instance>
-<instance part="SUPPLY33" gate="G$1" x="27.94" y="30.48" smashed="yes" rot="R90">
-<attribute name="VALUE" x="25.146" y="30.48" size="1.778" layer="96" rot="R90" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY1" gate="G$1" x="116.84" y="83.82" smashed="yes" rot="R270">
 <attribute name="VALUE" x="121.92" y="84.074" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY21" gate="G$1" x="-38.1" y="78.74" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-35.306" y="78.74" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY21" gate="G$1" x="-45.72" y="99.06" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-42.926" y="99.06" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY22" gate="G$1" x="-33.02" y="76.2" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-30.226" y="76.2" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY22" gate="G$1" x="-40.64" y="96.52" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-37.846" y="96.52" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY23" gate="G$1" x="-27.94" y="73.66" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-25.146" y="73.66" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY23" gate="G$1" x="-35.56" y="93.98" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-32.766" y="93.98" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="GND5" gate="1" x="-20.32" y="71.12" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-20.066" y="71.12" size="1.778" layer="96" rot="R90" align="top-center"/>
+<instance part="GND5" gate="1" x="-27.94" y="91.44" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-27.686" y="91.44" size="1.778" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY33" gate="G$1" x="25.4" y="27.94" smashed="yes" rot="R90">
+<attribute name="VALUE" x="18.034" y="28.956" size="1.778" layer="96" rot="R180" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,MOSI,MSIO,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,DRIVER_SELECT_1,DRIVER_SELECT_2,DRIVER_SELECT_3,DRIVER_SELECT_4,DRIVER_SELECT_5,EMERGENCY_STOP,EVENT_SELECT,EVENT_SELECT_1,EVENT_SELECT_2,EVENT_SELECT_3,EVENT_SELECT_4,GND,IGNITION_SWITCH,MISO,MOSI,MSIO,PEDAL_MAPPING,PEDAL_MAPPING_1,PEDAL_MAPPING_2,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
 <segment>
-<wire x1="-60.96" y1="7.62" x2="-60.96" y2="116.84" width="0.762" layer="92"/>
+<wire x1="-68.58" y1="10.16" x2="-68.58" y2="132.08" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -8224,55 +8490,9 @@ Metric Code Size 5664</description>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-</segment>
-<segment>
-<label x="-50.8" y="71.12" size="1.778" layer="95"/>
+<label x="-58.42" y="91.44" size="1.778" layer="95"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="-22.86" y1="71.12" x2="-60.96" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DRIVERSWITCH-" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="58.42" y1="27.94" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
-<label x="78.74" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="45.72" y="88.9" size="1.778" layer="95"/>
-<pinref part="K1" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ESDC+" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="38.1" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
-<label x="15.24" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="K2" gate="G$1" pin="5"/>
-<wire x1="149.86" y1="81.28" x2="147.32" y2="81.28" width="0.1524" layer="91"/>
-<label x="157.48" y="68.58" size="1.778" layer="95"/>
-<pinref part="K2" gate="G$1" pin="9"/>
-<wire x1="172.72" y1="86.36" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="86.36" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="71.12" x2="147.32" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ESDC-" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="58.42" y1="25.4" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
-<label x="78.74" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="K1" gate="G$1" pin="4"/>
-<wire x1="91.44" y1="83.82" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
-<label x="80.264" y="83.058" size="1.778" layer="95"/>
+<wire x1="-30.48" y1="91.44" x2="-68.58" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -8308,126 +8528,201 @@ Metric Code Size 5664</description>
 <pinref part="SUPPLY1" gate="G$1" pin="12V"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="35.56" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="27.94" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
-<label x="15.24" y="27.94" size="1.778" layer="95"/>
-<wire x1="35.56" y1="27.94" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="30.48" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
-<junction x="35.56" y="30.48"/>
-<junction x="35.56" y="27.94"/>
-<pinref part="SUPPLY33" gate="G$1" pin="12V"/>
-</segment>
-<segment>
-<label x="-50.8" y="78.74" size="1.778" layer="95"/>
+<label x="-58.42" y="99.06" size="1.778" layer="95"/>
 <pinref part="SUPPLY21" gate="G$1" pin="12V"/>
-<wire x1="-38.1" y1="78.74" x2="-60.96" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="99.06" x2="-68.58" y2="99.06" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="5V" class="0">
 <segment>
-<label x="-50.8" y="76.2" size="1.778" layer="95"/>
-<pinref part="SUPPLY22" gate="G$1" pin="5V"/>
-<wire x1="-33.02" y1="76.2" x2="-60.96" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="3.3V" class="0">
-<segment>
-<label x="-50.8" y="73.66" size="1.778" layer="95"/>
-<pinref part="SUPPLY23" gate="G$1" pin="3.3V"/>
-<wire x1="-27.94" y1="73.66" x2="-60.96" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CANH" class="0">
-<segment>
-<label x="-50.8" y="66.04" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="66.04" x2="-60.96" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CANL" class="0">
-<segment>
-<label x="-50.8" y="63.5" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="63.5" x2="-60.96" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ASS1" class="0">
-<segment>
-<label x="-50.8" y="58.42" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="58.42" x2="-60.96" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ASS2" class="0">
-<segment>
-<label x="-50.8" y="55.88" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="55.88" x2="-60.96" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DRIVER_SELECT" class="0">
-<segment>
-<label x="-50.8" y="43.18" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="43.18" x2="-60.96" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="EVENT_SELECT" class="0">
-<segment>
-<label x="-50.8" y="40.64" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="40.64" x2="-60.96" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="SUPPLY33" gate="G$1" pin="12V"/>
+<wire x1="38.1" y1="27.94" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWR_REDUCTION" class="0">
 <segment>
-<label x="-50.8" y="35.56" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="35.56" x2="-60.96" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PEDAL_MAPPING" class="0">
-<segment>
-<label x="-50.8" y="33.02" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="33.02" x2="-60.96" y2="33.02" width="0.1524" layer="91"/>
+<label x="-58.42" y="38.1" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="38.1" x2="-68.58" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TCS_ON/OFF" class="0">
 <segment>
-<label x="-50.8" y="25.4" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="25.4" x2="-60.96" y2="25.4" width="0.1524" layer="91"/>
+<label x="-58.42" y="27.94" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="27.94" x2="-68.58" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IGNITION_SWITCH" class="0">
 <segment>
-<label x="-50.8" y="20.32" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="20.32" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
+<label x="-58.42" y="22.86" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="22.86" x2="-68.58" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<label x="-58.42" y="96.52" size="1.778" layer="95"/>
+<pinref part="SUPPLY22" gate="G$1" pin="5V"/>
+<wire x1="-40.64" y1="96.52" x2="-68.58" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<label x="-58.42" y="93.98" size="1.778" layer="95"/>
+<pinref part="SUPPLY23" gate="G$1" pin="3.3V"/>
+<wire x1="-35.56" y1="93.98" x2="-68.58" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CANH" class="0">
+<segment>
+<label x="-58.42" y="86.36" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="86.36" x2="-68.58" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CANL" class="0">
+<segment>
+<label x="-58.42" y="83.82" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="83.82" x2="-68.58" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS1" class="0">
+<segment>
+<label x="-58.42" y="78.74" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="78.74" x2="-68.58" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="38.1" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
+<label x="15.24" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="5"/>
+<wire x1="149.86" y1="81.28" x2="147.32" y2="81.28" width="0.1524" layer="91"/>
+<label x="157.48" y="68.58" size="1.778" layer="95"/>
+<pinref part="K2" gate="G$1" pin="9"/>
+<wire x1="172.72" y1="86.36" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="86.36" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="71.12" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="71.12" x2="147.32" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS2" class="0">
+<segment>
+<label x="-58.42" y="76.2" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="76.2" x2="-68.58" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="58.42" y1="25.4" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
+<label x="78.74" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="K1" gate="G$1" pin="4"/>
+<wire x1="91.44" y1="83.82" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
+<label x="80.264" y="83.058" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
 <segment>
-<label x="-50.8" y="91.44" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="91.44" x2="-60.96" y2="91.44" width="0.1524" layer="91"/>
+<label x="-58.42" y="111.76" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="111.76" x2="-68.58" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DISPL_CS" class="0">
 <segment>
-<label x="-50.8" y="93.98" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="93.98" x2="-60.96" y2="93.98" width="0.1524" layer="91"/>
+<label x="-58.42" y="114.3" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="114.3" x2="-68.58" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<label x="-50.8" y="96.52" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="96.52" x2="-60.96" y2="96.52" width="0.1524" layer="91"/>
+<label x="-58.42" y="116.84" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="116.84" x2="-68.58" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
 <segment>
-<label x="-50.8" y="99.06" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="99.06" x2="-60.96" y2="99.06" width="0.1524" layer="91"/>
+<label x="-58.42" y="119.38" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="119.38" x2="-68.58" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TSMS" class="0">
 <segment>
-<label x="-50.8" y="27.94" size="1.778" layer="95"/>
-<wire x1="-50.8" y1="27.94" x2="-60.96" y2="27.94" width="0.1524" layer="91"/>
+<label x="-58.42" y="30.48" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="30.48" x2="-68.58" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="58.42" y1="27.94" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
+<label x="78.74" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="45.72" y="88.9" size="1.778" layer="95"/>
+<pinref part="K1" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_1" class="0">
+<segment>
+<label x="-58.42" y="71.12" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="71.12" x2="-68.58" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_2" class="0">
+<segment>
+<label x="-58.42" y="68.58" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="68.58" x2="-68.58" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_3" class="0">
+<segment>
+<label x="-58.42" y="66.04" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="66.04" x2="-68.58" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_4" class="0">
+<segment>
+<label x="-58.42" y="63.5" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="63.5" x2="-68.58" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_2" class="0">
+<segment>
+<label x="-58.42" y="33.02" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="33.02" x2="-68.58" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_1" class="0">
+<segment>
+<label x="-58.42" y="35.56" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="35.56" x2="-68.58" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_5" class="0">
+<segment>
+<label x="-58.42" y="60.96" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="60.96" x2="-68.58" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_1" class="0">
+<segment>
+<label x="-58.42" y="50.8" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="50.8" x2="-68.58" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_2" class="0">
+<segment>
+<label x="-58.42" y="48.26" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="48.26" x2="-68.58" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_3" class="0">
+<segment>
+<label x="-58.42" y="45.72" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="45.72" x2="-68.58" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_4" class="0">
+<segment>
+<label x="-58.42" y="43.18" size="1.778" layer="95"/>
+<wire x1="-58.42" y1="43.18" x2="-68.58" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -8454,23 +8749,23 @@ Metric Code Size 5664</description>
 <instance part="SUPPLY3" gate="G$1" x="134.62" y="78.74" smashed="yes" rot="R270">
 <attribute name="VALUE" x="137.414" y="78.74" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY20" gate="G$1" x="22.86" y="71.12" smashed="yes" rot="R270">
-<attribute name="VALUE" x="25.654" y="71.12" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY20" gate="G$1" x="22.86" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="25.654" y="88.9" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY24" gate="G$1" x="27.94" y="68.58" smashed="yes" rot="R270">
-<attribute name="VALUE" x="30.734" y="68.58" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY24" gate="G$1" x="27.94" y="86.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="30.734" y="86.36" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY25" gate="G$1" x="33.02" y="66.04" smashed="yes" rot="R270">
-<attribute name="VALUE" x="35.814" y="66.04" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY25" gate="G$1" x="33.02" y="83.82" smashed="yes" rot="R270">
+<attribute name="VALUE" x="35.814" y="83.82" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="GND6" gate="1" x="40.64" y="63.5" smashed="yes" rot="R90">
-<attribute name="VALUE" x="40.894" y="63.5" size="1.778" layer="96" rot="R90" align="top-center"/>
+<instance part="GND6" gate="1" x="40.64" y="81.28" smashed="yes" rot="R90">
+<attribute name="VALUE" x="40.894" y="81.28" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,MOSI,MSIO,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,DRIVER_SELECT_1,DRIVER_SELECT_2,DRIVER_SELECT_3,DRIVER_SELECT_4,DRIVER_SELECT_5,EMERGENCY_STOP,EVENT_SELECT,EVENT_SELECT_1,EVENT_SELECT_2,EVENT_SELECT_3,EVENT_SELECT_4,GND,IGNITION_SWITCH,MISO,MOSI,MSIO,PEDAL_MAPPING,PEDAL_MAPPING_1,PEDAL_MAPPING_2,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
 <segment>
-<wire x1="0" y1="0" x2="0" y2="109.22" width="0.762" layer="92"/>
+<wire x1="0" y1="0" x2="0" y2="121.92" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -8491,9 +8786,9 @@ Metric Code Size 5664</description>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<label x="10.16" y="68.58" size="1.778" layer="95"/>
+<label x="10.16" y="86.36" size="1.778" layer="95"/>
 <pinref part="SUPPLY24" gate="G$1" pin="5V"/>
-<wire x1="27.94" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8508,9 +8803,9 @@ Metric Code Size 5664</description>
 <pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<label x="10.16" y="63.5" size="1.778" layer="95"/>
+<label x="10.16" y="81.28" size="1.778" layer="95"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="38.1" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -8525,8 +8820,8 @@ Metric Code Size 5664</description>
 <label x="91.44" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
-<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
+<label x="10.16" y="76.2" size="1.778" layer="95"/>
+<wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANL" class="0">
@@ -8541,58 +8836,14 @@ Metric Code Size 5664</description>
 <label x="88.9" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="10.16" y="55.88" size="1.778" layer="95"/>
-<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="12V" class="0">
-<segment>
-<label x="10.16" y="71.12" size="1.778" layer="95"/>
-<pinref part="SUPPLY20" gate="G$1" pin="12V"/>
-<wire x1="22.86" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="3.3V" class="0">
-<segment>
-<label x="10.16" y="66.04" size="1.778" layer="95"/>
-<pinref part="SUPPLY25" gate="G$1" pin="3.3V"/>
-<wire x1="33.02" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ASS1" class="0">
-<segment>
-<label x="10.16" y="50.8" size="1.778" layer="95"/>
-<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ASS2" class="0">
-<segment>
-<label x="10.16" y="48.26" size="1.778" layer="95"/>
-<wire x1="10.16" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DRIVER_SELECT" class="0">
-<segment>
-<label x="10.16" y="35.56" size="1.778" layer="95"/>
-<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="EVENT_SELECT" class="0">
-<segment>
-<label x="10.16" y="33.02" size="1.778" layer="95"/>
-<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
+<label x="10.16" y="73.66" size="1.778" layer="95"/>
+<wire x1="10.16" y1="73.66" x2="0" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWR_REDUCTION" class="0">
 <segment>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
 <wire x1="10.16" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PEDAL_MAPPING" class="0">
-<segment>
-<label x="10.16" y="25.4" size="1.778" layer="95"/>
-<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TCS_ON/OFF" class="0">
@@ -8607,34 +8858,126 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SCK" class="0">
+<net name="12V" class="0">
+<segment>
+<label x="10.16" y="88.9" size="1.778" layer="95"/>
+<pinref part="SUPPLY20" gate="G$1" pin="12V"/>
+<wire x1="22.86" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
 <segment>
 <label x="10.16" y="83.82" size="1.778" layer="95"/>
-<wire x1="10.16" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SUPPLY25" gate="G$1" pin="3.3V"/>
+<wire x1="33.02" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS1" class="0">
+<segment>
+<label x="10.16" y="68.58" size="1.778" layer="95"/>
+<wire x1="10.16" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS2" class="0">
+<segment>
+<label x="10.16" y="66.04" size="1.778" layer="95"/>
+<wire x1="10.16" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCK" class="0">
+<segment>
+<label x="10.16" y="101.6" size="1.778" layer="95"/>
+<wire x1="10.16" y1="101.6" x2="0" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DISPL_CS" class="0">
 <segment>
-<label x="10.16" y="86.36" size="1.778" layer="95"/>
-<wire x1="10.16" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
+<label x="10.16" y="104.14" size="1.778" layer="95"/>
+<wire x1="10.16" y1="104.14" x2="0" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<label x="10.16" y="88.9" size="1.778" layer="95"/>
-<wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
+<label x="10.16" y="106.68" size="1.778" layer="95"/>
+<wire x1="10.16" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
 <segment>
-<label x="10.16" y="91.44" size="1.778" layer="95"/>
-<wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
+<label x="10.16" y="109.22" size="1.778" layer="95"/>
+<wire x1="10.16" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TSMS" class="0">
 <segment>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_1" class="0">
+<segment>
+<label x="10.16" y="60.96" size="1.778" layer="95"/>
+<wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_2" class="0">
+<segment>
+<label x="10.16" y="58.42" size="1.778" layer="95"/>
+<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_3" class="0">
+<segment>
+<label x="10.16" y="55.88" size="1.778" layer="95"/>
+<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_4" class="0">
+<segment>
+<label x="10.16" y="53.34" size="1.778" layer="95"/>
+<wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_2" class="0">
+<segment>
+<label x="10.16" y="22.86" size="1.778" layer="95"/>
+<wire x1="10.16" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_1" class="0">
+<segment>
+<label x="10.16" y="25.4" size="1.778" layer="95"/>
+<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_5" class="0">
+<segment>
+<label x="10.16" y="50.8" size="1.778" layer="95"/>
+<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_1" class="0">
+<segment>
+<label x="10.16" y="40.64" size="1.778" layer="95"/>
+<wire x1="10.16" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_2" class="0">
+<segment>
+<label x="10.16" y="38.1" size="1.778" layer="95"/>
+<wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_3" class="0">
+<segment>
+<label x="10.16" y="35.56" size="1.778" layer="95"/>
+<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_4" class="0">
+<segment>
+<label x="10.16" y="33.02" size="1.778" layer="95"/>
+<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -8655,23 +8998,23 @@ Metric Code Size 5664</description>
 <instance part="GND17" gate="1" x="81.28" y="53.34" smashed="yes" rot="R270">
 <attribute name="VALUE" x="78.74" y="55.626" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY26" gate="G$1" x="22.86" y="71.12" smashed="yes" rot="R270">
-<attribute name="VALUE" x="25.654" y="71.12" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY26" gate="G$1" x="22.86" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="25.654" y="88.9" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY27" gate="G$1" x="27.94" y="68.58" smashed="yes" rot="R270">
-<attribute name="VALUE" x="30.734" y="68.58" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY27" gate="G$1" x="27.94" y="86.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="30.734" y="86.36" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY28" gate="G$1" x="33.02" y="66.04" smashed="yes" rot="R270">
-<attribute name="VALUE" x="35.814" y="66.04" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY28" gate="G$1" x="33.02" y="83.82" smashed="yes" rot="R270">
+<attribute name="VALUE" x="35.814" y="83.82" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="GND7" gate="1" x="40.64" y="63.5" smashed="yes" rot="R90">
-<attribute name="VALUE" x="40.894" y="63.5" size="1.778" layer="96" rot="R90" align="top-center"/>
+<instance part="GND7" gate="1" x="40.64" y="81.28" smashed="yes" rot="R90">
+<attribute name="VALUE" x="40.894" y="81.28" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,MOSI,MSIO,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,DRIVER_SELECT_1,DRIVER_SELECT_2,DRIVER_SELECT_3,DRIVER_SELECT_4,DRIVER_SELECT_5,EMERGENCY_STOP,EVENT_SELECT,EVENT_SELECT_1,EVENT_SELECT_2,EVENT_SELECT_3,EVENT_SELECT_4,GND,IGNITION_SWITCH,MISO,MOSI,MSIO,PEDAL_MAPPING,PEDAL_MAPPING_1,PEDAL_MAPPING_2,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
 <segment>
-<wire x1="0" y1="0" x2="0" y2="109.22" width="0.762" layer="92"/>
+<wire x1="0" y1="0" x2="0" y2="121.92" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -8683,9 +9026,9 @@ Metric Code Size 5664</description>
 <wire x1="93.98" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="10.16" y="68.58" size="1.778" layer="95"/>
+<label x="10.16" y="86.36" size="1.778" layer="95"/>
 <pinref part="SUPPLY27" gate="G$1" pin="5V"/>
-<wire x1="27.94" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8695,71 +9038,59 @@ Metric Code Size 5664</description>
 <wire x1="93.98" y1="53.34" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="10.16" y="63.5" size="1.778" layer="95"/>
+<label x="10.16" y="81.28" size="1.778" layer="95"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="38.1" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="12V" class="0">
+<net name="SCK" class="0">
 <segment>
-<label x="10.16" y="71.12" size="1.778" layer="95"/>
-<pinref part="SUPPLY26" gate="G$1" pin="12V"/>
-<wire x1="22.86" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="7"/>
+<wire x1="93.98" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
+<label x="83.82" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="101.6" size="1.778" layer="95"/>
+<wire x1="10.16" y1="101.6" x2="0" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="DISPL_CS" class="0">
 <segment>
-<label x="10.16" y="66.04" size="1.778" layer="95"/>
-<pinref part="SUPPLY28" gate="G$1" pin="3.3V"/>
-<wire x1="33.02" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="8"/>
+<wire x1="114.3" y1="48.26" x2="116.84" y2="48.26" width="0.1524" layer="91"/>
+<label x="116.84" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="104.14" size="1.778" layer="95"/>
+<wire x1="10.16" y1="104.14" x2="0" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CANH" class="0">
+<net name="MOSI" class="0">
 <segment>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
-<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="6"/>
+<wire x1="114.3" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
+<label x="116.84" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="106.68" size="1.778" layer="95"/>
+<wire x1="10.16" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CANL" class="0">
+<net name="MISO" class="0">
 <segment>
-<label x="10.16" y="55.88" size="1.778" layer="95"/>
-<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="5"/>
+<wire x1="93.98" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
+<label x="83.82" y="50.8" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="ASS1" class="0">
 <segment>
-<label x="10.16" y="50.8" size="1.778" layer="95"/>
-<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ASS2" class="0">
-<segment>
-<label x="10.16" y="48.26" size="1.778" layer="95"/>
-<wire x1="10.16" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DRIVER_SELECT" class="0">
-<segment>
-<label x="10.16" y="35.56" size="1.778" layer="95"/>
-<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="EVENT_SELECT" class="0">
-<segment>
-<label x="10.16" y="33.02" size="1.778" layer="95"/>
-<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
+<label x="10.16" y="109.22" size="1.778" layer="95"/>
+<wire x1="10.16" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWR_REDUCTION" class="0">
 <segment>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
 <wire x1="10.16" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PEDAL_MAPPING" class="0">
-<segment>
-<label x="10.16" y="25.4" size="1.778" layer="95"/>
-<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TCS_ON/OFF" class="0">
@@ -8774,54 +9105,114 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SCK" class="0">
-<segment>
-<label x="10.16" y="83.82" size="1.778" layer="95"/>
-<wire x1="10.16" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="7"/>
-<wire x1="93.98" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
-<label x="83.82" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DISPL_CS" class="0">
-<segment>
-<label x="10.16" y="86.36" size="1.778" layer="95"/>
-<wire x1="10.16" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="8"/>
-<wire x1="114.3" y1="48.26" x2="116.84" y2="48.26" width="0.1524" layer="91"/>
-<label x="116.84" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="MOSI" class="0">
+<net name="12V" class="0">
 <segment>
 <label x="10.16" y="88.9" size="1.778" layer="95"/>
-<wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="6"/>
-<wire x1="114.3" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
-<label x="116.84" y="50.8" size="1.778" layer="95"/>
+<pinref part="SUPPLY26" gate="G$1" pin="12V"/>
+<wire x1="22.86" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MISO" class="0">
+<net name="3.3V" class="0">
 <segment>
-<label x="10.16" y="91.44" size="1.778" layer="95"/>
-<wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
+<label x="10.16" y="83.82" size="1.778" layer="95"/>
+<pinref part="SUPPLY28" gate="G$1" pin="3.3V"/>
+<wire x1="33.02" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="CANH" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="5"/>
-<wire x1="93.98" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
-<label x="83.82" y="50.8" size="1.778" layer="95"/>
+<label x="10.16" y="76.2" size="1.778" layer="95"/>
+<wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CANL" class="0">
+<segment>
+<label x="10.16" y="73.66" size="1.778" layer="95"/>
+<wire x1="10.16" y1="73.66" x2="0" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS1" class="0">
+<segment>
+<label x="10.16" y="68.58" size="1.778" layer="95"/>
+<wire x1="10.16" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ASS2" class="0">
+<segment>
+<label x="10.16" y="66.04" size="1.778" layer="95"/>
+<wire x1="10.16" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TSMS" class="0">
 <segment>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_1" class="0">
+<segment>
+<label x="10.16" y="60.96" size="1.778" layer="95"/>
+<wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_2" class="0">
+<segment>
+<label x="10.16" y="58.42" size="1.778" layer="95"/>
+<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_3" class="0">
+<segment>
+<label x="10.16" y="55.88" size="1.778" layer="95"/>
+<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_4" class="0">
+<segment>
+<label x="10.16" y="53.34" size="1.778" layer="95"/>
+<wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_2" class="0">
+<segment>
+<label x="10.16" y="22.86" size="1.778" layer="95"/>
+<wire x1="10.16" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_1" class="0">
+<segment>
+<label x="10.16" y="25.4" size="1.778" layer="95"/>
+<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_5" class="0">
+<segment>
+<label x="10.16" y="50.8" size="1.778" layer="95"/>
+<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_1" class="0">
+<segment>
+<label x="10.16" y="40.64" size="1.778" layer="95"/>
+<wire x1="10.16" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_2" class="0">
+<segment>
+<label x="10.16" y="38.1" size="1.778" layer="95"/>
+<wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_3" class="0">
+<segment>
+<label x="10.16" y="35.56" size="1.778" layer="95"/>
+<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_4" class="0">
+<segment>
+<label x="10.16" y="33.02" size="1.778" layer="95"/>
+<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -8832,191 +9223,289 @@ Metric Code Size 5664</description>
 <text x="0" y="0" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
 </plain>
 <instances>
-<instance part="J5" gate="G$1" x="96.52" y="45.72" smashed="yes">
-<attribute name="NAME" x="97.79" y="53.34" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="97.79" y="50.8" size="1.778" layer="96" align="center-left"/>
+<instance part="SUPPLY29" gate="G$1" x="22.86" y="88.9" smashed="yes" rot="R270">
+<attribute name="VALUE" x="25.654" y="88.9" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY29" gate="G$1" x="22.86" y="71.12" smashed="yes" rot="R270">
-<attribute name="VALUE" x="25.654" y="71.12" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY30" gate="G$1" x="27.94" y="86.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="30.734" y="86.36" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY30" gate="G$1" x="27.94" y="68.58" smashed="yes" rot="R270">
-<attribute name="VALUE" x="30.734" y="68.58" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY31" gate="G$1" x="33.02" y="83.82" smashed="yes" rot="R270">
+<attribute name="VALUE" x="35.814" y="83.82" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY31" gate="G$1" x="33.02" y="66.04" smashed="yes" rot="R270">
-<attribute name="VALUE" x="35.814" y="66.04" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="GND8" gate="1" x="40.64" y="81.28" smashed="yes" rot="R90">
+<attribute name="VALUE" x="40.894" y="81.28" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND8" gate="1" x="40.64" y="63.5" smashed="yes" rot="R90">
-<attribute name="VALUE" x="40.894" y="63.5" size="1.778" layer="96" rot="R90" align="top-center"/>
+<instance part="J6" gate="G$1" x="93.98" y="81.28" smashed="yes">
+<attribute name="NAME" x="95.25" y="88.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="95.25" y="86.36" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="J7" gate="G$1" x="93.98" y="106.68" smashed="yes">
+<attribute name="NAME" x="95.25" y="114.3" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="95.25" y="111.76" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY34" gate="G$1" x="121.92" y="83.82" smashed="yes" rot="R270">
+<attribute name="VALUE" x="124.714" y="83.82" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY37" gate="G$1" x="121.92" y="109.22" smashed="yes" rot="R270">
+<attribute name="VALUE" x="124.714" y="109.22" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,MOSI,MSIO,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,DRIVER_SELECT_1,DRIVER_SELECT_2,DRIVER_SELECT_3,DRIVER_SELECT_4,DRIVER_SELECT_5,EMERGENCY_STOP,EVENT_SELECT,EVENT_SELECT_1,EVENT_SELECT_2,EVENT_SELECT_3,EVENT_SELECT_4,GND,IGNITION_SWITCH,MISO,MOSI,MSIO,PEDAL_MAPPING,PEDAL_MAPPING_1,PEDAL_MAPPING_2,PWR_REDUCTION,SCK,TCS_ON/OFF,TSMS">
 <segment>
-<wire x1="0" y1="0" x2="0" y2="109.22" width="0.762" layer="92"/>
+<wire x1="0" y1="0" x2="0" y2="121.92" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
 <nets>
-<net name="DRIVER_SELECT" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="45.72" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
-<label x="73.66" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="10.16" y="35.56" size="1.778" layer="95"/>
-<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="EVENT_SELECT" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="3"/>
-<wire x1="96.52" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
-<label x="73.66" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="10.16" y="33.02" size="1.778" layer="95"/>
-<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PWR_REDUCTION" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
-<label x="119.38" y="45.72" size="1.778" layer="95"/>
-</segment>
 <segment>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
 <wire x1="10.16" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="PEDAL_MAPPING" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="4"/>
-<wire x1="116.84" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
-<label x="119.38" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="10.16" y="25.4" size="1.778" layer="95"/>
-<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BRAKE_BIAS" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="6"/>
-<wire x1="116.84" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
-<label x="119.38" y="40.64" size="1.778" layer="95"/>
+<pinref part="J6" gate="G$1" pin="4"/>
+<wire x1="114.3" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+<label x="119.38" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TCS_ON/OFF" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="8"/>
-<wire x1="116.84" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
-<label x="119.38" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
 <label x="10.16" y="17.78" size="1.778" layer="95"/>
 <wire x1="10.16" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="6"/>
+<wire x1="114.3" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
+<label x="119.38" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IGNITION_SWITCH" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="5"/>
-<wire x1="96.52" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
-<label x="73.66" y="40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
 <label x="10.16" y="12.7" size="1.778" layer="95"/>
 <wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="EMERGENCY_STOP" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="7"/>
-<wire x1="96.52" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
-<label x="73.66" y="38.1" size="1.778" layer="95"/>
+<pinref part="J6" gate="G$1" pin="8"/>
+<wire x1="114.3" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
+<label x="119.38" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12V" class="0">
 <segment>
-<label x="10.16" y="71.12" size="1.778" layer="95"/>
+<label x="10.16" y="88.9" size="1.778" layer="95"/>
 <pinref part="SUPPLY29" gate="G$1" pin="12V"/>
-<wire x1="22.86" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
 <segment>
-<label x="10.16" y="68.58" size="1.778" layer="95"/>
+<label x="10.16" y="86.36" size="1.778" layer="95"/>
 <pinref part="SUPPLY30" gate="G$1" pin="5V"/>
-<wire x1="27.94" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="81.28" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="81.28" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SUPPLY34" gate="G$1" pin="5V"/>
+<wire x1="116.84" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="106.68" x2="116.84" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="SUPPLY37" gate="G$1" pin="5V"/>
+<wire x1="116.84" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<label x="10.16" y="66.04" size="1.778" layer="95"/>
+<label x="10.16" y="83.82" size="1.778" layer="95"/>
 <pinref part="SUPPLY31" gate="G$1" pin="3.3V"/>
-<wire x1="33.02" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<label x="10.16" y="63.5" size="1.778" layer="95"/>
+<label x="10.16" y="81.28" size="1.778" layer="95"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="38.1" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH" class="0">
 <segment>
-<label x="10.16" y="58.42" size="1.778" layer="95"/>
-<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
+<label x="10.16" y="76.2" size="1.778" layer="95"/>
+<wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANL" class="0">
 <segment>
-<label x="10.16" y="55.88" size="1.778" layer="95"/>
-<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+<label x="10.16" y="73.66" size="1.778" layer="95"/>
+<wire x1="10.16" y1="73.66" x2="0" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ASS1" class="0">
 <segment>
-<label x="10.16" y="50.8" size="1.778" layer="95"/>
-<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
+<label x="10.16" y="68.58" size="1.778" layer="95"/>
+<wire x1="10.16" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ASS2" class="0">
 <segment>
-<label x="10.16" y="48.26" size="1.778" layer="95"/>
-<wire x1="10.16" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>
+<label x="10.16" y="66.04" size="1.778" layer="95"/>
+<wire x1="10.16" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCK" class="0">
 <segment>
-<label x="10.16" y="83.82" size="1.778" layer="95"/>
-<wire x1="10.16" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+<label x="10.16" y="101.6" size="1.778" layer="95"/>
+<wire x1="10.16" y1="101.6" x2="0" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DISPL_CS" class="0">
 <segment>
-<label x="10.16" y="86.36" size="1.778" layer="95"/>
-<wire x1="10.16" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
+<label x="10.16" y="104.14" size="1.778" layer="95"/>
+<wire x1="10.16" y1="104.14" x2="0" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<label x="10.16" y="88.9" size="1.778" layer="95"/>
-<wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
+<label x="10.16" y="106.68" size="1.778" layer="95"/>
+<wire x1="10.16" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
 <segment>
-<label x="10.16" y="91.44" size="1.778" layer="95"/>
-<wire x1="10.16" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
+<label x="10.16" y="109.22" size="1.778" layer="95"/>
+<wire x1="10.16" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TSMS" class="0">
 <segment>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_1" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="106.68" x2="91.44" y2="106.68" width="0.1524" layer="91"/>
+<label x="66.04" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="60.96" size="1.778" layer="95"/>
+<wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_2" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="3"/>
+<wire x1="93.98" y1="104.14" x2="91.44" y2="104.14" width="0.1524" layer="91"/>
+<label x="66.04" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="58.42" size="1.778" layer="95"/>
+<wire x1="10.16" y1="58.42" x2="0" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_3" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="5"/>
+<wire x1="93.98" y1="101.6" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
+<label x="66.04" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="55.88" size="1.778" layer="95"/>
+<wire x1="10.16" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_4" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="7"/>
+<wire x1="93.98" y1="99.06" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
+<label x="66.04" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="53.34" size="1.778" layer="95"/>
+<wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_2" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="4"/>
+<wire x1="114.3" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
+<label x="119.38" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="22.86" size="1.778" layer="95"/>
+<wire x1="10.16" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PEDAL_MAPPING_1" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="6"/>
+<wire x1="114.3" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
+<label x="119.38" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="25.4" size="1.778" layer="95"/>
+<wire x1="10.16" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRIVER_SELECT_5" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="8"/>
+<wire x1="114.3" y1="99.06" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
+<label x="119.38" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="50.8" size="1.778" layer="95"/>
+<wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_1" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="81.28" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
+<label x="68.58" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="40.64" size="1.778" layer="95"/>
+<wire x1="10.16" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_2" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="3"/>
+<wire x1="93.98" y1="78.74" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
+<label x="68.58" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="38.1" size="1.778" layer="95"/>
+<wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_3" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="5"/>
+<wire x1="93.98" y1="76.2" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
+<label x="68.58" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="35.56" size="1.778" layer="95"/>
+<wire x1="10.16" y1="35.56" x2="0" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EVENT_SELECT_4" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="7"/>
+<wire x1="93.98" y1="73.66" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
+<label x="68.58" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="10.16" y="33.02" size="1.778" layer="95"/>
+<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

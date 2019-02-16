@@ -2074,16 +2074,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="49.118521875" y="-71.16190625" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="48.20793125" y="-68.29805625" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="ES1+" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="TPPAD1-13" x="50.459640625" y="-100.01885" smashed="yes" rot="R270">
-<attribute name="NAME" x="47.919640625" y="-97.73285" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="47.919640625" y="-98.74885" size="1" layer="37" rot="R270"/>
-<attribute name="VALUE" x="51.224178125" y="-100.56368125" size="0.0254" layer="27" rot="R270"/>
-</element>
-<element name="ES21-" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="TPPAD1-13" x="50.292" y="-94.996" smashed="yes" rot="R270">
-<attribute name="NAME" x="47.752" y="-91.44" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="47.752" y="-93.726" size="1" layer="37" rot="R270"/>
-<attribute name="VALUE" x="51.121309375" y="-94.777559375" size="0.0254" layer="27" rot="R270"/>
-</element>
 <element name="ES2-" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="TPPAD1-13" x="74.24800625" y="-95.015053125" smashed="yes" rot="R270">
 <attribute name="NAME" x="75.51800625" y="-92.729053125" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="71.70800625" y="-93.745053125" size="1" layer="37" rot="R270"/>
@@ -2490,18 +2480,6 @@ design rules under a new name.</description>
 <wire x1="65.33911875" y1="-73.32855625" x2="66.617825" y2="-73.32855625" width="0.8128" layer="16"/>
 <wire x1="58.414440625" y1="-74.862359375" x2="55.138325" y2="-69.56805625" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$16">
-<contactref element="ES1+" pad="TP"/>
-<contactref element="RELAY" pad="14"/>
-<wire x1="50.459640625" y1="-100.01885" x2="58.37093125" y2="-100.01885" width="0.8128" layer="16"/>
-<wire x1="58.37093125" y1="-100.01885" x2="58.414440625" y2="-100.062359375" width="0.8128" layer="16"/>
-</signal>
-<signal name="N$17">
-<contactref element="ES21-" pad="TP"/>
-<contactref element="RELAY" pad="11"/>
-<wire x1="50.292" y1="-94.996" x2="50.318359375" y2="-95.022359375" width="0.8128" layer="16"/>
-<wire x1="50.318359375" y1="-95.022359375" x2="58.414440625" y2="-95.022359375" width="0.8128" layer="16"/>
-</signal>
 <signal name="N$18">
 <contactref element="ES2+" pad="TP"/>
 <contactref element="RELAY" pad="24"/>
@@ -2737,9 +2715,15 @@ design rules under a new name.</description>
 </signal>
 <signal name="ASS1">
 <contactref element="K2" pad="10"/>
+<contactref element="RELAY" pad="14"/>
+<wire x1="58.37093125" y1="-100.01885" x2="58.414440625" y2="-100.062359375" width="0.8128" layer="16"/>
+<wire x1="58.414440625" y1="-100.062359375" x2="6.25" y2="-216.895" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ASS2">
 <contactref element="J1" pad="4"/>
+<contactref element="RELAY" pad="11"/>
+<wire x1="50.318359375" y1="-95.022359375" x2="58.414440625" y2="-95.022359375" width="0.8128" layer="16"/>
+<wire x1="11.43" y1="-7.62" x2="50.318359375" y2="-95.022359375" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

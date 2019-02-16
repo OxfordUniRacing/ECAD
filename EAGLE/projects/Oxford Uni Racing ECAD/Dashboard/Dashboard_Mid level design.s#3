@@ -48,10 +48,8 @@
 <port name="EVENT_SELECT" side="top" coord="-5.08" direction="io"/>
 <port name="PWR_REDUCTION" side="top" coord="0" direction="io"/>
 <port name="PEDAL_MAPPING" side="top" coord="2.54" direction="io"/>
-<port name="BRAKE_BIAS" side="top" coord="5.08" direction="io"/>
 <port name="TCS_ON_OFF" side="top" coord="10.16" direction="io"/>
 <port name="IGNITION_SWITCH" side="top" coord="15.24" direction="io"/>
-<port name="EMERGENCY_STOP" side="top" coord="20.32" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -132,10 +130,8 @@
 <port name="EVENT_SELECT" side="bottom" coord="-17.78" direction="io"/>
 <port name="PWR_REDUCTION" side="bottom" coord="-12.7" direction="io"/>
 <port name="PEDAL_MAPPING" side="bottom" coord="-10.16" direction="io"/>
-<port name="BRAKE_BIAS" side="bottom" coord="-7.62" direction="io"/>
 <port name="TCS_ON_OFF" side="bottom" coord="-2.54" direction="io"/>
 <port name="IGNITION_SWITCH" side="bottom" coord="2.54" direction="io"/>
-<port name="EMERGENCY_STOP" side="bottom" coord="7.62" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -188,8 +184,7 @@
 <port name="PWR_REDUCTION" side="bottom" coord="-12.7" direction="io"/>
 <port name="IGNITION_SWITCH" side="bottom" coord="-7.62" direction="io"/>
 <port name="PEDAL_MAPPING" side="bottom" coord="-2.54" direction="io"/>
-<port name="BRAKE_BIAS" side="bottom" coord="2.54" direction="io"/>
-<port name="EMERGENCY_STOP" side="bottom" coord="7.62" direction="io"/>
+<port name="TSMS" side="bottom" coord="2.54" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -509,20 +504,6 @@
 <wire x1="114.3" y1="2.54" x2="114.3" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BRAKE_BIAS" class="0">
-<segment>
-<portref moduleinst="MICROCONTROLLER1" port="BRAKE_BIAS"/>
-<wire x1="139.7" y1="35.56" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="BUTTONS1" port="BRAKE_BIAS"/>
-<wire x1="284.48" y1="35.56" x2="284.48" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="BRAKE_BIAS"/>
-<wire x1="116.84" y1="2.54" x2="116.84" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="TCS_ON_OFF" class="0">
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="TCS_ON_OFF"/>
@@ -549,20 +530,6 @@
 <segment>
 <portref moduleinst="INTER_SHEET_CONNECTIONS1" port="IGNITION_SWITCH"/>
 <wire x1="127" y1="2.54" x2="127" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="EMERGENCY_STOP" class="0">
-<segment>
-<portref moduleinst="MICROCONTROLLER1" port="EMERGENCY_STOP"/>
-<wire x1="154.94" y1="35.56" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="BUTTONS1" port="EMERGENCY_STOP"/>
-<wire x1="289.56" y1="35.56" x2="289.56" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="EMERGENCY_STOP"/>
-<wire x1="132.08" y1="2.54" x2="132.08" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ASS1" class="0">

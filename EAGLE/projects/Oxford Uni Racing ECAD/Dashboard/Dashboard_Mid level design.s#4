@@ -232,6 +232,28 @@
 </sheet>
 </sheets>
 </module>
+<module name="TS_LATCH" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="12V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
 </modules>
 <parts>
 </parts>
@@ -261,6 +283,9 @@
 <moduleinst name="CAN_OUT_PORT1" module="CAN_OUT_PORT" x="347.98" y="60.96">
 <attribute name="NAME" x="347.98" y="60.96" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
+<moduleinst name="TS_LATCH1" module="TS_LATCH" x="391.16" y="60.96">
+<attribute name="NAME" x="391.16" y="60.96" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
 </moduleinsts>
 <instances>
 </instances>
@@ -289,6 +314,10 @@
 <portref moduleinst="INTER_SHEET_CONNECTIONS1" port="12V"/>
 <wire x1="68.58" y1="2.54" x2="68.58" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="TS_LATCH1" port="12V"/>
+<wire x1="378.46" y1="35.56" x2="378.46" y2="45.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -314,6 +343,10 @@
 <segment>
 <portref moduleinst="INTER_SHEET_CONNECTIONS1" port="GND"/>
 <wire x1="76.2" y1="2.54" x2="76.2" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="TS_LATCH1" port="GND"/>
+<wire x1="381" y1="35.56" x2="381" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
