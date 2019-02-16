@@ -7351,9 +7351,9 @@ Metric Code Size 5664</description>
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_SCL,DISPL_SDA,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,PEDAL_MAPPING,PWR_REDUCTION,TCS_ON/OFF">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CANH,CANL,DISPL_CS,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,MOSI,MSIO,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON/OFF">
 <segment>
-<wire x1="0" y1="0" x2="0" y2="78.74" width="0.762" layer="92"/>
+<wire x1="0" y1="0" x2="0" y2="93.98" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -7478,18 +7478,6 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DISPL_SDA" class="0">
-<segment>
-<label x="10.16" y="43.18" size="1.778" layer="95"/>
-<wire x1="10.16" y1="43.18" x2="0" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DISPL_SCL" class="0">
-<segment>
-<label x="10.16" y="40.64" size="1.778" layer="95"/>
-<wire x1="10.16" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="DRIVER_SELECT" class="0">
 <segment>
 <label x="10.16" y="35.56" size="1.778" layer="95"/>
@@ -7565,25 +7553,27 @@ Metric Code Size 5664</description>
 <net name="SCK" class="0">
 <segment>
 <label x="15.24" y="83.82" size="1.778" layer="95"/>
-<wire x1="15.24" y1="83.82" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="83.82" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="83.82" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DISPL_CS" class="0">
 <segment>
 <label x="15.24" y="86.36" size="1.778" layer="95"/>
-<wire x1="15.24" y1="86.36" x2="5.08" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
 <label x="15.24" y="88.9" size="1.778" layer="95"/>
-<wire x1="15.24" y1="88.9" x2="5.08" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MSIO" class="0">
 <segment>
 <label x="15.24" y="91.44" size="1.778" layer="95"/>
-<wire x1="15.24" y1="91.44" x2="5.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
