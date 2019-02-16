@@ -18396,7 +18396,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EC2-12TNU.pdf
 <part name="GND19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
@@ -18463,6 +18462,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/EC2-12TNU.pdf
 <part name="U$1" library="Oxford Uni Racing Custom Blueprints" deviceset="SAMC21-XPLAINED-PRO" device=""/>
 <part name="SUPPLY23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19652,9 +19652,6 @@ Connect BATT_CURRENT to pin 5</text>
 <instance part="GND21" gate="1" x="53.34" y="129.54" smashed="yes">
 <attribute name="VALUE" x="53.34" y="129.286" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="25.4" y="152.4" smashed="yes">
-<attribute name="VALUE" x="25.4" y="155.194" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY2" gate="G$1" x="53.34" y="154.94" smashed="yes">
 <attribute name="VALUE" x="53.34" y="157.734" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -19696,6 +19693,9 @@ Connect BATT_CURRENT to pin 5</text>
 </instance>
 <instance part="GND13" gate="1" x="149.86" y="96.52" smashed="yes">
 <attribute name="VALUE" x="149.86" y="96.266" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="25.4" y="152.4" smashed="yes">
+<attribute name="VALUE" x="25.4" y="155.194" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -19902,11 +19902,6 @@ Connect BATT_CURRENT to pin 5</text>
 <wire x1="185.42" y1="96.52" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R21" gate="1" pin="E"/>
-<pinref part="SUPPLY1" gate="G$1" pin="12V"/>
-<wire x1="25.4" y1="147.32" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R22" gate="1" pin="E"/>
 <wire x1="25.4" y1="88.9" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="12V"/>
@@ -19917,6 +19912,11 @@ Connect BATT_CURRENT to pin 5</text>
 <label x="-43.18" y="86.36" size="1.778" layer="95"/>
 <pinref part="SUPPLY40" gate="G$1" pin="5V"/>
 <wire x1="-25.4" y1="86.36" x2="-53.34" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R21" gate="1" pin="E"/>
+<wire x1="25.4" y1="147.32" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="G$1" pin="5V"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
