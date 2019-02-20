@@ -10156,9 +10156,9 @@ Wickmann</description>
 <wire x1="10.16" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="200.66" y="-17.78" size="1.778" layer="95" rot="R270"/>
-<wire x1="200.66" y1="-17.78" x2="200.66" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="EXP-3-5-PB05"/>
+<pinref part="U$1" gate="G$1" pin="EXP-3-7-PA15"/>
+<wire x1="205.74" y1="-7.62" x2="205.74" y2="-17.78" width="0.1524" layer="91"/>
+<label x="205.74" y="-17.78" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="EVENT_SELECT_2" class="0">
@@ -10167,9 +10167,9 @@ Wickmann</description>
 <wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="198.12" y="-17.78" size="1.778" layer="95" rot="R270"/>
-<wire x1="198.12" y1="-17.78" x2="198.12" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="EXP-3-4-PB04"/>
+<pinref part="U$1" gate="G$1" pin="EXP-3-6-PA14"/>
+<wire x1="203.2" y1="-7.62" x2="203.2" y2="-17.78" width="0.1524" layer="91"/>
+<label x="203.2" y="-17.78" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="EVENT_SELECT_3" class="0">
