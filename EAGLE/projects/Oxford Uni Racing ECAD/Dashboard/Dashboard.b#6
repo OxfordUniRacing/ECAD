@@ -939,7 +939,7 @@ design rules under a new name.</description>
 <wire x1="-77.47" y1="-21.59" x2="3.81" y2="-18" width="0" layer="19" extent="1-1"/>
 <wire x1="-77.47" y1="-24.13" x2="-77.47" y2="-21.59" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="TSMS">
+<signal name="TS">
 <contactref element="J1" pad="4"/>
 <contactref element="K1" pad="1"/>
 <wire x1="8.89" y1="-18" x2="10.16" y2="-19.27" width="0.8128" layer="16"/>
