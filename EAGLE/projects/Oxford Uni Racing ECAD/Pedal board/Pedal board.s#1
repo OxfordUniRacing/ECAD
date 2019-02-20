@@ -21094,9 +21094,9 @@ Wickmann</description>
 <wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="J803-3-PA09"/>
-<wire x1="175.26" y1="10.16" x2="162.56" y2="10.16" width="0.1524" layer="91"/>
-<label x="147.32" y="10.16" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="J803-2-PA08"/>
+<wire x1="175.26" y1="12.7" x2="162.56" y2="12.7" width="0.1524" layer="91"/>
+<label x="147.32" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BR_PRESS" class="0">
@@ -21105,9 +21105,9 @@ Wickmann</description>
 <wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="J803-2-PA08"/>
-<wire x1="175.26" y1="12.7" x2="162.56" y2="12.7" width="0.1524" layer="91"/>
-<label x="147.32" y="12.7" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="J803-4-PB07"/>
+<wire x1="175.26" y1="7.62" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
+<label x="147.32" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BRAKE_LIGHTS_OUT" class="0">
@@ -21156,9 +21156,9 @@ Wickmann</description>
 <label x="10.16" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="J803-4-PB07"/>
-<wire x1="175.26" y1="7.62" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
-<label x="147.32" y="7.62" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="J803-3-PA09"/>
+<wire x1="175.26" y1="10.16" x2="162.56" y2="10.16" width="0.1524" layer="91"/>
+<label x="147.32" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12V_BR_LIGHTS" class="0">

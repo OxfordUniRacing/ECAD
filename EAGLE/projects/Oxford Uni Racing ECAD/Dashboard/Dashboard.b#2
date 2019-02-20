@@ -1266,7 +1266,7 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="EXT3-2"/>
 <wire x1="-40.64" y1="-68.58" x2="-64.77" y2="-80.01" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$1">
+<signal name="12V_BATTERY">
 <contactref element="J3" pad="1"/>
 <contactref element="J3" pad="2"/>
 <contactref element="F1" pad="1"/>

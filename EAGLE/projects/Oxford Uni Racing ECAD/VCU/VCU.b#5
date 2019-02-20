@@ -910,6 +910,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-48.26" y="-72.3646" size="0.9906" layer="25" ratio="12"/>
 <attribute name="VALUE" x="-47.3456" y="-74.1426" size="0.9906" layer="27" ratio="12"/>
 </element>
+<element name="J2" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="PWR_CAN" x="-44.45" y="-81.28" smashed="yes">
+<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="-44.45" y="-81.28" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="9.15mm" x="-44.45" y="-81.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" x="-44.45" y="-81.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="-44.45" y="-81.28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-44.45" y="-81.28" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1702738" x="-44.45" y="-81.28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-44.45" y="-81.28" size="1.27" layer="27" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1139,9 +1148,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="ASS1">
 <contactref element="K1" pad="14"/>
+<contactref element="J2" pad="1"/>
+<wire x1="-22.96" y1="-62.2" x2="-44.45" y2="-81.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ASS2">
 <contactref element="K1" pad="11"/>
+<contactref element="J2" pad="2"/>
+<wire x1="-28" y1="-62.2" x2="-44.45" y2="-78.74" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

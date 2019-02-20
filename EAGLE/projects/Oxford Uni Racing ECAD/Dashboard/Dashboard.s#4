@@ -7325,7 +7325,7 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TS" class="0">
+<net name="TRACTIVE_SYSTEM" class="0">
 <segment>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
@@ -7655,7 +7655,7 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TS" class="0">
+<net name="TRACTIVE_SYSTEM" class="0">
 <segment>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
@@ -8000,7 +8000,7 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TS" class="0">
+<net name="TRACTIVE_SYSTEM" class="0">
 <segment>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
@@ -8265,7 +8265,7 @@ Metric Code Size 5664</description>
 <label x="269.24" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TS" class="0">
+<net name="TRACTIVE_SYSTEM" class="0">
 <segment>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
@@ -8643,7 +8643,7 @@ Metric Code Size 5664</description>
 <wire x1="-58.42" y1="119.38" x2="-68.58" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TS" class="0">
+<net name="TRACTIVE_SYSTEM" class="0">
 <segment>
 <label x="-58.42" y="30.48" size="1.778" layer="95"/>
 <wire x1="-58.42" y1="30.48" x2="-68.58" y2="30.48" width="0.1524" layer="91"/>
@@ -8908,7 +8908,7 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TS" class="0">
+<net name="TRACTIVE_SYSTEM" class="0">
 <segment>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
@@ -9143,7 +9143,7 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="66.04" x2="0" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TS" class="0">
+<net name="TRACTIVE_SYSTEM" class="0">
 <segment>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
@@ -9381,7 +9381,7 @@ Metric Code Size 5664</description>
 <wire x1="10.16" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TS" class="0">
+<net name="TRACTIVE_SYSTEM" class="0">
 <segment>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
