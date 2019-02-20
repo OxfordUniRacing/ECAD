@@ -10998,6 +10998,12 @@ Wickmann</description>
 <wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="AIR_COILS" class="0">
+<segment>
+<wire x1="0" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
+<label x="10.16" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -11306,6 +11312,17 @@ Wickmann</description>
 <wire x1="157.48" y1="111.76" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
 <junction x="157.48" y="111.76"/>
 <label x="172.72" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AIR_COILS" class="0">
+<segment>
+<wire x1="0" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
+<label x="10.16" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="147.32" y1="50.8" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
+<label x="127" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -11673,6 +11690,12 @@ Wickmann</description>
 <wire x1="170.18" y1="88.9" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="AIR_COILS" class="0">
+<segment>
+<wire x1="0" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
+<label x="10.16" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -11751,7 +11774,7 @@ Wickmann</description>
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,CANH,CANL,GND,MC_1_BRAKE_INPUT,MC_1_IMPULSE_INPUT,MC_1_REVERSE_SWITCH,MC_1_RXD,MC_1_THROTTLE_INPUT,MC_1_TXD,MC_2_BRAKE_INPUT,MC_2_IMPULSE_INPUT,MC_2_REVERSE_SWITCH,MC_2_RXD,MC_2_THROTTLE_INPUT,MC_2_TXD">
+<bus name="3.3V,5V,12V,AIR_COILS,ASS1,ASS2,CANH,CANL,GND,MC_1_BRAKE_INPUT,MC_1_IMPULSE_INPUT,MC_1_REVERSE_SWITCH,MC_1_RXD,MC_1_THROTTLE_INPUT,MC_1_TXD,MC_2_BRAKE_INPUT,MC_2_IMPULSE_INPUT,MC_2_REVERSE_SWITCH,MC_2_RXD,MC_2_THROTTLE_INPUT,MC_2_TXD">
 <segment>
 <wire x1="0" y1="0" x2="0" y2="96.52" width="0.762" layer="92"/>
 </segment>
@@ -12038,6 +12061,17 @@ Wickmann</description>
 <wire x1="360.68" y1="132.08" x2="360.68" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="AIR_COILS" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="J5030-D7"/>
+<wire x1="287.02" y1="83.82" x2="304.8" y2="83.82" width="0.1524" layer="91"/>
+<label x="304.8" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="0" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
+<label x="10.16" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -12253,6 +12287,12 @@ Wickmann</description>
 <wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="AIR_COILS" class="0">
+<segment>
+<wire x1="0" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
+<label x="10.16" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -12466,6 +12506,12 @@ Wickmann</description>
 <segment>
 <label x="10.16" y="33.02" size="1.778" layer="95"/>
 <wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AIR_COILS" class="0">
+<segment>
+<wire x1="0" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
+<label x="10.16" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
