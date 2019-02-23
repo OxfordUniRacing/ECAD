@@ -2345,14 +2345,6 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="113.03" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="131.318" y="2.032" size="2.54" layer="27" rot="R270"/>
 </element>
-<element name="BRAKE_LIGHTS" library="fuse" library_urn="urn:adsk.eagle:library:233" package="FUSE_HOLDER_5X20MM" package3d_urn="urn:adsk.eagle:package:14079/1" value="1A" x="123.19" y="77.47" smashed="yes">
-<attribute name="MF" value="" x="123.19" y="77.47" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="123.19" y="77.47" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="125.222" y="81.28" size="2.54" layer="25"/>
-<attribute name="OC_FARNELL" value="unknown" x="123.19" y="77.47" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="123.19" y="77.47" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="124.968" y="71.628" size="2.54" layer="27"/>
-</element>
 <element name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1M" x="104.14" y="43.18" smashed="yes">
 <attribute name="NAME" x="101.6" y="44.4754" size="0.9906" layer="25" ratio="12"/>
 <attribute name="VALUE" x="103.7844" y="41.4274" size="0.9906" layer="27" ratio="12"/>
@@ -2901,13 +2893,8 @@ design rules under a new name.</description>
 <contactref element="J3" pad="1"/>
 <contactref element="J3" pad="2"/>
 <contactref element="F1" pad="1"/>
-<contactref element="BRAKE_LIGHTS" pad="1"/>
-<wire x1="113.03" y1="77.47" x2="123.19" y2="77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="91.44" y1="91.44" x2="113.03" y2="77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="91.44" y1="93.98" x2="91.44" y2="91.44" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="12V_BR_LIGHTS">
-<contactref element="BRAKE_LIGHTS" pad="2"/>
 </signal>
 <signal name="N$4">
 <contactref element="5V_IND" pad="K"/>
