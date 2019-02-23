@@ -162,11 +162,7 @@
 <wire x1="165.08" y1="0" x2="165.08" y2="113.97" width="0" layer="20"/>
 <wire x1="165.08" y1="113.97" x2="0" y2="113.97" width="0" layer="20"/>
 <wire x1="0" y1="113.97" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="0" y1="-39.37" x2="0" y2="0" width="0.127" layer="20"/>
-<wire x1="24.13" y1="0" x2="24.13" y2="-39.37" width="0.127" layer="20"/>
-<wire x1="24.13" y1="-39.37" x2="0" y2="-39.37" width="0.127" layer="20"/>
-<wire x1="0" y1="0" x2="24.13" y2="0" width="0.127" layer="20"/>
-<text x="1.27" y="-38.1" size="0.8128" layer="21">JACK BRUFORD - OXFORD UNI RACING
+<text x="102.87" y="73.66" size="0.8128" layer="21">JACK BRUFORD - OXFORD UNI RACING
 DRIVER SWITCH INTERLOCK</text>
 <wire x1="0" y1="0" x2="165.1" y2="0" width="0.1524" layer="49"/>
 <wire x1="165.1" y1="0" x2="165.1" y2="114.3" width="0.1524" layer="49"/>
@@ -791,53 +787,53 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="T821108A1S100CEU" x="7.62" y="-30.48" smashed="yes">
-<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="34.29" y="-34.29" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="9.15mm" x="34.29" y="-34.29" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol" x="34.29" y="-34.29" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="34.29" y="-34.29" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.05" y="-26.67" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1702738" x="34.29" y="-34.29" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="11.43" y="-33.02" size="1.27" layer="27" align="center"/>
+<element name="J1" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="T821108A1S100CEU" x="109.22" y="81.28" smashed="yes">
+<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="135.89" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="9.15mm" x="135.89" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" x="135.89" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="135.89" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="120.65" y="85.09" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1702738" x="135.89" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="113.03" y="78.74" size="1.27" layer="27" align="center"/>
 </element>
-<element name="K1" library="SamacSys_Parts" package="EC2-12NU" value="EC2-12NU" x="6.35" y="-19.05" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="DPDT PCB Mount Non-Latching Relay 2 A, 12V dc" x="20.32" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="mm" x="20.32" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kemet" x="20.32" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="EC2-12NU" x="20.32" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-EC2-12NU" x="20.32" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="6.978" y="-17.902" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="5.708" y="-2.662" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="K1" library="SamacSys_Parts" package="EC2-12NU" value="EC2-12NU" x="107.95" y="92.71" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="DPDT PCB Mount Non-Latching Relay 2 A, 12V dc" x="121.92" y="120.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="mm" x="121.92" y="120.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="121.92" y="120.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EC2-12NU" x="121.92" y="120.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-EC2-12NU" x="121.92" y="120.65" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="108.578" y="93.858" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="107.308" y="109.098" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="K2" library="SamacSys_Parts" package="EC2-12NU" value="EC2-12NU" x="17.78" y="-3.81" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="DPDT PCB Mount Non-Latching Relay 2 A, 12V dc" x="-5.08" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-5.08" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kemet" x="-5.08" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="EC2-12NU" x="-5.08" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-EC2-12NU" x="-5.08" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="19.692" y="-17.658" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="17.152" y="-2.418" size="1.27" layer="27" align="center"/>
+<element name="K2" library="SamacSys_Parts" package="EC2-12NU" value="EC2-12NU" x="119.38" y="107.95" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="DPDT PCB Mount Non-Latching Relay 2 A, 12V dc" x="96.52" y="80.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="mm" x="96.52" y="80.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="96.52" y="80.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EC2-12NU" x="96.52" y="80.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-EC2-12NU" x="96.52" y="80.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="121.292" y="94.102" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="118.752" y="109.342" size="1.27" layer="27" align="center"/>
 </element>
-<element name="X2" library="con-thomas-betts" library_urn="urn:adsk.eagle:library:191" package="H2M09ST" package3d_urn="urn:adsk.eagle:package:10567/1" value="D-SUB9-H2M09ST" x="92.71" y="10.16" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="92.71" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="92.71" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="106.68" y="4.445" size="1.27" layer="25" rot="R180"/>
-<attribute name="OC_FARNELL" value="unknown" x="92.71" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="92.71" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="98.425" y="4.445" size="1.27" layer="27" rot="R180"/>
+<element name="X2" library="con-thomas-betts" library_urn="urn:adsk.eagle:library:191" package="H2M09ST" package3d_urn="urn:adsk.eagle:package:10567/1" value="D-SUB9-H2M09ST" x="86.36" y="8.89" smashed="yes" rot="R180">
+<attribute name="MF" value="" x="86.36" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="86.36" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="100.33" y="3.175" size="1.27" layer="25" rot="R180"/>
+<attribute name="OC_FARNELL" value="unknown" x="86.36" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="86.36" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="92.075" y="3.175" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="CAN_TERMINATION1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="120" x="91.44" y="29.21" smashed="yes" rot="R180">
-<attribute name="NAME" x="93.98" y="27.9146" size="0.9906" layer="25" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="93.0656" y="29.6926" size="0.9906" layer="27" ratio="12" rot="R180"/>
+<element name="CAN_TERMINATION1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="120" x="85.09" y="27.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="87.63" y="26.6446" size="0.9906" layer="25" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="86.7156" y="28.4226" size="0.9906" layer="27" ratio="12" rot="R180"/>
 </element>
-<element name="J3" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="PWR_CAN" x="100.33" y="22.86" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="104.14" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="9.15mm" x="104.14" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol" x="104.14" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="104.14" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="104.14" y="17.78" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1702738" x="104.14" y="22.86" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="100.33" y="25.4" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="J3" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="PWR_CAN" x="93.98" y="21.59" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="97.79" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="9.15mm" x="97.79" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" x="97.79" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="97.79" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="97.79" y="16.51" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1702738" x="97.79" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="93.98" y="24.13" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="317TS" package3d_urn="urn:adsk.eagle:package:30353/1" value="" x="123.19" y="3.81" smashed="yes" rot="R180">
 <attribute name="NAME" x="128.27" y="9.8552" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -879,92 +875,86 @@ design rules under a new name.</description>
 <attribute name="NAME" x="144.399" y="12.319" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="144.399" y="16.764" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="J2" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="CAN_OUT" x="6.35" y="-45.72" smashed="yes">
-<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="6.35" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="9.15mm" x="6.35" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol" x="6.35" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="6.35" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="-45.72" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1702738" x="6.35" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="6.35" y="-45.72" size="1.27" layer="27" align="center"/>
+<element name="J2" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="CAN_OUT" x="92.71" y="35.56" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="97.79" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="9.15mm" x="97.79" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" x="97.79" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="97.79" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="92.71" y="31.75" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1702738" x="97.79" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="95.25" y="35.56" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="J4" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="DISPL" x="6.35" y="-59.69" smashed="yes">
-<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="6.35" y="-59.69" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="9.15mm" x="6.35" y="-59.69" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol" x="6.35" y="-59.69" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="6.35" y="-59.69" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="-59.69" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1702738" x="6.35" y="-59.69" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="6.35" y="-59.69" size="1.27" layer="27" align="center"/>
+<element name="J4" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="DISPL" x="92.71" y="76.2" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="92.71" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="9.15mm" x="92.71" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" x="92.71" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="92.71" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="92.71" y="73.66" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1702738" x="92.71" y="76.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="95.25" y="76.2" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="J6" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="BUTTONS" x="-72.39" y="-80.01" smashed="yes">
-<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="-72.39" y="-80.01" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="9.15mm" x="-72.39" y="-80.01" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol" x="-72.39" y="-80.01" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="-72.39" y="-80.01" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-72.39" y="-80.01" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1702738" x="-72.39" y="-80.01" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-72.39" y="-80.01" size="1.27" layer="27" align="center"/>
+<element name="J6" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="BUTTONS" x="92.71" y="96.52" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="92.71" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="9.15mm" x="92.71" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" x="92.71" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="92.71" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="92.71" y="92.71" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1702738" x="92.71" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="95.25" y="96.52" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="J7" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="BUTTONS" x="-72.39" y="-90.17" smashed="yes">
-<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="9.15mm" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-72.39" y="-90.17" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1702738" x="-72.39" y="-90.17" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-72.39" y="-90.17" size="1.27" layer="27" align="center"/>
+<element name="J7" library="T821108A1S100CEU" package="HDRV8W64P254_2X4_1778X895X915P" value="BUTTONS" x="92.71" y="55.88" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="92.71" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="9.15mm" x="92.71" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Amphenol" x="92.71" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" x="92.71" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="92.71" y="52.07" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1702738" x="92.71" y="55.88" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="95.25" y="54.61" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" package="FUSE_HOLDER_5X20MM" package3d_urn="urn:adsk.eagle:package:14079/1" value="1A" x="-74.93" y="-101.6" smashed="yes">
-<attribute name="MF" value="" x="-74.93" y="-101.6" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-74.93" y="-101.6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-72.898" y="-97.79" size="2.54" layer="25"/>
-<attribute name="OC_FARNELL" value="unknown" x="-74.93" y="-101.6" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-74.93" y="-101.6" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-73.152" y="-107.442" size="2.54" layer="27"/>
+<element name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" package="FUSE_HOLDER_5X20MM" package3d_urn="urn:adsk.eagle:package:14079/1" value="1A" x="107.95" y="21.59" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="107.95" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="107.95" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="111.76" y="19.558" size="2.54" layer="25" rot="R270"/>
+<attribute name="OC_FARNELL" value="unknown" x="107.95" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="107.95" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="95.758" y="18.542" size="2.54" layer="27" rot="R270"/>
 </element>
-<element name="3.3V_IND" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="LED3MM" package3d_urn="urn:adsk.eagle:package:6240537/1" value="" x="-74.93" y="-111.76" smashed="yes">
-<attribute name="NAME" x="-73.025" y="-111.379" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-73.025" y="-113.411" size="1.27" layer="27" ratio="10"/>
+<element name="3.3V_IND" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="LED3MM" package3d_urn="urn:adsk.eagle:package:6240537/1" value="" x="116.84" y="19.05" smashed="yes">
+<attribute name="NAME" x="118.745" y="19.431" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="118.745" y="17.399" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="" x="-73.66" y="-121.92" smashed="yes">
-<attribute name="NAME" x="-76.2" y="-120.6246" size="0.9906" layer="25" ratio="12"/>
-<attribute name="VALUE" x="-75.2856" y="-122.4026" size="0.9906" layer="27" ratio="12"/>
+<element name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="" x="121.92" y="22.86" smashed="yes" rot="R180">
+<attribute name="NAME" x="124.46" y="21.5646" size="0.9906" layer="25" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="123.5456" y="23.3426" size="0.9906" layer="27" ratio="12" rot="R180"/>
 </element>
-<element name="5V_IND" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="LED3MM" package3d_urn="urn:adsk.eagle:package:6240537/1" value="" x="-74.93" y="-116.84" smashed="yes">
-<attribute name="NAME" x="-73.025" y="-116.459" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-73.025" y="-118.491" size="1.27" layer="27" ratio="10"/>
+<element name="5V_IND" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="LED3MM" package3d_urn="urn:adsk.eagle:package:6240537/1" value="" x="137.16" y="19.05" smashed="yes">
+<attribute name="NAME" x="139.065" y="19.431" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="139.065" y="17.399" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R24" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="" x="-73.66" y="-127" smashed="yes">
-<attribute name="NAME" x="-76.2" y="-125.7046" size="0.9906" layer="25" ratio="12"/>
-<attribute name="VALUE" x="-75.2856" y="-127.4826" size="0.9906" layer="27" ratio="12"/>
+<element name="R24" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="" x="142.24" y="24.13" smashed="yes" rot="R180">
+<attribute name="NAME" x="144.78" y="22.8346" size="0.9906" layer="25" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="143.8656" y="24.6126" size="0.9906" layer="27" ratio="12" rot="R180"/>
 </element>
-<element name="U$1" library="Oxford Uni Racing Custom Blueprints" package="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2" value="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2" x="-128.27" y="-99.06" smashed="yes"/>
+<element name="U$1" library="Oxford Uni Racing Custom Blueprints" package="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2" value="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2" x="16.51" y="78.74" smashed="yes" rot="MR180"/>
 </elements>
 <signals>
 <signal name="GND">
-<polygon width="0.3048" layer="16">
-<vertex x="0" y="-39.37"/>
-<vertex x="24.13" y="-39.37"/>
-<vertex x="24.13" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
 <contactref element="K2" pad="12"/>
 <contactref element="K2" pad="10"/>
-<wire x1="20.32" y1="-9.94" x2="20.32" y2="-4.86" width="0.8128" layer="16"/>
+<wire x1="121.92" y1="101.82" x2="121.92" y2="106.9" width="0.8128" layer="16"/>
 <contactref element="K2" pad="3"/>
-<wire x1="15.24" y1="-9.94" x2="10.1651625" y2="-9.94" width="0.8128" layer="16"/>
-<wire x1="10.1651625" y1="-9.94" x2="9.3923625" y2="-9.1672" width="0.8128" layer="16"/>
-<wire x1="9.3923625" y1="-9.1672" x2="7.3428" y2="-9.1672" width="0.8128" layer="16"/>
-<wire x1="7.3428" y1="-9.1672" x2="6.24" y2="-10.27" width="0.8128" layer="16"/>
+<wire x1="116.84" y1="101.82" x2="111.7651625" y2="101.82" width="0.8128" layer="16"/>
+<wire x1="111.7651625" y1="101.82" x2="110.9923625" y2="102.5928" width="0.8128" layer="16"/>
+<wire x1="110.9923625" y1="102.5928" x2="108.9428" y2="102.5928" width="0.8128" layer="16"/>
+<wire x1="108.9428" y1="102.5928" x2="107.84" y2="101.49" width="0.8128" layer="16"/>
 <contactref element="K1" pad="12"/>
-<wire x1="3.81" y1="-18" x2="7.62" y2="-21.81" width="0.8128" layer="16"/>
+<wire x1="105.41" y1="93.76" x2="109.22" y2="89.95" width="0.8128" layer="16"/>
 <contactref element="K1" pad="8"/>
 <contactref element="K1" pad="3"/>
-<wire x1="6.24" y1="-10.27" x2="3.81" y2="-7.84" width="0.8128" layer="16"/>
-<wire x1="8.89" y1="-12.92" x2="6.24" y2="-10.27" width="0.8128" layer="16"/>
-<wire x1="3.81" y1="-18" x2="8.89" y2="-12.92" width="0.8128" layer="16"/>
-<wire x1="15.24" y1="-9.94" x2="20.32" y2="-9.94" width="0.8128" layer="16"/>
+<wire x1="107.84" y1="101.49" x2="105.41" y2="103.92" width="0.8128" layer="16"/>
+<wire x1="110.49" y1="98.84" x2="107.84" y2="101.49" width="0.8128" layer="16"/>
+<wire x1="105.41" y1="93.76" x2="110.49" y2="98.84" width="0.8128" layer="16"/>
+<wire x1="116.84" y1="101.82" x2="121.92" y2="101.82" width="0.8128" layer="16"/>
 <polygon width="0.1524" layer="16" isolate="0.3048" locked="yes">
 <vertex x="0" y="114.3"/>
 <vertex x="0" y="0"/>
@@ -973,17 +963,17 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="X2" pad="3"/>
 <contactref element="X2" pad="6"/>
-<wire x1="97.79" y1="12.7" x2="96.8629" y2="11.7729" width="1.27" layer="16"/>
-<wire x1="96.8629" y1="11.7729" x2="96.8629" y2="11.5824" width="1.27" layer="16"/>
-<wire x1="97.79" y1="12.7" x2="100.33" y2="12.7" width="1.27" layer="16"/>
-<wire x1="100.33" y1="12.7" x2="101.6" y2="11.43" width="1.27" layer="16"/>
-<wire x1="101.6" y1="11.43" x2="101.6" y2="6.35" width="1.27" layer="16"/>
-<wire x1="101.6" y1="6.35" x2="95.0976" y2="6.35" width="1.27" layer="16"/>
-<wire x1="95.0976" y1="6.35" x2="92.71" y2="8.7376" width="1.27" layer="16"/>
+<wire x1="91.44" y1="11.43" x2="90.5129" y2="10.5029" width="1.27" layer="16"/>
+<wire x1="90.5129" y1="10.5029" x2="90.5129" y2="10.3124" width="1.27" layer="16"/>
+<wire x1="91.44" y1="11.43" x2="93.98" y2="11.43" width="1.27" layer="16"/>
+<wire x1="93.98" y1="11.43" x2="95.25" y2="10.16" width="1.27" layer="16"/>
+<wire x1="95.25" y1="10.16" x2="95.25" y2="5.08" width="1.27" layer="16"/>
+<wire x1="95.25" y1="5.08" x2="88.7476" y2="5.08" width="1.27" layer="16"/>
+<wire x1="88.7476" y1="5.08" x2="86.36" y2="7.4676" width="1.27" layer="16"/>
 <contactref element="J3" pad="3"/>
 <contactref element="J3" pad="4"/>
-<wire x1="97.79" y1="12.7" x2="97.79" y2="20.32" width="1.27" layer="16"/>
-<wire x1="97.79" y1="20.32" x2="97.79" y2="22.86" width="1.27" layer="16"/>
+<wire x1="91.44" y1="11.43" x2="91.44" y2="19.05" width="1.27" layer="16"/>
+<wire x1="91.44" y1="19.05" x2="91.44" y2="21.59" width="1.27" layer="16"/>
 <contactref element="C3" pad="2"/>
 <contactref element="R4" pad="1"/>
 <contactref element="C4" pad="2"/>
@@ -1009,83 +999,72 @@ design rules under a new name.</description>
 <contactref element="R23" pad="1"/>
 <contactref element="U$1" pad="J802-5"/>
 <contactref element="U$1" pad="J802-6"/>
-<wire x1="-128.27" y1="-76.2" x2="-128.27" y2="-78.74" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.47" y1="-121.92" x2="-128.27" y2="-78.74" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.47" y1="-127" x2="-77.47" y2="-121.92" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="-59.69" x2="-77.47" y2="-121.92" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="-45.72" x2="8.89" y2="-59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="-43.18" x2="8.89" y2="-45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="-21.81" x2="8.89" y2="-43.18" width="0" layer="19" extent="16-16"/>
-<wire x1="92.71" y1="8.7376" x2="20.32" y2="-4.86" width="0" layer="19" extent="1-1"/>
-<wire x1="111.76" y1="8.89" x2="101.6" y2="11.43" width="0" layer="19" extent="16-16"/>
-<wire x1="132.08" y1="8.89" x2="120.65" y2="16.51" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="TRACTIVE_SYSTEM">
 <contactref element="J1" pad="4"/>
 <contactref element="K1" pad="1"/>
-<wire x1="8.89" y1="-18" x2="10.16" y2="-19.27" width="0.8128" layer="16"/>
-<wire x1="10.16" y1="-19.27" x2="10.16" y2="-27.94" width="0.8128" layer="16"/>
+<wire x1="110.49" y1="93.76" x2="111.76" y2="92.49" width="0.8128" layer="16"/>
+<wire x1="111.76" y1="92.49" x2="111.76" y2="83.82" width="0.8128" layer="16"/>
 </signal>
 <signal name="ASS1">
 <contactref element="J1" pad="5"/>
 <contactref element="K2" pad="5"/>
 <contactref element="K2" pad="9"/>
-<wire x1="15.24" y1="-15.02" x2="17.78" y2="-15.02" width="0.8128" layer="16"/>
-<wire x1="17.78" y1="-15.02" x2="20.32" y2="-12.48" width="0.8128" layer="16"/>
-<wire x1="14.6087375" y1="-32.004" x2="15.8712625" y2="-32.004" width="0.8128" layer="16"/>
-<wire x1="15.8712625" y1="-32.004" x2="16.764" y2="-31.1112625" width="0.8128" layer="16"/>
-<wire x1="16.764" y1="-31.1112625" x2="16.764" y2="-27.3087375" width="0.8128" layer="16"/>
-<wire x1="16.764" y1="-27.3087375" x2="15.24" y2="-25.7847375" width="0.8128" layer="16"/>
-<wire x1="12.7" y1="-30.48" x2="13.0847375" y2="-30.48" width="0.8128" layer="16"/>
-<wire x1="13.0847375" y1="-30.48" x2="14.6087375" y2="-32.004" width="0.8128" layer="16"/>
-<wire x1="15.24" y1="-25.7847375" x2="15.24" y2="-15.02" width="0.8128" layer="16"/>
+<wire x1="116.84" y1="96.74" x2="119.38" y2="96.74" width="0.8128" layer="16"/>
+<wire x1="119.38" y1="96.74" x2="121.92" y2="99.28" width="0.8128" layer="16"/>
+<wire x1="116.2087375" y1="79.756" x2="117.4712625" y2="79.756" width="0.8128" layer="16"/>
+<wire x1="117.4712625" y1="79.756" x2="118.364" y2="80.6487375" width="0.8128" layer="16"/>
+<wire x1="118.364" y1="80.6487375" x2="118.364" y2="84.4512625" width="0.8128" layer="16"/>
+<wire x1="118.364" y1="84.4512625" x2="116.84" y2="85.9752625" width="0.8128" layer="16"/>
+<wire x1="114.3" y1="81.28" x2="114.6847375" y2="81.28" width="0.8128" layer="16"/>
+<wire x1="114.6847375" y1="81.28" x2="116.2087375" y2="79.756" width="0.8128" layer="16"/>
+<wire x1="116.84" y1="85.9752625" x2="116.84" y2="96.74" width="0.8128" layer="16"/>
 </signal>
 <signal name="ASS2">
 <contactref element="J1" pad="6"/>
 <contactref element="K1" pad="4"/>
-<wire x1="12.7" y1="-27.94" x2="12.7" y2="-15.24" width="0.8128" layer="16"/>
-<wire x1="8.89" y1="-11.43" x2="8.89" y2="-10.38" width="0.8128" layer="16"/>
-<wire x1="10.1028" y1="-12.6428" x2="10.1028" y2="-12.4176375" width="0.8128" layer="16"/>
-<wire x1="10.1028" y1="-12.4176375" x2="9.3923625" y2="-11.7072" width="0.8128" layer="16"/>
-<wire x1="9.3923625" y1="-11.7072" x2="9.1672" y2="-11.7072" width="0.8128" layer="16"/>
-<wire x1="9.1672" y1="-11.7072" x2="8.89" y2="-11.43" width="0.8128" layer="16"/>
-<wire x1="12.7" y1="-15.24" x2="10.1028" y2="-12.6428" width="0.8128" layer="16"/>
+<wire x1="114.3" y1="83.82" x2="114.3" y2="96.52" width="0.8128" layer="16"/>
+<wire x1="110.49" y1="100.33" x2="110.49" y2="101.38" width="0.8128" layer="16"/>
+<wire x1="111.7028" y1="99.1172" x2="111.7028" y2="99.3423625" width="0.8128" layer="16"/>
+<wire x1="111.7028" y1="99.3423625" x2="110.9923625" y2="100.0528" width="0.8128" layer="16"/>
+<wire x1="110.9923625" y1="100.0528" x2="110.7672" y2="100.0528" width="0.8128" layer="16"/>
+<wire x1="110.7672" y1="100.0528" x2="110.49" y2="100.33" width="0.8128" layer="16"/>
+<wire x1="114.3" y1="96.52" x2="111.7028" y2="99.1172" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="K2" pad="4"/>
 <contactref element="K1" pad="5"/>
-<wire x1="19.8176375" y1="-3.6472" x2="20.8223625" y2="-3.6472" width="0.8128" layer="16"/>
-<wire x1="20.8223625" y1="-3.6472" x2="21.5328" y2="-4.3576375" width="0.8128" layer="16"/>
-<wire x1="21.5328" y1="-10.4423625" x2="20.8223625" y2="-11.1528" width="0.8128" layer="16"/>
-<wire x1="16.5672" y1="-11.1528" x2="15.24" y2="-12.48" width="0.8128" layer="16"/>
-<wire x1="21.5328" y1="-4.3576375" x2="21.5328" y2="-10.4423625" width="0.8128" layer="16"/>
-<wire x1="20.8223625" y1="-11.1528" x2="16.5672" y2="-11.1528" width="0.8128" layer="16"/>
-<wire x1="15.6248375" y1="-7.84" x2="19.8176375" y2="-3.6472" width="0.8128" layer="16"/>
-<wire x1="8.89" y1="-7.84" x2="15.6248375" y2="-7.84" width="0.8128" layer="16"/>
+<wire x1="121.4176375" y1="108.1128" x2="122.4223625" y2="108.1128" width="0.8128" layer="16"/>
+<wire x1="122.4223625" y1="108.1128" x2="123.1328" y2="107.4023625" width="0.8128" layer="16"/>
+<wire x1="123.1328" y1="101.3176375" x2="122.4223625" y2="100.6072" width="0.8128" layer="16"/>
+<wire x1="118.1672" y1="100.6072" x2="116.84" y2="99.28" width="0.8128" layer="16"/>
+<wire x1="123.1328" y1="107.4023625" x2="123.1328" y2="101.3176375" width="0.8128" layer="16"/>
+<wire x1="122.4223625" y1="100.6072" x2="118.1672" y2="100.6072" width="0.8128" layer="16"/>
+<wire x1="117.2248375" y1="103.92" x2="121.4176375" y2="108.1128" width="0.8128" layer="16"/>
+<wire x1="110.49" y1="103.92" x2="117.2248375" y2="103.92" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="K1" pad="9"/>
 <contactref element="K2" pad="8"/>
 <contactref element="K2" pad="1"/>
-<wire x1="22.498" y1="-3.9578375" x2="21.2221625" y2="-2.682" width="0.8128" layer="16"/>
-<wire x1="21.2221625" y1="-2.682" x2="19.4178375" y2="-2.682" width="0.8128" layer="16"/>
-<wire x1="19.4178375" y1="-2.682" x2="17.2398375" y2="-4.86" width="0.8128" layer="16"/>
-<wire x1="17.2398375" y1="-4.86" x2="15.24" y2="-4.86" width="0.8128" layer="16"/>
-<wire x1="20.32" y1="-15.02" x2="20.32" y2="-14.1951625" width="0.8128" layer="16"/>
-<wire x1="20.32" y1="-14.1951625" x2="22.498" y2="-12.0171625" width="0.8128" layer="16"/>
-<wire x1="22.498" y1="-12.0171625" x2="22.498" y2="-3.9578375" width="0.8128" layer="16"/>
-<wire x1="2.5972" y1="-8.3423625" x2="2.5972" y2="-7.3376375" width="0.8128" layer="16"/>
-<wire x1="3.81" y1="-10.38" x2="3.81" y2="-9.5551625" width="0.8128" layer="16"/>
-<wire x1="3.81" y1="-9.5551625" x2="2.5972" y2="-8.3423625" width="0.8128" layer="16"/>
-<wire x1="2.5972" y1="-7.3376375" x2="5.0748375" y2="-4.86" width="0.8128" layer="16"/>
-<wire x1="5.0748375" y1="-4.86" x2="15.24" y2="-4.86" width="0.8128" layer="16"/>
+<wire x1="124.098" y1="107.8021625" x2="122.8221625" y2="109.078" width="0.8128" layer="16"/>
+<wire x1="122.8221625" y1="109.078" x2="121.0178375" y2="109.078" width="0.8128" layer="16"/>
+<wire x1="121.0178375" y1="109.078" x2="118.8398375" y2="106.9" width="0.8128" layer="16"/>
+<wire x1="118.8398375" y1="106.9" x2="116.84" y2="106.9" width="0.8128" layer="16"/>
+<wire x1="121.92" y1="96.74" x2="121.92" y2="97.5648375" width="0.8128" layer="16"/>
+<wire x1="121.92" y1="97.5648375" x2="124.098" y2="99.7428375" width="0.8128" layer="16"/>
+<wire x1="124.098" y1="99.7428375" x2="124.098" y2="107.8021625" width="0.8128" layer="16"/>
+<wire x1="104.1972" y1="103.4176375" x2="104.1972" y2="104.4223625" width="0.8128" layer="16"/>
+<wire x1="105.41" y1="101.38" x2="105.41" y2="102.2048375" width="0.8128" layer="16"/>
+<wire x1="105.41" y1="102.2048375" x2="104.1972" y2="103.4176375" width="0.8128" layer="16"/>
+<wire x1="104.1972" y1="104.4223625" x2="106.6748375" y2="106.9" width="0.8128" layer="16"/>
+<wire x1="106.6748375" y1="106.9" x2="116.84" y2="106.9" width="0.8128" layer="16"/>
 </signal>
 <signal name="12V">
 <contactref element="K1" pad="10"/>
-<wire x1="3.81" y1="-16.2848375" x2="3.81" y2="-12.92" width="0.8128" layer="16"/>
-<wire x1="2.5972" y1="-17.4976375" x2="3.81" y2="-16.2848375" width="0.8128" layer="16"/>
-<wire x1="2.5972" y1="-24.13" x2="2.5972" y2="-17.4976375" width="0.8128" layer="16"/>
-<wire x1="2.5972" y1="-25.4572" x2="2.5972" y2="-24.13" width="0.8128" layer="16"/>
+<wire x1="105.41" y1="95.4751625" x2="105.41" y2="98.84" width="0.8128" layer="16"/>
+<wire x1="104.1972" y1="94.2623625" x2="105.41" y2="95.4751625" width="0.8128" layer="16"/>
+<wire x1="104.1972" y1="86.3028" x2="104.1972" y2="94.2623625" width="0.8128" layer="16"/>
 <contactref element="IC2" pad="3"/>
 <contactref element="C3" pad="1"/>
 <wire x1="120.65" y1="6.35" x2="115.57" y2="6.35" width="1.27" layer="16"/>
@@ -1096,47 +1075,47 @@ design rules under a new name.</description>
 <wire x1="135.89" y1="6.35" x2="132.08" y2="6.35" width="1.27" layer="16"/>
 <contactref element="J1" pad="3"/>
 <contactref element="F1" pad="2"/>
-<wire x1="2.5972" y1="-25.4572" x2="-59.69" y2="-101.6" width="0" layer="19" extent="16-16"/>
-<wire x1="10.16" y1="-30.48" x2="2.5972" y2="-25.4572" width="0" layer="19" extent="16-16"/>
-<wire x1="111.76" y1="6.35" x2="10.16" y2="-30.48" width="0" layer="19" extent="16-16"/>
+<wire x1="104.1972" y1="86.3028" x2="111.76" y2="81.28" width="0" layer="19" extent="16-16"/>
+<wire x1="111.76" y1="6.35" x2="111.76" y2="81.28" width="0" layer="19" extent="16-16"/>
+<wire x1="107.95" y1="6.35" x2="111.76" y2="6.35" width="0" layer="19" extent="16-16"/>
 <wire x1="132.08" y1="6.35" x2="120.65" y2="6.35" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CANL">
 <contactref element="X2" pad="2"/>
-<wire x1="95.25" y1="14.7717375" x2="95.37065" y2="14.6510875" width="0.6096" layer="16"/>
-<wire x1="95.37065" y1="14.6510875" x2="95.37065" y2="13.97" width="0.6096" layer="16"/>
+<wire x1="88.9" y1="13.5017375" x2="89.02065" y2="13.3810875" width="0.6096" layer="16"/>
+<wire x1="89.02065" y1="13.3810875" x2="89.02065" y2="12.7" width="0.6096" layer="16"/>
 <contactref element="CAN_TERMINATION1" pad="1"/>
 <contactref element="J3" pad="5"/>
 <contactref element="J3" pad="6"/>
-<wire x1="95.25" y1="29.21" x2="95.25" y2="22.86" width="1.27" layer="16"/>
-<wire x1="95.25" y1="20.32" x2="95.37065" y2="20.19935" width="1.27" layer="16"/>
-<wire x1="95.37065" y1="20.19935" x2="95.37065" y2="13.97" width="1.27" layer="16"/>
-<wire x1="95.4786" y1="8.7376" x2="95.37065" y2="8.84555" width="0.6096" layer="16"/>
-<wire x1="95.37065" y1="8.84555" x2="95.37065" y2="13.97" width="0.6096" layer="16"/>
+<wire x1="88.9" y1="27.94" x2="88.9" y2="21.59" width="1.27" layer="16"/>
+<wire x1="88.9" y1="19.05" x2="89.02065" y2="18.92935" width="1.27" layer="16"/>
+<wire x1="89.02065" y1="18.92935" x2="89.02065" y2="12.7" width="1.27" layer="16"/>
+<wire x1="89.1286" y1="7.4676" x2="89.02065" y2="7.57555" width="0.6096" layer="16"/>
+<wire x1="89.02065" y1="7.57555" x2="89.02065" y2="12.7" width="0.6096" layer="16"/>
 <contactref element="J2" pad="6"/>
 <contactref element="J2" pad="5"/>
 <contactref element="U$1" pad="CAN-1"/>
-<wire x1="11.43" y1="-43.18" x2="-125.73" y2="-31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="-45.72" x2="11.43" y2="-43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="95.37065" y1="8.84555" x2="11.43" y2="-43.18" width="0" layer="19" extent="16-16"/>
-<wire x1="95.25" y1="22.86" x2="95.25" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="90.17" y1="40.64" x2="92.71" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="88.9" y1="27.94" x2="90.17" y2="40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="88.9" y1="19.05" x2="88.9" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="11.43" x2="88.9" y2="13.5017375" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CANH">
 <contactref element="X2" pad="7"/>
-<wire x1="94.0943" y1="11.5824" x2="92.71" y2="12.9667" width="1.27" layer="16"/>
+<wire x1="87.7443" y1="10.3124" x2="86.36" y2="11.6967" width="1.27" layer="16"/>
 <contactref element="CAN_TERMINATION1" pad="2"/>
 <contactref element="J3" pad="7"/>
 <contactref element="J3" pad="8"/>
-<wire x1="92.71" y1="12.9667" x2="92.71" y2="20.32" width="1.27" layer="16"/>
-<wire x1="92.71" y1="20.32" x2="92.71" y2="22.86" width="1.27" layer="16"/>
-<wire x1="92.71" y1="22.86" x2="87.63" y2="27.94" width="1.27" layer="16"/>
-<wire x1="87.63" y1="27.94" x2="87.63" y2="29.21" width="1.27" layer="16"/>
+<wire x1="86.36" y1="11.6967" x2="86.36" y2="19.05" width="1.27" layer="16"/>
+<wire x1="86.36" y1="19.05" x2="86.36" y2="21.59" width="1.27" layer="16"/>
+<wire x1="86.36" y1="21.59" x2="81.28" y2="26.67" width="1.27" layer="16"/>
+<wire x1="81.28" y1="26.67" x2="81.28" y2="27.94" width="1.27" layer="16"/>
 <contactref element="J2" pad="8"/>
 <contactref element="J2" pad="7"/>
 <contactref element="U$1" pad="CAN-0"/>
-<wire x1="13.97" y1="-43.18" x2="-125.73" y2="-34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="13.97" y1="-45.72" x2="13.97" y2="-43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="92.71" y1="12.9667" x2="13.97" y2="-43.18" width="0" layer="19" extent="16-16"/>
+<wire x1="90.17" y1="43.18" x2="92.71" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="27.94" x2="90.17" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="13.97" x2="81.28" y2="26.67" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="5V">
 <contactref element="X2" pad="9"/>
@@ -1150,18 +1129,18 @@ design rules under a new name.</description>
 <contactref element="J2" pad="1"/>
 <contactref element="J2" pad="2"/>
 <contactref element="J4" pad="1"/>
-<contactref element="J6" pad="2"/>
 <contactref element="J7" pad="2"/>
 <contactref element="5V_IND" pad="A"/>
 <contactref element="U$1" pad="J802-4"/>
-<wire x1="-72.39" y1="-77.47" x2="-128.27" y2="-73.66" width="0" layer="19" extent="1-1"/>
-<wire x1="-72.39" y1="-87.63" x2="-72.39" y2="-77.47" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.2" y1="-116.84" x2="-72.39" y2="-87.63" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="-59.69" x2="-72.39" y2="-77.47" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="-45.72" x2="6.35" y2="-59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="-43.18" x2="6.35" y2="-45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="88.5571" y1="11.5824" x2="6.35" y2="-43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="143.51" y1="13.97" x2="88.5571" y2="11.5824" width="0" layer="19" extent="1-1"/>
+<contactref element="J6" pad="7"/>
+<wire x1="92.71" y1="76.2" x2="92.71" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="90.17" y1="55.88" x2="92.71" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="90.17" y1="35.56" x2="90.17" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="92.71" y1="35.56" x2="90.17" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="82.2071" y1="10.3124" x2="90.17" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="135.89" y1="19.05" x2="92.71" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="143.51" y1="20.32" x2="135.89" y2="19.05" width="0" layer="19" extent="16-16"/>
+<wire x1="16.51" y1="53.34" x2="90.17" y2="55.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC2" pad="1"/>
@@ -1179,7 +1158,7 @@ design rules under a new name.</description>
 <wire x1="123.19" y1="20.32" x2="123.19" y2="21.59" width="1.27" layer="16"/>
 <wire x1="125.73" y1="20.32" x2="123.19" y2="20.32" width="1.27" layer="16"/>
 <contactref element="3.3V_IND" pad="A"/>
-<wire x1="123.19" y1="6.35" x2="-76.2" y2="-111.76" width="0" layer="19" extent="1-1"/>
+<wire x1="123.19" y1="20.32" x2="115.57" y2="19.05" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC4" pad="1"/>
@@ -1189,111 +1168,111 @@ design rules under a new name.</description>
 <wire x1="146.05" y1="12.7" x2="146.05" y2="10.16" width="1.27" layer="16"/>
 </signal>
 <signal name="IGNITION_SWITCH">
-<contactref element="J6" pad="8"/>
 <contactref element="U$1" pad="EXT3-14"/>
-<wire x1="-64.77" y1="-77.47" x2="-106.68" y2="-123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="J6" pad="1"/>
+<wire x1="38.1" y1="102.87" x2="92.71" y2="96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PWR_REDUCTION">
-<contactref element="J6" pad="4"/>
 <contactref element="U$1" pad="EXT3-9"/>
-<wire x1="-69.85" y1="-77.47" x2="-99.06" y2="-125.73" width="0" layer="19" extent="1-1"/>
+<contactref element="J6" pad="5"/>
+<wire x1="45.72" y1="105.41" x2="92.71" y2="101.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TCS_ON/OFF">
-<contactref element="J6" pad="6"/>
 <contactref element="U$1" pad="EXT3-8"/>
-<wire x1="-67.31" y1="-77.47" x2="-99.06" y2="-123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="J6" pad="3"/>
+<wire x1="45.72" y1="102.87" x2="92.71" y2="99.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MISO">
 <contactref element="J4" pad="5"/>
 <contactref element="U$1" pad="J800-0"/>
-<wire x1="11.43" y1="-59.69" x2="-100.33" y2="-99.06" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="78.74" x2="92.71" y2="81.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCK">
 <contactref element="J4" pad="7"/>
 <contactref element="U$1" pad="J800-2"/>
-<wire x1="13.97" y1="-59.69" x2="-102.87" y2="-99.06" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="78.74" x2="92.71" y2="83.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="J4" pad="6"/>
 <contactref element="U$1" pad="J800-3"/>
-<wire x1="11.43" y1="-57.15" x2="-102.87" y2="-101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="81.28" x2="90.17" y2="81.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DISPL_CS">
 <contactref element="J4" pad="8"/>
 <contactref element="U$1" pad="J804-7"/>
-<wire x1="13.97" y1="-57.15" x2="-80.01" y2="-81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="60.96" x2="90.17" y2="83.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER_SELECT_1">
 <contactref element="J7" pad="1"/>
 <contactref element="U$1" pad="J804-6"/>
-<wire x1="-72.39" y1="-90.17" x2="-80.01" y2="-83.82" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="63.5" x2="92.71" y2="55.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER_SELECT_2">
 <contactref element="J7" pad="3"/>
 <contactref element="U$1" pad="J804-5"/>
-<wire x1="-69.85" y1="-90.17" x2="-80.01" y2="-86.36" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="66.04" x2="92.71" y2="58.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER_SELECT_3">
 <contactref element="J7" pad="5"/>
 <contactref element="U$1" pad="J804-4"/>
-<wire x1="-67.31" y1="-90.17" x2="-80.01" y2="-88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="68.58" x2="92.71" y2="60.96" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER_SELECT_4">
 <contactref element="J7" pad="7"/>
 <contactref element="U$1" pad="J804-3"/>
-<wire x1="-64.77" y1="-90.17" x2="-80.01" y2="-91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="71.12" x2="92.71" y2="63.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PEDAL_MAPPING_2">
 <contactref element="J7" pad="4"/>
 <contactref element="U$1" pad="J801-0"/>
-<wire x1="-80.01" y1="-77.47" x2="-69.85" y2="-87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="57.15" x2="90.17" y2="58.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PEDAL_MAPPING_1">
 <contactref element="J7" pad="6"/>
 <contactref element="U$1" pad="J801-1"/>
-<wire x1="-80.01" y1="-74.93" x2="-67.31" y2="-87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="54.61" x2="90.17" y2="60.96" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRIVER_SELECT_5">
 <contactref element="J7" pad="8"/>
 <contactref element="U$1" pad="J804-2"/>
-<wire x1="-64.77" y1="-87.63" x2="-80.01" y2="-93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="73.66" x2="90.17" y2="63.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EVENT_SELECT_1">
-<contactref element="J6" pad="1"/>
 <contactref element="U$1" pad="EXT3-7"/>
-<wire x1="-72.39" y1="-80.01" x2="-96.52" y2="-125.73" width="0" layer="19" extent="1-1"/>
+<contactref element="J6" pad="8"/>
+<wire x1="48.26" y1="105.41" x2="90.17" y2="104.14" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EVENT_SELECT_2">
-<contactref element="J6" pad="3"/>
 <contactref element="U$1" pad="EXT3-6"/>
-<wire x1="-69.85" y1="-80.01" x2="-96.52" y2="-123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="J6" pad="6"/>
+<wire x1="48.26" y1="102.87" x2="90.17" y2="101.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EVENT_SELECT_3">
-<contactref element="J6" pad="5"/>
 <contactref element="U$1" pad="EXT3-3"/>
-<wire x1="-67.31" y1="-80.01" x2="-91.44" y2="-125.73" width="0" layer="19" extent="1-1"/>
+<contactref element="J6" pad="4"/>
+<wire x1="53.34" y1="105.41" x2="90.17" y2="99.06" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EVENT_SELECT_4">
-<contactref element="J6" pad="7"/>
 <contactref element="U$1" pad="EXT3-2"/>
-<wire x1="-64.77" y1="-80.01" x2="-91.44" y2="-123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="J6" pad="2"/>
+<wire x1="53.34" y1="102.87" x2="90.17" y2="96.52" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V_BATTERY">
 <contactref element="J3" pad="1"/>
 <contactref element="J3" pad="2"/>
 <contactref element="F1" pad="1"/>
-<wire x1="100.33" y1="20.32" x2="-74.93" y2="-101.6" width="0" layer="19" extent="1-1"/>
-<wire x1="100.33" y1="22.86" x2="100.33" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="93.98" y1="21.59" x2="107.95" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="93.98" y1="19.05" x2="93.98" y2="21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="5V_IND" pad="K"/>
 <contactref element="R24" pad="2"/>
-<wire x1="-73.66" y1="-116.84" x2="-69.85" y2="-127" width="0" layer="19" extent="1-1"/>
+<wire x1="138.43" y1="19.05" x2="138.43" y2="24.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="R23" pad="2"/>
 <contactref element="3.3V_IND" pad="K"/>
-<wire x1="-73.66" y1="-111.76" x2="-69.85" y2="-121.92" width="0" layer="19" extent="1-1"/>
+<wire x1="118.11" y1="19.05" x2="118.11" y2="22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

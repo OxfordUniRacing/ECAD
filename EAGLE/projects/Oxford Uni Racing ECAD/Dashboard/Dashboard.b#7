@@ -344,6 +344,35 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 <text x="-3.429" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.429" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="LED3MM" urn="urn:adsk.eagle:footprint:6239891/1" library_version="2">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+3 mm, round</description>
+<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-1.1708" y2="0.9756" width="0.1524" layer="51" curve="-39.80361" cap="flat"/>
+<wire x1="-1.524" y1="0" x2="-1.1391" y2="-1.0125" width="0.1524" layer="51" curve="41.633208" cap="flat"/>
+<wire x1="1.1571" y1="0.9918" x2="1.524" y2="0" width="0.1524" layer="51" curve="-40.601165" cap="flat"/>
+<wire x1="1.1708" y1="-0.9756" x2="1.524" y2="0" width="0.1524" layer="51" curve="39.80361" cap="flat"/>
+<wire x1="0" y1="1.524" x2="1.2401" y2="0.8858" width="0.1524" layer="21" curve="-54.461337" cap="flat"/>
+<wire x1="-1.2192" y1="0.9144" x2="0" y2="1.524" width="0.1524" layer="21" curve="-53.130102" cap="flat"/>
+<wire x1="0" y1="-1.524" x2="1.203" y2="-0.9356" width="0.1524" layer="21" curve="52.126876" cap="flat"/>
+<wire x1="-1.203" y1="-0.9356" x2="0" y2="-1.524" width="0.1524" layer="21" curve="52.126876" cap="flat"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108" cap="flat"/>
+<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949" cap="flat"/>
+<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022" cap="flat"/>
+<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215" cap="flat"/>
+<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
+<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
+<wire x1="-2.5908" y1="1.7272" x2="-1.8542" y2="1.7272" width="0.127" layer="21"/>
+<wire x1="-2.2352" y1="1.3208" x2="-2.2352" y2="2.1082" width="0.127" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="0204/7" urn="urn:adsk.eagle:package:6240596/1" type="box" library_version="2">
@@ -358,6 +387,13 @@ type 0204, grid 7.5 mm</description>
 grid 5 mm, outline 2.5 x 7.5 mm</description>
 <packageinstances>
 <packageinstance name="C050-025X075"/>
+</packageinstances>
+</package3d>
+<package3d name="LED3MM" urn="urn:adsk.eagle:package:6240537/1" type="box" library_version="2">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+3 mm, round</description>
+<packageinstances>
+<packageinstance name="LED3MM"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -936,6 +972,22 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="-74.93" y="-101.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-73.152" y="-107.442" size="2.54" layer="27"/>
 </element>
+<element name="3.3V_IND" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="LED3MM" package3d_urn="urn:adsk.eagle:package:6240537/1" value="" x="-74.93" y="-111.76" smashed="yes">
+<attribute name="NAME" x="-73.025" y="-111.379" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-73.025" y="-113.411" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="" x="-73.66" y="-121.92" smashed="yes">
+<attribute name="NAME" x="-76.2" y="-120.6246" size="0.9906" layer="25" ratio="12"/>
+<attribute name="VALUE" x="-75.2856" y="-122.4026" size="0.9906" layer="27" ratio="12"/>
+</element>
+<element name="5V_IND" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="LED3MM" package3d_urn="urn:adsk.eagle:package:6240537/1" value="" x="-74.93" y="-116.84" smashed="yes">
+<attribute name="NAME" x="-73.025" y="-116.459" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-73.025" y="-118.491" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="R24" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="" x="-73.66" y="-127" smashed="yes">
+<attribute name="NAME" x="-76.2" y="-125.7046" size="0.9906" layer="25" ratio="12"/>
+<attribute name="VALUE" x="-75.2856" y="-127.4826" size="0.9906" layer="27" ratio="12"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1003,14 +1055,18 @@ design rules under a new name.</description>
 <contactref element="J4" pad="3"/>
 <contactref element="U$1" pad="J802-5"/>
 <contactref element="U$1" pad="J802-6"/>
-<wire x1="120.65" y1="16.51" x2="132.08" y2="8.89" width="0" layer="19" extent="16-16"/>
-<wire x1="101.6" y1="11.43" x2="111.76" y2="8.89" width="0" layer="19" extent="16-16"/>
-<wire x1="20.32" y1="-4.86" x2="92.71" y2="8.7376" width="0" layer="19" extent="1-1"/>
+<contactref element="R24" pad="1"/>
+<contactref element="R23" pad="1"/>
+<wire x1="-77.47" y1="-121.92" x2="-77.47" y2="-127" width="0" layer="19" extent="1-1"/>
+<wire x1="-77.47" y1="-24.13" x2="-77.47" y2="-121.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-77.47" y1="-21.59" x2="-77.47" y2="-24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="-18" x2="-77.47" y2="-21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="-43.18" x2="7.62" y2="-21.81" width="0" layer="19" extent="16-16"/>
 <wire x1="8.89" y1="-45.72" x2="8.89" y2="-43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="-59.69" x2="8.89" y2="-45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.47" y1="-21.59" x2="3.81" y2="-18" width="0" layer="19" extent="1-1"/>
-<wire x1="-77.47" y1="-24.13" x2="-77.47" y2="-21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="92.71" y1="8.7376" x2="20.32" y2="-4.86" width="0" layer="19" extent="1-1"/>
+<wire x1="111.76" y1="8.89" x2="101.6" y2="11.43" width="0" layer="19" extent="16-16"/>
+<wire x1="132.08" y1="8.89" x2="120.65" y2="16.51" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="TRACTIVE_SYSTEM">
 <contactref element="J1" pad="4"/>
@@ -1145,6 +1201,8 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="J802-4"/>
 <contactref element="J6" pad="2"/>
 <contactref element="J7" pad="2"/>
+<contactref element="5V_IND" pad="A"/>
+<wire x1="-72.39" y1="-87.63" x2="-76.2" y2="-116.84" width="0" layer="19" extent="1-1"/>
 <wire x1="-72.39" y1="-77.47" x2="-72.39" y2="-87.63" width="0" layer="19" extent="1-1"/>
 <wire x1="-77.47" y1="-19.05" x2="-72.39" y2="-77.47" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="-59.69" x2="-72.39" y2="-77.47" width="0" layer="19" extent="1-1"/>
@@ -1168,6 +1226,8 @@ design rules under a new name.</description>
 <wire x1="123.19" y1="13.97" x2="123.19" y2="20.32" width="1.27" layer="16"/>
 <wire x1="123.19" y1="20.32" x2="123.19" y2="21.59" width="1.27" layer="16"/>
 <wire x1="125.73" y1="20.32" x2="123.19" y2="20.32" width="1.27" layer="16"/>
+<contactref element="3.3V_IND" pad="A"/>
+<wire x1="123.19" y1="6.35" x2="-76.2" y2="-111.76" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC4" pad="1"/>
@@ -1248,13 +1308,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="EVENT_SELECT_1">
 <contactref element="J6" pad="1"/>
-<contactref element="U$1" pad="EXT3-5"/>
-<wire x1="-43.18" y1="-71.12" x2="-72.39" y2="-80.01" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="EXT3-7"/>
+<wire x1="-45.72" y1="-71.12" x2="-72.39" y2="-80.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EVENT_SELECT_2">
 <contactref element="J6" pad="3"/>
-<contactref element="U$1" pad="EXT3-4"/>
-<wire x1="-43.18" y1="-68.58" x2="-69.85" y2="-80.01" width="0" layer="19" extent="1-1"/>
+<contactref element="U$1" pad="EXT3-6"/>
+<wire x1="-45.72" y1="-68.58" x2="-69.85" y2="-80.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EVENT_SELECT_3">
 <contactref element="J6" pad="5"/>
@@ -1266,12 +1326,22 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="EXT3-2"/>
 <wire x1="-40.64" y1="-68.58" x2="-64.77" y2="-80.01" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$1">
+<signal name="12V_BATTERY">
 <contactref element="J3" pad="1"/>
 <contactref element="J3" pad="2"/>
 <contactref element="F1" pad="1"/>
 <wire x1="100.33" y1="20.32" x2="-74.93" y2="-101.6" width="0" layer="19" extent="1-1"/>
 <wire x1="100.33" y1="22.86" x2="100.33" y2="20.32" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="5V_IND" pad="K"/>
+<contactref element="R24" pad="2"/>
+<wire x1="-73.66" y1="-116.84" x2="-69.85" y2="-127" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="R23" pad="2"/>
+<contactref element="3.3V_IND" pad="K"/>
+<wire x1="-73.66" y1="-111.76" x2="-69.85" y2="-121.92" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
