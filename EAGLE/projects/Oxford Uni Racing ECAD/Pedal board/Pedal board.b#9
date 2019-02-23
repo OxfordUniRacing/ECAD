@@ -2726,7 +2726,6 @@ design rules under a new name.</description>
 <contactref element="C8" pad="1"/>
 <wire x1="134.62" y1="7.62" x2="129.54" y2="7.62" width="1.27" layer="16"/>
 <wire x1="129.54" y1="7.62" x2="125.73" y2="7.62" width="1.27" layer="16"/>
-<contactref element="J7" pad="8"/>
 <contactref element="IC1" pad="7"/>
 <contactref element="R20" pad="2"/>
 <contactref element="R22" pad="E"/>
@@ -2737,10 +2736,9 @@ design rules under a new name.</description>
 <wire x1="13.87" y1="-221.975" x2="1.17" y2="-221.975" width="0" layer="19" extent="1-1"/>
 <wire x1="15.24" y1="-186.69" x2="5.715" y2="-212.09" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="-163.83" x2="15.24" y2="-186.69" width="0" layer="19" extent="1-1"/>
-<wire x1="16.51" y1="-138.43" x2="5.08" y2="-163.83" width="0" layer="19" extent="1-1"/>
-<wire x1="8.8866375" y1="-98.7666375" x2="16.51" y2="-138.43" width="0" layer="19" extent="16-16"/>
-<wire x1="48.605440625" y1="-78.74" x2="48.605440625" y2="-88.452278125" width="0" layer="19" extent="16-16"/>
 <wire x1="-60.96" y1="-232.41" x2="1.17" y2="-221.975" width="0" layer="19" extent="1-1"/>
+<wire x1="8.8866375" y1="-98.7666375" x2="5.08" y2="-163.83" width="0" layer="19" extent="16-16"/>
+<wire x1="48.605440625" y1="-78.74" x2="48.605440625" y2="-88.452278125" width="0" layer="19" extent="16-16"/>
 <wire x1="102.87" y1="7.62" x2="71.11193125" y2="-68.1202625" width="0" layer="19" extent="16-16"/>
 <wire x1="125.73" y1="7.62" x2="111.76" y2="7.62" width="0" layer="19" extent="16-16"/>
 </signal>
@@ -2928,7 +2926,7 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="J803-5"/>
 <wire x1="-78.74" y1="-196.85" x2="16.51" y2="-118.11" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$4">
+<signal name="12V_BATTERY">
 <contactref element="J3" pad="1"/>
 <contactref element="J3" pad="2"/>
 <contactref element="F1" pad="1"/>
@@ -2936,6 +2934,11 @@ design rules under a new name.</description>
 <wire x1="90.17" y1="20.32" x2="90.17" y2="22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.2" y1="-232.41" x2="90.17" y2="20.32" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.2" y1="-247.65" x2="-76.2" y2="-232.41" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="12V_BR_LIGHTS">
+<contactref element="J7" pad="8"/>
+<contactref element="BRAKE_LIGHTS" pad="2"/>
+<wire x1="-60.96" y1="-247.65" x2="16.51" y2="-138.43" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
