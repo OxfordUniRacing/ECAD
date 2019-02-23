@@ -21490,7 +21490,6 @@ Wickmann</description>
 <part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1M"/>
 <part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1M"/>
 <part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1M"/>
-<part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1M"/>
 <part name="R10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1M"/>
 <part name="R11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1M"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
@@ -21498,7 +21497,6 @@ Wickmann</description>
 <part name="SUPPLY42" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY43" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY44" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY45" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="3.3V_IND" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:6240537/1"/>
 <part name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1"/>
 <part name="SUPPLY47" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -23175,10 +23173,6 @@ Connect BATT_CURRENT to pin 5</text>
 <attribute name="NAME" x="171.6786" y="31.75" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="166.878" y="31.75" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R4" gate="G$1" x="134.62" y="27.94" smashed="yes" rot="R270">
-<attribute name="NAME" x="136.1186" y="31.75" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="131.318" y="31.75" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="R10" gate="G$1" x="116.84" y="40.64" smashed="yes">
 <attribute name="NAME" x="113.03" y="42.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="113.03" y="37.338" size="1.778" layer="96"/>
@@ -23201,9 +23195,6 @@ Connect BATT_CURRENT to pin 5</text>
 </instance>
 <instance part="SUPPLY44" gate="G$1" x="170.18" y="20.32" smashed="yes" rot="R180">
 <attribute name="VALUE" x="170.18" y="17.526" size="1.778" layer="96" rot="R180" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY45" gate="G$1" x="134.62" y="20.32" smashed="yes" rot="R180">
-<attribute name="VALUE" x="134.62" y="17.526" size="1.778" layer="96" rot="R180" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -23251,11 +23242,6 @@ Connect BATT_CURRENT to pin 5</text>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="SUPPLY19" gate="G$1" pin="5V"/>
 <wire x1="111.76" y1="40.64" x2="109.22" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="SUPPLY45" gate="G$1" pin="5V"/>
-<wire x1="134.62" y1="22.86" x2="134.62" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -23440,15 +23426,6 @@ Connect BATT_CURRENT to pin 5</text>
 <wire x1="182.88" y1="40.64" x2="231.14" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="33.02" x2="182.88" y2="40.64" width="0.1524" layer="91"/>
 <junction x="182.88" y="40.64"/>
-</segment>
-</net>
-<net name="BR_POSS2" class="0">
-<segment>
-<pinref part="J6" gate="G$1" pin="7"/>
-<label x="124.46" y="38.1" size="1.778" layer="95"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="33.02" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="38.1" x2="142.24" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

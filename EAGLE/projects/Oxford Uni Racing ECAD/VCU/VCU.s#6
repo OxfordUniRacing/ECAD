@@ -10845,6 +10845,7 @@ Wickmann</description>
 <part name="R24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1"/>
 <part name="SUPPLY54" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND33" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11010,6 +11011,7 @@ Wickmann</description>
 <description>INPUTS</description>
 <plain>
 <text x="0" y="0" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
+<text x="182.88" y="50.8" size="1.778" layer="91">AIR_COILS_SUPPLY</text>
 </plain>
 <instances>
 <instance part="SUPPLY4" gate="G$1" x="22.86" y="96.52" smashed="yes" rot="R270">
@@ -11083,6 +11085,9 @@ Wickmann</description>
 <attribute name="NAME" x="156.083" y="120.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="160.401" y="120.65" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="SUPPLY22" gate="G$1" x="175.26" y="50.8" smashed="yes" rot="R270">
+<attribute name="VALUE" x="178.054" y="50.8" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,ASS1,ASS2,CANH,CANL,GND,MC_1_BRAKE_INPUT,MC_1_IMPULSE_INPUT,MC_1_REVERSE_SWITCH,MC_1_RXD,MC_1_THROTTLE_INPUT,MC_1_TXD,MC_2_BRAKE_INPUT,MC_2_IMPULSE_INPUT,MC_2_REVERSE_SWITCH,MC_2_RXD,MC_2_THROTTLE_INPUT,MC_2_TXD">
@@ -11115,6 +11120,11 @@ Wickmann</description>
 <label x="86.36" y="78.74" size="1.778" layer="95"/>
 <pinref part="SUPPLY23" gate="G$1" pin="5V"/>
 <wire x1="81.28" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="167.64" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="SUPPLY22" gate="G$1" pin="5V"/>
 </segment>
 </net>
 <net name="3.3V" class="0">

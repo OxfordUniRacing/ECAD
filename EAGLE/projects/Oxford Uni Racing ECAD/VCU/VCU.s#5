@@ -12526,6 +12526,17 @@ Wickmann</description>
 </net>
 </nets>
 </sheet>
+<sheet>
+<description>BRAKE LIGHTS</description>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
 </sheets>
 </schematic>
 </drawing>
