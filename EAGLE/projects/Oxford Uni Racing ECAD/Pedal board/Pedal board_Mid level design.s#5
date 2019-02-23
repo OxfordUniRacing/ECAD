@@ -52,10 +52,18 @@
 </sheet>
 </sheets>
 </module>
-<module name="MICROCONTROLLER" prefix="" dx="30.48" dy="20.32">
+<module name="MICROCONTROLLER" prefix="" dx="60.96" dy="20.32">
 <ports>
-<port name="5V" side="bottom" coord="-12.7" direction="io"/>
-<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="5V" side="bottom" coord="-27.94" direction="io"/>
+<port name="GND" side="bottom" coord="-25.4" direction="io"/>
+<port name="CAN0" side="bottom" coord="-20.32" direction="io"/>
+<port name="CAN1" side="bottom" coord="-17.78" direction="io"/>
+<port name="THR1" side="bottom" coord="-12.7" direction="io"/>
+<port name="THR2" side="bottom" coord="-10.16" direction="io"/>
+<port name="THR3" side="bottom" coord="-7.62" direction="io"/>
+<port name="BR_PR" side="bottom" coord="-2.54" direction="io"/>
+<port name="BR_POSS" side="bottom" coord="0" direction="io"/>
+<port name="BRAKE_LIGHTS_OUT" side="bottom" coord="5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -126,6 +134,7 @@
 <ports>
 <port name="5V" side="bottom" coord="-12.7" direction="io"/>
 <port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="BR_PR" side="bottom" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -146,6 +155,8 @@
 </module>
 <module name="BOTS" prefix="" dx="30.48" dy="20.32">
 <ports>
+<port name="12V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -166,6 +177,8 @@
 </module>
 <module name="BSPD" prefix="" dx="30.48" dy="20.32">
 <ports>
+<port name="12V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -186,6 +199,8 @@
 </module>
 <module name="BRAKE_LIGHTS" prefix="" dx="30.48" dy="20.32">
 <ports>
+<port name="POWER_IN_?V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -206,6 +221,34 @@
 </module>
 <module name="THROTTLE_S" prefix="" dx="30.48" dy="20.32">
 <ports>
+<port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="THR_POS_1" side="bottom" coord="-5.08" direction="io"/>
+<port name="THR_POS_2" side="bottom" coord="-2.54" direction="io"/>
+<port name="THR_POS_3" side="bottom" coord="0" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="BRAKE_POSS_S" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="3.3V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="BR_POSS" side="bottom" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -241,14 +284,14 @@
 <moduleinst name="INPUTS1" module="INPUTS" x="15.24" y="10.16">
 <attribute name="NAME" x="15.24" y="10.16" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="POWER_DELIVERY1" module="POWER_DELIVERY" x="58.42" y="50.8">
-<attribute name="NAME" x="58.42" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="POWER_DELIVERY1" module="POWER_DELIVERY" x="53.34" y="50.8">
+<attribute name="NAME" x="53.34" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="BRAKE_PRESSURE_S1" module="BRAKE_PRESSURE_S" x="147.32" y="50.8">
-<attribute name="NAME" x="147.32" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="BRAKE_PRESSURE_S1" module="BRAKE_PRESSURE_S" x="154.94" y="50.8">
+<attribute name="NAME" x="154.94" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="BOTS1" module="BOTS" x="187.96" y="50.8">
-<attribute name="NAME" x="187.96" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="BOTS1" module="BOTS" x="190.5" y="50.8">
+<attribute name="NAME" x="190.5" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="BSPD1" module="BSPD" x="228.6" y="50.8">
 <attribute name="NAME" x="228.6" y="50.8" size="2.032" layer="95" align="bottom-center"/>
@@ -259,12 +302,189 @@
 <moduleinst name="THROTTLE_S1" module="THROTTLE_S" x="312.42" y="50.8">
 <attribute name="NAME" x="312.42" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
+<moduleinst name="BRAKE_POSS_S1" module="BRAKE_POSS_S" x="353.06" y="50.8">
+<attribute name="NAME" x="353.06" y="50.8" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
 </moduleinsts>
 <instances>
 </instances>
 <busses>
+<bus name="3.3V,5V,12V,BRAKE_LIGHTS_OUT,BR_POSS,BR_PR,CAN0,CAN1,GND,THR1,THR2,THR3">
+<segment>
+<wire x1="43.18" y1="22.86" x2="353.06" y2="22.86" width="0.762" layer="92"/>
+</segment>
+</bus>
 </busses>
 <nets>
+<net name="12V" class="0">
+<segment>
+<portref moduleinst="INPUTS1" port="12V"/>
+<wire x1="35.56" y1="17.78" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="17.78" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="POWER_DELIVERY1" port="12V_IN"/>
+<wire x1="43.18" y1="22.86" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BOTS1" port="12V"/>
+<wire x1="177.8" y1="22.86" x2="177.8" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BSPD1" port="12V"/>
+<wire x1="215.9" y1="22.86" x2="215.9" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BRAKE_LIGHTS1" port="POWER_IN_?V"/>
+<wire x1="259.08" y1="22.86" x2="259.08" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<portref moduleinst="INPUTS1" port="GND"/>
+<wire x1="35.56" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="15.24" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="45.72" y1="22.86" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
+<portref moduleinst="POWER_DELIVERY1" port="GND"/>
+<wire x1="45.72" y1="35.56" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="GND"/>
+<wire x1="78.74" y1="22.86" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BRAKE_PRESSURE_S1" port="GND"/>
+<wire x1="144.78" y1="22.86" x2="144.78" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BOTS1" port="GND"/>
+<wire x1="180.34" y1="22.86" x2="180.34" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BSPD1" port="GND"/>
+<wire x1="218.44" y1="22.86" x2="218.44" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BRAKE_LIGHTS1" port="GND"/>
+<wire x1="261.62" y1="22.86" x2="261.62" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="THROTTLE_S1" port="GND"/>
+<wire x1="302.26" y1="22.86" x2="302.26" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BRAKE_POSS_S1" port="GND"/>
+<wire x1="342.9" y1="22.86" x2="342.9" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CAN0" class="0">
+<segment>
+<portref moduleinst="INPUTS1" port="CAN0"/>
+<wire x1="35.56" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="10.16" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="CAN0"/>
+<wire x1="83.82" y1="22.86" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CAN1" class="0">
+<segment>
+<portref moduleinst="INPUTS1" port="CAN1"/>
+<wire x1="35.56" y1="7.62" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="7.62" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="CAN1"/>
+<wire x1="86.36" y1="22.86" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<portref moduleinst="POWER_DELIVERY1" port="5V_OUT"/>
+<wire x1="53.34" y1="35.56" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="5V"/>
+<wire x1="76.2" y1="22.86" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BRAKE_PRESSURE_S1" port="5V"/>
+<wire x1="142.24" y1="22.86" x2="142.24" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<portref moduleinst="POWER_DELIVERY1" port="3.3V_OUT"/>
+<wire x1="55.88" y1="35.56" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="THROTTLE_S1" port="3.3V"/>
+<wire x1="299.72" y1="22.86" x2="299.72" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BRAKE_POSS_S1" port="3.3V"/>
+<wire x1="340.36" y1="22.86" x2="340.36" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="THR1" class="0">
+<segment>
+<portref moduleinst="THROTTLE_S1" port="THR_POS_1"/>
+<wire x1="307.34" y1="35.56" x2="307.34" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="THR1"/>
+<wire x1="91.44" y1="22.86" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="THR2" class="0">
+<segment>
+<portref moduleinst="THROTTLE_S1" port="THR_POS_2"/>
+<wire x1="309.88" y1="35.56" x2="309.88" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="THR2"/>
+<wire x1="93.98" y1="22.86" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="THR3" class="0">
+<segment>
+<portref moduleinst="THROTTLE_S1" port="THR_POS_3"/>
+<wire x1="312.42" y1="35.56" x2="312.42" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="THR3"/>
+<wire x1="96.52" y1="22.86" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BR_PR" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="BR_PR"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BRAKE_PRESSURE_S1" port="BR_PR"/>
+<wire x1="149.86" y1="22.86" x2="149.86" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BR_POSS" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="BR_POSS"/>
+<wire x1="104.14" y1="35.56" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BRAKE_POSS_S1" port="BR_POSS"/>
+<wire x1="347.98" y1="22.86" x2="347.98" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BRAKE_LIGHTS_OUT" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="BRAKE_LIGHTS_OUT"/>
+<wire x1="109.22" y1="35.56" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

@@ -48,6 +48,10 @@
 <port name="PEDAL_MAPPING" side="top" coord="2.54" direction="io"/>
 <port name="TCS_ON_OFF" side="top" coord="10.16" direction="io"/>
 <port name="IGNITION_SWITCH" side="top" coord="15.24" direction="io"/>
+<port name="MISO" side="top" coord="20.32" direction="io"/>
+<port name="MOSI" side="top" coord="22.86" direction="io"/>
+<port name="DISPL_CS" side="top" coord="25.4" direction="io"/>
+<port name="SCK" side="top" coord="27.94" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -128,6 +132,10 @@
 <port name="PEDAL_MAPPING" side="bottom" coord="-10.16" direction="io"/>
 <port name="TCS_ON_OFF" side="bottom" coord="-2.54" direction="io"/>
 <port name="IGNITION_SWITCH" side="bottom" coord="2.54" direction="io"/>
+<port name="MOSI" side="bottom" coord="12.7" direction="io"/>
+<port name="MISO" side="bottom" coord="15.24" direction="io"/>
+<port name="DISPL_CS" side="bottom" coord="17.78" direction="io"/>
+<port name="SCK" side="bottom" coord="20.32" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -150,6 +158,10 @@
 <ports>
 <port name="5V" side="bottom" coord="-12.7" direction="io"/>
 <port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="MOSI" side="bottom" coord="-5.08" direction="io"/>
+<port name="MISO" side="bottom" coord="-2.54" direction="io"/>
+<port name="CS" side="bottom" coord="0" direction="io"/>
+<port name="SCK" side="bottom" coord="2.54" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -279,7 +291,7 @@
 <instances>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_BIAS,CAN0,CAN1,DISPL_SCL,DISPL_SDA,DRIVER_SELECT,EMERGENCY_STOP,EVENT_SELECT,GND,IGNITION_SWITCH,PEDAL_MAPPING,PWR_REDUCTION,TCS_ON_OFF">
+<bus name="3.3V,5V,12V,ASS1,ASS2,CAN0,CAN1,DISPL_CS,DISPL_SCL,DRIVER_SELECT,EVENT_SELECT,GND,IGNITION_SWITCH,MISO,MOSI,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON_OFF">
 <segment>
 <wire x1="332.74" y1="35.56" x2="327.66" y2="35.56" width="0.762" layer="92"/>
 <wire x1="327.66" y1="35.56" x2="58.42" y2="35.56" width="0.762" layer="92"/>
@@ -518,6 +530,62 @@
 <segment>
 <portref moduleinst="INPUTS1" port="ASS2"/>
 <wire x1="58.42" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MOSI" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MOSI"/>
+<wire x1="160.02" y1="45.72" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="DISPLAY1" port="MOSI"/>
+<wire x1="213.36" y1="35.56" x2="213.36" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="MOSI"/>
+<wire x1="134.62" y1="2.54" x2="134.62" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MISO" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MISO"/>
+<wire x1="162.56" y1="45.72" x2="162.56" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="DISPLAY1" port="MISO"/>
+<wire x1="215.9" y1="35.56" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="MISO"/>
+<wire x1="132.08" y1="2.54" x2="132.08" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DISPL_CS" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="DISPL_CS"/>
+<wire x1="165.1" y1="45.72" x2="165.1" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="DISPLAY1" port="CS"/>
+<wire x1="218.44" y1="35.56" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="DISPL_CS"/>
+<wire x1="137.16" y1="2.54" x2="137.16" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCK" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="SCK"/>
+<wire x1="167.64" y1="45.72" x2="167.64" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="DISPLAY1" port="SCK"/>
+<wire x1="220.98" y1="35.56" x2="220.98" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="SCK"/>
+<wire x1="139.7" y1="2.54" x2="139.7" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

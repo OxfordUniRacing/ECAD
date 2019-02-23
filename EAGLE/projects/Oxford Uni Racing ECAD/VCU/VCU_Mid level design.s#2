@@ -78,6 +78,18 @@
 <port name="GND" side="bottom" coord="-25.4" direction="io"/>
 <port name="CAN0" side="bottom" coord="-20.32" direction="io"/>
 <port name="CAN1" side="bottom" coord="-17.78" direction="io"/>
+<port name="MC_1_BRAKE_INPUT" side="bottom" coord="-12.7" direction="io"/>
+<port name="MC_1_RXD" side="bottom" coord="-10.16" direction="io"/>
+<port name="MC_1_TXD" side="bottom" coord="-7.62" direction="io"/>
+<port name="MC_1_REVERSE_SWITCH" side="bottom" coord="-5.08" direction="io"/>
+<port name="MC_1_THROTTLE_INPUT" side="bottom" coord="-2.54" direction="io"/>
+<port name="MC_1_IMPULSE_INPUT" side="bottom" coord="0" direction="io"/>
+<port name="MC_2_BRAKE_INPUT" side="bottom" coord="5.08" direction="io"/>
+<port name="MC_2_RXD" side="bottom" coord="7.62" direction="io"/>
+<port name="MC_2_TXD" side="bottom" coord="10.16" direction="io"/>
+<port name="MC_2_REVERSE_SWITCH" side="bottom" coord="12.7" direction="io"/>
+<port name="MC_2_THROTTLE_INPUT" side="bottom" coord="15.24" direction="io"/>
+<port name="MC_2_IMPULSE_INPUT" side="bottom" coord="17.78" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>

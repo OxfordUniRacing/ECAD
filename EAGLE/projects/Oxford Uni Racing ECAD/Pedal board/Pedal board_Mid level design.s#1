@@ -42,7 +42,6 @@
 <port name="CAN1" side="top" coord="-27.94" direction="io"/>
 <port name="THR1" side="top" coord="-22.86" direction="io"/>
 <port name="THR2" side="top" coord="-20.32" direction="io"/>
-<port name="THR3" side="top" coord="-17.78" direction="io"/>
 <port name="BR_PR" side="top" coord="-12.7" direction="io"/>
 <port name="BR_POSS" side="top" coord="-10.16" direction="io"/>
 <port name="BRAKE_LIGHTS_OUT" side="top" coord="-5.08" direction="io"/>
@@ -76,7 +75,6 @@
 <port name="CAN1" side="bottom" coord="-17.78" direction="io"/>
 <port name="THR1" side="bottom" coord="-12.7" direction="io"/>
 <port name="THR2" side="bottom" coord="-10.16" direction="io"/>
-<port name="THR3" side="bottom" coord="-7.62" direction="io"/>
 <port name="BR_PR" side="bottom" coord="-2.54" direction="io"/>
 <port name="BR_POSS" side="bottom" coord="0" direction="io"/>
 <port name="BRAKE_LIGHTS_OUT" side="bottom" coord="5.08" direction="io"/>
@@ -323,7 +321,6 @@
 <port name="GND" side="bottom" coord="-7.62" direction="io"/>
 <port name="THR_POSS1" side="bottom" coord="-5.08" direction="io"/>
 <port name="THR_POSS2" side="bottom" coord="-2.54" direction="io"/>
-<port name="THR_POSS3" side="bottom" coord="0" direction="io"/>
 <port name="BR_POSS" side="bottom" coord="2.54" direction="io"/>
 <port name="BR_PRESS" side="bottom" coord="5.08" direction="io"/>
 <port name="ST_WH_POSS" side="bottom" coord="7.62" direction="io"/>
@@ -531,20 +528,6 @@
 <segment>
 <portref moduleinst="OUTPUTS1" port="THR_POSS2"/>
 <wire x1="152.4" y1="22.86" x2="152.4" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="THR3" class="0">
-<segment>
-<portref moduleinst="MICROCONTROLLER1" port="THR3"/>
-<wire x1="96.52" y1="22.86" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="CROSS_SHEET_WIRING1" port="THR3"/>
-<wire x1="104.14" y1="-12.7" x2="104.14" y2="-22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="OUTPUTS1" port="THR_POSS3"/>
-<wire x1="154.94" y1="22.86" x2="154.94" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BR_PR" class="0">

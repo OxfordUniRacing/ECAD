@@ -40,6 +40,14 @@
 <port name="GND" side="top" coord="-35.56" direction="io"/>
 <port name="CAN0" side="top" coord="-30.48" direction="io"/>
 <port name="CAN1" side="top" coord="-27.94" direction="io"/>
+<port name="ASS1" side="top" coord="-22.86" direction="io"/>
+<port name="ASS2" side="top" coord="-20.32" direction="io"/>
+<port name="MC_1_DATA" side="top" coord="-15.24" direction="io"/>
+<port name="MC_1_CL" side="top" coord="-12.7" direction="io"/>
+<port name="MC_2_DATA" side="top" coord="-7.62" direction="io"/>
+<port name="MC_2_CL" side="top" coord="-5.08" direction="io"/>
+<port name="TEL_DATA" side="top" coord="0" direction="io"/>
+<port name="TEL_CL" side="top" coord="2.54" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -64,6 +72,12 @@
 <port name="GND" side="bottom" coord="-25.4" direction="io"/>
 <port name="CAN0" side="bottom" coord="-20.32" direction="io"/>
 <port name="CAN1" side="bottom" coord="-17.78" direction="io"/>
+<port name="MC_1_DATA" side="bottom" coord="-12.7" direction="io"/>
+<port name="MC_1_CL" side="bottom" coord="-10.16" direction="io"/>
+<port name="MC_2_DATA" side="bottom" coord="-5.08" direction="io"/>
+<port name="MC_2_CL" side="bottom" coord="-2.54" direction="io"/>
+<port name="TEL_DATA" side="bottom" coord="2.54" direction="io"/>
+<port name="TEL_CL" side="bottom" coord="5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -132,6 +146,52 @@
 </sheet>
 </sheets>
 </module>
+<module name="MOTOR_CONTROLLER_OUT_" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="MC_DATA" side="bottom" coord="-2.54" direction="io"/>
+<port name="MC_CL" side="bottom" coord="0" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="TELEMETRY_OUT" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="PWR_?" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="TEL_DATA" side="bottom" coord="-5.08" direction="io"/>
+<port name="TEL_CL" side="bottom" coord="-2.54" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
 </modules>
 <parts>
 </parts>
@@ -143,20 +203,29 @@
 <moduleinst name="CROSS_SHEET_WIRING1" module="CROSS_SHEET_WIRING" x="127" y="-22.86">
 <attribute name="NAME" x="127" y="-22.86" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="MICROCONTROLLER1" module="MICROCONTROLLER" x="109.22" y="66.04">
-<attribute name="NAME" x="109.22" y="66.04" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="MICROCONTROLLER1" module="MICROCONTROLLER" x="111.76" y="66.04">
+<attribute name="NAME" x="111.76" y="66.04" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="INPUTS1" module="INPUTS" x="20.32" y="25.4">
 <attribute name="NAME" x="20.32" y="25.4" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="POWER_DELIVERY1" module="POWER_DELIVERY" x="58.42" y="66.04">
-<attribute name="NAME" x="58.42" y="66.04" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="POWER_DELIVERY1" module="POWER_DELIVERY" x="60.96" y="66.04">
+<attribute name="NAME" x="60.96" y="66.04" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="MOTOR_CONTROLLER_OUT_1" module="MOTOR_CONTROLLER_OUT_" x="170.18" y="66.04">
+<attribute name="NAME" x="170.18" y="66.04" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="MOTOR_CONTROLLER_OUT_2" module="MOTOR_CONTROLLER_OUT_" x="213.36" y="66.04">
+<attribute name="NAME" x="213.36" y="66.04" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
+<moduleinst name="TELEMETRY_OUT1" module="TELEMETRY_OUT" x="256.54" y="66.04">
+<attribute name="NAME" x="256.54" y="66.04" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURR_SENSE,BRAKE_LIGHTS_OUT,BR_POSS,BR_PR,CAN0,CAN1,GND,THR1,THR2,THR3">
+<bus name="3.3V,5V,12V,ASS1,ASS2,CAN0,CAN1,GND,MC_1_CL,MC_1_DATA,MC_2_CL,MC_2_DATA,TEL_CL,TEL_DATA">
 <segment>
 <wire x1="48.26" y1="38.1" x2="358.14" y2="38.1" width="0.762" layer="92"/>
 <wire x1="48.26" y1="38.1" x2="48.26" y2="2.54" width="0.762" layer="92"/>
@@ -172,7 +241,15 @@
 </segment>
 <segment>
 <portref moduleinst="POWER_DELIVERY1" port="12V_IN"/>
-<wire x1="48.26" y1="38.1" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="38.1" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="TELEMETRY_OUT1" port="PWR_?"/>
+<wire x1="243.84" y1="38.1" x2="243.84" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="12V"/>
+<wire x1="83.82" y1="2.54" x2="83.82" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -181,12 +258,20 @@
 <wire x1="40.64" y1="30.48" x2="48.26" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="53.34" y1="38.1" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="38.1" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 <portref moduleinst="POWER_DELIVERY1" port="GND"/>
 </segment>
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="GND"/>
-<wire x1="83.82" y1="38.1" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="38.1" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="TELEMETRY_OUT1" port="GND"/>
+<wire x1="246.38" y1="38.1" x2="246.38" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="GND"/>
+<wire x1="91.44" y1="2.54" x2="91.44" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN0" class="0">
@@ -196,7 +281,11 @@
 </segment>
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="CAN0"/>
-<wire x1="88.9" y1="38.1" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="38.1" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="CAN0"/>
+<wire x1="96.52" y1="2.54" x2="96.52" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1" class="0">
@@ -206,23 +295,35 @@
 </segment>
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="CAN1"/>
-<wire x1="91.44" y1="38.1" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="38.1" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="CAN1"/>
+<wire x1="99.06" y1="2.54" x2="99.06" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
 <segment>
 <portref moduleinst="POWER_DELIVERY1" port="5V_OUT"/>
-<wire x1="58.42" y1="50.8" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="50.8" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="5V"/>
-<wire x1="81.28" y1="38.1" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="38.1" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="5V"/>
+<wire x1="86.36" y1="2.54" x2="86.36" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <portref moduleinst="POWER_DELIVERY1" port="3.3V_OUT"/>
-<wire x1="60.96" y1="50.8" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="50.8" x2="63.5" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="3.3V"/>
+<wire x1="88.9" y1="2.54" x2="88.9" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ASS1" class="0">
@@ -230,11 +331,103 @@
 <portref moduleinst="INPUTS1" port="ASS1"/>
 <wire x1="40.64" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="ASS1"/>
+<wire x1="104.14" y1="2.54" x2="104.14" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ASS2" class="0">
 <segment>
 <portref moduleinst="INPUTS1" port="ASS2"/>
 <wire x1="40.64" y1="15.24" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="ASS2"/>
+<wire x1="106.68" y1="2.54" x2="106.68" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MC_1_DATA" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_1_DATA"/>
+<wire x1="99.06" y1="50.8" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MOTOR_CONTROLLER_OUT_1" port="MC_DATA"/>
+<wire x1="167.64" y1="38.1" x2="167.64" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="MC_1_DATA"/>
+<wire x1="111.76" y1="2.54" x2="111.76" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MC_1_CL" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_1_CL"/>
+<wire x1="101.6" y1="50.8" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MOTOR_CONTROLLER_OUT_1" port="MC_CL"/>
+<wire x1="170.18" y1="38.1" x2="170.18" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="MC_1_CL"/>
+<wire x1="114.3" y1="2.54" x2="114.3" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MC_2_DATA" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_2_DATA"/>
+<wire x1="106.68" y1="50.8" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MOTOR_CONTROLLER_OUT_2" port="MC_DATA"/>
+<wire x1="210.82" y1="38.1" x2="210.82" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="MC_2_DATA"/>
+<wire x1="119.38" y1="2.54" x2="119.38" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MC_2_CL" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="MC_2_CL"/>
+<wire x1="109.22" y1="50.8" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MOTOR_CONTROLLER_OUT_2" port="MC_CL"/>
+<wire x1="213.36" y1="38.1" x2="213.36" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="MC_2_CL"/>
+<wire x1="121.92" y1="2.54" x2="121.92" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TEL_DATA" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="TEL_DATA"/>
+<wire x1="114.3" y1="50.8" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="TELEMETRY_OUT1" port="TEL_DATA"/>
+<wire x1="251.46" y1="38.1" x2="251.46" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="TEL_DATA"/>
+<wire x1="127" y1="2.54" x2="127" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TEL_CL" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="TEL_CL"/>
+<wire x1="116.84" y1="50.8" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="TELEMETRY_OUT1" port="TEL_CL"/>
+<wire x1="254" y1="38.1" x2="254" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="TEL_CL"/>
+<wire x1="129.54" y1="2.54" x2="129.54" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -52,6 +52,7 @@
 <port name="MOSI" side="top" coord="22.86" direction="io"/>
 <port name="DISPL_CS" side="top" coord="25.4" direction="io"/>
 <port name="SCK" side="top" coord="27.94" direction="io"/>
+<port name="TS" side="top" coord="33.02" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -190,7 +191,7 @@
 <port name="PWR_REDUCTION" side="bottom" coord="-12.7" direction="io"/>
 <port name="IGNITION_SWITCH" side="bottom" coord="-7.62" direction="io"/>
 <port name="PEDAL_MAPPING" side="bottom" coord="-2.54" direction="io"/>
-<port name="TSMS" side="bottom" coord="2.54" direction="io"/>
+<port name="TS" side="bottom" coord="2.54" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -237,6 +238,9 @@
 <ports>
 <port name="12V" side="bottom" coord="-12.7" direction="io"/>
 <port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="TS" side="bottom" coord="-7.62" direction="io"/>
+<port name="ASS1" side="bottom" coord="-2.54" direction="io"/>
+<port name="ASS2" side="bottom" coord="0" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -291,13 +295,11 @@
 <instances>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,CAN0,CAN1,DISPL_CS,DISPL_SCL,DRIVER_SELECT,EVENT_SELECT,GND,IGNITION_SWITCH,MISO,MOSI,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON_OFF">
+<bus name="3.3V,5V,12V,ASS1,ASS2,CAN0,CAN1,DISPL_CS,DISPL_SCL,DRIVER_SELECT,EVENT_SELECT,GND,IGNITION_SWITCH,MISO,MOSI,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON_OFF,TS">
 <segment>
-<wire x1="332.74" y1="35.56" x2="327.66" y2="35.56" width="0.762" layer="92"/>
-<wire x1="327.66" y1="35.56" x2="58.42" y2="35.56" width="0.762" layer="92"/>
+<wire x1="406.4" y1="35.56" x2="58.42" y2="35.56" width="0.762" layer="92"/>
 <wire x1="58.42" y1="35.56" x2="58.42" y2="2.54" width="0.762" layer="92"/>
 <wire x1="58.42" y1="2.54" x2="152.4" y2="2.54" width="0.762" layer="92"/>
-<wire x1="332.74" y1="35.56" x2="383.54" y2="35.56" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -521,6 +523,10 @@
 <portref moduleinst="INPUTS1" port="ASS1"/>
 <wire x1="58.42" y1="12.7" x2="48.26" y2="12.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="TS_LATCH1" port="ASS1"/>
+<wire x1="388.62" y1="35.56" x2="388.62" y2="45.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ASS2" class="0">
 <segment>
@@ -530,6 +536,10 @@
 <segment>
 <portref moduleinst="INPUTS1" port="ASS2"/>
 <wire x1="58.42" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="TS_LATCH1" port="ASS2"/>
+<wire x1="391.16" y1="35.56" x2="391.16" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -586,6 +596,20 @@
 <segment>
 <portref moduleinst="INTER_SHEET_CONNECTIONS1" port="SCK"/>
 <wire x1="139.7" y1="2.54" x2="139.7" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TS" class="0">
+<segment>
+<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="TS"/>
+<wire x1="144.78" y1="-5.08" x2="144.78" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BUTTONS1" port="TS"/>
+<wire x1="284.48" y1="45.72" x2="284.48" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="TS_LATCH1" port="TS"/>
+<wire x1="383.54" y1="35.56" x2="383.54" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

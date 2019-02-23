@@ -44,6 +44,15 @@
 <port name="ASS2" side="top" coord="-20.32" direction="io"/>
 <port name="DISPL_SDA" side="top" coord="-15.24" direction="io"/>
 <port name="DISPL_SCL" side="top" coord="-12.7" direction="io"/>
+<port name="DRIVER_SELECT" side="top" coord="-7.62" direction="io"/>
+<port name="EVENT_SELECT" side="top" coord="-5.08" direction="io"/>
+<port name="PWR_REDUCTION" side="top" coord="0" direction="io"/>
+<port name="PEDAL_MAPPING" side="top" coord="2.54" direction="io"/>
+<port name="BRAKE_BIAS" side="top" coord="5.08" direction="io"/>
+<port name="TCS_ON_OFF" side="top" coord="10.16" direction="io"/>
+<port name="IGNITION_SWITCH" side="top" coord="15.24" direction="io"/>
+<port name="EMERGENCY_STOP" side="top" coord="20.32" direction="io"/>
+<port name="LV_SYSTEM_PWR" side="top" coord="12.7" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -127,7 +136,8 @@
 <port name="BRAKE_BIAS" side="bottom" coord="-7.62" direction="io"/>
 <port name="TCS_ON_OFF" side="bottom" coord="-2.54" direction="io"/>
 <port name="LV_SYSTEM_PWR" side="bottom" coord="0" direction="io"/>
-<port name="EMERGENCY_STOP" side="bottom" coord="5.08" direction="io"/>
+<port name="IGNITION_SWITCH" side="bottom" coord="2.54" direction="io"/>
+<port name="EMERGENCY_STOP" side="bottom" coord="7.62" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -278,10 +288,6 @@
 <portref moduleinst="INPUTS1" port="12V"/>
 <wire x1="58.42" y1="27.94" x2="48.26" y2="27.94" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="12V"/>
-<wire x1="68.58" y1="2.54" x2="68.58" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -293,10 +299,6 @@
 <wire x1="58.42" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="GND"/>
-<wire x1="76.2" y1="2.54" x2="76.2" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="MICROCONTROLLER1" port="GND"/>
 <wire x1="106.68" y1="35.56" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
 </segment>
@@ -304,15 +306,15 @@
 <portref moduleinst="BUTTONS1" port="GND"/>
 <wire x1="248.92" y1="35.56" x2="248.92" y2="45.72" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="CAN_OUT_PORT1" port="GND"/>
+<wire x1="337.82" y1="35.56" x2="337.82" y2="45.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
 <portref moduleinst="POWER_DELIVERY1" port="5V_OUT"/>
 <wire x1="71.12" y1="35.56" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="5V"/>
-<wire x1="71.12" y1="2.54" x2="71.12" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="5V"/>
@@ -322,15 +324,15 @@
 <portref moduleinst="DISPLAY1" port="5V"/>
 <wire x1="205.74" y1="35.56" x2="205.74" y2="45.72" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="CAN_OUT_PORT1" port="5V"/>
+<wire x1="335.28" y1="35.56" x2="335.28" y2="45.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <portref moduleinst="POWER_DELIVERY1" port="3.3V_OUT"/>
 <wire x1="73.66" y1="35.56" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="3.3V"/>
-<wire x1="73.66" y1="2.54" x2="73.66" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="BUTTONS1" port="3.3V"/>
@@ -343,12 +345,12 @@
 <wire x1="58.42" y1="20.32" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="CAN0"/>
-<wire x1="81.28" y1="2.54" x2="81.28" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="MICROCONTROLLER1" port="CAN0"/>
 <wire x1="111.76" y1="35.56" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CAN_OUT_PORT1" port="CAN0"/>
+<wire x1="342.9" y1="35.56" x2="342.9" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1" class="0">
@@ -357,31 +359,15 @@
 <wire x1="58.42" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="CAN1"/>
-<wire x1="83.82" y1="2.54" x2="83.82" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="MICROCONTROLLER1" port="CAN1"/>
 <wire x1="114.3" y1="35.56" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="ASS1" class="0">
 <segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="ASS1"/>
-<wire x1="88.9" y1="-5.08" x2="88.9" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ASS2" class="0">
-<segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="ASS2"/>
-<wire x1="91.44" y1="-5.08" x2="91.44" y2="-2.54" width="0.1524" layer="91"/>
+<portref moduleinst="CAN_OUT_PORT1" port="CAN1"/>
+<wire x1="345.44" y1="35.56" x2="345.44" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DISPL_SDA" class="0">
-<segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="DISPL_SDA"/>
-<wire x1="96.52" y1="-5.08" x2="96.52" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="DISPL_SDA"/>
 <wire x1="119.38" y1="35.56" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
@@ -392,10 +378,6 @@
 </segment>
 </net>
 <net name="DISPL_SCL" class="0">
-<segment>
-<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="DISPL_SCL"/>
-<wire x1="99.06" y1="-5.08" x2="99.06" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="DISPL_SCL"/>
 <wire x1="121.92" y1="35.56" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
@@ -444,11 +426,19 @@
 <portref moduleinst="MICROCONTROLLER1" port="PEDAL_MAPPING"/>
 <wire x1="137.16" y1="35.56" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="BUTTONS1" port="PEDAL_MAPPING"/>
+<wire x1="279.4" y1="35.56" x2="279.4" y2="45.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="BRAKE_BIAS" class="0">
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="BRAKE_BIAS"/>
 <wire x1="139.7" y1="35.56" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BUTTONS1" port="BRAKE_BIAS"/>
+<wire x1="284.48" y1="35.56" x2="284.48" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TCS_ON_OFF" class="0">
@@ -466,17 +456,29 @@
 <portref moduleinst="MICROCONTROLLER1" port="LV_SYSTEM_PWR"/>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="EMERGENCY_STOP" class="0">
 <segment>
-<portref moduleinst="MICROCONTROLLER1" port="EMERGENCY_STOP"/>
-<wire x1="152.4" y1="35.56" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
+<portref moduleinst="BUTTONS1" port="LV_SYSTEM_PWR"/>
+<wire x1="294.64" y1="35.56" x2="294.64" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IGNITION_SWITCH" class="0">
 <segment>
 <portref moduleinst="BUTTONS1" port="IGNITION_SWITCH"/>
 <wire x1="274.32" y1="45.72" x2="274.32" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="IGNITION_SWITCH"/>
+<wire x1="149.86" y1="35.56" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EMERGENCY_STOP" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="EMERGENCY_STOP"/>
+<wire x1="154.94" y1="35.56" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BUTTONS1" port="EMERGENCY_STOP"/>
+<wire x1="289.56" y1="35.56" x2="289.56" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

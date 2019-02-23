@@ -54,6 +54,8 @@
 <port name="MC_2_REVERSE_SWITCH" side="top" coord="15.24" direction="io"/>
 <port name="MC_2_THROTTLE_INPUT" side="top" coord="17.78" direction="io"/>
 <port name="MC_2_IMPULSE_INPUT" side="top" coord="20.32" direction="io"/>
+<port name="BRAKE_LIGHTS" side="top" coord="25.4" direction="io"/>
+<port name="AIR_COILS" side="top" coord="27.94" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -90,6 +92,7 @@
 <port name="MC_2_REVERSE_SWITCH" side="bottom" coord="12.7" direction="io"/>
 <port name="MC_2_THROTTLE_INPUT" side="bottom" coord="15.24" direction="io"/>
 <port name="MC_2_IMPULSE_INPUT" side="bottom" coord="17.78" direction="io"/>
+<port name="BRAKE_LIGHTS" side="bottom" coord="22.86" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -116,6 +119,8 @@
 <port name="CAN1" side="right" coord="-2.54" direction="io"/>
 <port name="ASS1" side="right" coord="-7.62" direction="io"/>
 <port name="ASS2" side="right" coord="-10.16" direction="io"/>
+<port name="AIR_COILS_IN" side="right" coord="-15.24" direction="io"/>
+<port name="AIR_COILS_OUT" side="right" coord="-17.78" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -211,6 +216,29 @@
 </sheet>
 </sheets>
 </module>
+<module name="BRAKE_LIGHTS" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="12V" side="bottom" coord="-12.7" direction="io"/>
+<port name="GND" side="bottom" coord="-10.16" direction="io"/>
+<port name="BRAKE_LIGHTS" side="bottom" coord="-5.08" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
 </modules>
 <parts>
 </parts>
@@ -237,11 +265,14 @@
 <moduleinst name="MOTOR_CONTROLLER_OUT_2" module="MOTOR_CONTROLLER_OUT_" x="220.98" y="66.04">
 <attribute name="NAME" x="220.98" y="66.04" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
+<moduleinst name="BRAKE_LIGHTS1" module="BRAKE_LIGHTS" x="269.24" y="66.04">
+<attribute name="NAME" x="269.24" y="66.04" size="2.032" layer="95" align="bottom-center"/>
+</moduleinst>
 </moduleinsts>
 <instances>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,CAN0,CAN1,GND,MC_1_BRAKE_INPUT,MC_1_IMPULSE_INPUT,MC_1_REVERSE_SWITCH,MC_1_RXD,MC_1_THROTTLE_POSITION,MC_1_TXD,MC_2_BRAKE_INPUT,MC_2_IMPULSE_INPUT,MC_2_REVERSE_SWITCH,MC_2_RXD,MC_2_THROTTLE_INPUT,MC_2_TXD">
+<bus name="3.3V,5V,12V,AIR_COILS,ASS1,ASS2,BRAKE_LIGHTS,CAN0,CAN1,GND,MC_1_BRAKE_INPUT,MC_1_IMPULSE_INPUT,MC_1_REVERSE_SWITCH,MC_1_RXD,MC_1_THROTTLE_POSITION,MC_1_TXD,MC_2_BRAKE_INPUT,MC_2_IMPULSE_INPUT,MC_2_REVERSE_SWITCH,MC_2_RXD,MC_2_THROTTLE_INPUT,MC_2_TXD">
 <segment>
 <wire x1="48.26" y1="38.1" x2="358.14" y2="38.1" width="0.762" layer="92"/>
 <wire x1="48.26" y1="38.1" x2="48.26" y2="2.54" width="0.762" layer="92"/>
@@ -288,6 +319,10 @@
 <segment>
 <portref moduleinst="MOTOR_CONTROLLER_OUT_2" port="GND"/>
 <wire x1="213.36" y1="50.8" x2="213.36" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BRAKE_LIGHTS1" port="GND"/>
+<wire x1="259.08" y1="38.1" x2="259.08" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN0" class="0">
@@ -338,6 +373,10 @@
 <segment>
 <portref moduleinst="MOTOR_CONTROLLER_OUT_2" port="5V_POTENTIOMETER_SUPPLY"/>
 <wire x1="223.52" y1="50.8" x2="223.52" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="BRAKE_LIGHTS1" port="12V"/>
+<wire x1="256.54" y1="38.1" x2="256.54" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -536,6 +575,34 @@
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="MC_1_IMPULSE_INPUT"/>
 <wire x1="111.76" y1="38.1" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BRAKE_LIGHTS" class="0">
+<segment>
+<portref moduleinst="BRAKE_LIGHTS1" port="BRAKE_LIGHTS"/>
+<wire x1="264.16" y1="50.8" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="BRAKE_LIGHTS"/>
+<wire x1="134.62" y1="38.1" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="BRAKE_LIGHTS"/>
+<wire x1="152.4" y1="2.54" x2="152.4" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AIR_COILS" class="0">
+<segment>
+<portref moduleinst="INPUTS1" port="AIR_COILS_IN"/>
+<wire x1="40.64" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="INPUTS1" port="AIR_COILS_OUT"/>
+<wire x1="40.64" y1="7.62" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="CROSS_SHEET_WIRING1" port="AIR_COILS"/>
+<wire x1="154.94" y1="2.54" x2="154.94" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -53,6 +53,7 @@
 <port name="DISPL_CS" side="top" coord="25.4" direction="io"/>
 <port name="SCK" side="top" coord="27.94" direction="io"/>
 <port name="TS" side="top" coord="33.02" direction="io"/>
+<port name="AUDIO_OUT" side="top" coord="35.56" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -77,8 +78,7 @@
 <port name="GND" side="right" coord="5.08" direction="io"/>
 <port name="CAN0" side="right" coord="0" direction="io"/>
 <port name="CAN1" side="right" coord="-2.54" direction="io"/>
-<port name="ASS1" side="right" coord="-7.62" direction="io"/>
-<port name="ASS2" side="right" coord="-10.16" direction="io"/>
+<port name="TS_SWITCH" side="right" coord="-7.62" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -137,6 +137,8 @@
 <port name="MISO" side="bottom" coord="15.24" direction="io"/>
 <port name="DISPL_CS" side="bottom" coord="17.78" direction="io"/>
 <port name="SCK" side="bottom" coord="20.32" direction="io"/>
+<port name="TS_SWITCH" side="bottom" coord="25.4" direction="io"/>
+<port name="AUDIO_OUT" side="bottom" coord="30.48" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -163,6 +165,7 @@
 <port name="MISO" side="bottom" coord="-2.54" direction="io"/>
 <port name="CS" side="bottom" coord="0" direction="io"/>
 <port name="SCK" side="bottom" coord="2.54" direction="io"/>
+<port name="AUDIO_OUT" side="bottom" coord="7.62" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -259,6 +262,29 @@
 </sheet>
 </sheets>
 </module>
+<module name="SPEAKER" prefix="" dx="30.48" dy="20.32">
+<ports>
+<port name="AUDIO_OUT" side="bottom" coord="-12.7" direction="io"/>
+<port name="12V" side="bottom" coord="-7.62" direction="io"/>
+<port name="GND" side="bottom" coord="-5.08" direction="io"/>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
 </modules>
 <parts>
 </parts>
@@ -279,8 +305,8 @@
 <moduleinst name="MICROCONTROLLER1" module="MICROCONTROLLER" x="147.32" y="60.96">
 <attribute name="NAME" x="147.32" y="60.96" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="DISPLAY1" module="DISPLAY" x="218.44" y="60.96">
-<attribute name="NAME" x="218.44" y="60.96" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="DISPLAY_AUDIO" module="DISPLAY" x="218.44" y="60.96">
+<attribute name="NAME" value="DISPLAY_AUDIO" x="218.44" y="60.96" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="BUTTONS1" module="BUTTONS" x="281.94" y="60.96">
 <attribute name="NAME" x="281.94" y="60.96" size="2.032" layer="95" align="bottom-center"/>
@@ -288,14 +314,11 @@
 <moduleinst name="CAN_OUT_PORT1" module="CAN_OUT_PORT" x="347.98" y="60.96">
 <attribute name="NAME" x="347.98" y="60.96" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="TS_LATCH1" module="TS_LATCH" x="391.16" y="60.96">
-<attribute name="NAME" x="391.16" y="60.96" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
 </moduleinsts>
 <instances>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,CAN0,CAN1,DISPL_CS,DISPL_SCL,DRIVER_SELECT,EVENT_SELECT,GND,IGNITION_SWITCH,MISO,MOSI,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON_OFF,TS">
+<bus name="3.3V,5V,12V,ASS1,ASS2,AUDIO_OUT,CAN0,CAN1,DISPL_CS,DISPL_SCL,DRIVER_SELECT,EVENT_SELECT,GND,IGNITION_SWITCH,MISO,MOSI,PEDAL_MAPPING,PWR_REDUCTION,SCK,TCS_ON_OFF,TS">
 <segment>
 <wire x1="406.4" y1="35.56" x2="58.42" y2="35.56" width="0.762" layer="92"/>
 <wire x1="58.42" y1="35.56" x2="58.42" y2="2.54" width="0.762" layer="92"/>
@@ -316,10 +339,6 @@
 <segment>
 <portref moduleinst="INTER_SHEET_CONNECTIONS1" port="12V"/>
 <wire x1="68.58" y1="2.54" x2="68.58" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="TS_LATCH1" port="12V"/>
-<wire x1="378.46" y1="35.56" x2="378.46" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -347,10 +366,6 @@
 <portref moduleinst="INTER_SHEET_CONNECTIONS1" port="GND"/>
 <wire x1="76.2" y1="2.54" x2="76.2" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<portref moduleinst="TS_LATCH1" port="GND"/>
-<wire x1="381" y1="35.56" x2="381" y2="45.72" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -362,7 +377,7 @@
 <wire x1="104.14" y1="35.56" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="DISPLAY1" port="5V"/>
+<portref moduleinst="DISPLAY_AUDIO" port="5V"/>
 <wire x1="205.74" y1="35.56" x2="205.74" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -426,7 +441,7 @@
 </net>
 <net name="DISPL_SCL" class="0">
 <segment>
-<portref moduleinst="DISPLAY1" port="GND"/>
+<portref moduleinst="DISPLAY_AUDIO" port="GND"/>
 <wire x1="208.28" y1="35.56" x2="208.28" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -499,6 +514,10 @@
 <portref moduleinst="INTER_SHEET_CONNECTIONS1" port="TCS_ON_OFF"/>
 <wire x1="121.92" y1="2.54" x2="121.92" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="TS_SWITCH"/>
+<wire x1="172.72" y1="35.56" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="IGNITION_SWITCH" class="0">
 <segment>
@@ -519,27 +538,11 @@
 <portref moduleinst="INTER_SHEET_CONNECTIONS1" port="ASS1"/>
 <wire x1="88.9" y1="2.54" x2="88.9" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<portref moduleinst="INPUTS1" port="ASS1"/>
-<wire x1="58.42" y1="12.7" x2="48.26" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="TS_LATCH1" port="ASS1"/>
-<wire x1="388.62" y1="35.56" x2="388.62" y2="45.72" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="ASS2" class="0">
 <segment>
 <portref moduleinst="INTER_SHEET_CONNECTIONS1" port="ASS2"/>
 <wire x1="91.44" y1="2.54" x2="91.44" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="INPUTS1" port="ASS2"/>
-<wire x1="58.42" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="TS_LATCH1" port="ASS2"/>
-<wire x1="391.16" y1="35.56" x2="391.16" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -548,7 +551,7 @@
 <wire x1="160.02" y1="45.72" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="DISPLAY1" port="MOSI"/>
+<portref moduleinst="DISPLAY_AUDIO" port="MOSI"/>
 <wire x1="213.36" y1="35.56" x2="213.36" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -562,7 +565,7 @@
 <wire x1="162.56" y1="45.72" x2="162.56" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="DISPLAY1" port="MISO"/>
+<portref moduleinst="DISPLAY_AUDIO" port="MISO"/>
 <wire x1="215.9" y1="35.56" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -576,7 +579,7 @@
 <wire x1="165.1" y1="45.72" x2="165.1" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="DISPLAY1" port="CS"/>
+<portref moduleinst="DISPLAY_AUDIO" port="CS"/>
 <wire x1="218.44" y1="35.56" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -590,7 +593,7 @@
 <wire x1="167.64" y1="45.72" x2="167.64" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="DISPLAY1" port="SCK"/>
+<portref moduleinst="DISPLAY_AUDIO" port="SCK"/>
 <wire x1="220.98" y1="35.56" x2="220.98" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -608,8 +611,22 @@
 <wire x1="284.48" y1="45.72" x2="284.48" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="TS_LATCH1" port="TS"/>
-<wire x1="383.54" y1="35.56" x2="383.54" y2="45.72" width="0.1524" layer="91"/>
+<portref moduleinst="INPUTS1" port="TS_SWITCH"/>
+<wire x1="58.42" y1="12.7" x2="48.26" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AUDIO_OUT" class="0">
+<segment>
+<portref moduleinst="MICROCONTROLLER1" port="AUDIO_OUT"/>
+<wire x1="177.8" y1="45.72" x2="177.8" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="DISPLAY_AUDIO" port="AUDIO_OUT"/>
+<wire x1="226.06" y1="35.56" x2="226.06" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="INTER_SHEET_CONNECTIONS1" port="AUDIO_OUT"/>
+<wire x1="147.32" y1="2.54" x2="147.32" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
