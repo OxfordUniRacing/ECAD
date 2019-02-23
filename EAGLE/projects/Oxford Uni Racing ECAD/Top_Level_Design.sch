@@ -146,8 +146,6 @@
 <port name="GND_OUT" side="top" coord="-15.24" direction="io"/>
 <port name="DISPL_SPI_DATA" side="top" coord="-10.16" direction="io"/>
 <port name="DISPL_SPI_CL" side="top" coord="-7.62" direction="io"/>
-<port name="ASS1" side="bottom" coord="7.62" direction="io"/>
-<port name="ASS2" side="bottom" coord="10.16" direction="io"/>
 <port name="BUTTONS_LOTS_OF_LINES" side="top" coord="2.54" direction="io"/>
 <port name="CAN0_OUT" side="top" coord="7.62" direction="io"/>
 <port name="CAN1_OUT" side="top" coord="10.16" direction="io"/>
@@ -1109,16 +1107,7 @@
 <segment>
 <portref moduleinst="VCU1" port="ASS1"/>
 <wire x1="91.44" y1="-22.86" x2="91.44" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-12.7" x2="132.08" y2="-12.7" width="0.1524" layer="91"/>
-<portref moduleinst="DASHBOARD1" port="ASS1"/>
-<wire x1="132.08" y1="-12.7" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<portref moduleinst="DASHBOARD1" port="ASS2"/>
-<wire x1="134.62" y1="25.4" x2="134.62" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="-12.7" x2="233.68" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-12.7" x2="233.68" y2="-12.7" width="0.1524" layer="91"/>
 <portref moduleinst="PEDAL_BOARD1" port="ASS1"/>
 <wire x1="233.68" y1="-12.7" x2="233.68" y2="25.4" width="0.1524" layer="91"/>
 </segment>
