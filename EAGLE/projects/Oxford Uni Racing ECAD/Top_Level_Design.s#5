@@ -80,9 +80,6 @@
 <port name="THR2_PWR" side="right" coord="5.08" direction="io"/>
 <port name="THR2_GND" side="right" coord="2.54" direction="io"/>
 <port name="THR2_SIG" side="right" coord="0" direction="io"/>
-<port name="THR3_PWR" side="right" coord="-5.08" direction="io"/>
-<port name="THR3_GND" side="right" coord="-7.62" direction="io"/>
-<port name="THR3_SIG" side="right" coord="-10.16" direction="io"/>
 <port name="ASS1" side="bottom" coord="12.7" direction="io"/>
 <port name="ASS2" side="bottom" coord="15.24" direction="io"/>
 <port name="CURRENT_SENSE_PLAUSABILITY" side="bottom" coord="22.86" direction="io"/>
@@ -114,9 +111,7 @@
 <port name="ASS1" side="top" coord="5.08" direction="io"/>
 <port name="ASS2" side="top" coord="7.62" direction="io"/>
 <port name="MOTOR_CONTR_L_1" side="left" coord="5.08" direction="io"/>
-<port name="MOTOR_CONTR_L_2" side="left" coord="2.54" direction="io"/>
 <port name="MOTOR_CONTR_R_1" side="left" coord="-5.08" direction="io"/>
-<port name="MOTOR_CONTR_R_2" side="left" coord="-7.62" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -263,9 +258,10 @@
 </module>
 <module name="4YP_STARIN_S" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="PWR" side="right" coord="-7.62" direction="io"/>
-<port name="GND" side="right" coord="-5.08" direction="io"/>
-<port name="OUT" side="right" coord="5.08" direction="io"/>
+<port name="PWR_IN" side="top" coord="12.7" direction="io"/>
+<port name="GND_IN" side="top" coord="10.16" direction="io"/>
+<port name="CAN1" side="top" coord="5.08" direction="io"/>
+<port name="CAN0" side="top" coord="2.54" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -477,8 +473,7 @@
 </module>
 <module name="MOTOR_CONTROLLER" prefix="" dx="30.48" dy="20.32">
 <ports>
-<port name="LINE_1" side="right" coord="-2.54" direction="io"/>
-<port name="LINE_2" side="right" coord="-5.08" direction="io"/>
+<port name="DATA" side="right" coord="-2.54" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -705,17 +700,8 @@
 <moduleinst name="DASHBOARD1" module="DASHBOARD" x="124.46" y="48.26">
 <attribute name="NAME" x="124.46" y="48.26" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="WHEEL_BOARD1" module="WHEEL_BOARD" x="38.1" y="48.26">
-<attribute name="NAME" x="38.1" y="43.18" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="BRAKE_TEMP_S1" module="BRAKE_TEMP_S" x="0" y="119.38">
-<attribute name="NAME" x="0" y="119.38" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="TYRE_TEMP_S1" module="TYRE_TEMP_S" x="0" y="144.78">
-<attribute name="NAME" x="0" y="144.78" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="4YP_STARIN_S1" module="4YP_STARIN_S" x="0" y="170.18">
-<attribute name="NAME" x="0" y="170.18" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="4YP_STARIN_S1" module="4YP_STARIN_S" x="40.64" y="40.64" rot="R180">
+<attribute name="NAME" x="40.64" y="40.64" size="2.032" layer="95" rot="R180" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="DISPLAY1" module="DISPLAY" x="81.28" y="119.38">
 <attribute name="NAME" x="81.28" y="119.38" size="2.032" layer="95" align="bottom-center"/>
@@ -728,9 +714,6 @@
 </moduleinst>
 <moduleinst name="THROTTLE_PEDAL_2" module="THROTTLE_PEDAL_" x="335.28" y="40.64">
 <attribute name="NAME" x="335.28" y="40.64" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
-<moduleinst name="THROTTLE_PEDAL_3" module="THROTTLE_PEDAL_" x="335.28" y="17.78">
-<attribute name="NAME" x="335.28" y="17.78" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="BRAKE_POSS_S1" module="BRAKE_POSS_S" x="165.1" y="119.38">
 <attribute name="NAME" x="165.1" y="119.38" size="2.032" layer="95" align="bottom-center"/>
@@ -799,72 +782,22 @@
 <label x="86.36" y="7.62" size="1.778" layer="95"/>
 </segment>
 </bus>
+<bus name="B$1">
+<segment>
+<wire x1="55.88" y1="-40.64" x2="40.64" y2="-40.64" width="0.762" layer="92"/>
+<wire x1="40.64" y1="-40.64" x2="40.64" y2="-38.1" width="0.762" layer="92"/>
+<wire x1="40.64" y1="-38.1" x2="22.86" y2="-38.1" width="0.762" layer="92"/>
+</segment>
+</bus>
+<bus name="B$2">
+<segment>
+<wire x1="22.86" y1="-63.5" x2="40.64" y2="-63.5" width="0.762" layer="92"/>
+<wire x1="40.64" y1="-63.5" x2="40.64" y2="-50.8" width="0.762" layer="92"/>
+<wire x1="40.64" y1="-50.8" x2="55.88" y2="-50.8" width="0.762" layer="92"/>
+</segment>
+</bus>
 </busses>
 <nets>
-<net name="N$1" class="0">
-<segment>
-<portref moduleinst="WHEEL_BOARD1" port="PWR_OUT"/>
-<portref moduleinst="4YP_STARIN_S1" port="PWR"/>
-<wire x1="25.4" y1="71.12" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="111.76" x2="25.4" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="137.16" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="162.56" x2="20.32" y2="162.56" width="0.1524" layer="91"/>
-<portref moduleinst="TYRE_TEMP_S1" port="PWR"/>
-<wire x1="20.32" y1="137.16" x2="25.4" y2="137.16" width="0.1524" layer="91"/>
-<junction x="25.4" y="137.16"/>
-<portref moduleinst="BRAKE_TEMP_S1" port="PWR"/>
-<wire x1="20.32" y1="111.76" x2="25.4" y2="111.76" width="0.1524" layer="91"/>
-<junction x="25.4" y="111.76"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<portref moduleinst="WHEEL_BOARD1" port="GND_OUT"/>
-<portref moduleinst="4YP_STARIN_S1" port="GND"/>
-<wire x1="27.94" y1="71.12" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="114.3" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="139.7" x2="27.94" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="165.1" x2="20.32" y2="165.1" width="0.1524" layer="91"/>
-<portref moduleinst="TYRE_TEMP_S1" port="GND"/>
-<wire x1="20.32" y1="139.7" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
-<junction x="27.94" y="139.7"/>
-<portref moduleinst="BRAKE_TEMP_S1" port="GND"/>
-<wire x1="20.32" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
-<junction x="27.94" y="114.3"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<portref moduleinst="WHEEL_BOARD1" port="BRAKETEMP_S_SDA"/>
-<portref moduleinst="BRAKE_TEMP_S1" port="SDA"/>
-<wire x1="33.02" y1="71.12" x2="33.02" y2="127" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="127" x2="20.32" y2="127" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<portref moduleinst="WHEEL_BOARD1" port="BRAKETEMP_S_SCL"/>
-<portref moduleinst="BRAKE_TEMP_S1" port="SCL"/>
-<wire x1="35.56" y1="71.12" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="124.46" x2="20.32" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<portref moduleinst="WHEEL_BOARD1" port="TYRETEMP_S"/>
-<portref moduleinst="TYRE_TEMP_S1" port="OUT"/>
-<wire x1="40.64" y1="71.12" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="149.86" x2="20.32" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<portref moduleinst="WHEEL_BOARD1" port="4YP_STRAIN_S"/>
-<portref moduleinst="4YP_STARIN_S1" port="OUT"/>
-<wire x1="48.26" y1="71.12" x2="48.26" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="175.26" x2="20.32" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <portref moduleinst="DASHBOARD1" port="PWR_OUT"/>
@@ -1004,33 +937,6 @@
 <wire x1="276.86" y1="63.5" x2="314.96" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
-<segment>
-<portref moduleinst="PEDAL_BOARD1" port="THR3_SIG"/>
-<wire x1="256.54" y1="38.1" x2="274.32" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="38.1" x2="274.32" y2="17.78" width="0.1524" layer="91"/>
-<portref moduleinst="THROTTLE_PEDAL_3" port="SIG"/>
-<wire x1="274.32" y1="17.78" x2="314.96" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<portref moduleinst="PEDAL_BOARD1" port="THR3_GND"/>
-<wire x1="256.54" y1="40.64" x2="276.86" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="40.64" x2="276.86" y2="20.32" width="0.1524" layer="91"/>
-<portref moduleinst="THROTTLE_PEDAL_3" port="GND"/>
-<wire x1="276.86" y1="20.32" x2="314.96" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<portref moduleinst="PEDAL_BOARD1" port="THR3_PWR"/>
-<wire x1="256.54" y1="43.18" x2="279.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="43.18" x2="279.4" y2="22.86" width="0.1524" layer="91"/>
-<portref moduleinst="THROTTLE_PEDAL_3" port="PWR"/>
-<wire x1="279.4" y1="22.86" x2="314.96" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$27" class="0">
 <segment>
 <portref moduleinst="PEDAL_BOARD1" port="THR2_SIG"/>
@@ -1058,47 +964,8 @@
 <wire x1="289.56" y1="45.72" x2="314.96" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$34" class="0">
-<segment>
-<portref moduleinst="VCU1" port="MOTOR_CONTR_L_1"/>
-<wire x1="55.88" y1="-40.64" x2="43.18" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-40.64" x2="43.18" y2="-38.1" width="0.1524" layer="91"/>
-<portref moduleinst="MOTOR_CONTROLLER1" port="LINE_1"/>
-<wire x1="43.18" y1="-38.1" x2="22.86" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<portref moduleinst="VCU1" port="MOTOR_CONTR_L_2"/>
-<wire x1="55.88" y1="-43.18" x2="40.64" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-43.18" x2="40.64" y2="-40.64" width="0.1524" layer="91"/>
-<portref moduleinst="MOTOR_CONTROLLER1" port="LINE_2"/>
-<wire x1="40.64" y1="-40.64" x2="22.86" y2="-40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<portref moduleinst="VCU1" port="MOTOR_CONTR_R_2"/>
-<wire x1="55.88" y1="-53.34" x2="43.18" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-53.34" x2="43.18" y2="-66.04" width="0.1524" layer="91"/>
-<portref moduleinst="MOTOR_CONTROLLER2" port="LINE_2"/>
-<wire x1="43.18" y1="-66.04" x2="22.86" y2="-66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<portref moduleinst="MOTOR_CONTROLLER2" port="LINE_1"/>
-<wire x1="22.86" y1="-63.5" x2="40.64" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-63.5" x2="40.64" y2="-50.8" width="0.1524" layer="91"/>
-<portref moduleinst="VCU1" port="MOTOR_CONTR_R_1"/>
-<wire x1="40.64" y1="-50.8" x2="55.88" y2="-50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="LV_POWER" class="0">
 <segment>
-<portref moduleinst="WHEEL_BOARD1" port="PWR_IN"/>
-<wire x1="35.56" y1="25.4" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="-5.08" x2="83.82" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-5.08" x2="124.46" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="-5.08" x2="220.98" y2="-5.08" width="0.1524" layer="91"/>
 <portref moduleinst="VCU1" port="PWR_IN"/>
@@ -1110,9 +977,9 @@
 <junction x="124.46" y="-5.08"/>
 <portref moduleinst="PEDAL_BOARD1" port="PWR_IN"/>
 <wire x1="220.98" y1="25.4" x2="220.98" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="-5.08" x2="-12.7" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="35.56" y="-5.08"/>
+<wire x1="83.82" y1="-5.08" x2="27.94" y2="-5.08" width="0.1524" layer="91"/>
 <portref moduleinst="INS1" port="POWER_IN"/>
+<wire x1="27.94" y1="-5.08" x2="-12.7" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="-5.08" x2="-53.34" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="-5.08" x2="-53.34" y2="25.4" width="0.1524" layer="91"/>
 <portref moduleinst="DATA_LOGGER1" port="PWR_IN"/>
@@ -1123,6 +990,9 @@
 <wire x1="279.4" y1="-5.08" x2="279.4" y2="-22.86" width="0.1524" layer="91"/>
 <portref moduleinst="LV_MASTER_SWITCH" port="OUT"/>
 <wire x1="279.4" y1="-22.86" x2="350.52" y2="-22.86" width="0.1524" layer="91"/>
+<portref moduleinst="4YP_STARIN_S1" port="PWR_IN"/>
+<wire x1="27.94" y1="-5.08" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
+<junction x="27.94" y="-5.08"/>
 </segment>
 </net>
 <net name="LV_GND" class="0">
@@ -1131,11 +1001,8 @@
 <wire x1="365.76" y1="-25.4" x2="276.86" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="-25.4" x2="276.86" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="-7.62" x2="223.52" y2="-7.62" width="0.1524" layer="91"/>
-<portref moduleinst="WHEEL_BOARD1" port="GND_IN"/>
 <wire x1="223.52" y1="-7.62" x2="127" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="127" y1="-7.62" x2="86.36" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-7.62" x2="38.1" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-7.62" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <portref moduleinst="VCU1" port="GND_IN"/>
 <wire x1="86.36" y1="-22.86" x2="86.36" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="86.36" y="-7.62"/>
@@ -1147,13 +1014,16 @@
 <wire x1="223.52" y1="25.4" x2="223.52" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="223.52" y="-7.62"/>
 <portref moduleinst="INS1" port="GND_IN"/>
-<wire x1="38.1" y1="-7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-7.62" x2="30.48" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="-7.62" x2="-50.8" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-7.62" x2="-50.8" y2="25.4" width="0.1524" layer="91"/>
-<junction x="38.1" y="-7.62"/>
 <portref moduleinst="DATA_LOGGER1" port="GND_IN"/>
 <wire x1="-10.16" y1="25.4" x2="-10.16" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="-10.16" y="-7.62"/>
+<portref moduleinst="4YP_STARIN_S1" port="GND_IN"/>
+<wire x1="30.48" y1="25.4" x2="30.48" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="30.48" y="-7.62"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -1196,10 +1066,6 @@
 </net>
 <net name="CAN1" class="0">
 <segment>
-<portref moduleinst="WHEEL_BOARD1" port="CAN1"/>
-<wire x1="27.94" y1="10.16" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="VCU1" port="CAN1"/>
 <wire x1="73.66" y1="10.16" x2="73.66" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
@@ -1215,12 +1081,12 @@
 <portref moduleinst="INS1" port="CAN1"/>
 <wire x1="-66.04" y1="10.16" x2="-66.04" y2="25.4" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<portref moduleinst="4YP_STARIN_S1" port="CAN1"/>
+<wire x1="35.56" y1="10.16" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CAN0" class="0">
-<segment>
-<portref moduleinst="WHEEL_BOARD1" port="CAN0"/>
-<wire x1="30.48" y1="25.4" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <portref moduleinst="VCU1" port="CAN0"/>
 <wire x1="76.2" y1="10.16" x2="76.2" y2="-22.86" width="0.1524" layer="91"/>
@@ -1236,6 +1102,10 @@
 <segment>
 <portref moduleinst="INS1" port="CAN0"/>
 <wire x1="-63.5" y1="10.16" x2="-63.5" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<portref moduleinst="4YP_STARIN_S1" port="CAN0"/>
+<wire x1="38.1" y1="10.16" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
