@@ -11024,7 +11024,8 @@ Wickmann</description>
 <description>INPUTS</description>
 <plain>
 <text x="0" y="0" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
-<text x="182.88" y="50.8" size="1.778" layer="91">AIR_COILS_SUPPLY</text>
+<text x="182.88" y="45.72" size="1.778" layer="91">AIR_COILS_SUPPLY</text>
+<text x="182.88" y="50.8" size="1.778" layer="91">two lines for ASS due to large surge current</text>
 </plain>
 <instances>
 <instance part="SUPPLY4" gate="G$1" x="22.86" y="96.52" smashed="yes" rot="R270">
@@ -11098,8 +11099,8 @@ Wickmann</description>
 <attribute name="NAME" x="156.083" y="120.65" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="160.401" y="120.65" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY22" gate="G$1" x="175.26" y="50.8" smashed="yes" rot="R270">
-<attribute name="VALUE" x="178.054" y="50.8" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY22" gate="G$1" x="175.26" y="45.72" smashed="yes" rot="R270">
+<attribute name="VALUE" x="178.054" y="45.72" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="F2" gate="G$1" x="167.64" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="166.243" y="120.65" size="1.778" layer="95" rot="R90"/>
@@ -11137,11 +11138,6 @@ Wickmann</description>
 <label x="86.36" y="78.74" size="1.778" layer="95"/>
 <pinref part="SUPPLY23" gate="G$1" pin="5V"/>
 <wire x1="81.28" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="167.64" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="SUPPLY22" gate="G$1" pin="5V"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -11238,8 +11234,13 @@ Wickmann</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="53.34" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="53.34" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
 <label x="132.08" y="53.34" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="142.24" y1="53.34" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="50.8" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="50.8" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
+<junction x="142.24" y="53.34"/>
 </segment>
 </net>
 <net name="ASS2" class="0">
@@ -11249,8 +11250,13 @@ Wickmann</description>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
 <label x="175.26" y="53.34" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="172.72" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="50.8" x2="172.72" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="50.8" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
+<junction x="172.72" y="53.34"/>
 </segment>
 </net>
 <net name="MC_1_BRAKE_INPUT" class="0">
@@ -11351,9 +11357,9 @@ Wickmann</description>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="147.32" y1="50.8" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
-<label x="127" y="50.8" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="7"/>
+<wire x1="147.32" y1="45.72" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
+<label x="127" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BRAKE_LIGHTS_OUT" class="0">
@@ -11435,13 +11441,13 @@ Wickmann</description>
 <instance part="GND13" gate="1" x="114.3" y="10.16" smashed="yes">
 <attribute name="VALUE" x="114.3" y="9.906" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="5V_IND" gate="G$1" x="180.34" y="96.52" smashed="yes">
-<attribute name="NAME" x="183.896" y="91.948" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="186.055" y="91.948" size="1.778" layer="96" rot="R90"/>
+<instance part="5V_IND" gate="G$1" x="180.34" y="83.82" smashed="yes">
+<attribute name="NAME" x="183.896" y="79.248" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="186.055" y="79.248" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R24" gate="G$1" x="180.34" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="178.8414" y="80.01" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="183.642" y="80.01" size="1.778" layer="96" rot="R90"/>
+<instance part="R24" gate="G$1" x="180.34" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="178.8414" y="90.17" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="183.642" y="90.17" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY54" gate="G$1" x="180.34" y="101.6" smashed="yes">
 <attribute name="VALUE" x="180.34" y="104.394" size="1.778" layer="96" align="bottom-center"/>
@@ -11494,7 +11500,7 @@ Wickmann</description>
 <junction x="124.46" y="48.26"/>
 </segment>
 <segment>
-<pinref part="5V_IND" gate="G$1" pin="A"/>
+<pinref part="R24" gate="G$1" pin="2"/>
 <pinref part="SUPPLY54" gate="G$1" pin="5V"/>
 <wire x1="180.34" y1="99.06" x2="180.34" y2="101.6" width="0.1524" layer="91"/>
 </segment>
@@ -11525,7 +11531,7 @@ Wickmann</description>
 <wire x1="134.62" y1="12.7" x2="114.3" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="5V_IND" gate="G$1" pin="C"/>
 <pinref part="GND33" gate="1" pin="GND"/>
 <wire x1="180.34" y1="78.74" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
 </segment>
@@ -11638,13 +11644,6 @@ Wickmann</description>
 <junction x="114.3" y="33.02"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="5V_IND" gate="G$1" pin="C"/>
-<pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="91.44" x2="180.34" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="AIR_COILS" class="0">
 <segment>
 <wire x1="0" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
@@ -11661,6 +11660,13 @@ Wickmann</description>
 <segment>
 <wire x1="10.16" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="91"/>
 <label x="10.16" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="5V_IND" gate="G$1" pin="A"/>
+<wire x1="180.34" y1="88.9" x2="180.34" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -11880,9 +11886,9 @@ Wickmann</description>
 <wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="K1" gate="2" pin="S"/>
-<wire x1="378.46" y1="142.24" x2="378.46" y2="149.86" width="0.1524" layer="91"/>
-<label x="378.46" y="149.86" size="1.778" layer="95" rot="R90"/>
+<label x="386.08" y="149.86" size="1.778" layer="95" rot="R90"/>
+<pinref part="K1" gate="3" pin="S"/>
+<wire x1="386.08" y1="147.32" x2="386.08" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ASS2" class="0">
@@ -11891,9 +11897,9 @@ Wickmann</description>
 <wire x1="10.16" y1="73.66" x2="0" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="K1" gate="2" pin="P"/>
-<wire x1="378.46" y1="132.08" x2="378.46" y2="124.46" width="0.1524" layer="91"/>
-<label x="378.46" y="119.38" size="1.778" layer="95" rot="R90"/>
+<label x="386.08" y="119.38" size="1.778" layer="95" rot="R90"/>
+<pinref part="K1" gate="3" pin="P"/>
+<wire x1="386.08" y1="127" x2="386.08" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MC_1_BRAKE_INPUT" class="0">
