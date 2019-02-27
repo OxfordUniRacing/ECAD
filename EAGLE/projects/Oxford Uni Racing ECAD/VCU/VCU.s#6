@@ -11886,9 +11886,9 @@ Wickmann</description>
 <wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="K1" gate="2" pin="S"/>
-<wire x1="378.46" y1="142.24" x2="378.46" y2="149.86" width="0.1524" layer="91"/>
-<label x="378.46" y="149.86" size="1.778" layer="95" rot="R90"/>
+<label x="386.08" y="149.86" size="1.778" layer="95" rot="R90"/>
+<pinref part="K1" gate="3" pin="S"/>
+<wire x1="386.08" y1="147.32" x2="386.08" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ASS2" class="0">
@@ -11897,9 +11897,9 @@ Wickmann</description>
 <wire x1="10.16" y1="73.66" x2="0" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="K1" gate="2" pin="P"/>
-<wire x1="378.46" y1="132.08" x2="378.46" y2="124.46" width="0.1524" layer="91"/>
-<label x="378.46" y="119.38" size="1.778" layer="95" rot="R90"/>
+<label x="386.08" y="119.38" size="1.778" layer="95" rot="R90"/>
+<pinref part="K1" gate="3" pin="P"/>
+<wire x1="386.08" y1="127" x2="386.08" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MC_1_BRAKE_INPUT" class="0">

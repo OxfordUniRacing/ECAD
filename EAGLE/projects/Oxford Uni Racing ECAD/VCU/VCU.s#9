@@ -12159,6 +12159,11 @@ Wickmann</description>
 <wire x1="0" y1="22.86" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
 <label x="10.16" y="22.86" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J5009-D8"/>
+<wire x1="287.02" y1="91.44" x2="304.8" y2="91.44" width="0.1524" layer="91"/>
+<label x="304.8" y="91.44" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="BRAKE_LIGHTS-" class="0">
 <segment>
