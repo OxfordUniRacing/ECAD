@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -534,12 +534,12 @@
 <wire x1="0" y1="193.04" x2="86.36" y2="193.04" width="0.254" layer="94"/>
 <text x="38.1" y="116.84" size="1.778" layer="94">&gt;NAME</text>
 <text x="38.1" y="109.22" size="1.778" layer="94">&gt;VALUE</text>
-<pin name="J803-0-ADC0" x="-5.08" y="25.4" length="middle"/>
-<pin name="J803-1-ADC1" x="-5.08" y="22.86" length="middle"/>
-<pin name="J803-2-ADC2" x="-5.08" y="20.32" length="middle"/>
-<pin name="J803-3-ADC3" x="-5.08" y="17.78" length="middle"/>
-<pin name="J803-4-ADC4" x="-5.08" y="15.24" length="middle"/>
-<pin name="J803-5-ADC5" x="-5.08" y="12.7" length="middle"/>
+<pin name="J803-0-PB09" x="-5.08" y="25.4" length="middle"/>
+<pin name="J803-1-PB08" x="-5.08" y="22.86" length="middle"/>
+<pin name="J803-2-PA08" x="-5.08" y="20.32" length="middle"/>
+<pin name="J803-3-PA09" x="-5.08" y="17.78" length="middle"/>
+<pin name="J803-4-PB07" x="-5.08" y="15.24" length="middle"/>
+<pin name="J803-5-PB06" x="-5.08" y="12.7" length="middle"/>
 <pin name="J800-0" x="35.56" y="198.12" length="middle" rot="R270"/>
 <pin name="J800-1" x="38.1" y="198.12" length="middle" rot="R270"/>
 <pin name="J800-2" x="40.64" y="198.12" length="middle" rot="R270"/>
