@@ -22289,8 +22289,8 @@ Wickmann</description>
 <text x="7.62" y="10.16" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
 <text x="182.88" y="88.9" size="1.778" layer="91">Connect BOTS between pins 7 and 8
 Connect RESET button between pins 1 and 2
-Connect ASS loop between pins 3 and 4
-Connect BATT_CURRENT to pin 5</text>
+Connect ASS loop between pins 3,5 and 4,6 (two pins due to high current surges
+</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -22438,20 +22438,18 @@ Connect BATT_CURRENT to pin 5</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="203.2" y1="76.2" x2="205.74" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="76.2" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="76.2" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
 <label x="205.74" y="58.42" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="205.74" y1="73.66" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
+<junction x="205.74" y="73.66"/>
 </segment>
 </net>
 <net name="BATT_CURRENT" class="0">
 <segment>
 <label x="17.78" y="43.18" size="1.778" layer="95"/>
 <wire x1="17.78" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="182.88" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="73.66" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
-<label x="180.34" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ST_WH_POSS" class="0">
@@ -22480,7 +22478,12 @@ Connect BATT_CURRENT to pin 5</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <pinref part="K2" gate="G$1" pin="COM2"/>
-<wire x1="182.88" y1="76.2" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="76.2" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="177.8" y1="76.2" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="73.66" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
+<junction x="177.8" y="76.2"/>
 </segment>
 </net>
 </nets>
@@ -23278,6 +23281,12 @@ Connect BATT_CURRENT to pin 5</text>
 <segment>
 <label x="10.16" y="33.02" size="1.778" layer="95"/>
 <wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="7"/>
+<wire x1="142.24" y1="38.1" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="38.1" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
+<label x="137.16" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ST_WH_POSS" class="0">
