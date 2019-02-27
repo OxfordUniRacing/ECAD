@@ -2398,7 +2398,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="126.0856" y="86.8426" size="0.9906" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="U$1" library="Oxford Uni Racing Custom Blueprints" package="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2" value="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2" x="63.5" y="38.1" smashed="yes" rot="MR0"/>
-<element name="U1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:38446/1" value="LM4051" x="2.54" y="-2.54" smashed="yes">
+<element name="U1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOT23-3" package3d_urn="urn:adsk.eagle:package:38446/1" value="REF3040AIDBZT" x="2.54" y="-2.54" smashed="yes">
 <attribute name="NAME" x="0.889" y="-2.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-13134" x="2.54" y="-2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="4.191" y="-2.54" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
@@ -2891,6 +2891,11 @@ design rules under a new name.</description>
 <contactref element="R24" pad="1"/>
 <contactref element="5V_IND" pad="A"/>
 <wire x1="128.27" y1="86.36" x2="132.08" y2="86.36" width="1.27" layer="16"/>
+</signal>
+<signal name="N$12">
+<contactref element="U1" pad="2"/>
+<contactref element="U$1" pad="J801-7"/>
+<wire x1="3.49" y1="-3.54" x2="15.24" y2="77.47" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -985,6 +985,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="TRACTIVE_SYSTEM">
 <contactref element="J5" pad="4"/>
+<contactref element="U$1" pad="EXT3-10"/>
+<wire x1="12.7" y1="-3.81" x2="43.18" y2="102.87" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V">
 <contactref element="IC2" pad="3"/>
@@ -1211,6 +1213,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="AUDIO_OUT">
 <contactref element="R12" pad="1"/>
+<contactref element="U$1" pad="EXT3-11"/>
+<wire x1="1.27" y1="-21.59" x2="43.18" y2="105.41" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

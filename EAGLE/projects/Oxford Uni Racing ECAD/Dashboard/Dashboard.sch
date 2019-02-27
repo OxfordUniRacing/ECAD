@@ -10434,7 +10434,7 @@ Wickmann</description>
 <part name="R13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="47K"/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="BR_LIGHTS_TR" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MOSFET-N" device="REFLOW" package3d_urn="urn:adsk.eagle:package:6240836/1" value="IRLML2502GTRPBF"/>
+<part name="AUDIO_TR" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MOSFET-N" device="REFLOW" package3d_urn="urn:adsk.eagle:package:6240836/1" value="IRLML2502GTRPBF"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 </parts>
@@ -11956,7 +11956,7 @@ Wickmann</description>
 <instance part="GND9" gate="1" x="127" y="-10.16" smashed="yes">
 <attribute name="VALUE" x="127" y="-10.414" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="BR_LIGHTS_TR" gate="G$1" x="144.78" y="17.78" smashed="yes">
+<instance part="AUDIO_TR" gate="G$1" x="144.78" y="17.78" smashed="yes">
 <attribute name="NAME" x="149.86" y="18.415" size="1.27" layer="95"/>
 <attribute name="VALUE" x="149.86" y="16.51" size="1.27" layer="96"/>
 </instance>
@@ -12002,7 +12002,7 @@ Wickmann</description>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="BR_LIGHTS_TR" gate="G$1" pin="S"/>
+<pinref part="AUDIO_TR" gate="G$1" pin="S"/>
 <wire x1="147.32" y1="-7.62" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12201,14 +12201,14 @@ Wickmann</description>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="127" y1="10.16" x2="127" y2="15.24" width="0.1524" layer="91"/>
 <junction x="127" y="15.24"/>
-<pinref part="BR_LIGHTS_TR" gate="G$1" pin="G"/>
+<pinref part="AUDIO_TR" gate="G$1" pin="G"/>
 <wire x1="127" y1="15.24" x2="142.24" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AUDIO-" class="0">
 <segment>
 <wire x1="147.32" y1="22.86" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="BR_LIGHTS_TR" gate="G$1" pin="D"/>
+<pinref part="AUDIO_TR" gate="G$1" pin="D"/>
 <pinref part="J4" gate="G$1" pin="4"/>
 <wire x1="114.3" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
 <label x="129.54" y="53.34" size="1.778" layer="95"/>
