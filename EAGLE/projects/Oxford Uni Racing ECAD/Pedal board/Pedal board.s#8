@@ -21496,11 +21496,21 @@ type V526-0, grid 2.5 mm</description>
 <label x="10.16" y="53.34" size="1.778" layer="95"/>
 <wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J803-4-PB07"/>
+<wire x1="175.26" y1="7.62" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
+<label x="147.32" y="7.62" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="BR_PRESS" class="0">
 <segment>
 <label x="10.16" y="50.8" size="1.778" layer="95"/>
 <wire x1="10.16" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J803-2-PA08"/>
+<wire x1="175.26" y1="12.7" x2="162.56" y2="12.7" width="0.1524" layer="91"/>
+<label x="147.32" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ASS1" class="0">
@@ -21530,19 +21540,6 @@ type V526-0, grid 2.5 mm</description>
 <wire x1="175.26" y1="5.08" x2="162.56" y2="5.08" width="0.1524" layer="91"/>
 <label x="147.32" y="5.08" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="J803-5-PB06"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="J803-2-PA08"/>
-<wire x1="175.26" y1="12.7" x2="162.56" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BRAKE_POSS" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="J803-4-PB07"/>
-<wire x1="175.26" y1="7.62" x2="162.56" y2="7.62" width="0.1524" layer="91"/>
-<label x="147.32" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

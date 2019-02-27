@@ -20645,8 +20645,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="J1" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="ASS + BOTS"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="COMPARATOR" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM2901" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
 <part name="T1" library="triac" library_urn="urn:adsk.eagle:library:403" deviceset="BT169" device="" package3d_urn="urn:adsk.eagle:package:30142/1"/>
@@ -20674,10 +20672,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="SUPPLY34" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY35" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY36" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
-<part name="SUPPLY37" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY38" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY39" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY40" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY41" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -20760,7 +20754,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="U1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="LM4051" device="" package3d_urn="urn:adsk.eagle:package:38446/1" value="REF3040AIDBZT"/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="J4" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="ASS + BOTS"/>
+<part name="J4" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="ASS"/>
 </parts>
 <sheets>
 <sheet>
@@ -21595,153 +21589,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <pinref part="U1" gate="G$1" pin="C"/>
 <pinref part="U$1" gate="G$1" pin="J8017-PA03"/>
 <wire x1="284.48" y1="48.26" x2="271.78" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-</nets>
-</sheet>
-<sheet>
-<description>BOTS</description>
-<plain>
-<text x="218.44" y="20.32" size="2.54" layer="94">Jack Bruford - OUR</text>
-<text x="7.62" y="10.16" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
-</plain>
-<instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
-<attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
-</instance>
-<instance part="J1" gate="G$1" x="182.88" y="78.74" smashed="yes">
-<attribute name="NAME" x="184.15" y="86.36" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="184.15" y="83.82" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="SUPPLY36" gate="G$1" x="30.48" y="93.98" smashed="yes" rot="R270">
-<attribute name="VALUE" x="33.274" y="93.98" size="1.778" layer="96" rot="R270" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY37" gate="G$1" x="35.56" y="91.44" smashed="yes" rot="R270">
-<attribute name="VALUE" x="38.354" y="91.44" size="1.778" layer="96" rot="R270" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY38" gate="G$1" x="40.64" y="88.9" smashed="yes" rot="R270">
-<attribute name="VALUE" x="43.434" y="88.9" size="1.778" layer="96" rot="R270" align="bottom-center"/>
-</instance>
-<instance part="GND5" gate="1" x="48.26" y="86.36" smashed="yes" rot="R90">
-<attribute name="VALUE" x="48.514" y="86.36" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
-</instances>
-<busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHTS_OUT,BR_POSS,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
-<segment>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="99.06" width="0.762" layer="92"/>
-</segment>
-</bus>
-</busses>
-<nets>
-<net name="GND" class="0">
-<segment>
-<label x="17.78" y="86.36" size="1.778" layer="95"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="45.72" y1="86.36" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="12V" class="0">
-<segment>
-<label x="17.78" y="93.98" size="1.778" layer="95"/>
-<pinref part="SUPPLY36" gate="G$1" pin="12V"/>
-<wire x1="30.48" y1="93.98" x2="7.62" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="5V" class="0">
-<segment>
-<label x="17.78" y="91.44" size="1.778" layer="95"/>
-<pinref part="SUPPLY37" gate="G$1" pin="5V"/>
-<wire x1="35.56" y1="91.44" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="3.3V" class="0">
-<segment>
-<label x="17.78" y="88.9" size="1.778" layer="95"/>
-<pinref part="SUPPLY38" gate="G$1" pin="3.3V"/>
-<wire x1="40.64" y1="88.9" x2="7.62" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CANH" class="0">
-<segment>
-<label x="17.78" y="81.28" size="1.778" layer="95"/>
-<wire x1="17.78" y1="81.28" x2="7.62" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CANL" class="0">
-<segment>
-<label x="17.78" y="78.74" size="1.778" layer="95"/>
-<wire x1="17.78" y1="78.74" x2="7.62" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="THR1" class="0">
-<segment>
-<label x="17.78" y="73.66" size="1.778" layer="95"/>
-<wire x1="17.78" y1="73.66" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="THR2" class="0">
-<segment>
-<label x="17.78" y="71.12" size="1.778" layer="95"/>
-<wire x1="17.78" y1="71.12" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BR_POSS" class="0">
-<segment>
-<label x="17.78" y="63.5" size="1.778" layer="95"/>
-<wire x1="17.78" y1="63.5" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BR_PRESS" class="0">
-<segment>
-<label x="17.78" y="60.96" size="1.778" layer="95"/>
-<wire x1="17.78" y1="60.96" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ASS1" class="0">
-<segment>
-<label x="17.78" y="50.8" size="1.778" layer="95"/>
-<wire x1="17.78" y1="50.8" x2="7.62" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="182.88" y1="76.2" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="182.88" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="73.66" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
-<junction x="177.8" y="73.66"/>
-<label x="165.1" y="73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ASS2" class="0">
-<segment>
-<label x="17.78" y="48.26" size="1.778" layer="95"/>
-<wire x1="17.78" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="203.2" y1="76.2" x2="205.74" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="76.2" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
-<label x="213.36" y="73.66" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="205.74" y1="73.66" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
-<junction x="205.74" y="73.66"/>
-</segment>
-</net>
-<net name="BATT_CURRENT" class="0">
-<segment>
-<label x="17.78" y="43.18" size="1.778" layer="95"/>
-<wire x1="17.78" y1="43.18" x2="7.62" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ST_WH_POSS" class="0">
-<segment>
-<label x="17.78" y="38.1" size="1.778" layer="95"/>
-<wire x1="17.78" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
