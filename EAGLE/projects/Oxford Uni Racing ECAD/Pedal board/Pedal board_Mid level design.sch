@@ -360,9 +360,6 @@
 <moduleinst name="POWER_DELIVERY1" module="POWER_DELIVERY" x="53.34" y="50.8">
 <attribute name="NAME" x="53.34" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="BOTS1" module="BOTS" x="190.5" y="50.8">
-<attribute name="NAME" x="190.5" y="50.8" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
 <moduleinst name="BSPD1" module="BSPD" x="228.6" y="50.8">
 <attribute name="NAME" x="228.6" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
@@ -392,10 +389,6 @@
 <wire x1="43.18" y1="22.86" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="BOTS1" port="12V"/>
-<wire x1="177.8" y1="22.86" x2="177.8" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="BSPD1" port="12V"/>
 <wire x1="215.9" y1="22.86" x2="215.9" y2="35.56" width="0.1524" layer="91"/>
 </segment>
@@ -416,10 +409,6 @@
 <segment>
 <portref moduleinst="MICROCONTROLLER1" port="GND"/>
 <wire x1="78.74" y1="22.86" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="BOTS1" port="GND"/>
-<wire x1="180.34" y1="22.86" x2="180.34" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="BSPD1" port="GND"/>
@@ -552,10 +541,6 @@
 <wire x1="35.56" y1="2.54" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="BOTS1" port="ASS2"/>
-<wire x1="190.5" y1="22.86" x2="190.5" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="BSPD1" port="ASS2"/>
 <wire x1="228.6" y1="22.86" x2="228.6" y2="35.56" width="0.1524" layer="91"/>
 </segment>
@@ -570,10 +555,6 @@
 <wire x1="35.56" y1="0" x2="43.18" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<portref moduleinst="BOTS1" port="ASS1"/>
-<wire x1="187.96" y1="22.86" x2="187.96" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="BSPD1" port="ASS1"/>
 <wire x1="226.06" y1="22.86" x2="226.06" y2="35.56" width="0.1524" layer="91"/>
 </segment>
@@ -586,10 +567,6 @@
 <segment>
 <portref moduleinst="INPUTS1" port="BATTERY_CURRENT_SENSE"/>
 <wire x1="35.56" y1="-5.08" x2="43.18" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="BOTS1" port="BATTERY_CURRENT_SENSE"/>
-<wire x1="195.58" y1="22.86" x2="195.58" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="BATT_CURR"/>

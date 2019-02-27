@@ -44,7 +44,6 @@
 <port name="THR2" side="top" coord="-20.32" direction="io"/>
 <port name="BR_PR" side="top" coord="-12.7" direction="io"/>
 <port name="BR_POSS" side="top" coord="-10.16" direction="io"/>
-<port name="BRAKE_LIGHTS_OUT" side="top" coord="-5.08" direction="io"/>
 <port name="ASS1" side="top" coord="0" direction="io"/>
 <port name="ASS2" side="top" coord="2.54" direction="io"/>
 <port name="BATT_CURR" side="top" coord="7.62" direction="io"/>
@@ -77,7 +76,6 @@
 <port name="THR2" side="bottom" coord="-10.16" direction="io"/>
 <port name="BR_PR" side="bottom" coord="-2.54" direction="io"/>
 <port name="BR_POSS" side="bottom" coord="0" direction="io"/>
-<port name="BRAKE_LIGHTS_OUT" side="bottom" coord="5.08" direction="io"/>
 <port name="ST_WHEEL_POSS" side="bottom" coord="10.16" direction="io"/>
 </ports>
 <variantdefs>
@@ -368,9 +366,6 @@
 <moduleinst name="BSPD1" module="BSPD" x="228.6" y="50.8">
 <attribute name="NAME" x="228.6" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="BRAKE_LIGHTS1" module="BRAKE_LIGHTS" x="271.78" y="50.8">
-<attribute name="NAME" x="271.78" y="50.8" size="2.032" layer="95" align="bottom-center"/>
-</moduleinst>
 <moduleinst name="OUTPUTS1" module="OUTPUTS" x="154.94" y="50.8">
 <attribute name="NAME" x="154.94" y="50.8" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
@@ -405,9 +400,6 @@
 <wire x1="215.9" y1="22.86" x2="215.9" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="259.08" y1="22.86" x2="259.08" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <portref moduleinst="CROSS_SHEET_WIRING1" port="12V"/>
 <wire x1="78.74" y1="-12.7" x2="78.74" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
@@ -432,10 +424,6 @@
 <segment>
 <portref moduleinst="BSPD1" port="GND"/>
 <wire x1="218.44" y1="22.86" x2="218.44" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="BRAKE_LIGHTS1" port="GND"/>
-<wire x1="261.62" y1="22.86" x2="261.62" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <portref moduleinst="OUTPUTS1" port="GND"/>
@@ -556,20 +544,6 @@
 <segment>
 <portref moduleinst="OUTPUTS1" port="BR_POSS"/>
 <wire x1="157.48" y1="22.86" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BRAKE_LIGHTS_OUT" class="0">
-<segment>
-<portref moduleinst="MICROCONTROLLER1" port="BRAKE_LIGHTS_OUT"/>
-<wire x1="109.22" y1="35.56" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="CROSS_SHEET_WIRING1" port="BRAKE_LIGHTS_OUT"/>
-<wire x1="116.84" y1="-12.7" x2="116.84" y2="-22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<portref moduleinst="BRAKE_LIGHTS1" port="BRAKE_LIGHTS_CONTROL_SIGNAL"/>
-<wire x1="266.7" y1="22.86" x2="266.7" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ASS1" class="0">
