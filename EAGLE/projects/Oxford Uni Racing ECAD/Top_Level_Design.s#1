@@ -82,8 +82,6 @@
 <port name="ASS2" side="bottom" coord="15.24" direction="io"/>
 <port name="CURRENT_SENSE_PLAUSABILITY" side="bottom" coord="22.86" direction="io"/>
 <port name="STEERING_WHEEL_POSITION_S" side="top" coord="0" direction="io"/>
-<port name="BOTS_IN" side="top" coord="5.08" direction="io"/>
-<port name="BOTS_OUT" side="top" coord="7.62" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -796,8 +794,8 @@
 <moduleinst name="BRAKE_PRESSURE_S1" module="BRAKE_PRESSURE_S" x="165.1" y="144.78">
 <attribute name="NAME" x="165.1" y="144.78" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="BOTS1" module="BOTS" x="165.1" y="195.58">
-<attribute name="NAME" x="165.1" y="195.58" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="BOTS1" module="BOTS" x="408.94" y="-60.96" rot="R180">
+<attribute name="NAME" x="408.94" y="-60.96" size="2.032" layer="95" rot="R180" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="BRAKE_LIGHTS1" module="BRAKE_LIGHTS" x="165.1" y="-43.18" rot="R180">
 <attribute name="NAME" x="165.1" y="-43.18" size="2.032" layer="95" rot="R180" align="bottom-center"/>
@@ -1207,9 +1205,8 @@
 <segment>
 <portref moduleinst="TS_MASTER_SWITCH1" port="OUT"/>
 <wire x1="358.14" y1="-58.42" x2="358.14" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="-58.42" x2="375.92" y2="-58.42" width="0.1524" layer="91"/>
-<portref moduleinst="BATTERY1" port="ASS2"/>
-<wire x1="375.92" y1="-58.42" x2="375.92" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="-58.42" x2="388.62" y2="-58.42" width="0.1524" layer="91"/>
+<portref moduleinst="BOTS1" port="IN"/>
 </segment>
 </net>
 <net name="BUTTON_LINES" class="0">
@@ -1303,22 +1300,6 @@
 <wire x1="381" y1="-2.54" x2="381" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<portref moduleinst="PEDAL_BOARD1" port="BOTS_IN"/>
-<portref moduleinst="BOTS1" port="IN"/>
-<wire x1="226.06" y1="71.12" x2="226.06" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="193.04" x2="185.42" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<portref moduleinst="BOTS1" port="OUT"/>
-<wire x1="185.42" y1="190.5" x2="228.6" y2="190.5" width="0.1524" layer="91"/>
-<portref moduleinst="PEDAL_BOARD1" port="BOTS_OUT"/>
-<wire x1="228.6" y1="190.5" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$8" class="0">
 <segment>
 <portref moduleinst="VCU1" port="BRAKE_LIGHTS_PWR+"/>
@@ -1379,6 +1360,14 @@
 <wire x1="119.38" y1="71.12" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
 <portref moduleinst="DISPLAY1" port="CS"/>
 <wire x1="119.38" y1="121.92" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<portref moduleinst="BOTS1" port="OUT"/>
+<wire x1="388.62" y1="-55.88" x2="375.92" y2="-55.88" width="0.1524" layer="91"/>
+<portref moduleinst="BATTERY1" port="ASS2"/>
+<wire x1="375.92" y1="-55.88" x2="375.92" y2="-48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
