@@ -963,11 +963,11 @@ design rules under a new name.</description>
 </element>
 <element name="U$1" library="Oxford Uni Racing Custom Blueprints" package="SAME70-XPLD" value="SAME70-XPLD" x="76.2" y="27.94" smashed="yes" rot="MR0"/>
 <element name="U$3" library="TCAN1042" package="TCAN1042" value="TCAN1042" x="97.79" y="21.59" smashed="yes" rot="MR180"/>
-<element name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:6240324/1" value="" x="109.22" y="26.67" smashed="yes" rot="MR90">
+<element name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:6240324/1" value="0.1uF" x="109.22" y="26.67" smashed="yes" rot="MR90">
 <attribute name="NAME" x="110.617" y="24.892" size="1.27" layer="26" ratio="10" rot="MR90"/>
 <attribute name="VALUE" x="106.553" y="24.892" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
-<element name="C6" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:6240324/1" value="" x="100.33" y="20.32" smashed="yes" rot="MR270">
+<element name="C6" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:6240324/1" value="0.1uF" x="100.33" y="20.32" smashed="yes" rot="MR270">
 <attribute name="NAME" x="98.933" y="22.098" size="1.27" layer="26" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="102.997" y="22.098" size="1.27" layer="28" ratio="10" rot="MR270"/>
 </element>

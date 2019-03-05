@@ -1,0 +1,9 @@
+Partlist exported from C:/Users/Ruzhev/Desktop/Formula Student/GIT/ECAD/EAGLE/projects/Oxford Uni Racing ECAD/IMD/IMD.sch at 05/03/2019 15:14
+
+Qty Value           Device           Package                        Parts        Description                                                                                                               
+1                   T821108A1S100CEU HDRV8W64P254_2X4_1778X895X915P J1           HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A 
+2   1K              R-US_0204/7      0204/7                         R1, R2       RESISTOR, American symbol                                                                                                 
+1   1K              TRIM_EU-B90P     SP19L                          R22          POTENTIOMETER                                                                                                             
+1   IRLML2502GTRPBF MOSFET-NREFLOW   SOT23                          BR_LIGHTS_TR N-Channel Mosfet                                                                                                          
+1   LM2901N         LM2901N          DIL14                          IC1          COMPARATOR                                                                                                                
+1   RT444012        RT444012         RT2N/O                         K1           Power PCB Relay SCHRACK                                                                                                   

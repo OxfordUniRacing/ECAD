@@ -10793,14 +10793,6 @@ Wickmann</description>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="CAN_TERMINATION1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="120"/>
 <part name="J1" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="PWR_CAN"/>
-<part name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM317TS" device="" package3d_urn="urn:adsk.eagle:package:30353/1"/>
-<part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="240"/>
-<part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="390"/>
-<part name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:6240357/1" value="0.1uF"/>
-<part name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:6240357/1" value="1uF"/>
-<part name="SUPPLY21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
-<part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="IC4" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM317TS" device="" package3d_urn="urn:adsk.eagle:package:30353/1"/>
 <part name="R7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="240"/>
 <part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="720"/>
@@ -10837,10 +10829,6 @@ Wickmann</description>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J2" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="ASS+BRAKE_LIGHTS"/>
 <part name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="FUSE" device="BLANK_5X20MM" package3d_urn="urn:adsk.eagle:package:14079/1" value="1A"/>
-<part name="3.3V_IND" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:6240537/1"/>
-<part name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1"/>
-<part name="SUPPLY47" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="GND30" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="5V_IND" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:6240537/1"/>
 <part name="R24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1"/>
 <part name="SUPPLY54" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
@@ -10856,6 +10844,9 @@ Wickmann</description>
 <part name="SUPPLY33" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="F2" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="FUSE" device="BLANK_5X20MM" package3d_urn="urn:adsk.eagle:package:14079/1" value="1.5A"/>
+<part name="SUPPLY21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="SUPPLY25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11415,35 +11406,6 @@ Wickmann</description>
 <instance part="GND3" gate="1" x="40.64" y="88.9" smashed="yes" rot="R90">
 <attribute name="VALUE" x="40.894" y="88.9" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="IC2" gate="1" x="114.3" y="104.14" smashed="yes">
-<attribute name="NAME" x="116.84" y="96.52" size="1.778" layer="95"/>
-<attribute name="VALUE" x="116.84" y="93.98" size="1.778" layer="96"/>
-</instance>
-<instance part="R3" gate="G$1" x="124.46" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="122.9614" y="92.71" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="127.762" y="92.71" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R4" gate="G$1" x="114.3" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="112.8014" y="74.93" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="117.602" y="74.93" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C3" gate="G$1" x="101.6" y="99.06" smashed="yes">
-<attribute name="NAME" x="102.616" y="99.695" size="1.778" layer="95"/>
-<attribute name="VALUE" x="102.616" y="94.869" size="1.778" layer="96"/>
-</instance>
-<instance part="C4" gate="G$1" x="134.62" y="99.06" smashed="yes">
-<attribute name="NAME" x="135.636" y="99.695" size="1.778" layer="95"/>
-<attribute name="VALUE" x="135.636" y="94.869" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY21" gate="G$1" x="96.52" y="104.14" smashed="yes" rot="R90">
-<attribute name="VALUE" x="93.726" y="104.14" size="1.778" layer="96" rot="R90" align="bottom-center"/>
-</instance>
-<instance part="GND8" gate="1" x="114.3" y="66.04" smashed="yes">
-<attribute name="VALUE" x="114.3" y="65.786" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="SUPPLY25" gate="G$1" x="144.78" y="104.14" smashed="yes" rot="R270">
-<attribute name="VALUE" x="147.574" y="104.14" size="1.778" layer="96" rot="R270" align="bottom-center"/>
-</instance>
 <instance part="IC4" gate="1" x="114.3" y="48.26" smashed="yes">
 <attribute name="NAME" x="116.84" y="40.64" size="1.778" layer="95"/>
 <attribute name="VALUE" x="116.84" y="38.1" size="1.778" layer="96"/>
@@ -11473,20 +11435,6 @@ Wickmann</description>
 <instance part="GND13" gate="1" x="114.3" y="10.16" smashed="yes">
 <attribute name="VALUE" x="114.3" y="9.906" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="3.3V_IND" gate="G$1" x="170.18" y="96.52" smashed="yes">
-<attribute name="NAME" x="173.736" y="91.948" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="175.895" y="91.948" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R23" gate="G$1" x="170.18" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="168.6814" y="80.01" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="173.482" y="80.01" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY47" gate="G$1" x="170.18" y="101.6" smashed="yes">
-<attribute name="VALUE" x="170.18" y="104.394" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="GND30" gate="1" x="170.18" y="73.66" smashed="yes">
-<attribute name="VALUE" x="170.18" y="73.406" size="1.778" layer="96" align="top-center"/>
-</instance>
 <instance part="5V_IND" gate="G$1" x="180.34" y="96.52" smashed="yes">
 <attribute name="NAME" x="183.896" y="91.948" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="186.055" y="91.948" size="1.778" layer="96" rot="R90"/>
@@ -11515,15 +11463,6 @@ Wickmann</description>
 <label x="10.16" y="96.52" size="1.778" layer="95"/>
 <pinref part="SUPPLY7" gate="G$1" pin="12V"/>
 <wire x1="22.86" y1="96.52" x2="0" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY21" gate="G$1" pin="12V"/>
-<pinref part="IC2" gate="1" pin="IN"/>
-<wire x1="96.52" y1="104.14" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="101.6" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
-<junction x="101.6" y="104.14"/>
 </segment>
 <segment>
 <pinref part="SUPPLY28" gate="G$1" pin="12V"/>
@@ -11566,42 +11505,12 @@ Wickmann</description>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 <wire x1="33.02" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="IC2" gate="1" pin="OUT"/>
-<wire x1="121.92" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="104.14" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="104.14" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="101.6" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
-<junction x="134.62" y="104.14"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="101.6" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
-<junction x="124.46" y="104.14"/>
-<pinref part="SUPPLY25" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="3.3V_IND" gate="G$1" pin="A"/>
-<pinref part="SUPPLY47" gate="G$1" pin="3.3V"/>
-<wire x1="170.18" y1="99.06" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <label x="10.16" y="88.9" size="1.778" layer="95"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="0" y1="88.9" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="101.6" y1="93.98" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="68.58" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="73.66" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
-<junction x="114.3" y="68.58"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="93.98" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="68.58" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -11619,11 +11528,6 @@ Wickmann</description>
 <pinref part="R24" gate="G$1" pin="1"/>
 <pinref part="GND33" gate="1" pin="GND"/>
 <wire x1="180.34" y1="78.74" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND30" gate="1" pin="GND"/>
-<pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="76.2" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -11722,18 +11626,6 @@ Wickmann</description>
 <wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="IC2" gate="1" pin="ADJ"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="96.52" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="88.9" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="91.44" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
-<junction x="114.3" y="88.9"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="IC4" gate="1" pin="ADJ"/>
@@ -11751,13 +11643,6 @@ Wickmann</description>
 <pinref part="5V_IND" gate="G$1" pin="C"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="91.44" x2="180.34" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="R23" gate="G$1" pin="2"/>
-<pinref part="3.3V_IND" gate="G$1" pin="C"/>
-<wire x1="170.18" y1="88.9" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AIR_COILS" class="0">
@@ -11854,6 +11739,15 @@ Wickmann</description>
 <instance part="GND20" gate="1" x="360.68" y="88.9" smashed="yes">
 <attribute name="VALUE" x="360.68" y="88.646" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="SUPPLY21" gate="G$1" x="154.94" y="104.14" smashed="yes" rot="R90">
+<attribute name="VALUE" x="152.146" y="104.14" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY25" gate="G$1" x="149.86" y="101.6" smashed="yes" rot="R90">
+<attribute name="VALUE" x="147.066" y="101.6" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="GND8" gate="1" x="142.24" y="99.06" smashed="yes" rot="R270">
+<attribute name="VALUE" x="141.986" y="99.06" size="1.778" layer="96" rot="R270" align="top-center"/>
+</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,AIR_COILS,ASS1,ASS2,CANH,CANL,GND,MC_1_BRAKE_INPUT,MC_1_IMPULSE_INPUT,MC_1_REVERSE_SWITCH,MC_1_RXD,MC_1_THROTTLE_INPUT,MC_1_TXD,MC_2_BRAKE_INPUT,MC_2_IMPULSE_INPUT,MC_2_REVERSE_SWITCH,MC_2_RXD,MC_2_THROTTLE_INPUT,MC_2_TXD">
@@ -11889,6 +11783,11 @@ Wickmann</description>
 <wire x1="182.88" y1="-60.96" x2="198.12" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="198.12" y="-60.96"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="J5014-5V0"/>
+<pinref part="SUPPLY25" gate="G$1" pin="5V"/>
+<wire x1="165.1" y1="101.6" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -11904,6 +11803,11 @@ Wickmann</description>
 <wire x1="251.46" y1="-66.04" x2="261.62" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="-68.58" x2="251.46" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="251.46" y="-66.04"/>
+</segment>
+<segment>
+<pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
+<pinref part="U$1" gate="G$1" pin="J5013-3V3"/>
+<wire x1="154.94" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11936,6 +11840,16 @@ Wickmann</description>
 <wire x1="350.52" y1="99.06" x2="350.52" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="96.52" x2="360.68" y2="96.52" width="0.1524" layer="91"/>
 <junction x="360.68" y="96.52"/>
+</segment>
+<segment>
+<pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="J5015-GND"/>
+<wire x1="144.78" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="J5016-GND"/>
+<wire x1="154.94" y1="99.06" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="96.52" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="96.52" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
+<junction x="154.94" y="99.06"/>
 </segment>
 </net>
 <net name="CANH" class="0">
