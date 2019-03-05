@@ -20397,7 +20397,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 </library>
 <library name="Oxford Uni Racing Custom Blueprints">
 <packages>
-<package name="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2">
+<package name="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3">
 <pad name="J803-0" x="0" y="12.7" drill="0.6"/>
 <pad name="J803-1" x="0" y="10.16" drill="0.6"/>
 <pad name="J803-2" x="0" y="7.62" drill="0.6"/>
@@ -20420,30 +20420,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <wire x1="1.108" y1="36.668" x2="1.108" y2="16.672" width="0.127" layer="21"/>
 <wire x1="1.108" y1="16.672" x2="-1.108" y2="16.672" width="0.127" layer="21"/>
 <wire x1="-1.108" y1="16.672" x2="-1.108" y2="36.668" width="0.127" layer="21"/>
-<pad name="EXT3-0" x="39.37" y="-34.29" drill="0.6" rot="R180"/>
-<pad name="EXT3-1" x="39.37" y="-36.83" drill="0.6" rot="R180"/>
-<pad name="EXT3-2" x="36.83" y="-34.29" drill="0.6" rot="R180"/>
-<pad name="EXT3-3" x="36.83" y="-36.83" drill="0.6" rot="R180"/>
-<pad name="EXT3-4" x="34.29" y="-34.29" drill="0.6" rot="R180"/>
-<pad name="EXT3-5" x="34.29" y="-36.83" drill="0.6" rot="R180"/>
-<pad name="EXT3-6" x="31.75" y="-34.29" drill="0.6" rot="R180"/>
-<pad name="EXT3-7" x="31.75" y="-36.83" drill="0.6" rot="R180"/>
-<pad name="EXT3-8" x="29.21" y="-34.29" drill="0.6" rot="R180"/>
-<pad name="EXT3-9" x="29.21" y="-36.83" drill="0.6" rot="R180"/>
-<pad name="EXT3-10" x="26.67" y="-34.29" drill="0.6" rot="R180"/>
-<pad name="EXT3-11" x="26.67" y="-36.83" drill="0.6" rot="R180"/>
-<pad name="EXT3-12" x="24.13" y="-34.29" drill="0.6" rot="R180"/>
-<pad name="EXT3-13" x="24.13" y="-36.83" drill="0.6" rot="R180"/>
-<pad name="EXT3-14" x="21.59" y="-34.29" drill="0.6" rot="R180"/>
-<pad name="EXT3-15" x="21.59" y="-36.83" drill="0.6" rot="R180"/>
-<pad name="EXT3-16" x="19.05" y="-34.29" drill="0.6" rot="R180"/>
-<pad name="EXT3-17" x="19.05" y="-36.83" drill="0.6" rot="R180"/>
-<pad name="EXT3-18" x="16.51" y="-34.29" drill="0.6" rot="R180"/>
-<pad name="EXT3-19" x="16.51" y="-36.83" drill="0.6" rot="R180"/>
-<wire x1="40.478" y1="-37.938" x2="15.402" y2="-37.938" width="0.127" layer="21"/>
-<wire x1="15.402" y1="-37.938" x2="15.402" y2="-33.182" width="0.127" layer="21"/>
-<wire x1="15.402" y1="-33.182" x2="40.478" y2="-33.182" width="0.127" layer="21"/>
-<wire x1="40.478" y1="-33.182" x2="40.478" y2="-37.938" width="0.127" layer="21"/>
 <pad name="J804-0" x="48.26" y="0" drill="0.6" rot="R180"/>
 <pad name="J804-1" x="48.26" y="2.54" drill="0.6" rot="R180"/>
 <pad name="J804-2" x="48.26" y="5.08" drill="0.6" rot="R180"/>
@@ -20489,7 +20465,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 </package>
 </packages>
 <symbols>
-<symbol name="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2">
+<symbol name="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3">
 <pin name="J802-0-RFU" x="-5.08" y="50.8" length="middle"/>
 <pin name="J802-1-IOREF" x="-5.08" y="48.26" length="middle"/>
 <pin name="J802-2-RESET" x="-5.08" y="45.72" length="middle"/>
@@ -20500,26 +20476,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <pin name="J802-7-VIN" x="-5.08" y="33.02" length="middle"/>
 <pin name="CAN0-CANH" x="-5.08" y="66.04" length="middle"/>
 <pin name="CAN1-CANL" x="-5.08" y="68.58" length="middle"/>
-<pin name="EXP-3-0" x="20.32" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-1-GND" x="22.86" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-2-PB07" x="25.4" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-3-PB06" x="27.94" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-4-PB04" x="30.48" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-5-PB05" x="33.02" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-6-PA14" x="35.56" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-7-PA15" x="38.1" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-8-PA28" x="40.64" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-9-PA27" x="43.18" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-10-PA12" x="45.72" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-11-PA13" x="48.26" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-12-PA23" x="50.8" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-13-PA22" x="53.34" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-14-PA02" x="55.88" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-15-PB00" x="58.42" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-16-PB02" x="60.96" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-17-PB01" x="63.5" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-18-GND" x="66.04" y="-5.08" length="middle" rot="R90"/>
-<pin name="EXP-3-19-VCC" x="68.58" y="-5.08" length="middle" rot="R90"/>
 <pin name="J804-0-PA23" x="91.44" y="10.16" length="middle" rot="R180"/>
 <pin name="J804-1-PA22" x="91.44" y="12.7" length="middle" rot="R180"/>
 <pin name="J804-2-PA20" x="91.44" y="15.24" length="middle" rot="R180"/>
@@ -20559,35 +20515,15 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2">
+<deviceset name="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3">
 <gates>
-<gate name="G$1" symbol="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2" x="0" y="0"/>
+<gate name="G$1" symbol="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2">
+<device name="" package="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3">
 <connects>
 <connect gate="G$1" pin="CAN0-CANH" pad="CAN-0"/>
 <connect gate="G$1" pin="CAN1-CANL" pad="CAN-1"/>
-<connect gate="G$1" pin="EXP-3-0" pad="EXT3-0"/>
-<connect gate="G$1" pin="EXP-3-1-GND" pad="EXT3-1"/>
-<connect gate="G$1" pin="EXP-3-10-PA12" pad="EXT3-10"/>
-<connect gate="G$1" pin="EXP-3-11-PA13" pad="EXT3-11"/>
-<connect gate="G$1" pin="EXP-3-12-PA23" pad="EXT3-12"/>
-<connect gate="G$1" pin="EXP-3-13-PA22" pad="EXT3-13"/>
-<connect gate="G$1" pin="EXP-3-14-PA02" pad="EXT3-14"/>
-<connect gate="G$1" pin="EXP-3-15-PB00" pad="EXT3-15"/>
-<connect gate="G$1" pin="EXP-3-16-PB02" pad="EXT3-16"/>
-<connect gate="G$1" pin="EXP-3-17-PB01" pad="EXT3-17"/>
-<connect gate="G$1" pin="EXP-3-18-GND" pad="EXT3-18"/>
-<connect gate="G$1" pin="EXP-3-19-VCC" pad="EXT3-19"/>
-<connect gate="G$1" pin="EXP-3-2-PB07" pad="EXT3-2"/>
-<connect gate="G$1" pin="EXP-3-3-PB06" pad="EXT3-3"/>
-<connect gate="G$1" pin="EXP-3-4-PB04" pad="EXT3-4"/>
-<connect gate="G$1" pin="EXP-3-5-PB05" pad="EXT3-5"/>
-<connect gate="G$1" pin="EXP-3-6-PA14" pad="EXT3-6"/>
-<connect gate="G$1" pin="EXP-3-7-PA15" pad="EXT3-7"/>
-<connect gate="G$1" pin="EXP-3-8-PA28" pad="EXT3-8"/>
-<connect gate="G$1" pin="EXP-3-9-PA27" pad="EXT3-9"/>
 <connect gate="G$1" pin="J800-0-PB02-MISO" pad="J800-0"/>
 <connect gate="G$1" pin="J800-1-5V" pad="J800-1"/>
 <connect gate="G$1" pin="J800-2-PB01-SCK" pad="J800-2"/>
@@ -20754,7 +20690,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J4" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="ASS"/>
-<part name="U$1" library="Oxford Uni Racing Custom Blueprints" deviceset="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2" device=""/>
+<part name="U$1" library="Oxford Uni Racing Custom Blueprints" deviceset="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3" device=""/>
 </parts>
 <sheets>
 <sheet>
