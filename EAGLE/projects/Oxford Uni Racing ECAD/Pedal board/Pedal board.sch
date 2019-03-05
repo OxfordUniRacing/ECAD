@@ -20867,6 +20867,9 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="R15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
 <part name="SUPPLY36" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY37" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
+<part name="R25" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="330"/>
 </parts>
 <sheets>
 <sheet>
@@ -21730,8 +21733,8 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <attribute name="VALUE" x="172.72" y="109.22" size="1.778" layer="96"/>
 </instance>
 <instance part="T1" gate="1" x="218.44" y="142.24" smashed="yes">
-<attribute name="NAME" x="220.98" y="142.24" size="1.778" layer="95"/>
-<attribute name="VALUE" x="220.98" y="139.7" size="1.778" layer="96"/>
+<attribute name="NAME" x="208.28" y="139.7" size="1.778" layer="95"/>
+<attribute name="VALUE" x="208.28" y="142.24" size="1.778" layer="96"/>
 </instance>
 <instance part="RELAY" gate="1" x="223.52" y="78.74" smashed="yes">
 <attribute name="VALUE" x="224.79" y="81.661" size="1.778" layer="96"/>
@@ -21902,6 +21905,17 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <instance part="SUPPLY37" gate="G$1" x="223.52" y="91.44" smashed="yes">
 <attribute name="VALUE" x="223.52" y="94.234" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="GND5" gate="1" x="223.52" y="157.48" smashed="yes" rot="R180">
+<attribute name="VALUE" x="223.52" y="157.734" size="1.778" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="R23" gate="G$1" x="223.52" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="222.0214" y="143.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="226.822" y="143.51" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R25" gate="G$1" x="210.82" y="129.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="209.3214" y="125.73" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="214.122" y="125.73" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHTS_OUT,BR_POSS,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
@@ -21985,6 +21999,11 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="119.38" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="154.94" x2="223.52" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -22273,20 +22292,12 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <junction x="233.68" y="134.62"/>
 </segment>
 </net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="COMPARATOR" gate="D" pin="-IN"/>
-<pinref part="T1" gate="1" pin="C"/>
-<wire x1="218.44" y1="124.46" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="AND" gate="B" pin="O"/>
-<wire x1="205.74" y1="116.84" x2="210.82" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="116.84" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="T1" gate="1" pin="G"/>
 <wire x1="210.82" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="134.62" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -22301,6 +22312,26 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <wire x1="213.36" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="COMPARATOR" gate="D" pin="OUT"/>
 <wire x1="220.98" y1="101.6" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="142.24" x2="223.52" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="COMPARATOR" gate="D" pin="-IN"/>
+<pinref part="T1" gate="1" pin="C"/>
+<wire x1="218.44" y1="124.46" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="137.16" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="137.16" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
+<junction x="218.44" y="137.16"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="AND" gate="B" pin="O"/>
+<wire x1="205.74" y1="116.84" x2="210.82" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="116.84" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
