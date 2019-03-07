@@ -14103,9 +14103,9 @@ type V526-0, grid 2.5 mm</description>
 <wire x1="10.16" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="223.52" y="-17.78" size="1.778" layer="95" rot="R270"/>
-<wire x1="223.52" y1="-17.78" x2="223.52" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="EXP-3-14-PA02"/>
+<label x="213.36" y="-17.78" size="1.778" layer="95" rot="R270"/>
+<wire x1="213.36" y1="-17.78" x2="213.36" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="EXP-3-10-PA12"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -14156,9 +14156,9 @@ type V526-0, grid 2.5 mm</description>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="-7.62" x2="213.36" y2="-17.78" width="0.1524" layer="91"/>
-<label x="213.36" y="-17.78" size="1.778" layer="95" rot="R270"/>
-<pinref part="U$1" gate="G$1" pin="EXP-3-10-PA12"/>
+<wire x1="223.52" y1="-7.62" x2="223.52" y2="-17.78" width="0.1524" layer="91"/>
+<label x="223.52" y="-17.78" size="1.778" layer="95" rot="R270"/>
+<pinref part="U$1" gate="G$1" pin="EXP-3-14-PA02"/>
 </segment>
 </net>
 <net name="DRIVER_SELECT_1" class="0">
