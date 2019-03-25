@@ -892,8 +892,8 @@
 <moduleinst name="SPEAKER1" module="SPEAKER" x="81.28" y="271.78">
 <attribute name="NAME" x="81.28" y="271.78" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="CURRENT_SENSOR1" module="CURRENT_SENSOR" x="386.08" y="15.24">
-<attribute name="NAME" x="386.08" y="15.24" size="2.032" layer="95" align="bottom-center"/>
+<moduleinst name="CURRENT_SENSOR1" module="CURRENT_SENSOR" x="472.44" y="15.24">
+<attribute name="NAME" x="474.98" y="17.78" size="2.032" layer="95" align="bottom-center"/>
 </moduleinst>
 <moduleinst name="USB_OUT_PORT1" module="USB_OUT_PORT" x="165.1" y="-71.12">
 <attribute name="NAME" x="165.1" y="-71.12" size="2.032" layer="95" align="bottom-center"/>
@@ -1132,11 +1132,11 @@
 <wire x1="327.66" y1="-55.88" x2="327.66" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="327.66" y="-22.86"/>
 <portref moduleinst="CURRENT_SENSOR1" port="LV_PWR_IN"/>
-<wire x1="365.76" y1="7.62" x2="312.42" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="452.12" y1="7.62" x2="312.42" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="7.62" x2="312.42" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="312.42" y="-22.86"/>
 <portref moduleinst="CURRENT_SENSOR1" port="LV_PWR_OUT"/>
-<wire x1="365.76" y1="10.16" x2="309.88" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="452.12" y1="10.16" x2="309.88" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="10.16" x2="309.88" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="309.88" y="-27.94"/>
 </segment>
@@ -1339,7 +1339,7 @@
 <portref moduleinst="PEDAL_BOARD1" port="CURRENT_SENSE_PLAUSABILITY"/>
 <wire x1="243.84" y1="25.4" x2="243.84" y2="12.7" width="0.1524" layer="91"/>
 <portref moduleinst="CURRENT_SENSOR1" port="BATT_CURRENT_OUT"/>
-<wire x1="365.76" y1="12.7" x2="243.84" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="452.12" y1="12.7" x2="243.84" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -1430,16 +1430,14 @@
 <net name="N$3" class="0">
 <segment>
 <portref moduleinst="HV_BATTERY1" port="TS+"/>
-<wire x1="447.04" y1="-17.78" x2="447.04" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="447.04" y1="-2.54" x2="386.08" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="-17.78" x2="447.04" y2="0" width="0.1524" layer="91"/>
 <portref moduleinst="CURRENT_SENSOR1" port="TS_IN"/>
-<wire x1="386.08" y1="-2.54" x2="386.08" y2="0" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="0" x2="472.44" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <portref moduleinst="CURRENT_SENSOR1" port="TS_OUT"/>
-<wire x1="391.16" y1="0" x2="477.52" y2="0" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="0" x2="477.52" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="-104.14" x2="-25.4" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="-104.14" x2="-25.4" y2="-60.96" width="0.1524" layer="91"/>
