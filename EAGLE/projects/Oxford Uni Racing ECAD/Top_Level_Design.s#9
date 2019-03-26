@@ -314,7 +314,7 @@
 <port name="IGNITION_SWITCH" side="right" coord="-25.4" direction="io"/>
 <port name="PEDAL_MAPPING" side="right" coord="-12.7" direction="io"/>
 <port name="PWR_REDUCTION" side="right" coord="-7.62" direction="io"/>
-<port name="TSMS" side="right" coord="-17.78" direction="io"/>
+<port name="TS" side="right" coord="-20.32" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
