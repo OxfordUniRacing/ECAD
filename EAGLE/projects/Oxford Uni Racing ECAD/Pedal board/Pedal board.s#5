@@ -20859,7 +20859,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="U$1" library="Oxford Uni Racing Custom Blueprints" deviceset="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3" device=""/>
 <part name="BR_LIGHTS_TR" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MOSFET-N" device="REFLOW" package3d_urn="urn:adsk.eagle:package:6240836/1" value="IRLML2502GTRPBF"/>
 <part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
-<part name="R12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="47K"/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="R13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
@@ -21877,10 +21876,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <attribute name="NAME" x="214.8586" y="77.47" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="210.058" y="77.47" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R12" gate="G$1" x="213.36" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="211.8614" y="46.99" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="216.662" y="46.99" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND20" gate="1" x="223.52" y="35.56" smashed="yes">
 <attribute name="VALUE" x="223.52" y="35.306" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -21988,12 +21983,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <segment>
 <pinref part="BR_LIGHTS_TR" gate="G$1" pin="S"/>
 <pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="223.52" y1="58.42" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="43.18" x2="223.52" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="45.72" x2="213.36" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="43.18" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
-<junction x="223.52" y="43.18"/>
+<wire x1="223.52" y1="58.42" x2="223.52" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
@@ -22267,10 +22257,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="BR_LIGHTS_TR" gate="G$1" pin="G"/>
 <wire x1="213.36" y1="68.58" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="60.96" x2="218.44" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="60.96" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
-<junction x="213.36" y="60.96"/>
 </segment>
 </net>
 <net name="N$2" class="0">
