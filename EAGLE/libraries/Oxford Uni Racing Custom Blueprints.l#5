@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -222,30 +222,30 @@
 <wire x1="1.108" y1="36.668" x2="1.108" y2="16.672" width="0.127" layer="21"/>
 <wire x1="1.108" y1="16.672" x2="-1.108" y2="16.672" width="0.127" layer="21"/>
 <wire x1="-1.108" y1="16.672" x2="-1.108" y2="36.668" width="0.127" layer="21"/>
-<pad name="EXT3-0" x="39.37" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-1" x="39.37" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-2" x="36.83" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-3" x="36.83" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-4" x="34.29" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-5" x="34.29" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-6" x="31.75" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-7" x="31.75" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-8" x="29.21" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-9" x="29.21" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-10" x="26.67" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-11" x="26.67" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-12" x="24.13" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-13" x="24.13" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-14" x="21.59" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-15" x="21.59" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-16" x="19.05" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-17" x="19.05" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-18" x="16.51" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-19" x="16.51" y="-26.67" drill="0.6" rot="R180"/>
-<wire x1="40.478" y1="-27.778" x2="15.402" y2="-27.778" width="0.127" layer="21"/>
-<wire x1="15.402" y1="-27.778" x2="15.402" y2="-23.022" width="0.127" layer="21"/>
-<wire x1="15.402" y1="-23.022" x2="40.478" y2="-23.022" width="0.127" layer="21"/>
-<wire x1="40.478" y1="-23.022" x2="40.478" y2="-27.778" width="0.127" layer="21"/>
+<pad name="EXT3-0" x="39.37" y="-33.02" drill="0.6" rot="R180"/>
+<pad name="EXT3-1" x="39.37" y="-35.56" drill="0.6" rot="R180"/>
+<pad name="EXT3-2" x="36.83" y="-33.02" drill="0.6" rot="R180"/>
+<pad name="EXT3-3" x="36.83" y="-35.56" drill="0.6" rot="R180"/>
+<pad name="EXT3-4" x="34.29" y="-33.02" drill="0.6" rot="R180"/>
+<pad name="EXT3-5" x="34.29" y="-35.56" drill="0.6" rot="R180"/>
+<pad name="EXT3-6" x="31.75" y="-33.02" drill="0.6" rot="R180"/>
+<pad name="EXT3-7" x="31.75" y="-35.56" drill="0.6" rot="R180"/>
+<pad name="EXT3-8" x="29.21" y="-33.02" drill="0.6" rot="R180"/>
+<pad name="EXT3-9" x="29.21" y="-35.56" drill="0.6" rot="R180"/>
+<pad name="EXT3-10" x="26.67" y="-33.02" drill="0.6" rot="R180"/>
+<pad name="EXT3-11" x="26.67" y="-35.56" drill="0.6" rot="R180"/>
+<pad name="EXT3-12" x="24.13" y="-33.02" drill="0.6" rot="R180"/>
+<pad name="EXT3-13" x="24.13" y="-35.56" drill="0.6" rot="R180"/>
+<pad name="EXT3-14" x="21.59" y="-33.02" drill="0.6" rot="R180"/>
+<pad name="EXT3-15" x="21.59" y="-35.56" drill="0.6" rot="R180"/>
+<pad name="EXT3-16" x="19.05" y="-33.02" drill="0.6" rot="R180"/>
+<pad name="EXT3-17" x="19.05" y="-35.56" drill="0.6" rot="R180"/>
+<pad name="EXT3-18" x="16.51" y="-33.02" drill="0.6" rot="R180"/>
+<pad name="EXT3-19" x="16.51" y="-35.56" drill="0.6" rot="R180"/>
+<wire x1="40.478" y1="-36.668" x2="15.402" y2="-36.668" width="0.127" layer="21"/>
+<wire x1="15.402" y1="-36.668" x2="15.402" y2="-31.912" width="0.127" layer="21"/>
+<wire x1="15.402" y1="-31.912" x2="40.478" y2="-31.912" width="0.127" layer="21"/>
+<wire x1="40.478" y1="-31.912" x2="40.478" y2="-36.668" width="0.127" layer="21"/>
 <pad name="J804-0" x="48.26" y="0" drill="0.6" rot="R180"/>
 <pad name="J804-1" x="48.26" y="2.54" drill="0.6" rot="R180"/>
 <pad name="J804-2" x="48.26" y="5.08" drill="0.6" rot="R180"/>
@@ -360,30 +360,96 @@
 <wire x1="1.108" y1="36.668" x2="1.108" y2="16.672" width="0.127" layer="21"/>
 <wire x1="1.108" y1="16.672" x2="-1.108" y2="16.672" width="0.127" layer="21"/>
 <wire x1="-1.108" y1="16.672" x2="-1.108" y2="36.668" width="0.127" layer="21"/>
-<pad name="EXT3-0" x="39.37" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-1" x="39.37" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-2" x="36.83" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-3" x="36.83" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-4" x="34.29" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-5" x="34.29" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-6" x="31.75" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-7" x="31.75" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-8" x="29.21" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-9" x="29.21" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-10" x="26.67" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-11" x="26.67" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-12" x="24.13" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-13" x="24.13" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-14" x="21.59" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-15" x="21.59" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-16" x="19.05" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-17" x="19.05" y="-26.67" drill="0.6" rot="R180"/>
-<pad name="EXT3-18" x="16.51" y="-24.13" drill="0.6" rot="R180"/>
-<pad name="EXT3-19" x="16.51" y="-26.67" drill="0.6" rot="R180"/>
-<wire x1="40.478" y1="-27.778" x2="15.402" y2="-27.778" width="0.127" layer="21"/>
-<wire x1="15.402" y1="-27.778" x2="15.402" y2="-23.022" width="0.127" layer="21"/>
-<wire x1="15.402" y1="-23.022" x2="40.478" y2="-23.022" width="0.127" layer="21"/>
-<wire x1="40.478" y1="-23.022" x2="40.478" y2="-27.778" width="0.127" layer="21"/>
+<pad name="EXT3-0" x="39.37" y="-34.29" drill="0.6" rot="R180"/>
+<pad name="EXT3-1" x="39.37" y="-36.83" drill="0.6" rot="R180"/>
+<pad name="EXT3-2" x="36.83" y="-34.29" drill="0.6" rot="R180"/>
+<pad name="EXT3-3" x="36.83" y="-36.83" drill="0.6" rot="R180"/>
+<pad name="EXT3-4" x="34.29" y="-34.29" drill="0.6" rot="R180"/>
+<pad name="EXT3-5" x="34.29" y="-36.83" drill="0.6" rot="R180"/>
+<pad name="EXT3-6" x="31.75" y="-34.29" drill="0.6" rot="R180"/>
+<pad name="EXT3-7" x="31.75" y="-36.83" drill="0.6" rot="R180"/>
+<pad name="EXT3-8" x="29.21" y="-34.29" drill="0.6" rot="R180"/>
+<pad name="EXT3-9" x="29.21" y="-36.83" drill="0.6" rot="R180"/>
+<pad name="EXT3-10" x="26.67" y="-34.29" drill="0.6" rot="R180"/>
+<pad name="EXT3-11" x="26.67" y="-36.83" drill="0.6" rot="R180"/>
+<pad name="EXT3-12" x="24.13" y="-34.29" drill="0.6" rot="R180"/>
+<pad name="EXT3-13" x="24.13" y="-36.83" drill="0.6" rot="R180"/>
+<pad name="EXT3-14" x="21.59" y="-34.29" drill="0.6" rot="R180"/>
+<pad name="EXT3-15" x="21.59" y="-36.83" drill="0.6" rot="R180"/>
+<pad name="EXT3-16" x="19.05" y="-34.29" drill="0.6" rot="R180"/>
+<pad name="EXT3-17" x="19.05" y="-36.83" drill="0.6" rot="R180"/>
+<pad name="EXT3-18" x="16.51" y="-34.29" drill="0.6" rot="R180"/>
+<pad name="EXT3-19" x="16.51" y="-36.83" drill="0.6" rot="R180"/>
+<wire x1="40.478" y1="-37.938" x2="15.402" y2="-37.938" width="0.127" layer="21"/>
+<wire x1="15.402" y1="-37.938" x2="15.402" y2="-33.182" width="0.127" layer="21"/>
+<wire x1="15.402" y1="-33.182" x2="40.478" y2="-33.182" width="0.127" layer="21"/>
+<wire x1="40.478" y1="-33.182" x2="40.478" y2="-37.938" width="0.127" layer="21"/>
+<pad name="J804-0" x="48.26" y="0" drill="0.6" rot="R180"/>
+<pad name="J804-1" x="48.26" y="2.54" drill="0.6" rot="R180"/>
+<pad name="J804-2" x="48.26" y="5.08" drill="0.6" rot="R180"/>
+<pad name="J804-3" x="48.26" y="7.62" drill="0.6" rot="R180"/>
+<pad name="J804-4" x="48.26" y="10.16" drill="0.6" rot="R180"/>
+<pad name="J804-5" x="48.26" y="12.7" drill="0.6" rot="R180"/>
+<pad name="J804-6" x="48.26" y="15.24" drill="0.6" rot="R180"/>
+<pad name="J804-7" x="48.26" y="17.78" drill="0.6" rot="R180"/>
+<wire x1="49.368" y1="-1.108" x2="47.152" y2="-1.108" width="0.127" layer="21"/>
+<wire x1="47.152" y1="-1.108" x2="47.152" y2="18.888" width="0.127" layer="21"/>
+<wire x1="47.152" y1="18.888" x2="49.368" y2="18.888" width="0.127" layer="21"/>
+<wire x1="49.368" y1="18.888" x2="49.368" y2="-1.108" width="0.127" layer="21"/>
+<pad name="J801-0" x="48.26" y="21.59" drill="0.6" rot="R180"/>
+<pad name="J801-1" x="48.26" y="24.13" drill="0.6" rot="R180"/>
+<pad name="J801-2" x="48.26" y="26.67" drill="0.6" rot="R180"/>
+<pad name="J801-3" x="48.26" y="29.21" drill="0.6" rot="R180"/>
+<pad name="J801-4" x="48.26" y="31.75" drill="0.6" rot="R180"/>
+<pad name="J801-5" x="48.26" y="34.29" drill="0.6" rot="R180"/>
+<pad name="J801-6" x="48.26" y="36.83" drill="0.6" rot="R180"/>
+<pad name="J801-7" x="48.26" y="39.37" drill="0.6" rot="R180"/>
+<pad name="J801-8" x="48.26" y="41.91" drill="0.6" rot="R180"/>
+<pad name="J801-9" x="48.26" y="44.45" drill="0.6" rot="R180"/>
+<wire x1="49.368" y1="20.482" x2="47.152" y2="20.482" width="0.127" layer="21"/>
+<wire x1="47.152" y1="20.482" x2="47.152" y2="45.558" width="0.127" layer="21"/>
+<wire x1="47.152" y1="45.558" x2="49.368" y2="45.558" width="0.127" layer="21"/>
+<wire x1="49.368" y1="45.558" x2="49.368" y2="20.482" width="0.127" layer="21"/>
+<pad name="J800-0" x="27.94" y="0" drill="0.6" rot="R180"/>
+<pad name="J800-1" x="27.94" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="J800-2" x="25.4" y="0" drill="0.6" rot="R180"/>
+<pad name="J800-3" x="25.4" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="J800-4" x="22.86" y="0" drill="0.6" rot="R180"/>
+<pad name="J800-5" x="22.86" y="-2.54" drill="0.6" rot="R180"/>
+<wire x1="29.048" y1="-3.648" x2="21.752" y2="-3.648" width="0.127" layer="21"/>
+<wire x1="21.752" y1="-3.648" x2="21.752" y2="1.108" width="0.127" layer="21"/>
+<wire x1="21.752" y1="1.108" x2="29.048" y2="1.108" width="0.127" layer="21"/>
+<wire x1="29.048" y1="1.108" x2="29.048" y2="-3.648" width="0.127" layer="21"/>
+<pad name="CAN-0" x="2.54" y="64.77" drill="0.6" rot="R180"/>
+<pad name="CAN-1" x="2.54" y="67.31" drill="0.6" rot="R180"/>
+<wire x1="3.648" y1="63.662" x2="1.432" y2="63.662" width="0.127" layer="21"/>
+<wire x1="1.432" y1="63.662" x2="1.432" y2="68.418" width="0.127" layer="21"/>
+<wire x1="1.432" y1="68.418" x2="3.648" y2="68.418" width="0.127" layer="21"/>
+<wire x1="3.648" y1="68.418" x2="3.648" y2="63.662" width="0.127" layer="21"/>
+</package>
+<package name="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3">
+<pad name="J803-0" x="0" y="12.7" drill="0.6"/>
+<pad name="J803-1" x="0" y="10.16" drill="0.6"/>
+<pad name="J803-2" x="0" y="7.62" drill="0.6"/>
+<pad name="J803-3" x="0" y="5.08" drill="0.6"/>
+<pad name="J803-4" x="0" y="2.54" drill="0.6"/>
+<pad name="J803-5" x="0" y="0" drill="0.6"/>
+<wire x1="-1.108" y1="13.808" x2="1.108" y2="13.808" width="0.127" layer="21"/>
+<wire x1="1.108" y1="13.808" x2="1.108" y2="-1.108" width="0.127" layer="21"/>
+<wire x1="1.108" y1="-1.108" x2="-1.108" y2="-1.108" width="0.127" layer="21"/>
+<wire x1="-1.108" y1="-1.108" x2="-1.108" y2="13.808" width="0.127" layer="21"/>
+<pad name="J802-0" x="0" y="35.56" drill="0.6"/>
+<pad name="J802-1" x="0" y="33.02" drill="0.6"/>
+<pad name="J802-2" x="0" y="30.48" drill="0.6"/>
+<pad name="J802-3" x="0" y="27.94" drill="0.6"/>
+<pad name="J802-4" x="0" y="25.4" drill="0.6"/>
+<pad name="J802-5" x="0" y="22.86" drill="0.6"/>
+<pad name="J802-6" x="0" y="20.32" drill="0.6"/>
+<pad name="J802-7" x="0" y="17.78" drill="0.6"/>
+<wire x1="-1.108" y1="36.668" x2="1.108" y2="36.668" width="0.127" layer="21"/>
+<wire x1="1.108" y1="36.668" x2="1.108" y2="16.672" width="0.127" layer="21"/>
+<wire x1="1.108" y1="16.672" x2="-1.108" y2="16.672" width="0.127" layer="21"/>
+<wire x1="-1.108" y1="16.672" x2="-1.108" y2="36.668" width="0.127" layer="21"/>
 <pad name="J804-0" x="48.26" y="0" drill="0.6" rot="R180"/>
 <pad name="J804-1" x="48.26" y="2.54" drill="0.6" rot="R180"/>
 <pad name="J804-2" x="48.26" y="5.08" drill="0.6" rot="R180"/>
@@ -668,6 +734,54 @@
 <pin name="EXP-3-17-PB01" x="63.5" y="-5.08" length="middle" rot="R90"/>
 <pin name="EXP-3-18-GND" x="66.04" y="-5.08" length="middle" rot="R90"/>
 <pin name="EXP-3-19-VCC" x="68.58" y="-5.08" length="middle" rot="R90"/>
+<pin name="J804-0-PA23" x="91.44" y="10.16" length="middle" rot="R180"/>
+<pin name="J804-1-PA22" x="91.44" y="12.7" length="middle" rot="R180"/>
+<pin name="J804-2-PA20" x="91.44" y="15.24" length="middle" rot="R180"/>
+<pin name="J804-3-PB12" x="91.44" y="17.78" length="middle" rot="R180"/>
+<pin name="J804-4-PA21" x="91.44" y="20.32" length="middle" rot="R180"/>
+<pin name="J804-5-PB13" x="91.44" y="22.86" length="middle" rot="R180"/>
+<pin name="J804-6-PB30" x="91.44" y="25.4" length="middle" rot="R180"/>
+<pin name="J804-7-PB04" x="91.44" y="27.94" length="middle" rot="R180"/>
+<pin name="J8010-PB05" x="91.44" y="38.1" length="middle" rot="R180"/>
+<pin name="J8011-PB31" x="91.44" y="40.64" length="middle" rot="R180"/>
+<pin name="J8012-PA27" x="91.44" y="43.18" length="middle" rot="R180"/>
+<pin name="J8013-PB00" x="91.44" y="45.72" length="middle" rot="R180"/>
+<pin name="J8014-PB02" x="91.44" y="48.26" length="middle" rot="R180"/>
+<pin name="J8015-PB01" x="91.44" y="50.8" length="middle" rot="R180"/>
+<pin name="J8016-GND" x="91.44" y="53.34" length="middle" rot="R180"/>
+<pin name="J8017-PA03" x="91.44" y="55.88" length="middle" rot="R180"/>
+<pin name="J8018-PA12" x="91.44" y="58.42" length="middle" rot="R180"/>
+<pin name="J8019-PA13" x="91.44" y="60.96" length="middle" rot="R180"/>
+<wire x1="0" y1="0" x2="86.36" y2="0" width="0.254" layer="94"/>
+<wire x1="86.36" y1="0" x2="86.36" y2="193.04" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="193.04" width="0.254" layer="94"/>
+<wire x1="0" y1="193.04" x2="86.36" y2="193.04" width="0.254" layer="94"/>
+<text x="38.1" y="116.84" size="1.778" layer="94">&gt;NAME</text>
+<text x="38.1" y="109.22" size="1.778" layer="94">&gt;VALUE</text>
+<pin name="J803-0-PB09" x="-5.08" y="25.4" length="middle"/>
+<pin name="J803-1-PB08" x="-5.08" y="22.86" length="middle"/>
+<pin name="J803-2-PA08" x="-5.08" y="20.32" length="middle"/>
+<pin name="J803-3-PA09" x="-5.08" y="17.78" length="middle"/>
+<pin name="J803-4-PB07" x="-5.08" y="15.24" length="middle"/>
+<pin name="J803-5-PB06" x="-5.08" y="12.7" length="middle"/>
+<pin name="J800-0-PB02-MISO" x="35.56" y="198.12" length="middle" rot="R270"/>
+<pin name="J800-1-5V" x="38.1" y="198.12" length="middle" rot="R270"/>
+<pin name="J800-2-PB01-SCK" x="40.64" y="198.12" length="middle" rot="R270"/>
+<pin name="J800-3-PB00-MOSI" x="43.18" y="198.12" length="middle" rot="R270"/>
+<pin name="J800-4-RESETN" x="45.72" y="198.12" length="middle" rot="R270"/>
+<pin name="J800-5-GND" x="48.26" y="198.12" length="middle" rot="R270"/>
+</symbol>
+<symbol name="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3">
+<pin name="J802-0-RFU" x="-5.08" y="50.8" length="middle"/>
+<pin name="J802-1-IOREF" x="-5.08" y="48.26" length="middle"/>
+<pin name="J802-2-RESET" x="-5.08" y="45.72" length="middle"/>
+<pin name="J802-3.3V" x="-5.08" y="43.18" length="middle"/>
+<pin name="J802-4-5V" x="-5.08" y="40.64" length="middle"/>
+<pin name="J802-5-GND" x="-5.08" y="38.1" length="middle"/>
+<pin name="J802-6GND" x="-5.08" y="35.56" length="middle"/>
+<pin name="J802-7-VIN" x="-5.08" y="33.02" length="middle"/>
+<pin name="CAN0-CANH" x="-5.08" y="66.04" length="middle"/>
+<pin name="CAN1-CANL" x="-5.08" y="68.58" length="middle"/>
 <pin name="J804-0-PA23" x="91.44" y="10.16" length="middle" rot="R180"/>
 <pin name="J804-1-PA22" x="91.44" y="12.7" length="middle" rot="R180"/>
 <pin name="J804-2-PA20" x="91.44" y="15.24" length="middle" rot="R180"/>

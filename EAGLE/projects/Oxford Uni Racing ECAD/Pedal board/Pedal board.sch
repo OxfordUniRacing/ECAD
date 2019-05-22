@@ -8453,66 +8453,66 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <library name="Oxford Uni Racing Custom Blueprints">
 <packages>
 <package name="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3">
-<pad name="J803-0" x="0" y="12.7" drill="0.6"/>
-<pad name="J803-1" x="0" y="10.16" drill="0.6"/>
-<pad name="J803-2" x="0" y="7.62" drill="0.6"/>
-<pad name="J803-3" x="0" y="5.08" drill="0.6"/>
-<pad name="J803-4" x="0" y="2.54" drill="0.6"/>
-<pad name="J803-5" x="0" y="0" drill="0.6"/>
+<pad name="J803-0" x="0" y="12.7" drill="0.8" diameter="1.6764"/>
+<pad name="J803-1" x="0" y="10.16" drill="0.8" diameter="1.6764"/>
+<pad name="J803-2" x="0" y="7.62" drill="0.8" diameter="1.6764"/>
+<pad name="J803-3" x="0" y="5.08" drill="0.8" diameter="1.6764"/>
+<pad name="J803-4" x="0" y="2.54" drill="0.8" diameter="1.6764"/>
+<pad name="J803-5" x="0" y="0" drill="0.8" diameter="1.6764"/>
 <wire x1="-1.108" y1="13.808" x2="1.108" y2="13.808" width="0.127" layer="21"/>
 <wire x1="1.108" y1="13.808" x2="1.108" y2="-1.108" width="0.127" layer="21"/>
 <wire x1="1.108" y1="-1.108" x2="-1.108" y2="-1.108" width="0.127" layer="21"/>
 <wire x1="-1.108" y1="-1.108" x2="-1.108" y2="13.808" width="0.127" layer="21"/>
-<pad name="J802-0" x="0" y="35.56" drill="0.6"/>
-<pad name="J802-1" x="0" y="33.02" drill="0.6"/>
-<pad name="J802-2" x="0" y="30.48" drill="0.6"/>
-<pad name="J802-3" x="0" y="27.94" drill="0.6"/>
-<pad name="J802-4" x="0" y="25.4" drill="0.6"/>
-<pad name="J802-5" x="0" y="22.86" drill="0.6"/>
-<pad name="J802-6" x="0" y="20.32" drill="0.6"/>
-<pad name="J802-7" x="0" y="17.78" drill="0.6"/>
+<pad name="J802-0" x="0" y="35.56" drill="0.8" diameter="1.6764"/>
+<pad name="J802-1" x="0" y="33.02" drill="0.8" diameter="1.6764"/>
+<pad name="J802-2" x="0" y="30.48" drill="0.8" diameter="1.6764"/>
+<pad name="J802-3" x="0" y="27.94" drill="0.8" diameter="1.6764"/>
+<pad name="J802-4" x="0" y="25.4" drill="0.8" diameter="1.6764"/>
+<pad name="J802-5" x="0" y="22.86" drill="0.8" diameter="1.6764"/>
+<pad name="J802-6" x="0" y="20.32" drill="0.8" diameter="1.6764"/>
+<pad name="J802-7" x="0" y="17.78" drill="0.8" diameter="1.6764"/>
 <wire x1="-1.108" y1="36.668" x2="1.108" y2="36.668" width="0.127" layer="21"/>
 <wire x1="1.108" y1="36.668" x2="1.108" y2="16.672" width="0.127" layer="21"/>
 <wire x1="1.108" y1="16.672" x2="-1.108" y2="16.672" width="0.127" layer="21"/>
 <wire x1="-1.108" y1="16.672" x2="-1.108" y2="36.668" width="0.127" layer="21"/>
-<pad name="J804-0" x="48.26" y="0" drill="0.6" rot="R180"/>
-<pad name="J804-1" x="48.26" y="2.54" drill="0.6" rot="R180"/>
-<pad name="J804-2" x="48.26" y="5.08" drill="0.6" rot="R180"/>
-<pad name="J804-3" x="48.26" y="7.62" drill="0.6" rot="R180"/>
-<pad name="J804-4" x="48.26" y="10.16" drill="0.6" rot="R180"/>
-<pad name="J804-5" x="48.26" y="12.7" drill="0.6" rot="R180"/>
-<pad name="J804-6" x="48.26" y="15.24" drill="0.6" rot="R180"/>
-<pad name="J804-7" x="48.26" y="17.78" drill="0.6" rot="R180"/>
+<pad name="J804-0" x="48.26" y="0" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-1" x="48.26" y="2.54" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-2" x="48.26" y="5.08" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-3" x="48.26" y="7.62" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-4" x="48.26" y="10.16" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-5" x="48.26" y="12.7" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-6" x="48.26" y="15.24" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-7" x="48.26" y="17.78" drill="0.8" diameter="1.6764" rot="R180"/>
 <wire x1="49.368" y1="-1.108" x2="47.152" y2="-1.108" width="0.127" layer="21"/>
 <wire x1="47.152" y1="-1.108" x2="47.152" y2="18.888" width="0.127" layer="21"/>
 <wire x1="47.152" y1="18.888" x2="49.368" y2="18.888" width="0.127" layer="21"/>
 <wire x1="49.368" y1="18.888" x2="49.368" y2="-1.108" width="0.127" layer="21"/>
-<pad name="J801-0" x="48.26" y="21.59" drill="0.6" rot="R180"/>
-<pad name="J801-1" x="48.26" y="24.13" drill="0.6" rot="R180"/>
-<pad name="J801-2" x="48.26" y="26.67" drill="0.6" rot="R180"/>
-<pad name="J801-3" x="48.26" y="29.21" drill="0.6" rot="R180"/>
-<pad name="J801-4" x="48.26" y="31.75" drill="0.6" rot="R180"/>
-<pad name="J801-5" x="48.26" y="34.29" drill="0.6" rot="R180"/>
-<pad name="J801-6" x="48.26" y="36.83" drill="0.6" rot="R180"/>
-<pad name="J801-7" x="48.26" y="39.37" drill="0.6" rot="R180"/>
-<pad name="J801-8" x="48.26" y="41.91" drill="0.6" rot="R180"/>
-<pad name="J801-9" x="48.26" y="44.45" drill="0.6" rot="R180"/>
+<pad name="J801-0" x="48.26" y="21.59" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-1" x="48.26" y="24.13" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-2" x="48.26" y="26.67" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-3" x="48.26" y="29.21" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-4" x="48.26" y="31.75" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-5" x="48.26" y="34.29" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-6" x="48.26" y="36.83" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-7" x="48.26" y="39.37" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-8" x="48.26" y="41.91" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-9" x="48.26" y="44.45" drill="0.8" diameter="1.6764" rot="R180"/>
 <wire x1="49.368" y1="20.482" x2="47.152" y2="20.482" width="0.127" layer="21"/>
 <wire x1="47.152" y1="20.482" x2="47.152" y2="45.558" width="0.127" layer="21"/>
 <wire x1="47.152" y1="45.558" x2="49.368" y2="45.558" width="0.127" layer="21"/>
 <wire x1="49.368" y1="45.558" x2="49.368" y2="20.482" width="0.127" layer="21"/>
-<pad name="J800-0" x="27.94" y="0" drill="0.6" rot="R180"/>
-<pad name="J800-1" x="27.94" y="-2.54" drill="0.6" rot="R180"/>
-<pad name="J800-2" x="25.4" y="0" drill="0.6" rot="R180"/>
-<pad name="J800-3" x="25.4" y="-2.54" drill="0.6" rot="R180"/>
-<pad name="J800-4" x="22.86" y="0" drill="0.6" rot="R180"/>
-<pad name="J800-5" x="22.86" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="J800-0" x="27.94" y="0" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J800-1" x="27.94" y="-2.54" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J800-2" x="25.4" y="0" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J800-3" x="25.4" y="-2.54" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J800-4" x="22.86" y="0" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J800-5" x="22.86" y="-2.54" drill="0.8" diameter="1.6764" rot="R180"/>
 <wire x1="29.048" y1="-3.648" x2="21.752" y2="-3.648" width="0.127" layer="21"/>
 <wire x1="21.752" y1="-3.648" x2="21.752" y2="1.108" width="0.127" layer="21"/>
 <wire x1="21.752" y1="1.108" x2="29.048" y2="1.108" width="0.127" layer="21"/>
 <wire x1="29.048" y1="1.108" x2="29.048" y2="-3.648" width="0.127" layer="21"/>
-<pad name="CAN-0" x="2.54" y="64.77" drill="0.6" rot="R180"/>
-<pad name="CAN-1" x="2.54" y="67.31" drill="0.6" rot="R180"/>
+<pad name="CAN-0" x="2.54" y="64.77" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="CAN-1" x="2.54" y="67.31" drill="0.8" diameter="1.6764" rot="R180"/>
 <wire x1="3.648" y1="63.662" x2="1.432" y2="63.662" width="0.127" layer="21"/>
 <wire x1="1.432" y1="63.662" x2="1.432" y2="68.418" width="0.127" layer="21"/>
 <wire x1="1.432" y1="68.418" x2="3.648" y2="68.418" width="0.127" layer="21"/>

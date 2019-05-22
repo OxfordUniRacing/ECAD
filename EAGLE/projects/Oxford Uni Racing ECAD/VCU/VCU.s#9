@@ -11180,7 +11180,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 </instance>
 </instances>
 <busses>
-<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_LIGHTS_OUT,CANH,CANL,GND,MC_1_BRAKE_INPUT,MC_1_IMPULSE_INPUT,MC_1_REVERSE_SWITCH,MC_1_RXD,MC_1_THROTTLE_INPUT,MC_1_TXD,MC_2_BRAKE_INPUT,MC_2_IMPULSE_INPUT,MC_2_REVERSE_SWITCH,MC_2_RXD,MC_2_THROTTLE_INPUT,MC_2_TXD">
+<bus name="3.3V,5V,12V,ASS1,ASS2,BRAKE_LIGHTS_OUT,BR_PRESS_2,CANH,CANL,GND,MC_1_BRAKE_INPUT,MC_1_IMPULSE_INPUT,MC_1_REVERSE_SWITCH,MC_1_RXD,MC_1_THROTTLE_INPUT,MC_1_TXD,MC_2_BRAKE_INPUT,MC_2_IMPULSE_INPUT,MC_2_REVERSE_SWITCH,MC_2_RXD,MC_2_THROTTLE_INPUT,MC_2_TXD">
 <segment>
 <wire x1="0" y1="0" x2="0" y2="96.52" width="0.762" layer="92"/>
 </segment>
@@ -11327,6 +11327,12 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <segment>
 <wire x1="10.16" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="91"/>
 <label x="10.16" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BR_PRESS_2" class="0">
+<segment>
+<wire x1="0" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
+<label x="7.62" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -11776,7 +11782,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <label x="121.92" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BR_PRESS" class="0">
+<net name="BR_PRESS_2" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <pinref part="R17" gate="G$1" pin="2"/>
@@ -11785,6 +11791,10 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <wire x1="292.1" y1="-20.32" x2="299.72" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="292.1" y="-20.32"/>
 <label x="299.72" y="-20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="0" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
+<label x="7.62" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -12088,6 +12098,12 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <pinref part="R24" gate="G$1" pin="1"/>
 <pinref part="5V_IND" gate="G$1" pin="A"/>
 <wire x1="180.34" y1="88.9" x2="180.34" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BR_PRESS_2" class="0">
+<segment>
+<wire x1="0" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
+<label x="7.62" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -12549,6 +12565,17 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <pinref part="U$1" gate="G$1" pin="J5002-AREF"/>
 </segment>
 </net>
+<net name="BR_PRESS_2" class="0">
+<segment>
+<wire x1="0" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
+<label x="7.62" y="12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="165.1" y1="60.96" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
+<label x="157.48" y="60.96" size="1.778" layer="95" rot="R180"/>
+<pinref part="U$1" gate="G$1" pin="J5040-AD8"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -12780,6 +12807,12 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <segment>
 <wire x1="10.16" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="91"/>
 <label x="10.16" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BR_PRESS_2" class="0">
+<segment>
+<wire x1="0" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
+<label x="7.62" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -13015,6 +13048,12 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <label x="10.16" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="BR_PRESS_2" class="0">
+<segment>
+<wire x1="0" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
+<label x="7.62" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -13234,6 +13273,12 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD711.pdf</descr
 <wire x1="142.24" y1="60.96" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="BR_LIGHTS_TR1" gate="G$1" pin="D"/>
 <wire x1="160.02" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BR_PRESS_2" class="0">
+<segment>
+<wire x1="0" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
+<label x="7.62" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

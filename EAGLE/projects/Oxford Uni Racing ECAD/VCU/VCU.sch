@@ -8327,126 +8327,126 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/1702738"&gt; Datashee
 <library name="Oxford Uni Racing Custom Blueprints">
 <packages>
 <package name="SAME70-XPLD">
-<pad name="J5040" x="0" y="17.78" drill="0.6"/>
-<pad name="J5041" x="0" y="15.24" drill="0.6"/>
-<pad name="J5042" x="0" y="12.7" drill="0.6"/>
-<pad name="J5043" x="0" y="10.16" drill="0.6"/>
-<pad name="J5044" x="0" y="7.62" drill="0.6"/>
-<pad name="J5045" x="0" y="5.08" drill="0.6"/>
-<pad name="J5046" x="0" y="2.54" drill="0.6"/>
-<pad name="J5047" x="0" y="0" drill="0.6"/>
+<pad name="J5040" x="0" y="17.78" drill="0.8" diameter="1.6764"/>
+<pad name="J5041" x="0" y="15.24" drill="0.8" diameter="1.6764"/>
+<pad name="J5042" x="0" y="12.7" drill="0.8" diameter="1.6764"/>
+<pad name="J5043" x="0" y="10.16" drill="0.8" diameter="1.6764"/>
+<pad name="J5044" x="0" y="7.62" drill="0.8" diameter="1.6764"/>
+<pad name="J5045" x="0" y="5.08" drill="0.8" diameter="1.6764"/>
+<pad name="J5046" x="0" y="2.54" drill="0.8" diameter="1.6764"/>
+<pad name="J5047" x="0" y="0" drill="0.8" diameter="1.6764"/>
 <wire x1="-1.108" y1="18.888" x2="1.108" y2="18.888" width="0.127" layer="21"/>
 <wire x1="1.108" y1="18.888" x2="1.108" y2="-1.108" width="0.127" layer="21"/>
 <wire x1="1.108" y1="-1.108" x2="-1.108" y2="-1.108" width="0.127" layer="21"/>
 <wire x1="-1.108" y1="-1.108" x2="-1.108" y2="18.888" width="0.127" layer="21"/>
-<pad name="J5020" x="0" y="40.64" drill="0.6"/>
-<pad name="J5021" x="0" y="38.1" drill="0.6"/>
-<pad name="J5022" x="0" y="35.56" drill="0.6"/>
-<pad name="J5023" x="0" y="33.02" drill="0.6"/>
-<pad name="J5024" x="0" y="30.48" drill="0.6"/>
-<pad name="J5025" x="0" y="27.94" drill="0.6"/>
-<pad name="J5026" x="0" y="25.4" drill="0.6"/>
-<pad name="J5027" x="0" y="22.86" drill="0.6"/>
+<pad name="J5020" x="0" y="40.64" drill="0.8" diameter="1.6764"/>
+<pad name="J5021" x="0" y="38.1" drill="0.8" diameter="1.6764"/>
+<pad name="J5022" x="0" y="35.56" drill="0.8" diameter="1.6764"/>
+<pad name="J5023" x="0" y="33.02" drill="0.8" diameter="1.6764"/>
+<pad name="J5024" x="0" y="30.48" drill="0.8" diameter="1.6764"/>
+<pad name="J5025" x="0" y="27.94" drill="0.8" diameter="1.6764"/>
+<pad name="J5026" x="0" y="25.4" drill="0.8" diameter="1.6764"/>
+<pad name="J5027" x="0" y="22.86" drill="0.8" diameter="1.6764"/>
 <wire x1="-1.108" y1="41.748" x2="1.108" y2="41.748" width="0.127" layer="21"/>
 <wire x1="1.108" y1="41.748" x2="1.108" y2="21.752" width="0.127" layer="21"/>
 <wire x1="1.108" y1="21.752" x2="-1.108" y2="21.752" width="0.127" layer="21"/>
 <wire x1="-1.108" y1="21.752" x2="-1.108" y2="41.748" width="0.127" layer="21"/>
-<pad name="J5010" x="0" y="63.5" drill="0.6"/>
-<pad name="J5011" x="0" y="60.96" drill="0.6"/>
-<pad name="J5012" x="0" y="58.42" drill="0.6"/>
-<pad name="J5013" x="0" y="55.88" drill="0.6"/>
-<pad name="J5014" x="0" y="53.34" drill="0.6"/>
-<pad name="J5015" x="0" y="50.8" drill="0.6"/>
-<pad name="J5016" x="0" y="48.26" drill="0.6"/>
-<pad name="J5017" x="0" y="45.72" drill="0.6"/>
+<pad name="J5010" x="0" y="63.5" drill="0.8" diameter="1.6764"/>
+<pad name="J5011" x="0" y="60.96" drill="0.8" diameter="1.6764"/>
+<pad name="J5012" x="0" y="58.42" drill="0.8" diameter="1.6764"/>
+<pad name="J5013" x="0" y="55.88" drill="0.8" diameter="1.6764"/>
+<pad name="J5014" x="0" y="53.34" drill="0.8" diameter="1.6764"/>
+<pad name="J5015" x="0" y="50.8" drill="0.8" diameter="1.6764"/>
+<pad name="J5016" x="0" y="48.26" drill="0.8" diameter="1.6764"/>
+<pad name="J5017" x="0" y="45.72" drill="0.8" diameter="1.6764"/>
 <wire x1="-1.108" y1="64.608" x2="1.108" y2="64.608" width="0.127" layer="21"/>
 <wire x1="1.108" y1="64.608" x2="1.108" y2="44.612" width="0.127" layer="21"/>
 <wire x1="1.108" y1="44.612" x2="-1.108" y2="44.612" width="0.127" layer="21"/>
 <wire x1="-1.108" y1="44.612" x2="-1.108" y2="64.608" width="0.127" layer="21"/>
-<pad name="J5070" x="48.26" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J5071" x="45.72" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J5072" x="43.18" y="-2.54" drill="0.6" rot="R48.3"/>
-<pad name="J5073" x="40.64" y="-2.54" drill="0.6"/>
-<pad name="J5074" x="38.1" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J5075" x="35.56" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J5076" x="33.02" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J5077" x="30.48" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J5078" x="27.94" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J5079" x="25.4" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J50710" x="22.86" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J50711" x="20.32" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J50712" x="17.78" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J50713" x="15.24" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J50714" x="12.7" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J50715" x="10.16" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J50716" x="7.62" y="-2.54" drill="0.6"/>
-<pad name="J50717" x="5.08" y="-2.54" drill="0.6" rot="R270"/>
-<pad name="J50718" x="5.08" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50719" x="7.62" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50720" x="10.16" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50721" x="12.7" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50722" x="15.24" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50723" x="17.78" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50724" x="20.32" y="-5.08" drill="0.6"/>
-<pad name="J50725" x="22.86" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50726" x="25.4" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50727" x="27.94" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50728" x="30.48" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50729" x="33.02" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50730" x="35.56" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50731" x="38.1" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50732" x="40.64" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50733" x="43.18" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50734" x="45.72" y="-5.08" drill="0.6" rot="R270"/>
-<pad name="J50735" x="48.26" y="-5.08" drill="0.6"/>
+<pad name="J5070" x="48.26" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J5071" x="45.72" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J5072" x="43.18" y="-2.54" drill="0.8" diameter="1.6764" rot="R48.3"/>
+<pad name="J5073" x="40.64" y="-2.54" drill="0.8" diameter="1.6764"/>
+<pad name="J5074" x="38.1" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J5075" x="35.56" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J5076" x="33.02" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J5077" x="30.48" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J5078" x="27.94" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J5079" x="25.4" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50710" x="22.86" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50711" x="20.32" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50712" x="17.78" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50713" x="15.24" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50714" x="12.7" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50715" x="10.16" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50716" x="7.62" y="-2.54" drill="0.8" diameter="1.6764"/>
+<pad name="J50717" x="5.08" y="-2.54" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50718" x="5.08" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50719" x="7.62" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50720" x="10.16" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50721" x="12.7" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50722" x="15.24" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50723" x="17.78" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50724" x="20.32" y="-5.08" drill="0.8" diameter="1.6764"/>
+<pad name="J50725" x="22.86" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50726" x="25.4" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50727" x="27.94" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50728" x="30.48" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50729" x="33.02" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50730" x="35.56" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50731" x="38.1" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50732" x="40.64" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50733" x="43.18" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50734" x="45.72" y="-5.08" drill="0.8" diameter="1.6764" rot="R270"/>
+<pad name="J50735" x="48.26" y="-5.08" drill="0.8" diameter="1.6764"/>
 <wire x1="49.368" y1="-1.432" x2="49.368" y2="-6.188" width="0.127" layer="21"/>
 <wire x1="49.368" y1="-6.188" x2="3.972" y2="-6.188" width="0.127" layer="21"/>
 <wire x1="3.972" y1="-6.188" x2="3.972" y2="-1.432" width="0.127" layer="21"/>
 <wire x1="3.972" y1="-1.432" x2="49.368" y2="-1.432" width="0.127" layer="21"/>
-<pad name="J5050" x="48.26" y="22.86" drill="0.6"/>
-<pad name="J5051" x="48.26" y="20.32" drill="0.6"/>
-<pad name="J5052" x="48.26" y="17.78" drill="0.6"/>
-<pad name="J5053" x="48.26" y="15.24" drill="0.6"/>
-<pad name="J5054" x="48.26" y="12.7" drill="0.6"/>
-<pad name="J5055" x="48.26" y="10.16" drill="0.6"/>
-<pad name="J5056" x="48.26" y="7.62" drill="0.6"/>
-<pad name="J5057" x="48.26" y="5.08" drill="0.6"/>
+<pad name="J5050" x="48.26" y="22.86" drill="0.8" diameter="1.6764"/>
+<pad name="J5051" x="48.26" y="20.32" drill="0.8" diameter="1.6764"/>
+<pad name="J5052" x="48.26" y="17.78" drill="0.8" diameter="1.6764"/>
+<pad name="J5053" x="48.26" y="15.24" drill="0.8" diameter="1.6764"/>
+<pad name="J5054" x="48.26" y="12.7" drill="0.8" diameter="1.6764"/>
+<pad name="J5055" x="48.26" y="10.16" drill="0.8" diameter="1.6764"/>
+<pad name="J5056" x="48.26" y="7.62" drill="0.8" diameter="1.6764"/>
+<pad name="J5057" x="48.26" y="5.08" drill="0.8" diameter="1.6764"/>
 <wire x1="47.152" y1="23.968" x2="49.368" y2="23.968" width="0.127" layer="21"/>
 <wire x1="49.368" y1="23.968" x2="49.368" y2="3.972" width="0.127" layer="21"/>
 <wire x1="49.368" y1="3.972" x2="47.152" y2="3.972" width="0.127" layer="21"/>
 <wire x1="47.152" y1="3.972" x2="47.152" y2="23.968" width="0.127" layer="21"/>
-<pad name="J5030" x="48.26" y="45.72" drill="0.6"/>
-<pad name="J5031" x="48.26" y="43.18" drill="0.6"/>
-<pad name="J5032" x="48.26" y="40.64" drill="0.6"/>
-<pad name="J5033" x="48.26" y="38.1" drill="0.6"/>
-<pad name="J5034" x="48.26" y="35.56" drill="0.6"/>
-<pad name="J5035" x="48.26" y="33.02" drill="0.6"/>
-<pad name="J5036" x="48.26" y="30.48" drill="0.6"/>
-<pad name="J5037" x="48.26" y="27.94" drill="0.6"/>
+<pad name="J5030" x="48.26" y="45.72" drill="0.8" diameter="1.6764"/>
+<pad name="J5031" x="48.26" y="43.18" drill="0.8" diameter="1.6764"/>
+<pad name="J5032" x="48.26" y="40.64" drill="0.8" diameter="1.6764"/>
+<pad name="J5033" x="48.26" y="38.1" drill="0.8" diameter="1.6764"/>
+<pad name="J5034" x="48.26" y="35.56" drill="0.8" diameter="1.6764"/>
+<pad name="J5035" x="48.26" y="33.02" drill="0.8" diameter="1.6764"/>
+<pad name="J5036" x="48.26" y="30.48" drill="0.8" diameter="1.6764"/>
+<pad name="J5037" x="48.26" y="27.94" drill="0.8" diameter="1.6764"/>
 <wire x1="47.152" y1="46.828" x2="49.368" y2="46.828" width="0.127" layer="21"/>
 <wire x1="49.368" y1="46.828" x2="49.368" y2="26.832" width="0.127" layer="21"/>
 <wire x1="49.368" y1="26.832" x2="47.152" y2="26.832" width="0.127" layer="21"/>
 <wire x1="47.152" y1="26.832" x2="47.152" y2="46.828" width="0.127" layer="21"/>
-<pad name="J5000" x="48.26" y="72.39" drill="0.6"/>
-<pad name="J5001" x="48.26" y="69.85" drill="0.6"/>
-<pad name="J5002" x="48.26" y="67.31" drill="0.6"/>
-<pad name="J5003" x="48.26" y="64.77" drill="0.6"/>
-<pad name="J5004" x="48.26" y="62.23" drill="0.6"/>
-<pad name="J5005" x="48.26" y="59.69" drill="0.6"/>
-<pad name="J5006" x="48.26" y="57.15" drill="0.6"/>
-<pad name="J5007" x="48.26" y="54.61" drill="0.6"/>
-<pad name="J5008" x="48.26" y="52.07" drill="0.6"/>
-<pad name="J5009" x="48.26" y="49.53" drill="0.6"/>
+<pad name="J5000" x="48.26" y="72.39" drill="0.8" diameter="1.6764"/>
+<pad name="J5001" x="48.26" y="69.85" drill="0.8" diameter="1.6764"/>
+<pad name="J5002" x="48.26" y="67.31" drill="0.8" diameter="1.6764"/>
+<pad name="J5003" x="48.26" y="64.77" drill="0.8" diameter="1.6764"/>
+<pad name="J5004" x="48.26" y="62.23" drill="0.8" diameter="1.6764"/>
+<pad name="J5005" x="48.26" y="59.69" drill="0.8" diameter="1.6764"/>
+<pad name="J5006" x="48.26" y="57.15" drill="0.8" diameter="1.6764"/>
+<pad name="J5007" x="48.26" y="54.61" drill="0.8" diameter="1.6764"/>
+<pad name="J5008" x="48.26" y="52.07" drill="0.8" diameter="1.6764"/>
+<pad name="J5009" x="48.26" y="49.53" drill="0.8" diameter="1.6764"/>
 <wire x1="47.152" y1="73.498" x2="49.368" y2="73.498" width="0.127" layer="21"/>
 <wire x1="49.368" y1="73.498" x2="49.368" y2="48.422" width="0.127" layer="21"/>
 <wire x1="49.368" y1="48.422" x2="47.152" y2="48.422" width="0.127" layer="21"/>
 <wire x1="47.152" y1="48.422" x2="47.152" y2="73.498" width="0.127" layer="21"/>
-<pad name="J506-0" x="27.94" y="27.94" drill="0.6" rot="R180"/>
-<pad name="J506-1" x="25.4" y="27.94" drill="0.6" rot="R180"/>
-<pad name="J506-2" x="22.86" y="27.94" drill="0.6" rot="R180"/>
-<pad name="J506-3" x="22.86" y="25.4" drill="0.6" rot="R180"/>
-<pad name="J506-4" x="25.4" y="25.4" drill="0.6" rot="R180"/>
-<pad name="J506-5" x="27.94" y="25.4" drill="0.6" rot="R180"/>
+<pad name="J506-0" x="27.94" y="27.94" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J506-1" x="25.4" y="27.94" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J506-2" x="22.86" y="27.94" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J506-3" x="22.86" y="25.4" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J506-4" x="25.4" y="25.4" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J506-5" x="27.94" y="25.4" drill="0.8" diameter="1.6764" rot="R180"/>
 <wire x1="29.048" y1="24.292" x2="21.752" y2="24.292" width="0.127" layer="21"/>
 <wire x1="21.752" y1="24.292" x2="21.752" y2="29.048" width="0.127" layer="21"/>
 <wire x1="21.752" y1="29.048" x2="29.048" y2="29.048" width="0.127" layer="21"/>
@@ -13892,7 +13892,7 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="THYR" urn="urn:adsk.eagle:symbol:30090/1" library_version="1">
+<symbol name="THYR" urn="urn:adsk.eagle:symbol:30090/2" library_version="2">
 <wire x1="0" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="-1.27" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
@@ -13900,16 +13900,19 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-0.635" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
 <text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="C" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="2.54" visible="off" length="point" direction="pas" rot="R270"/>
 <pin name="G" x="-2.54" y="-2.54" visible="off" length="point" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BT169" urn="urn:adsk.eagle:component:30159/1" prefix="T" library_version="1">
+<deviceset name="BT169" urn="urn:adsk.eagle:component:30159/2" prefix="T" library_version="2">
 <description>&lt;b&gt;THYRISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="THYR" x="0" y="0"/>
@@ -13943,7 +13946,7 @@ Based on the following sources:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="DIL14" urn="urn:adsk.eagle:footprint:715/1" library_version="2">
+<package name="DIL14" urn="urn:adsk.eagle:footprint:16136/1" library_version="3">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
 <wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.1524" layer="21"/>
 <wire x1="-8.89" y1="-2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
@@ -14015,7 +14018,7 @@ Based on the following sources:
 </package>
 </packages>
 <packages3d>
-<package3d name="DIL14" urn="urn:adsk.eagle:package:820/2" type="model" library_version="2">
+<package3d name="DIL14" urn="urn:adsk.eagle:package:16407/2" type="model" library_version="3">
 <description>Dual In Line Package</description>
 <packageinstances>
 <packageinstance name="DIL14"/>
@@ -14047,7 +14050,7 @@ Based on the following sources:
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="4081" urn="urn:adsk.eagle:component:905/3" prefix="IC" library_version="2">
+<deviceset name="4081" urn="urn:adsk.eagle:component:905/4" prefix="IC" library_version="3">
 <description>Quad 2-input &lt;b&gt;AND&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="4081" x="15.24" y="7.62" swaplevel="1"/>
@@ -14075,7 +14078,7 @@ Based on the following sources:
 <connect gate="P" pin="VSS" pad="7"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:820/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16407/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -19356,6 +19359,41 @@ Grid 5.00 mm&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="supply2" urn="urn:adsk.eagle:library:372">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+Please keep in mind, that these devices are necessary for the
+automatic wiring of the supply signals.&lt;p&gt;
+The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26990/1" library_version="2">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<text x="-1.905" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" urn="urn:adsk.eagle:component:27037/1" prefix="SUPPLY" library_version="2">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="GND" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19474,7 +19512,7 @@ Grid 5.00 mm&lt;p&gt;
 <part name="R28" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K 1%"/>
 <part name="R29" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K 1%"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="10uF"/>
-<part name="AND1" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4081" device="N" package3d_urn="urn:adsk.eagle:package:820/2"/>
+<part name="AND1" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4081" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
 <part name="GND41" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND42" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND43" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -19508,6 +19546,12 @@ Grid 5.00 mm&lt;p&gt;
 <part name="R37" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="0207/12" package3d_urn="urn:adsk.eagle:package:8118470/1" value="1K"/>
 <part name="R38" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="330"/>
 <part name="X1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1"/>
+<part name="J6" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="LEFT_COOLING_SENSOR"/>
+<part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY37" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="J8" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="RIGHT_COOLING_SENSOR"/>
+<part name="SUPPLY39" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="SUPPLY40" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19818,6 +19862,26 @@ Grid 5.00 mm&lt;p&gt;
 <attribute name="VALUE" x="137.16" y="24.257" size="1.778" layer="96"/>
 <attribute name="NAME" x="139.7" y="28.829" size="1.778" layer="95" rot="R180"/>
 </instance>
+<instance part="J6" gate="G$1" x="236.22" y="121.92" smashed="yes">
+<attribute name="NAME" x="237.49" y="129.54" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="237.49" y="127" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY19" gate="G$1" x="228.6" y="121.92" smashed="yes" rot="R90">
+<attribute name="VALUE" x="223.52" y="124.206" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY37" gate="GND" x="261.62" y="121.92" smashed="yes" rot="R90">
+<attribute name="VALUE" x="268.605" y="125.095" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="J8" gate="G$1" x="236.22" y="93.98" smashed="yes">
+<attribute name="NAME" x="237.49" y="101.6" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="237.49" y="99.06" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY39" gate="G$1" x="228.6" y="93.98" smashed="yes" rot="R90">
+<attribute name="VALUE" x="223.52" y="96.266" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY40" gate="GND" x="261.62" y="93.98" smashed="yes" rot="R90">
+<attribute name="VALUE" x="268.605" y="97.155" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,AIR_COILS,ASS1,ASS2,BRAKE_LIGHTS+,BRAKE_LIGHTS-,CANH,CANL,GND,MC_1_BRAKE_INPUT,MC_1_IMPULSE_INPUT,MC_1_REVERSE_SWITCH,MC_1_RXD,MC_1_THROTTLE_INPUT,MC_1_TXD,MC_2_BRAKE_INPUT,MC_2_IMPULSE_INPUT,MC_2_REVERSE_SWITCH,MC_2_RXD,MC_2_THROTTLE_INPUT,MC_2_TXD">
@@ -19871,6 +19935,16 @@ Grid 5.00 mm&lt;p&gt;
 <pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="5.08" x2="175.26" y2="5.08" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="SUPPLY19" gate="G$1" pin="5V"/>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="121.92" x2="236.22" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY39" gate="G$1" pin="5V"/>
+<pinref part="J8" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="93.98" x2="236.22" y2="93.98" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -19922,6 +19996,16 @@ Grid 5.00 mm&lt;p&gt;
 <pinref part="J5" gate="G$1" pin="4"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 <wire x1="175.26" y1="2.54" x2="187.96" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="2"/>
+<pinref part="SUPPLY37" gate="GND" pin="GND"/>
+<wire x1="256.54" y1="121.92" x2="259.08" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="2"/>
+<pinref part="SUPPLY40" gate="GND" pin="GND"/>
+<wire x1="256.54" y1="93.98" x2="259.08" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -20171,6 +20255,90 @@ Grid 5.00 mm&lt;p&gt;
 <pinref part="J5" gate="G$1" pin="6"/>
 <wire x1="175.26" y1="0" x2="195.58" y2="0" width="0.1524" layer="91"/>
 <junction x="195.58" y="0"/>
+</segment>
+</net>
+<net name="PRESSURE_L_SIG_IN" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="3"/>
+<wire x1="236.22" y1="119.38" x2="228.6" y2="119.38" width="0.1524" layer="91"/>
+<label x="213.36" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PRESSURE_L_SIG_OUT" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="4"/>
+<wire x1="256.54" y1="119.38" x2="261.62" y2="119.38" width="0.1524" layer="91"/>
+<label x="261.62" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TEMP+_L_IN" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="5"/>
+<wire x1="236.22" y1="116.84" x2="228.6" y2="116.84" width="0.1524" layer="91"/>
+<label x="218.44" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TEMP-_L_IN" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="7"/>
+<wire x1="236.22" y1="114.3" x2="228.6" y2="114.3" width="0.1524" layer="91"/>
+<label x="218.44" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TEMP+_L_OUT" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="6"/>
+<wire x1="256.54" y1="116.84" x2="261.62" y2="116.84" width="0.1524" layer="91"/>
+<label x="261.62" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TEMP-_L_OUT" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="8"/>
+<wire x1="256.54" y1="114.3" x2="261.62" y2="114.3" width="0.1524" layer="91"/>
+<label x="261.62" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PRESSURE_R_SIG_OUT" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="4"/>
+<wire x1="256.54" y1="91.44" x2="261.62" y2="91.44" width="0.1524" layer="91"/>
+<label x="264.16" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PRESSURE_R_SIG_IN" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="3"/>
+<wire x1="236.22" y1="91.44" x2="228.6" y2="91.44" width="0.1524" layer="91"/>
+<label x="200.66" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TEMP+_R_IN" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="5"/>
+<wire x1="236.22" y1="88.9" x2="228.6" y2="88.9" width="0.1524" layer="91"/>
+<label x="200.66" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TEMP-_R_IN" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="7"/>
+<wire x1="236.22" y1="86.36" x2="228.6" y2="86.36" width="0.1524" layer="91"/>
+<label x="200.66" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TEMP+_R_OUT" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="6"/>
+<wire x1="256.54" y1="88.9" x2="261.62" y2="88.9" width="0.1524" layer="91"/>
+<label x="264.16" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TEMP-_R_OUT" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="8"/>
+<wire x1="256.54" y1="86.36" x2="261.62" y2="86.36" width="0.1524" layer="91"/>
+<label x="264.16" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
