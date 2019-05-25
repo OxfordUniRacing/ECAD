@@ -7098,10 +7098,11 @@ diameter 2 mm, horizontal, grid 10.16mm</description>
 <wire x1="99.06" y1="-48.26" x2="101.6" y2="-48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="RED_LED" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
 <wire x1="228.6" y1="-48.26" x2="256.54" y2="-48.26" width="0.1524" layer="91"/>
+<label x="259.08" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -7186,10 +7187,11 @@ diameter 2 mm, horizontal, grid 10.16mm</description>
 <wire x1="167.64" y1="-58.42" x2="167.64" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="VCU" class="0">
 <segment>
 <pinref part="BR_LIGHTS_TR2" gate="G$1" pin="S"/>
 <wire x1="172.72" y1="-43.18" x2="172.72" y2="-48.26" width="0.1524" layer="91"/>
+<label x="172.72" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

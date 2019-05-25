@@ -6220,7 +6220,6 @@ type 0309, grid 2.5 mm</description>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="BR_LIGHTS_TR" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MOSFET-N" device="REFLOW" package3d_urn="urn:adsk.eagle:package:6240836/1" value="IRLML2502GTRPBF"/>
 <part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
-<part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="47K"/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -6296,10 +6295,6 @@ type 0309, grid 2.5 mm</description>
 <attribute name="NAME" x="153.67" y="39.5986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="153.67" y="34.798" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="167.64" y="27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="166.1414" y="24.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="170.942" y="24.13" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND20" gate="1" x="177.8" y="12.7" smashed="yes">
 <attribute name="VALUE" x="177.8" y="12.446" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -6348,12 +6343,7 @@ type 0309, grid 2.5 mm</description>
 <segment>
 <pinref part="BR_LIGHTS_TR" gate="G$1" pin="S"/>
 <pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="177.8" y1="35.56" x2="177.8" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="20.32" x2="177.8" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="22.86" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="20.32" x2="177.8" y2="20.32" width="0.1524" layer="91"/>
-<junction x="177.8" y="20.32"/>
+<wire x1="177.8" y1="35.56" x2="177.8" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6455,11 +6445,7 @@ type 0309, grid 2.5 mm</description>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="BR_LIGHTS_TR" gate="G$1" pin="G"/>
-<wire x1="162.56" y1="38.1" x2="167.64" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="38.1" x2="172.72" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="38.1" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
-<junction x="167.64" y="38.1"/>
+<wire x1="162.56" y1="38.1" x2="172.72" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
