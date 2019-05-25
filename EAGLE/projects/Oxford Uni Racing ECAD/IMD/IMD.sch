@@ -6766,7 +6766,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
-<part name="C3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="C" device="" value="15p"/>
 <part name="BR_LIGHTS_TR2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MOSFET-N" device="REFLOW" package3d_urn="urn:adsk.eagle:package:6240836/1" value="IRLML2502GTRPBF"/>
 <part name="Q1" library="SamacSys_Parts" deviceset="IRLML6402TRPBF" device=""/>
 </parts>
@@ -6922,10 +6921,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <attribute name="NAME" x="143.2814" y="-57.15" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="148.082" y="-57.15" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C3" gate="G$1" x="144.78" y="-68.58" smashed="yes">
-<attribute name="NAME" x="147.32" y="-66.04" size="1.778" layer="95"/>
-<attribute name="VALUE" x="147.32" y="-68.58" size="1.778" layer="96"/>
-</instance>
 <instance part="BR_LIGHTS_TR2" gate="G$1" x="170.18" y="-38.1" smashed="yes">
 <attribute name="NAME" x="175.26" y="-37.465" size="1.27" layer="95"/>
 <attribute name="VALUE" x="175.26" y="-39.37" size="1.27" layer="96"/>
@@ -7001,10 +6996,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="124.46" y1="-58.42" x2="129.54" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-58.42" x2="129.54" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="-73.66" x2="144.78" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="-78.74" x2="129.54" y2="-78.74" width="0.1524" layer="91"/>
-<junction x="129.54" y="-78.74"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -7262,8 +7253,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <wire x1="124.46" y1="-53.34" x2="137.16" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="-53.34" x2="137.16" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="-58.42" x2="144.78" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="144.78" y="-58.42"/>
 <pinref part="BR_LIGHTS_TR2" gate="G$1" pin="G"/>
 <wire x1="144.78" y1="-58.42" x2="167.64" y2="-58.42" width="0.1524" layer="91"/>
