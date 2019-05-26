@@ -6304,94 +6304,6 @@ type 0309, grid 2.5 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="st-microelectronics" urn="urn:adsk.eagle:library:368">
-<description>&lt;b&gt;ST Microelectronics Devices&lt;/b&gt;&lt;p&gt;
-Microcontrollers,  I2C components, linear devices&lt;p&gt;
-http://www.st.com&lt;p&gt;
-&lt;i&gt;Include st-microelectronics-2.lbr, st-microelectronics-3.lbr.&lt;p&gt;&lt;/i&gt;
-
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DIL-08" urn="urn:adsk.eagle:footprint:26738/1" library_version="1">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.016" x2="-5.08" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="DIL-08" urn="urn:adsk.eagle:package:26829/1" type="box" library_version="1">
-<description>Dual In Line Package</description>
-<packageinstances>
-<packageinstance name="DIL-08"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="NE555" urn="urn:adsk.eagle:symbol:26776/1" library_version="1">
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="11.43" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="TRE" x="-10.16" y="7.62" length="short" direction="in"/>
-<pin name="OUT" x="10.16" y="0" length="short" direction="out" rot="R180"/>
-<pin name="DIS" x="-10.16" y="0" length="short" direction="in"/>
-<pin name="TRI" x="-10.16" y="-7.62" length="short" direction="in"/>
-<pin name="VCC+" x="10.16" y="7.62" length="short" direction="pwr" rot="R180"/>
-<pin name="GND" x="10.16" y="-7.62" length="short" direction="pwr" rot="R180"/>
-<pin name="CON" x="10.16" y="-5.08" length="short" direction="in" rot="R180"/>
-<pin name="/RES" x="10.16" y="5.08" length="short" direction="in" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="NE555" urn="urn:adsk.eagle:component:26889/1" prefix="IC" library_version="1">
-<description>&lt;b&gt;General purpose bipolar Timer&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="NE555" x="60.96" y="-27.94"/>
-</gates>
-<devices>
-<device name="" package="DIL-08">
-<connects>
-<connect gate="G$1" pin="/RES" pad="4"/>
-<connect gate="G$1" pin="CON" pad="5"/>
-<connect gate="G$1" pin="DIS" pad="7"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
-<connect gate="G$1" pin="TRE" pad="6"/>
-<connect gate="G$1" pin="TRI" pad="2"/>
-<connect gate="G$1" pin="VCC+" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:26829/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="Arrow Electronics" constant="no"/>
-<attribute name="MPN" value="NE555N" constant="no"/>
-<attribute name="OC_FARNELL" value="1467742" constant="no"/>
-<attribute name="OC_NEWARK" value="89K1486" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="optocoupler" urn="urn:adsk.eagle:library:320">
 <description>&lt;b&gt;Opto Couplers&lt;/b&gt;&lt;p&gt;
 Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
@@ -6677,6 +6589,44 @@ diameter 2 mm, horizontal, grid 10.16mm</description>
 <wire x1="-0.05" y1="-1.46" x2="-0.05" y2="1.46" width="0.2" layer="21"/>
 <wire x1="-1.7" y1="1.5" x2="-0.4" y2="1.5" width="0.2" layer="21"/>
 </package>
+<package name="LND150N3-G">
+<description>&lt;b&gt;TO-92&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-1.397" y="-0.25" drill="0.99" diameter="1.55"/>
+<pad name="2" x="0" y="1" drill="0.99" diameter="1.55"/>
+<pad name="3" x="1.397" y="-0.25" drill="0.99" diameter="1.55"/>
+<text x="-0.11" y="-0.143" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.11" y="-0.143" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.2225" y1="-1.6129" x2="2.2225" y2="-1.6129" width="0.2" layer="21" curve="-235.7"/>
+<wire x1="-2.2225" y1="-1.6129" x2="2.2225" y2="-1.6129" width="0.2" layer="51" curve="-235.7"/>
+<wire x1="2.2225" y1="-1.6129" x2="-2.2225" y2="-1.6129" width="0.2" layer="21"/>
+<circle x="-3.276" y="-0.254" radius="0.025" width="0.2" layer="25"/>
+</package>
+<package name="DIP762W53P254L980H533Q8N">
+<description>&lt;b&gt;8-DIP&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-3.81" y="3.81" drill="0.73" diameter="1.13" shape="square"/>
+<pad name="2" x="-3.81" y="1.27" drill="0.73" diameter="1.13"/>
+<pad name="3" x="-3.81" y="-1.27" drill="0.73" diameter="1.13"/>
+<pad name="4" x="-3.81" y="-3.81" drill="0.73" diameter="1.13"/>
+<pad name="5" x="3.81" y="-3.81" drill="0.73" diameter="1.13"/>
+<pad name="6" x="3.81" y="-1.27" drill="0.73" diameter="1.13"/>
+<pad name="7" x="3.81" y="1.27" drill="0.73" diameter="1.13"/>
+<pad name="8" x="3.81" y="3.81" drill="0.73" diameter="1.13"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.625" y1="5.325" x2="4.625" y2="5.325" width="0.05" layer="51"/>
+<wire x1="4.625" y1="5.325" x2="4.625" y2="-5.325" width="0.05" layer="51"/>
+<wire x1="4.625" y1="-5.325" x2="-4.625" y2="-5.325" width="0.05" layer="51"/>
+<wire x1="-4.625" y1="-5.325" x2="-4.625" y2="5.325" width="0.05" layer="51"/>
+<wire x1="-3.24" y1="5.075" x2="3.24" y2="5.075" width="0.1" layer="51"/>
+<wire x1="3.24" y1="5.075" x2="3.24" y2="-5.075" width="0.1" layer="51"/>
+<wire x1="3.24" y1="-5.075" x2="-3.24" y2="-5.075" width="0.1" layer="51"/>
+<wire x1="-3.24" y1="-5.075" x2="-3.24" y2="5.075" width="0.1" layer="51"/>
+<wire x1="-3.24" y1="3.805" x2="-1.97" y2="5.075" width="0.1" layer="51"/>
+<wire x1="-4.375" y1="5.075" x2="3.24" y2="5.075" width="0.2" layer="21"/>
+<wire x1="-3.24" y1="-5.075" x2="3.24" y2="-5.075" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IRLML6402TRPBF">
@@ -6689,6 +6639,33 @@ diameter 2 mm, horizontal, grid 10.16mm</description>
 <pin name="G" x="0" y="0" length="middle"/>
 <pin name="S" x="0" y="-2.54" length="middle"/>
 <pin name="D" x="20.32" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="LR8N3-G">
+<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="VIN" x="0" y="0" length="middle"/>
+<pin name="VOUT" x="0" y="-2.54" length="middle"/>
+<pin name="ADJ" x="27.94" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="LM555CN">
+<wire x1="5.08" y1="2.54" x2="40.64" y2="2.54" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-10.16" x2="40.64" y2="2.54" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="41.91" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="41.91" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="GND" x="0" y="0" length="middle"/>
+<pin name="TRIGGER" x="0" y="-2.54" length="middle"/>
+<pin name="OUTPUT" x="0" y="-5.08" length="middle"/>
+<pin name="RESET" x="0" y="-7.62" length="middle"/>
+<pin name="VCC" x="45.72" y="0" length="middle" rot="R180"/>
+<pin name="DISCHARGE" x="45.72" y="-2.54" length="middle" rot="R180"/>
+<pin name="THRESHOLD" x="45.72" y="-5.08" length="middle" rot="R180"/>
+<pin name="CONTROL_VOLTAGE" x="45.72" y="-7.62" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6713,6 +6690,63 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <attribute name="MANUFACTURER_PART_NUMBER" value="IRLML6402TRPBF" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="942-IRLML6402TRPBF" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=942-IRLML6402TRPBF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LR8N3-G" prefix="IC">
+<description>&lt;b&gt;Microchip LR8N3-G, Single Linear Voltage Regulator, 30mA Adjustable 1.2  440 V, +/-5%, 3-Pin TO-92&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/LR8N3-G.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LR8N3-G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LND150N3-G">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Microchip LR8N3-G, Single Linear Voltage Regulator, 30mA Adjustable 1.2  440 V, +/-5%, 3-Pin TO-92" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Microchip" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LR8N3-G" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="689-LR8N3-G" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=689-LR8N3-G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM555CN" prefix="IC">
+<description>&lt;b&gt;ON Semiconductor LM555CN, Timer, 4.5  16 V, 8-Pin PDIP&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/308/LM555-1124984.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LM555CN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIP762W53P254L980H533Q8N">
+<connects>
+<connect gate="G$1" pin="CONTROL_VOLTAGE" pad="5"/>
+<connect gate="G$1" pin="DISCHARGE" pad="7"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="OUTPUT" pad="3"/>
+<connect gate="G$1" pin="RESET" pad="4"/>
+<connect gate="G$1" pin="THRESHOLD" pad="6"/>
+<connect gate="G$1" pin="TRIGGER" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="ON Semiconductor LM555CN, Timer, 4.5  16 V, 8-Pin PDIP" constant="no"/>
+<attribute name="HEIGHT" value="5.33mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="ON Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LM555CN" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-LM555CN" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6746,12 +6780,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="F1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="FUSE" device="" package3d_urn="urn:adsk.eagle:package:26650/1" value="1A"/>
 <part name="J2" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value=""/>
-<part name="IC2" library="st-microelectronics" library_urn="urn:adsk.eagle:library:368" deviceset="NE555" device="" package3d_urn="urn:adsk.eagle:package:26829/1"/>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="6N135" device="" package3d_urn="urn:adsk.eagle:package:21941/1"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device="" value="140V"/>
-<part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="800"/>
-<part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="56K"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZX55" device="" package3d_urn="urn:adsk.eagle:package:43342/1"/>
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="4.7K"/>
@@ -6768,12 +6799,16 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <part name="R9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
 <part name="BR_LIGHTS_TR2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MOSFET-N" device="REFLOW" package3d_urn="urn:adsk.eagle:package:6240836/1" value="IRLML2502GTRPBF"/>
 <part name="Q1" library="SamacSys_Parts" deviceset="IRLML6402TRPBF" device=""/>
+<part name="IC3" library="SamacSys_Parts" deviceset="LR8N3-G" device=""/>
+<part name="C3" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="C" device="" value="1u"/>
+<part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="400"/>
+<part name="IC4" library="SamacSys_Parts" deviceset="LM555CN" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="20.32" y="15.24" size="1.778" layer="91">two connections for the ASS lines due to large enrushment currents </text>
-<text x="68.58" y="-20.32" size="1.778" layer="91">HV</text>
+<text x="60.96" y="-2.54" size="1.778" layer="91">HV</text>
 </plain>
 <instances>
 <instance part="R22" gate="1" x="104.14" y="22.86" smashed="yes">
@@ -6850,10 +6885,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <attribute name="NAME" x="57.15" y="12.7" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="57.15" y="15.24" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="IC2" gate="G$1" x="215.9" y="-83.82" smashed="yes">
-<attribute name="NAME" x="208.28" y="-72.39" size="1.778" layer="95"/>
-<attribute name="VALUE" x="208.28" y="-96.52" size="1.778" layer="96"/>
-</instance>
 <instance part="OK1" gate="A" x="114.3" y="-53.34" smashed="yes">
 <attribute name="NAME" x="104.775" y="-45.085" size="1.778" layer="95"/>
 <attribute name="VALUE" x="104.775" y="-63.5" size="1.778" layer="96"/>
@@ -6861,18 +6892,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <instance part="SUPPLY5" gate="G$1" x="200.66" y="-53.34" smashed="yes">
 <attribute name="VALUE" x="200.66" y="-50.546" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="71.12" y="-25.4" smashed="yes"/>
-<instance part="R3" gate="G$1" x="83.82" y="-30.48" smashed="yes">
-<attribute name="NAME" x="80.01" y="-28.9814" size="1.778" layer="95"/>
-<attribute name="VALUE" x="80.01" y="-33.782" size="1.778" layer="96"/>
-</instance>
-<instance part="R4" gate="G$1" x="99.06" y="-35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="97.5614" y="-39.37" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="102.362" y="-39.37" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="D1" gate="1" x="91.44" y="-40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="89.535" y="-42.418" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="94.869" y="-42.418" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY7" gate="G$1" x="63.5" y="-7.62" smashed="yes"/>
+<instance part="D1" gate="1" x="68.58" y="-20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="70.358" y="-22.225" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="70.358" y="-16.891" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND3" gate="1" x="68.58" y="-66.04" smashed="yes">
 <attribute name="VALUE" x="68.58" y="-66.294" size="1.778" layer="96" align="top-center"/>
@@ -6929,6 +6952,22 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <attribute name="NAME" x="212.09" y="-17.78" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="212.09" y="-20.32" size="1.778" layer="96" align="center-left"/>
 </instance>
+<instance part="IC3" gate="G$1" x="81.28" y="-20.32" smashed="yes">
+<attribute name="NAME" x="105.41" y="-12.7" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="105.41" y="-15.24" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C3" gate="G$1" x="78.74" y="-43.18" smashed="yes">
+<attribute name="NAME" x="81.28" y="-40.64" size="1.778" layer="95"/>
+<attribute name="VALUE" x="81.28" y="-43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="83.82" y="-33.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="87.63" y="-34.5186" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="87.63" y="-29.718" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IC4" gate="G$1" x="251.46" y="-86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="209.55" y="-93.98" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="209.55" y="-91.44" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6977,16 +7016,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <wire x1="177.8" y1="35.56" x2="177.8" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="OK1" gate="A" pin="C"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="101.6" y1="-58.42" x2="101.6" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="-63.5" x2="68.58" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="D1" gate="1" pin="A"/>
-<wire x1="91.44" y1="-43.18" x2="91.44" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-63.5" x2="68.58" y2="-63.5" width="0.1524" layer="91"/>
-<junction x="68.58" y="-63.5"/>
-</segment>
-<segment>
 <pinref part="BR_LIGHTS_TR1" gate="G$1" pin="S"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="231.14" y1="-124.46" x2="231.14" y2="-127" width="0.1524" layer="91"/>
@@ -7001,6 +7030,16 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="154.94" y1="-40.64" x2="154.94" y2="-45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="A" pin="C"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="101.6" y1="-58.42" x2="78.74" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-58.42" x2="68.58" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-58.42" x2="68.58" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-48.26" x2="78.74" y2="-58.42" width="0.1524" layer="91"/>
+<junction x="78.74" y="-58.42"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -7039,12 +7078,14 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="-53.34" x2="200.66" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-68.58" x2="190.5" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VCC+"/>
-<wire x1="226.06" y1="-53.34" x2="226.06" y2="-76.2" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="VCC"/>
+<wire x1="205.74" y1="-86.36" x2="200.66" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-86.36" x2="200.66" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="200.66" y="-53.34"/>
-<pinref part="IC2" gate="G$1" pin="/RES"/>
-<wire x1="200.66" y1="-53.34" x2="226.06" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="-76.2" x2="226.06" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="RESET"/>
+<wire x1="251.46" y1="-78.74" x2="251.46" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="-66.04" x2="200.66" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-66.04" x2="200.66" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
@@ -7140,84 +7181,38 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="-30.48" x2="78.74" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="12V"/>
-<wire x1="71.12" y1="-30.48" x2="71.12" y2="-25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="63.5" y1="-7.62" x2="63.5" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="D1" gate="1" pin="C"/>
-<wire x1="88.9" y1="-30.48" x2="91.44" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="-30.48" x2="91.44" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-30.48" x2="91.44" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="91.44" y="-30.48"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="OK1" gate="A" pin="A"/>
-<wire x1="99.06" y1="-40.64" x2="99.06" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="-48.26" x2="101.6" y2="-48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="RED_LED" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="OUT"/>
-<wire x1="226.06" y1="-83.82" x2="254" y2="-83.82" width="0.1524" layer="91"/>
-<label x="256.54" y="-83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="CON"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="-88.9" x2="238.76" y2="-88.9" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="-88.9" x2="238.76" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-20.32" x2="66.04" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="IC2" gate="G$1" pin="DIS"/>
-<wire x1="190.5" y1="-83.82" x2="190.5" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="-83.82" x2="190.5" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-86.36" x2="190.5" y2="-83.82" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="DISCHARGE"/>
 <wire x1="190.5" y1="-83.82" x2="190.5" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-83.82" x2="205.74" y2="-83.82" width="0.1524" layer="91"/>
 <junction x="190.5" y="-83.82"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="-96.52" x2="190.5" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="TRI"/>
-<wire x1="190.5" y1="-101.6" x2="190.5" y2="-104.14" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="-91.44" x2="205.74" y2="-101.6" width="0.1524" layer="91"/>
-<junction x="190.5" y="-101.6"/>
-<pinref part="IC2" gate="G$1" pin="TRE"/>
-<wire x1="205.74" y1="-101.6" x2="190.5" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="-76.2" x2="205.74" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="GND"/>
-<wire x1="226.06" y1="-91.44" x2="231.14" y2="-91.44" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="238.76" y1="-104.14" x2="231.14" y2="-104.14" width="0.1524" layer="91"/>
 <pinref part="BR_LIGHTS_TR1" gate="G$1" pin="D"/>
-<wire x1="231.14" y1="-104.14" x2="231.14" y2="-114.3" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="-111.76" x2="190.5" y2="-114.3" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="-114.3" x2="231.14" y2="-114.3" width="0.1524" layer="91"/>
-<junction x="231.14" y="-114.3"/>
-<wire x1="231.14" y1="-91.44" x2="231.14" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-114.3" x2="220.98" y2="-114.3" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="-114.3" x2="231.14" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-104.14" x2="238.76" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-106.68" x2="220.98" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-106.68" x2="220.98" y2="-114.3" width="0.1524" layer="91"/>
+<junction x="220.98" y="-114.3"/>
+<pinref part="IC4" gate="G$1" pin="GND"/>
+<wire x1="251.46" y1="-86.36" x2="251.46" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="-106.68" x2="238.76" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -7272,6 +7267,69 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/IRLML6402TRPB
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="215.9" y1="-25.4" x2="238.76" y2="-25.4" width="0.1524" layer="91"/>
 <label x="246.38" y="-25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="D1" gate="1" pin="A"/>
+<pinref part="IC3" gate="G$1" pin="VIN"/>
+<wire x1="71.12" y1="-20.32" x2="81.28" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="VOUT"/>
+<wire x1="81.28" y1="-22.86" x2="78.74" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-22.86" x2="78.74" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-33.02" x2="78.74" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="78.74" y="-33.02"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="ADJ"/>
+<wire x1="109.22" y1="-20.32" x2="109.22" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-33.02" x2="88.9" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="OK1" gate="A" pin="A"/>
+<wire x1="88.9" y1="-48.26" x2="101.6" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-33.02" x2="88.9" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="88.9" y="-33.02"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="-96.52" x2="190.5" y2="-99.06" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="TRIGGER"/>
+<wire x1="190.5" y1="-99.06" x2="190.5" y2="-104.14" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="-83.82" x2="261.62" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="-83.82" x2="261.62" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="-99.06" x2="203.2" y2="-99.06" width="0.1524" layer="91"/>
+<junction x="190.5" y="-99.06"/>
+<pinref part="IC4" gate="G$1" pin="THRESHOLD"/>
+<wire x1="203.2" y1="-99.06" x2="190.5" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-81.28" x2="203.2" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-81.28" x2="203.2" y2="-99.06" width="0.1524" layer="91"/>
+<junction x="203.2" y="-99.06"/>
+</segment>
+</net>
+<net name="RED_LIGHT" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUTPUT"/>
+<wire x1="251.46" y1="-81.28" x2="281.94" y2="-81.28" width="0.1524" layer="91"/>
+<label x="284.48" y="-81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="CONTROL_VOLTAGE"/>
+<wire x1="205.74" y1="-78.74" x2="205.74" y2="-96.52" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="-96.52" x2="238.76" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
