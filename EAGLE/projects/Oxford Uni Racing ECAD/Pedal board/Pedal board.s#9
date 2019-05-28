@@ -9558,6 +9558,64 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <text x="1.73" y="-2.178" size="1.016" layer="21" font="vector">A</text>
 <text x="-2.938" y="-2.178" size="1.016" layer="21" font="vector">K</text>
 </package>
+<package name="SOT23-W" urn="urn:adsk.eagle:footprint:6240104/1" library_version="2">
+<description>&lt;b&gt;SOT23&lt;/b&gt; - Wave soldering</description>
+<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.5724" y1="-0.6604" x2="-1.5724" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5724" y1="-0.6604" x2="-1.5724" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5724" y1="0.6604" x2="1.5724" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.5724" y1="-0.3984" x2="-1.5724" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.3984" width="0.1524" layer="21"/>
+<wire x1="0.2954" y1="-0.6604" x2="-0.3094" y2="-0.6604" width="0.1524" layer="21"/>
+<smd name="3" x="0" y="1.3" dx="2.8" dy="1.4" layer="1"/>
+<smd name="2" x="1.1" y="-1.3" dx="1.2" dy="1.4" layer="1"/>
+<smd name="1" x="-1.1" y="-1.3" dx="1.2" dy="1.4" layer="1"/>
+<text x="2.032" y="0.254" size="0.4064" layer="25">&gt;NAME</text>
+<text x="2.032" y="-0.508" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+<package name="SOT23" urn="urn:adsk.eagle:footprint:6240192/1" library_version="2">
+<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+<package name="TO220V" urn="urn:adsk.eagle:footprint:6240239/1" library_version="2">
+<description>&lt;b&gt;TO 200 vertical&lt;/b&gt;</description>
+<wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
+<wire x1="4.699" y1="-4.318" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
+<wire x1="4.699" y1="-4.318" x2="-4.699" y2="-4.318" width="0.127" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-4.699" y2="-4.318" width="0.127" layer="21"/>
+<wire x1="-4.953" y1="-4.064" x2="-5.08" y2="-1.143" width="0.127" layer="21"/>
+<circle x="-4.4958" y="-3.7084" radius="0.254" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-2.54" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.08" y="-6.0452" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="-3.175" size="1.27" layer="51" ratio="10">1</text>
+<text x="-0.635" y="-3.175" size="1.27" layer="51" ratio="10">2</text>
+<text x="1.905" y="-3.175" size="1.27" layer="51" ratio="10">3</text>
+<rectangle x1="-5.334" y1="-0.762" x2="5.334" y2="0" layer="21"/>
+<rectangle x1="-5.334" y1="-1.27" x2="-3.429" y2="-0.762" layer="21"/>
+<rectangle x1="-1.651" y1="-1.27" x2="-0.889" y2="-0.762" layer="21"/>
+<rectangle x1="-3.429" y1="-1.27" x2="-1.651" y2="-0.762" layer="51"/>
+<rectangle x1="0.889" y1="-1.27" x2="1.651" y2="-0.762" layer="21"/>
+<rectangle x1="3.429" y1="-1.27" x2="5.334" y2="-0.762" layer="21"/>
+<rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
+<rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="R0402" urn="urn:adsk.eagle:package:6240564/1" type="box" library_version="2">
@@ -10803,6 +10861,24 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <packageinstance name="SMLK34"/>
 </packageinstances>
 </package3d>
+<package3d name="SOT23-W" urn="urn:adsk.eagle:package:6240750/1" type="box" library_version="2">
+<description>&lt;b&gt;SOT23&lt;/b&gt; - Wave soldering</description>
+<packageinstances>
+<packageinstance name="SOT23-W"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23" urn="urn:adsk.eagle:package:6240836/1" type="box" library_version="2">
+<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="SOT23"/>
+</packageinstances>
+</package3d>
+<package3d name="TO220V" urn="urn:adsk.eagle:package:6240882/1" type="box" library_version="2">
+<description>&lt;b&gt;TO 200 vertical&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="TO220V"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="R-US" urn="urn:adsk.eagle:symbol:6239479/1" library_version="2">
@@ -10853,6 +10929,46 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <vertex x="-3.302" y="-3.302"/>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
+</polygon>
+</symbol>
+<symbol name="MOSFET-N" urn="urn:adsk.eagle:symbol:6239631/1" library_version="2">
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="0.762" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<text x="5.08" y="0.635" size="1.27" layer="95">&gt;NAME</text>
+<text x="5.08" y="-1.27" size="1.27" layer="96">&gt;VALUE</text>
+<text x="3.175" y="3.175" size="0.8128" layer="93">D</text>
+<text x="3.175" y="-3.81" size="0.8128" layer="93">S</text>
+<text x="-1.27" y="-1.905" size="0.8128" layer="93">G</text>
+<pin name="G" x="-2.54" y="-2.54" visible="pad" length="short"/>
+<pin name="S" x="2.54" y="-5.08" visible="pad" length="short" rot="R90"/>
+<pin name="D" x="2.54" y="5.08" visible="pad" length="short" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="2.032" y="0.762"/>
+<vertex x="2.032" y="-0.762"/>
 </polygon>
 </symbol>
 </symbols>
@@ -13057,6 +13173,57 @@ Source: http://www.osram.convergy.de/</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:6240838/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOSFET-N" urn="urn:adsk.eagle:component:6241120/1" prefix="Q" uservalue="yes" library_version="2">
+<description>&lt;b&gt;N-Channel Mosfet&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;2N7002E - 60V 260mA SOT23 [Digikey: 2N7002ET1GOSTR-ND] - &lt;b&gt;REEL&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;BSH103 - 30V 850mA SOT23 [Digikey: 568-5013-1-ND]&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET-N" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="WAVE" package="SOT23-W">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240750/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="REFLOW" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240836/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="GDS_TO220V" package="TO220V">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6240882/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -20585,11 +20752,11 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="COMPARATOR" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM2901" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
 <part name="T1" library="triac" library_urn="urn:adsk.eagle:library:403" deviceset="BT169" device="" package3d_urn="urn:adsk.eagle:package:30142/1"/>
 <part name="RELAY" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="RT44?*" device="4" package3d_urn="urn:adsk.eagle:package:24520/1" technology="012"/>
-<part name="R5" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="0207/15" package3d_urn="urn:adsk.eagle:package:8118471/1" value="47K"/>
-<part name="R6" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="0207/15" package3d_urn="urn:adsk.eagle:package:8118471/1" value="47K"/>
+<part name="R5" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="0207/15" package3d_urn="urn:adsk.eagle:package:8118471/1" value="1K"/>
+<part name="R6" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="0207/15" package3d_urn="urn:adsk.eagle:package:8118471/1" value="1K"/>
 <part name="R7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="68K"/>
-<part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
-<part name="R9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
+<part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K 1%"/>
+<part name="R9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K 1%"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="10uF"/>
 <part name="AND" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4081" device="N" package3d_urn="urn:adsk.eagle:package:820/2"/>
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
@@ -20621,7 +20788,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="GND17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
@@ -20662,7 +20828,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="GND31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="R20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="47K"/>
+<part name="R20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="R21" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="B90P" package3d_urn="urn:adsk.eagle:package:22714/1" value="1K"/>
 <part name="R22" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="B90P" package3d_urn="urn:adsk.eagle:package:22714/1" value="1K"/>
@@ -20691,6 +20857,16 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J4" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="ASS"/>
 <part name="U$1" library="Oxford Uni Racing Custom Blueprints" deviceset="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3" device=""/>
+<part name="BR_LIGHTS_TR" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MOSFET-N" device="REFLOW" package3d_urn="urn:adsk.eagle:package:6240836/1" value="IRLML2502GTRPBF"/>
+<part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
+<part name="R12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="47K"/>
+<part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="R13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
+<part name="R14" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
+<part name="R15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
+<part name="SUPPLY36" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="SUPPLY37" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21553,19 +21729,19 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <attribute name="NAME" x="172.72" y="117.475" size="1.778" layer="95"/>
 <attribute name="VALUE" x="172.72" y="109.22" size="1.778" layer="96"/>
 </instance>
-<instance part="T1" gate="1" x="215.9" y="121.92" smashed="yes">
-<attribute name="NAME" x="218.44" y="121.92" size="1.778" layer="95"/>
-<attribute name="VALUE" x="218.44" y="119.38" size="1.778" layer="96"/>
+<instance part="T1" gate="1" x="218.44" y="142.24" smashed="yes">
+<attribute name="NAME" x="220.98" y="142.24" size="1.778" layer="95"/>
+<attribute name="VALUE" x="220.98" y="139.7" size="1.778" layer="96"/>
 </instance>
-<instance part="RELAY" gate="1" x="215.9" y="93.98" smashed="yes">
-<attribute name="VALUE" x="217.17" y="96.901" size="1.778" layer="96"/>
-<attribute name="PART" x="217.17" y="99.06" size="1.778" layer="95"/>
+<instance part="RELAY" gate="1" x="223.52" y="78.74" smashed="yes">
+<attribute name="VALUE" x="224.79" y="81.661" size="1.778" layer="96"/>
+<attribute name="PART" x="224.79" y="83.82" size="1.778" layer="95"/>
 </instance>
-<instance part="RELAY" gate="2" x="233.68" y="93.98" smashed="yes">
-<attribute name="PART" x="231.14" y="91.44" size="1.778" layer="95" rot="R90"/>
+<instance part="RELAY" gate="2" x="243.84" y="78.74" smashed="yes">
+<attribute name="PART" x="241.3" y="76.2" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="RELAY" gate="3" x="243.84" y="93.98" smashed="yes">
-<attribute name="PART" x="241.3" y="91.44" size="1.778" layer="95" rot="R90"/>
+<instance part="RELAY" gate="3" x="254" y="78.74" smashed="yes">
+<attribute name="PART" x="251.46" y="76.2" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="R5" gate="G$1" x="83.82" y="139.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.3214" y="135.89" size="1.778" layer="95" rot="R90"/>
@@ -21603,9 +21779,9 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <instance part="AND" gate="P" x="104.14" y="114.3" smashed="yes">
 <attribute name="NAME" x="107.95" y="111.125" size="1.778" layer="95"/>
 </instance>
-<instance part="COMPARATOR" gate="D" x="58.42" y="58.42" smashed="yes">
-<attribute name="NAME" x="60.96" y="61.595" size="1.778" layer="95"/>
-<attribute name="VALUE" x="60.96" y="53.34" size="1.778" layer="96"/>
+<instance part="COMPARATOR" gate="D" x="220.98" y="116.84" smashed="yes" rot="R270">
+<attribute name="NAME" x="224.155" y="114.3" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="215.9" y="114.3" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="AND" gate="C" x="101.6" y="58.42" smashed="yes">
 <attribute name="NAME" x="104.14" y="61.595" size="1.778" layer="95"/>
@@ -21630,8 +21806,8 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <instance part="GND15" gate="1" x="25.4" y="71.12" smashed="yes">
 <attribute name="VALUE" x="25.4" y="70.866" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND16" gate="1" x="45.72" y="50.8" smashed="yes">
-<attribute name="VALUE" x="45.72" y="50.546" size="1.778" layer="96" align="top-center"/>
+<instance part="GND16" gate="1" x="233.68" y="116.84" smashed="yes">
+<attribute name="VALUE" x="233.68" y="116.586" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND17" gate="1" x="88.9" y="48.26" smashed="yes">
 <attribute name="VALUE" x="88.9" y="48.006" size="1.778" layer="96" align="top-center"/>
@@ -21641,9 +21817,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 </instance>
 <instance part="GND19" gate="1" x="172.72" y="68.58" smashed="yes">
 <attribute name="VALUE" x="172.72" y="68.326" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="GND20" gate="1" x="215.9" y="81.28" smashed="yes">
-<attribute name="VALUE" x="215.9" y="81.026" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND21" gate="1" x="53.34" y="129.54" smashed="yes">
 <attribute name="VALUE" x="53.34" y="129.286" size="1.778" layer="96" align="top-center"/>
@@ -21669,8 +21842,8 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <instance part="GND22" gate="1" x="25.4" y="129.54" smashed="yes">
 <attribute name="VALUE" x="25.4" y="129.286" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="215.9" y="132.08" smashed="yes">
-<attribute name="VALUE" x="215.9" y="134.874" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$1" x="218.44" y="154.94" smashed="yes">
+<attribute name="VALUE" x="218.44" y="157.734" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R20" gate="G$1" x="185.42" y="101.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="186.9186" y="105.41" size="1.778" layer="95" rot="R270"/>
@@ -21692,6 +21865,42 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="25.4" y="152.4" smashed="yes">
 <attribute name="VALUE" x="25.4" y="155.194" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="BR_LIGHTS_TR" gate="G$1" x="220.98" y="63.5" smashed="yes">
+<attribute name="NAME" x="226.06" y="64.135" size="1.27" layer="95"/>
+<attribute name="VALUE" x="226.06" y="62.23" size="1.27" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="213.36" y="73.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="214.8586" y="77.47" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="210.058" y="77.47" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R12" gate="G$1" x="213.36" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="211.8614" y="46.99" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="216.662" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND20" gate="1" x="223.52" y="35.56" smashed="yes">
+<attribute name="VALUE" x="223.52" y="35.306" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY22" gate="G$1" x="233.68" y="149.86" smashed="yes">
+<attribute name="VALUE" x="233.68" y="152.654" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="R13" gate="G$1" x="233.68" y="127" smashed="yes" rot="R270">
+<attribute name="NAME" x="235.1786" y="130.81" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="230.378" y="130.81" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R14" gate="G$1" x="233.68" y="142.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="235.1786" y="146.05" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="230.378" y="146.05" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R15" gate="G$1" x="205.74" y="73.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="207.2386" y="77.47" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="202.438" y="77.47" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY36" gate="G$1" x="205.74" y="63.5" smashed="yes" rot="R180">
+<attribute name="VALUE" x="205.74" y="60.706" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY37" gate="G$1" x="223.52" y="91.44" smashed="yes">
+<attribute name="VALUE" x="223.52" y="94.234" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -21726,16 +21935,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="COMPARATOR" gate="D" pin="+IN"/>
-<wire x1="50.8" y1="60.96" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="60.96" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="COMPARATOR" gate="D" pin="-IN"/>
-<wire x1="45.72" y1="55.88" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="55.88" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
-<junction x="45.72" y="55.88"/>
-<pinref part="GND16" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="AND" gate="D" pin="I0"/>
 <wire x1="93.98" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="76.2" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
@@ -21763,11 +21962,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="RELAY" gate="1" pin="2"/>
-<wire x1="215.9" y1="88.9" x2="215.9" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="R22" gate="1" pin="A"/>
 <wire x1="25.4" y1="73.66" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
@@ -21776,6 +21970,21 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="101.6" x2="149.86" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="BR_LIGHTS_TR" gate="G$1" pin="S"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="223.52" y1="58.42" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="43.18" x2="223.52" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="45.72" x2="213.36" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="43.18" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
+<junction x="223.52" y="43.18"/>
+</segment>
+<segment>
+<pinref part="GND16" gate="1" pin="GND"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="233.68" y1="119.38" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -21841,21 +22050,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <junction x="185.42" y="114.3"/>
 </segment>
 </net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="T1" gate="1" pin="C"/>
-<pinref part="RELAY" gate="1" pin="1"/>
-<wire x1="215.9" y1="119.38" x2="215.9" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="T1" gate="1" pin="G"/>
-<wire x1="205.74" y1="116.84" x2="213.36" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="116.84" x2="213.36" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="AND" gate="B" pin="O"/>
-</segment>
-</net>
 <net name="12V" class="0">
 <segment>
 <label x="-43.18" y="88.9" size="1.778" layer="95"/>
@@ -21889,7 +22083,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 </segment>
 <segment>
 <pinref part="T1" gate="1" pin="A"/>
-<wire x1="215.9" y1="132.08" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="154.94" x2="218.44" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="12V"/>
 </segment>
 <segment>
@@ -21906,6 +22100,21 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <pinref part="R21" gate="1" pin="E"/>
 <wire x1="25.4" y1="147.32" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="12V"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="SUPPLY22" gate="G$1" pin="12V"/>
+<wire x1="233.68" y1="147.32" x2="233.68" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="SUPPLY36" gate="G$1" pin="12V"/>
+<wire x1="205.74" y1="68.58" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="RELAY" gate="1" pin="1"/>
+<pinref part="SUPPLY37" gate="G$1" pin="12V"/>
+<wire x1="223.52" y1="83.82" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -21971,13 +22180,13 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 </segment>
 <segment>
 <pinref part="RELAY" gate="2" pin="S"/>
-<wire x1="233.68" y1="106.68" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
-<label x="233.68" y="106.68" size="1.778" layer="95" rot="R90"/>
+<wire x1="243.84" y1="91.44" x2="243.84" y2="86.36" width="0.1524" layer="91"/>
+<label x="243.84" y="91.44" size="1.778" layer="95" rot="R90"/>
 <pinref part="RELAY" gate="3" pin="S"/>
-<wire x1="233.68" y1="101.6" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="99.06" x2="243.84" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
-<junction x="233.68" y="101.6"/>
+<wire x1="243.84" y1="86.36" x2="243.84" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="254" y1="83.82" x2="254" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="254" y1="86.36" x2="243.84" y2="86.36" width="0.1524" layer="91"/>
+<junction x="243.84" y="86.36"/>
 </segment>
 </net>
 <net name="ASS2" class="0">
@@ -21987,13 +22196,13 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 </segment>
 <segment>
 <pinref part="RELAY" gate="2" pin="P"/>
-<wire x1="233.68" y1="81.28" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
-<label x="233.68" y="73.66" size="1.778" layer="95" rot="R90"/>
+<wire x1="243.84" y1="66.04" x2="243.84" y2="71.12" width="0.1524" layer="91"/>
+<label x="243.84" y="58.42" size="1.778" layer="95" rot="R90"/>
 <pinref part="RELAY" gate="3" pin="P"/>
-<wire x1="233.68" y1="86.36" x2="233.68" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="88.9" x2="243.84" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="86.36" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
-<junction x="233.68" y="86.36"/>
+<wire x1="243.84" y1="71.12" x2="243.84" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="254" y1="73.66" x2="254" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="254" y1="71.12" x2="243.84" y2="71.12" width="0.1524" layer="91"/>
+<junction x="243.84" y="71.12"/>
 </segment>
 </net>
 <net name="BATT_CURRENT" class="0">
@@ -22032,6 +22241,66 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <wire x1="172.72" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="86.36" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
 <junction x="172.72" y="86.36"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="BR_LIGHTS_TR" gate="G$1" pin="G"/>
+<wire x1="213.36" y1="68.58" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="60.96" x2="218.44" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="60.96" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
+<junction x="213.36" y="60.96"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="BR_LIGHTS_TR" gate="G$1" pin="D"/>
+<wire x1="223.52" y1="73.66" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="RELAY" gate="1" pin="2"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="233.68" y1="132.08" x2="233.68" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="COMPARATOR" gate="D" pin="+IN"/>
+<wire x1="233.68" y1="134.62" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="124.46" x2="223.52" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="134.62" x2="233.68" y2="134.62" width="0.1524" layer="91"/>
+<junction x="233.68" y="134.62"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="COMPARATOR" gate="D" pin="-IN"/>
+<pinref part="T1" gate="1" pin="C"/>
+<wire x1="218.44" y1="124.46" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="AND" gate="B" pin="O"/>
+<wire x1="205.74" y1="116.84" x2="210.82" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="116.84" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="T1" gate="1" pin="G"/>
+<wire x1="210.82" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="78.74" x2="205.74" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="101.6" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="86.36" x2="213.36" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
+<junction x="213.36" y="86.36"/>
+<wire x1="213.36" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="COMPARATOR" gate="D" pin="OUT"/>
+<wire x1="220.98" y1="101.6" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
