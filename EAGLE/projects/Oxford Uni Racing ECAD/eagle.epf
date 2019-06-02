@@ -418,6 +418,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:174"
 UsedLibraryUrn="urn:adsk.eagle:library:175"
 UsedLibraryUrn="urn:adsk.eagle:library:176"
 UsedLibraryUrn="urn:adsk.eagle:library:177"
+UsedLibrary="C:/Users/Ruzhev/Desktop/Formula Student/GIT/ECAD/EAGLE/libraries/m-pad-2.1.lbr"
 
 [Win_1]
 Type="Schematic Editor"

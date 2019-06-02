@@ -20752,9 +20752,9 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="COMPARATOR" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM2901" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
 <part name="T1" library="triac" library_urn="urn:adsk.eagle:library:403" deviceset="BT169" device="" package3d_urn="urn:adsk.eagle:package:30142/1"/>
 <part name="RELAY" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="RT44?*" device="4" package3d_urn="urn:adsk.eagle:package:24520/1" technology="012"/>
-<part name="R5" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="0207/15" package3d_urn="urn:adsk.eagle:package:8118471/1" value="1K"/>
-<part name="R6" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="0207/15" package3d_urn="urn:adsk.eagle:package:8118471/1" value="1K"/>
-<part name="R7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="68K"/>
+<part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
+<part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
+<part name="R7" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="0207/15" package3d_urn="urn:adsk.eagle:package:8118471/1" value="68K"/>
 <part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K 1%"/>
 <part name="R9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K 1%"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="10uF"/>
@@ -20828,7 +20828,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="GND31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="R20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
+<part name="R20" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="0207/12" package3d_urn="urn:adsk.eagle:package:8118470/1" value="1K"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="R21" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="B90P" package3d_urn="urn:adsk.eagle:package:22714/1" value="1K"/>
 <part name="R22" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="B90P" package3d_urn="urn:adsk.eagle:package:22714/1" value="1K"/>
@@ -20859,17 +20859,18 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="U$1" library="Oxford Uni Racing Custom Blueprints" deviceset="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3" device=""/>
 <part name="BR_LIGHTS_TR" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MOSFET-N" device="REFLOW" package3d_urn="urn:adsk.eagle:package:6240836/1" value="IRLML2502GTRPBF"/>
 <part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
-<part name="R12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="47K"/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="R13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
-<part name="R14" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
+<part name="R14" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="0207/12" package3d_urn="urn:adsk.eagle:package:8118470/1" value="1K"/>
 <part name="R15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
 <part name="SUPPLY36" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY37" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1K"/>
+<part name="R23" library="BeagleBone_Black_Wireless" library_urn="urn:adsk.eagle:library:6644236" deviceset="R-US_" device="0207/12" package3d_urn="urn:adsk.eagle:package:8118470/1" value="1K"/>
 <part name="R25" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="330"/>
+<part name="R12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="1M"/>
+<part name="SUPPLY38" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20951,7 +20952,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BR_POSS" class="0">
+<net name="BR_POSS_1" class="0">
 <segment>
 <label x="10.16" y="53.34" size="1.778" layer="95"/>
 <wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
@@ -21199,7 +21200,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BR_POSS" class="0">
+<net name="BR_POSS_1" class="0">
 <segment>
 <label x="10.16" y="53.34" size="1.778" layer="95"/>
 <wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
@@ -21439,7 +21440,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <wire x1="10.16" y1="60.96" x2="0" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BR_POSS" class="0">
+<net name="BR_POSS_1" class="0">
 <segment>
 <label x="10.16" y="53.34" size="1.778" layer="95"/>
 <wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
@@ -21648,7 +21649,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <pinref part="U$1" gate="G$1" pin="J803-1-PB08"/>
 </segment>
 </net>
-<net name="BR_POSS" class="0">
+<net name="BR_POSS_1" class="0">
 <segment>
 <label x="10.16" y="53.34" size="1.778" layer="95"/>
 <wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
@@ -21877,10 +21878,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <attribute name="NAME" x="214.8586" y="77.47" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="210.058" y="77.47" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R12" gate="G$1" x="213.36" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="211.8614" y="46.99" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="216.662" y="46.99" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="GND20" gate="1" x="223.52" y="35.56" smashed="yes">
 <attribute name="VALUE" x="223.52" y="35.306" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -21988,12 +21985,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <segment>
 <pinref part="BR_LIGHTS_TR" gate="G$1" pin="S"/>
 <pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="223.52" y1="58.42" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="43.18" x2="223.52" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="45.72" x2="213.36" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="43.18" x2="223.52" y2="43.18" width="0.1524" layer="91"/>
-<junction x="223.52" y="43.18"/>
+<wire x1="223.52" y1="58.42" x2="223.52" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
@@ -22174,7 +22166,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <wire x1="-43.18" y1="66.04" x2="-53.34" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BR_POSS" class="0">
+<net name="BR_POSS_1" class="0">
 <segment>
 <label x="-43.18" y="58.42" size="1.778" layer="95"/>
 <wire x1="-43.18" y1="58.42" x2="-53.34" y2="58.42" width="0.1524" layer="91"/>
@@ -22267,10 +22259,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="BR_LIGHTS_TR" gate="G$1" pin="G"/>
 <wire x1="213.36" y1="68.58" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="60.96" x2="218.44" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="60.96" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
-<junction x="213.36" y="60.96"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -22373,8 +22362,8 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <instance part="SUPPLY20" gate="G$1" x="167.64" y="45.72" smashed="yes" rot="R270">
 <attribute name="VALUE" x="170.434" y="45.72" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="GND32" gate="1" x="129.54" y="43.18" smashed="yes" rot="R270">
-<attribute name="VALUE" x="127" y="45.466" size="1.778" layer="96" align="top-center"/>
+<instance part="GND32" gate="1" x="175.26" y="43.18" smashed="yes" rot="R90">
+<attribute name="VALUE" x="177.8" y="40.894" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
 <instance part="SUPPLY16" gate="G$1" x="137.16" y="45.72" smashed="yes" rot="R90">
 <attribute name="VALUE" x="134.366" y="45.72" size="1.778" layer="96" rot="R90" align="bottom-center"/>
@@ -22440,6 +22429,13 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 </instance>
 <instance part="SUPPLY44" gate="G$1" x="137.16" y="20.32" smashed="yes" rot="R180">
 <attribute name="VALUE" x="137.16" y="17.526" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="R12" gate="G$1" x="116.84" y="43.18" smashed="yes">
+<attribute name="NAME" x="113.03" y="44.6786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="113.03" y="39.878" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY38" gate="G$1" x="109.22" y="43.18" smashed="yes" rot="R90">
+<attribute name="VALUE" x="106.426" y="43.18" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -22508,6 +22504,11 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <pinref part="SUPPLY16" gate="G$1" pin="5V"/>
 <wire x1="142.24" y1="45.72" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="SUPPLY38" gate="G$1" pin="5V"/>
+<wire x1="111.76" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -22538,11 +22539,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <wire x1="162.56" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="3"/>
-<pinref part="GND32" gate="1" pin="GND"/>
-<wire x1="142.24" y1="43.18" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="-VS"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="236.22" y1="27.94" x2="236.22" y2="22.86" width="0.1524" layer="91"/>
@@ -22551,6 +22547,11 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="7.62" x2="279.4" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="GND31" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="4"/>
+<pinref part="GND32" gate="1" pin="GND"/>
+<wire x1="162.56" y1="43.18" x2="172.72" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -22589,7 +22590,7 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <wire x1="162.56" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BR_POSS" class="0">
+<net name="BR_POSS_1" class="0">
 <segment>
 <label x="10.16" y="53.34" size="1.778" layer="95"/>
 <wire x1="10.16" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
@@ -22677,6 +22678,13 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <wire x1="182.88" y1="40.64" x2="231.14" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="33.02" x2="182.88" y2="40.64" width="0.1524" layer="91"/>
 <junction x="182.88" y="40.64"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="3"/>
+<wire x1="142.24" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>

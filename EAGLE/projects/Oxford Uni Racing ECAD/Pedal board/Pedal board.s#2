@@ -8453,66 +8453,66 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <library name="Oxford Uni Racing Custom Blueprints">
 <packages>
 <package name="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3">
-<pad name="J803-0" x="0" y="12.7" drill="0.6"/>
-<pad name="J803-1" x="0" y="10.16" drill="0.6"/>
-<pad name="J803-2" x="0" y="7.62" drill="0.6"/>
-<pad name="J803-3" x="0" y="5.08" drill="0.6"/>
-<pad name="J803-4" x="0" y="2.54" drill="0.6"/>
-<pad name="J803-5" x="0" y="0" drill="0.6"/>
+<pad name="J803-0" x="0" y="12.7" drill="0.8" diameter="1.6764"/>
+<pad name="J803-1" x="0" y="10.16" drill="0.8" diameter="1.6764"/>
+<pad name="J803-2" x="0" y="7.62" drill="0.8" diameter="1.6764"/>
+<pad name="J803-3" x="0" y="5.08" drill="0.8" diameter="1.6764"/>
+<pad name="J803-4" x="0" y="2.54" drill="0.8" diameter="1.6764"/>
+<pad name="J803-5" x="0" y="0" drill="0.8" diameter="1.6764"/>
 <wire x1="-1.108" y1="13.808" x2="1.108" y2="13.808" width="0.127" layer="21"/>
 <wire x1="1.108" y1="13.808" x2="1.108" y2="-1.108" width="0.127" layer="21"/>
 <wire x1="1.108" y1="-1.108" x2="-1.108" y2="-1.108" width="0.127" layer="21"/>
 <wire x1="-1.108" y1="-1.108" x2="-1.108" y2="13.808" width="0.127" layer="21"/>
-<pad name="J802-0" x="0" y="35.56" drill="0.6"/>
-<pad name="J802-1" x="0" y="33.02" drill="0.6"/>
-<pad name="J802-2" x="0" y="30.48" drill="0.6"/>
-<pad name="J802-3" x="0" y="27.94" drill="0.6"/>
-<pad name="J802-4" x="0" y="25.4" drill="0.6"/>
-<pad name="J802-5" x="0" y="22.86" drill="0.6"/>
-<pad name="J802-6" x="0" y="20.32" drill="0.6"/>
-<pad name="J802-7" x="0" y="17.78" drill="0.6"/>
+<pad name="J802-0" x="0" y="35.56" drill="0.8" diameter="1.6764"/>
+<pad name="J802-1" x="0" y="33.02" drill="0.8" diameter="1.6764"/>
+<pad name="J802-2" x="0" y="30.48" drill="0.8" diameter="1.6764"/>
+<pad name="J802-3" x="0" y="27.94" drill="0.8" diameter="1.6764"/>
+<pad name="J802-4" x="0" y="25.4" drill="0.8" diameter="1.6764"/>
+<pad name="J802-5" x="0" y="22.86" drill="0.8" diameter="1.6764"/>
+<pad name="J802-6" x="0" y="20.32" drill="0.8" diameter="1.6764"/>
+<pad name="J802-7" x="0" y="17.78" drill="0.8" diameter="1.6764"/>
 <wire x1="-1.108" y1="36.668" x2="1.108" y2="36.668" width="0.127" layer="21"/>
 <wire x1="1.108" y1="36.668" x2="1.108" y2="16.672" width="0.127" layer="21"/>
 <wire x1="1.108" y1="16.672" x2="-1.108" y2="16.672" width="0.127" layer="21"/>
 <wire x1="-1.108" y1="16.672" x2="-1.108" y2="36.668" width="0.127" layer="21"/>
-<pad name="J804-0" x="48.26" y="0" drill="0.6" rot="R180"/>
-<pad name="J804-1" x="48.26" y="2.54" drill="0.6" rot="R180"/>
-<pad name="J804-2" x="48.26" y="5.08" drill="0.6" rot="R180"/>
-<pad name="J804-3" x="48.26" y="7.62" drill="0.6" rot="R180"/>
-<pad name="J804-4" x="48.26" y="10.16" drill="0.6" rot="R180"/>
-<pad name="J804-5" x="48.26" y="12.7" drill="0.6" rot="R180"/>
-<pad name="J804-6" x="48.26" y="15.24" drill="0.6" rot="R180"/>
-<pad name="J804-7" x="48.26" y="17.78" drill="0.6" rot="R180"/>
+<pad name="J804-0" x="48.26" y="0" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-1" x="48.26" y="2.54" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-2" x="48.26" y="5.08" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-3" x="48.26" y="7.62" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-4" x="48.26" y="10.16" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-5" x="48.26" y="12.7" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-6" x="48.26" y="15.24" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J804-7" x="48.26" y="17.78" drill="0.8" diameter="1.6764" rot="R180"/>
 <wire x1="49.368" y1="-1.108" x2="47.152" y2="-1.108" width="0.127" layer="21"/>
 <wire x1="47.152" y1="-1.108" x2="47.152" y2="18.888" width="0.127" layer="21"/>
 <wire x1="47.152" y1="18.888" x2="49.368" y2="18.888" width="0.127" layer="21"/>
 <wire x1="49.368" y1="18.888" x2="49.368" y2="-1.108" width="0.127" layer="21"/>
-<pad name="J801-0" x="48.26" y="21.59" drill="0.6" rot="R180"/>
-<pad name="J801-1" x="48.26" y="24.13" drill="0.6" rot="R180"/>
-<pad name="J801-2" x="48.26" y="26.67" drill="0.6" rot="R180"/>
-<pad name="J801-3" x="48.26" y="29.21" drill="0.6" rot="R180"/>
-<pad name="J801-4" x="48.26" y="31.75" drill="0.6" rot="R180"/>
-<pad name="J801-5" x="48.26" y="34.29" drill="0.6" rot="R180"/>
-<pad name="J801-6" x="48.26" y="36.83" drill="0.6" rot="R180"/>
-<pad name="J801-7" x="48.26" y="39.37" drill="0.6" rot="R180"/>
-<pad name="J801-8" x="48.26" y="41.91" drill="0.6" rot="R180"/>
-<pad name="J801-9" x="48.26" y="44.45" drill="0.6" rot="R180"/>
+<pad name="J801-0" x="48.26" y="21.59" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-1" x="48.26" y="24.13" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-2" x="48.26" y="26.67" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-3" x="48.26" y="29.21" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-4" x="48.26" y="31.75" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-5" x="48.26" y="34.29" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-6" x="48.26" y="36.83" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-7" x="48.26" y="39.37" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-8" x="48.26" y="41.91" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J801-9" x="48.26" y="44.45" drill="0.8" diameter="1.6764" rot="R180"/>
 <wire x1="49.368" y1="20.482" x2="47.152" y2="20.482" width="0.127" layer="21"/>
 <wire x1="47.152" y1="20.482" x2="47.152" y2="45.558" width="0.127" layer="21"/>
 <wire x1="47.152" y1="45.558" x2="49.368" y2="45.558" width="0.127" layer="21"/>
 <wire x1="49.368" y1="45.558" x2="49.368" y2="20.482" width="0.127" layer="21"/>
-<pad name="J800-0" x="27.94" y="0" drill="0.6" rot="R180"/>
-<pad name="J800-1" x="27.94" y="-2.54" drill="0.6" rot="R180"/>
-<pad name="J800-2" x="25.4" y="0" drill="0.6" rot="R180"/>
-<pad name="J800-3" x="25.4" y="-2.54" drill="0.6" rot="R180"/>
-<pad name="J800-4" x="22.86" y="0" drill="0.6" rot="R180"/>
-<pad name="J800-5" x="22.86" y="-2.54" drill="0.6" rot="R180"/>
+<pad name="J800-0" x="27.94" y="0" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J800-1" x="27.94" y="-2.54" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J800-2" x="25.4" y="0" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J800-3" x="25.4" y="-2.54" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J800-4" x="22.86" y="0" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="J800-5" x="22.86" y="-2.54" drill="0.8" diameter="1.6764" rot="R180"/>
 <wire x1="29.048" y1="-3.648" x2="21.752" y2="-3.648" width="0.127" layer="21"/>
 <wire x1="21.752" y1="-3.648" x2="21.752" y2="1.108" width="0.127" layer="21"/>
 <wire x1="21.752" y1="1.108" x2="29.048" y2="1.108" width="0.127" layer="21"/>
 <wire x1="29.048" y1="1.108" x2="29.048" y2="-3.648" width="0.127" layer="21"/>
-<pad name="CAN-0" x="2.54" y="64.77" drill="0.6" rot="R180"/>
-<pad name="CAN-1" x="2.54" y="67.31" drill="0.6" rot="R180"/>
+<pad name="CAN-0" x="2.54" y="64.77" drill="0.8" diameter="1.6764" rot="R180"/>
+<pad name="CAN-1" x="2.54" y="67.31" drill="0.8" diameter="1.6764" rot="R180"/>
 <wire x1="3.648" y1="63.662" x2="1.432" y2="63.662" width="0.127" layer="21"/>
 <wire x1="1.432" y1="63.662" x2="1.432" y2="68.418" width="0.127" layer="21"/>
 <wire x1="1.432" y1="68.418" x2="3.648" y2="68.418" width="0.127" layer="21"/>
@@ -8770,11 +8770,11 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="GND27" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="GND28" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="CAN_TERMINATION1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="120"/>
+<part name="CAN_TERMINATION1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="120"/>
 <part name="J3" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="PWR_CAN"/>
 <part name="IC4" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM317TS" device="" package3d_urn="urn:adsk.eagle:package:30353/1"/>
-<part name="R18" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="240"/>
-<part name="R19" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1" value="720"/>
+<part name="R18" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="240"/>
+<part name="R19" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="723"/>
 <part name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:6240357/1" value="0.1uF"/>
 <part name="C9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:6240357/1" value="1uF"/>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
@@ -8809,15 +8809,15 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <part name="SUPPLY43" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY44" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="5V_IND" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:6240537/1"/>
-<part name="R24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:6240596/1"/>
+<part name="R24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="1.8K"/>
 <part name="SUPPLY54" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND33" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="U1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="LM4051" device="" package3d_urn="urn:adsk.eagle:package:38446/1" value="REF3040AIDBZT"/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="J4" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="ASS"/>
 <part name="U$1" library="Oxford Uni Racing Custom Blueprints" deviceset="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3" device=""/>
+<part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9010,10 +9010,6 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <attribute name="NAME" x="181.483" y="123.19" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="185.801" y="123.19" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J4" gate="G$1" x="177.8" y="53.34" smashed="yes">
-<attribute name="NAME" x="179.07" y="60.96" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="179.07" y="58.42" size="1.778" layer="96" align="center-left"/>
-</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHTS_OUT,BR_POSS,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
@@ -9164,31 +9160,11 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <label x="10.16" y="40.64" size="1.778" layer="95"/>
 <wire x1="10.16" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="5"/>
-<wire x1="177.8" y1="48.26" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
-<label x="160.02" y="48.26" size="1.778" layer="95"/>
-<pinref part="J4" gate="G$1" pin="7"/>
-<wire x1="172.72" y1="48.26" x2="167.64" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="45.72" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="45.72" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
-<junction x="172.72" y="48.26"/>
-</segment>
 </net>
 <net name="ASS2" class="0">
 <segment>
 <label x="10.16" y="38.1" size="1.778" layer="95"/>
 <wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="208.28" y="48.26" size="1.778" layer="95"/>
-<pinref part="J4" gate="G$1" pin="6"/>
-<wire x1="198.12" y1="48.26" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="8"/>
-<wire x1="203.2" y1="48.26" x2="208.28" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="45.72" x2="203.2" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="45.72" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
-<junction x="203.2" y="48.26"/>
 </segment>
 </net>
 <net name="BATT_CURRENT" class="0">
@@ -9761,6 +9737,9 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <instance part="SUPPLY44" gate="G$1" x="137.16" y="20.32" smashed="yes" rot="R180">
 <attribute name="VALUE" x="137.16" y="17.526" size="1.778" layer="96" rot="R180" align="bottom-center"/>
 </instance>
+<instance part="GND5" gate="1" x="175.26" y="43.18" smashed="yes" rot="R90">
+<attribute name="VALUE" x="177.8" y="40.894" size="1.778" layer="96" rot="R180" align="top-center"/>
+</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHTS_OUT,BR_POSS,BR_POSS2,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
@@ -9871,6 +9850,11 @@ Allows one-direction current flow, but will allow reverse flow when above the ad
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="7.62" x2="279.4" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="GND31" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="J6" gate="G$1" pin="4"/>
+<wire x1="172.72" y1="43.18" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH" class="0">
