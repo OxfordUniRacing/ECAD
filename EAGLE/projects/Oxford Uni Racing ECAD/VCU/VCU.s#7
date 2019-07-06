@@ -20822,9 +20822,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="BR_PRESS_2" class="0">
 <segment>
-<wire x1="165.1" y1="60.96" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
-<label x="157.48" y="60.96" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="J5040-AD8"/>
+<label x="104.14" y="60.96" size="1.778" layer="95" rot="R180"/>
+<wire x1="114.3" y1="60.96" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="0" y1="162.56" x2="10.16" y2="162.56" width="0.1524" layer="91"/>
@@ -20976,11 +20975,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="134.62" x2="5.08" y2="134.62" width="0.1524" layer="91"/>
 <label x="12.7" y="134.62" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="142.24" y="68.58" size="1.778" layer="95" rot="R180"/>
+<pinref part="U$1" gate="G$1" pin="J5027-AD7"/>
+<wire x1="149.86" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="TEMP-_L_OUT" class="0">
 <segment>
 <wire x1="0" y1="132.08" x2="5.08" y2="132.08" width="0.1524" layer="91"/>
 <label x="12.7" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="142.24" y="73.66" size="1.778" layer="95" rot="R180"/>
+<pinref part="U$1" gate="G$1" pin="J5025-AD5"/>
+<wire x1="149.86" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TEMP+_R_OUT" class="0">
@@ -20988,11 +20997,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="129.54" x2="5.08" y2="129.54" width="0.1524" layer="91"/>
 <label x="12.7" y="129.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="142.24" y="76.2" size="1.778" layer="95" rot="R180"/>
+<pinref part="U$1" gate="G$1" pin="J5024-AD4"/>
+<wire x1="165.1" y1="76.2" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="TEMP-_R_OUT" class="0">
 <segment>
 <wire x1="0" y1="127" x2="5.08" y2="127" width="0.1524" layer="91"/>
 <label x="12.7" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="142.24" y="83.82" size="1.778" layer="95" rot="R180"/>
+<pinref part="U$1" gate="G$1" pin="J5021-AD1"/>
+<wire x1="149.86" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PRESSURE_R_SIG_OUT" class="0">

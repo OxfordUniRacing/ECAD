@@ -6917,6 +6917,56 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="v-reg_supertex">
+<packages>
+<package name="N3">
+<description>LR8 or LR12 [TO-92]</description>
+<pad name="1" x="-2.54" y="-1.27" drill="0.7" diameter="1.4224"/>
+<pad name="2" x="0" y="2.54" drill="0.7" diameter="1.4224"/>
+<pad name="3" x="2.54" y="-1.27" drill="0.7" diameter="1.4224"/>
+<wire x1="-2.6" y1="-0.1" x2="0" y2="2.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="2.5" x2="2.6" y2="-0.1" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.6" y1="-0.1" x2="-2.6" y2="-1.11" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-1.11" x2="2.6" y2="-1.11" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-1.11" x2="2.6" y2="-0.1" width="0.127" layer="21"/>
+<text x="-3.81" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LR">
+<wire x1="-5.08" y1="-3.81" x2="5.08" y2="-3.81" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-3.81" x2="5.08" y2="3.81" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="-5.08" y2="3.81" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="-3.81" width="0.4064" layer="94"/>
+<pin name="IN" x="-7.62" y="1.27" length="short" direction="in"/>
+<pin name="ADJ" x="0" y="-6.35" length="short" direction="in" rot="R90"/>
+<pin name="OUT" x="7.62" y="1.27" length="short" direction="out" rot="R180"/>
+<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="N3" uservalue="yes">
+<description>LR8 or LR12 [TO-92]</description>
+<gates>
+<gate name="G$1" symbol="LR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="N3">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="3"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6948,6 +6998,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BZX55" device="" package3d_urn="urn:adsk.eagle:package:43342/1"/>
 <part name="IC2" library="SparkFun-IC-Special-Function" library_urn="urn:adsk.eagle:library:527" deviceset="555" device="KIT" package3d_urn="urn:adsk.eagle:package:39188/1" value="555"/>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="6N135" device="" package3d_urn="urn:adsk.eagle:package:21941/1"/>
+<part name="U$1" library="v-reg_supertex" deviceset="N3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7237,6 +7288,10 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <instance part="OK1" gate="A" x="45.72" y="-33.02" smashed="yes">
 <attribute name="NAME" x="36.195" y="-24.765" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.195" y="-43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="U$1" gate="G$1" x="45.72" y="15.24" smashed="yes">
+<attribute name="NAME" x="48.26" y="7.62" size="1.778" layer="95"/>
+<attribute name="VALUE" x="48.26" y="5.08" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>

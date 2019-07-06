@@ -8827,12 +8827,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BATT_CURRENT" class="0">
-<segment>
-<label x="10.16" y="33.02" size="1.778" layer="95"/>
-<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="ST_WH_POSS" class="0">
 <segment>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
@@ -8900,7 +8894,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="162.306" y="99.06" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
 <instance part="CAN_TERMINATION1" gate="G$1" x="187.96" y="78.74" smashed="yes">
-<attribute name="NAME" x="189.0014" y="80.01" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="186.69" y="82.7786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="184.15" y="75.438" size="1.778" layer="96"/>
 </instance>
 <instance part="J3" gate="G$1" x="177.8" y="101.6" smashed="yes">
@@ -9057,12 +9051,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <label x="10.16" y="38.1" size="1.778" layer="95"/>
 <wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BATT_CURRENT" class="0">
-<segment>
-<label x="10.16" y="33.02" size="1.778" layer="95"/>
-<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ST_WH_POSS" class="0">
@@ -9282,12 +9270,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BATT_CURRENT" class="0">
-<segment>
-<label x="10.16" y="33.02" size="1.778" layer="95"/>
-<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="ST_WH_POSS" class="0">
 <segment>
 <label x="10.16" y="27.94" size="1.778" layer="95"/>
@@ -9499,12 +9481,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <label x="10.16" y="38.1" size="1.778" layer="95"/>
 <wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BATT_CURRENT" class="0">
-<segment>
-<label x="10.16" y="33.02" size="1.778" layer="95"/>
-<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ST_WH_POSS" class="0">
@@ -9766,18 +9742,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <label x="10.16" y="38.1" size="1.778" layer="95"/>
 <wire x1="10.16" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BATT_CURRENT" class="0">
-<segment>
-<label x="10.16" y="33.02" size="1.778" layer="95"/>
-<wire x1="10.16" y1="33.02" x2="0" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="8"/>
-<wire x1="162.56" y1="38.1" x2="167.64" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="38.1" x2="167.64" y2="30.48" width="0.1524" layer="91"/>
-<label x="167.64" y="30.48" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="ST_WH_POSS" class="0">

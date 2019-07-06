@@ -4517,29 +4517,29 @@ design rules under a new name.</description>
 </signal>
 <signal name="CANL">
 <contactref element="X2" pad="2"/>
+<contactref element="CAN_TERMINATION1" pad="1"/>
 <wire x1="120.8786" y1="7.4676" x2="120.77065" y2="7.57555" width="0.6096" layer="16"/>
 <contactref element="U$3" pad="PIN_5"/>
+<contactref element="J1" pad="7"/>
 <wire x1="96.52" y1="24.13" x2="105.41" y2="15.24" width="0.508" layer="16"/>
 <wire x1="105.41" y1="15.24" x2="120.65" y2="15.24" width="0.508" layer="16"/>
 <wire x1="91.7702" y1="24.13" x2="96.52" y2="24.13" width="0.508" layer="16"/>
-<contactref element="J1" pad="8"/>
-<contactref element="CAN_TERMINATION1" pad="2"/>
-<wire x1="122.92" y1="17.78" x2="123.19" y2="25.4" width="0" layer="19" extent="16-16"/>
-<wire x1="120.65" y1="15.24" x2="122.92" y2="17.78" width="0" layer="19" extent="16-16"/>
+<wire x1="120.92" y1="17.78" x2="120.65" y2="25.4" width="0" layer="19" extent="16-16"/>
+<wire x1="120.65" y1="15.24" x2="120.92" y2="17.78" width="0" layer="19" extent="16-16"/>
 <wire x1="120.77065" y1="7.57555" x2="120.65" y2="15.24" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CANH">
 <contactref element="X2" pad="7"/>
+<contactref element="CAN_TERMINATION1" pad="2"/>
+<contactref element="J1" pad="8"/>
 <contactref element="U$3" pad="PIN_6"/>
 <wire x1="95.25" y1="22.86" x2="104.14" y2="13.97" width="0.508" layer="16"/>
 <wire x1="104.14" y1="13.97" x2="118.11" y2="13.97" width="0.508" layer="16"/>
 <wire x1="91.7702" y1="22.86" x2="95.25" y2="22.86" width="0.508" layer="16"/>
 <wire x1="118.11" y1="13.97" x2="119.4943" y2="12.5857" width="0.508" layer="16"/>
 <wire x1="119.4943" y1="12.5857" x2="119.4943" y2="10.3124" width="0.508" layer="16"/>
-<contactref element="CAN_TERMINATION1" pad="1"/>
-<contactref element="J1" pad="7"/>
-<wire x1="120.92" y1="17.78" x2="120.65" y2="25.4" width="0" layer="19" extent="16-16"/>
-<wire x1="118.11" y1="13.97" x2="120.92" y2="17.78" width="0" layer="19" extent="16-16"/>
+<wire x1="122.92" y1="17.78" x2="123.19" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="118.11" y1="13.97" x2="122.92" y2="17.78" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="5V">
 <contactref element="X2" pad="9"/>

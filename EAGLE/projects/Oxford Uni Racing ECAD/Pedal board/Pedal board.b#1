@@ -331,6 +331,30 @@ chip</description>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="21"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 </package>
+<package name="C050-024X044" urn="urn:adsk.eagle:footprint:6239710/1" library_version="2">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 5 mm, outline 2.4 x 4.4 mm</description>
+<wire x1="-2.159" y1="-0.635" x2="-2.159" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-2.159" y1="0.635" x2="-1.651" y2="1.143" width="0.1524" layer="21" curve="-90" cap="flat"/>
+<wire x1="-2.159" y1="-0.635" x2="-1.651" y2="-1.143" width="0.1524" layer="21" curve="90" cap="flat"/>
+<wire x1="1.651" y1="1.143" x2="-1.651" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="-0.635" x2="2.159" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="1.651" y1="-1.143" x2="-1.651" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="1.651" y1="1.143" x2="2.159" y2="0.635" width="0.1524" layer="21" curve="-90" cap="flat"/>
+<wire x1="1.651" y1="-1.143" x2="2.159" y2="-0.635" width="0.1524" layer="21" curve="90" cap="flat"/>
+<wire x1="-0.3048" y1="0.762" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
+<wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.762" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0.762" x2="0.3302" y2="0" width="0.3048" layer="21"/>
+<wire x1="0.3302" y1="0" x2="0.3302" y2="-0.762" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="0" x2="0.3302" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-0.3048" y2="0" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<text x="-2.159" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.159" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="2.159" y1="-0.381" x2="2.54" y2="0.381" layer="51"/>
+<rectangle x1="-2.54" y1="-0.381" x2="-2.159" y2="0.381" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C050-025X075" urn="urn:adsk.eagle:package:6240357/1" type="box" library_version="2">
@@ -352,6 +376,13 @@ grid 5 mm, outline 2.5 x 7.5 mm</description>
 chip</description>
 <packageinstances>
 <packageinstance name="R0805"/>
+</packageinstances>
+</package3d>
+<package3d name="C050-024X044" urn="urn:adsk.eagle:package:6240356/1" type="box" library_version="2">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 5 mm, outline 2.4 x 4.4 mm</description>
+<packageinstances>
+<packageinstance name="C050-024X044"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -908,10 +939,18 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="19.939" y="69.85" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
 <element name="U$1" library="Oxford Uni Racing Custom Blueprints" package="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3" value="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3" x="64.77" y="29.21" smashed="yes" rot="MR0"/>
-<element name="U$2" library="SparkFun-IC-Amplifiers" library_urn="urn:adsk.eagle:library:520" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:38670/1" value="MCP6021T" x="72.39" y="17.78" smashed="yes" rot="MR270">
+<element name="U$2" library="SparkFun-IC-Amplifiers" library_urn="urn:adsk.eagle:library:520" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:38670/1" value="TLV170IDBVR" x="72.39" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="72.39" y="19.685" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-12504" x="72.39" y="17.78" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="72.39" y="15.24" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+</element>
+<element name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:6240356/1" value="0.47uF" x="3.81" y="-3.81" smashed="yes">
+<attribute name="NAME" x="1.651" y="-2.413" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="1.651" y="-6.477" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:6240356/1" value="0.1uF" x="3.81" y="-11.43" smashed="yes">
+<attribute name="NAME" x="1.651" y="-10.033" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="1.651" y="-14.097" size="1.27" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
@@ -945,8 +984,24 @@ design rules under a new name.</description>
 <wire x1="93.98" y1="30.48" x2="93.98" y2="27.94" width="1.27" layer="16"/>
 <wire x1="93.98" y1="19.05" x2="93.98" y2="16.51" width="1.27" layer="16"/>
 <contactref element="U$1" pad="J803-3"/>
-<wire x1="64.77" y1="49.53" x2="64.77" y2="34.29" width="0" layer="19" extent="1-1"/>
+<contactref element="C1" pad="2"/>
+<contactref element="C2" pad="2"/>
+<wire x1="96.3676" y1="79.0829" x2="97.79" y2="100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="99.2124" y1="74.93" x2="96.3676" y2="79.0829" width="0" layer="19" extent="1-1"/>
+<wire x1="88.9" y1="57.15" x2="99.2124" y2="74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="86.36" y1="52.07" x2="88.9" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="81.55" y1="52.07" x2="86.36" y2="52.07" width="0" layer="19" extent="16-16"/>
+<wire x1="86.36" y1="39.37" x2="86.36" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="93.98" y1="30.48" x2="86.36" y2="39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="93.98" y1="19.05" x2="93.98" y2="27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="77.74" y1="19.05" x2="93.98" y2="19.05" width="0" layer="19" extent="16-16"/>
 <wire x1="73.6901" y1="17.78" x2="77.74" y2="19.05" width="0" layer="19" extent="16-16"/>
+<wire x1="64.77" y1="52.07" x2="81.55" y2="52.07" width="0" layer="19" extent="16-16"/>
+<wire x1="64.77" y1="49.53" x2="64.77" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="34.29" x2="64.77" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="70.95" x2="64.77" y2="52.07" width="0" layer="19" extent="16-16"/>
+<wire x1="6.35" y1="-3.81" x2="64.77" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="-11.43" x2="6.35" y2="-3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V">
 <contactref element="IC4" pad="3"/>
@@ -963,6 +1018,8 @@ design rules under a new name.</description>
 <wire x1="86.36" y1="44.45" x2="68.58" y2="44.45" width="1.27" layer="16"/>
 <wire x1="67.31" y1="19.05" x2="67.63" y2="18.73" width="0.508" layer="16"/>
 <wire x1="67.63" y1="18.73" x2="71.0899" y2="18.73" width="0.508" layer="16"/>
+<contactref element="C2" pad="1"/>
+<wire x1="1.27" y1="-11.43" x2="59.69" y2="26.67" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CANL">
 <contactref element="X2" pad="2"/>
@@ -1041,6 +1098,8 @@ design rules under a new name.</description>
 <wire x1="93.98" y1="70.7771" x2="69.5071" y2="70.7771" width="1.27" layer="16"/>
 <wire x1="61.96" y1="68.85" x2="62.23" y2="68.58" width="0.508" layer="16"/>
 <wire x1="22.54" y1="68.85" x2="61.96" y2="68.85" width="0.508" layer="16"/>
+<contactref element="C1" pad="1"/>
+<wire x1="1.27" y1="-3.81" x2="53.34" y2="21.59" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$26">
 <contactref element="IC4" pad="1"/>
@@ -1168,6 +1227,15 @@ design rules under a new name.</description>
 <approved hash="5,16,bf55e5695cac18f6"/>
 <approved hash="5,16,3bee421b034b0eba"/>
 <approved hash="5,16,f48cf97ba629dfda"/>
+<approved hash="5,16,a087f59f26cf2de7"/>
+<approved hash="5,16,2dda75a7260f2042"/>
+<approved hash="5,16,6e7adeddbc97b4dd"/>
+<approved hash="5,16,34f0cce8213fdc33"/>
+<approved hash="5,16,cf63199990c9d238"/>
+<approved hash="5,16,280e6af6fdab2b58"/>
+<approved hash="5,16,ee69d6a120c24f00"/>
+<approved hash="5,16,e781925042547535"/>
+<approved hash="5,16,90ef29d390162f4c"/>
 </errors>
 </board>
 </drawing>

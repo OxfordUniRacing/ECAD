@@ -6569,6 +6569,7 @@ Grid 5.00 mm&lt;p&gt;
 <attribute name="NAME" x="169.6974" y="149.86" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="172.4914" y="149.86" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="IC1" gate="P" x="129.54" y="132.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -6582,7 +6583,12 @@ Grid 5.00 mm&lt;p&gt;
 <segment>
 <pinref part="R22" gate="1" pin="A"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="109.22" y1="111.76" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="111.76" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="P" pin="V-"/>
+<wire x1="109.22" y1="109.22" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="124.46" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
+<junction x="109.22" y="109.22"/>
 </segment>
 <segment>
 <pinref part="IMD_THRESHOLD_TR" gate="G$1" pin="S"/>
@@ -6604,7 +6610,12 @@ Grid 5.00 mm&lt;p&gt;
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY3" gate="G$1" pin="12V"/>
-<wire x1="149.86" y1="147.32" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="147.32" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="P" pin="V+"/>
+<wire x1="149.86" y1="149.86" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="139.7" x2="129.54" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="149.86" x2="149.86" y2="149.86" width="0.1524" layer="91"/>
+<junction x="149.86" y="149.86"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="12V"/>

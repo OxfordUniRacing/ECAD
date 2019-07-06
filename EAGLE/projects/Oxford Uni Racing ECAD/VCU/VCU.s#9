@@ -18724,6 +18724,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY32" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY33" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="R22" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="1K"/>
+<part name="R23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="47K"/>
+<part name="GND25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND51" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="AUDIO_OUT_TR" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MOSFET-N" device="REFLOW" package3d_urn="urn:adsk.eagle:package:6240836/1" value="IRLML2502GTRPBF"/>
 </parts>
 <sheets>
 <sheet>
@@ -20787,7 +20792,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="360.68" y="129.54"/>
 </segment>
 </net>
-<net name="AIR_COILS" class="0">
+<net name="AUDIO_OUT" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="J5030-D7"/>
 <wire x1="287.02" y1="83.82" x2="304.8" y2="83.82" width="0.1524" layer="91"/>
@@ -21706,6 +21711,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND12" gate="1" x="40.64" y="88.9" smashed="yes" rot="R90">
 <attribute name="VALUE" x="40.894" y="88.9" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
+<instance part="R22" gate="G$1" x="111.76" y="119.38" smashed="yes">
+<attribute name="NAME" x="107.95" y="120.8786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="107.95" y="116.078" size="1.778" layer="96"/>
+</instance>
+<instance part="R23" gate="G$1" x="121.92" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="120.4214" y="105.41" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="125.222" y="105.41" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND25" gate="1" x="142.24" y="93.98" smashed="yes">
+<attribute name="VALUE" x="142.24" y="93.726" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND51" gate="1" x="121.92" y="93.98" smashed="yes">
+<attribute name="VALUE" x="121.92" y="93.726" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="AUDIO_OUT_TR" gate="G$1" x="139.7" y="121.92" smashed="yes">
+<attribute name="NAME" x="144.78" y="122.555" size="1.27" layer="95"/>
+<attribute name="VALUE" x="144.78" y="120.65" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,AIR_C_1,AIR_C_2,AIR_C_3,AIR_COILS,ASS1,ASS2,AUDIO_OUT-,BRAKE_LIGHTS+,BRAKE_LIGHTS-,BRAKE_LIGHTS_OUT,BR_PRESS_2,CANH,CANL,CURR_S_SIG,GND,MC_1_BRAKE_INPUT,MC_1_IMPULSE_INPUT,MC_1_REVERSE_SWITCH,MC_1_RXD,MC_1_THROTTLE_INPUT,MC_1_TXD,MC_2_BRAKE_INPUT,MC_2_IMPULSE_INPUT,MC_2_REVERSE_SWITCH,MC_2_RXD,MC_2_THROTTLE_INPUT,MC_2_TXD,PRESSURE_L_SIG_IN,PRESSURE_L_SIG_OUT,PRESSURE_R_SIG_IN,PRESSURE_R_SIG_OUT,TEMP+_L_OUT,TEMP-_L_OUT,TEMP+_R_OUT,TEMP-_R_OUT,TSAL_STATE">
@@ -21730,6 +21753,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="10.16" y="88.9" size="1.778" layer="95"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="0" y1="88.9" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="104.14" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="GND51" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND25" gate="1" pin="GND"/>
+<pinref part="AUDIO_OUT_TR" gate="G$1" pin="S"/>
+<wire x1="142.24" y1="96.52" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BRAKE_LIGHTS_OUT" class="0">
@@ -21966,12 +21999,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="167.64" x2="10.16" y2="167.64" width="0.1524" layer="91"/>
 <label x="10.16" y="167.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="160.02" y="142.24" size="1.778" layer="95"/>
+<wire x1="142.24" y1="127" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="AUDIO_OUT_TR" gate="G$1" pin="D"/>
+<wire x1="160.02" y1="142.24" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CURR_S_SIG" class="0">
 <segment>
 <wire x1="0" y1="165.1" x2="7.62" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="165.1" x2="10.16" y2="165.1" width="0.1524" layer="91"/>
 <label x="10.16" y="165.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="119.38" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="114.3" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
+<junction x="121.92" y="119.38"/>
+<pinref part="AUDIO_OUT_TR" gate="G$1" pin="G"/>
+<wire x1="121.92" y1="119.38" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AUDIO_OUT" class="0">
+<segment>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="119.38" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
+<label x="76.2" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

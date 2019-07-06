@@ -4338,12 +4338,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="83.058" y="39.243" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="83.058" y="43.307" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="U3" library="SparkFun-IC-Amplifiers" library_urn="urn:adsk.eagle:library:520" package="SO14" package3d_urn="urn:adsk.eagle:package:38668/1" value="LMV324" x="92.71" y="86.36" smashed="yes" rot="MR90">
+<element name="U3" library="SparkFun-IC-Amplifiers" library_urn="urn:adsk.eagle:library:520" package="SO14" package3d_urn="urn:adsk.eagle:package:38668/1" value="TLV4170IDR" x="92.71" y="86.36" smashed="yes" rot="MR90">
 <attribute name="NAME" x="92.71" y="81.915" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-08227" x="92.71" y="86.36" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="92.71" y="92.71" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U$2" library="SparkFun-IC-Amplifiers" library_urn="urn:adsk.eagle:library:520" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:38670/1" value="OPA344" x="87.63" y="7.62" smashed="yes" rot="MR270">
+<element name="U$2" library="SparkFun-IC-Amplifiers" library_urn="urn:adsk.eagle:library:520" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:38670/1" value="TLV170IDBVR" x="87.63" y="7.62" smashed="yes" rot="MR270">
 <attribute name="NAME" x="87.63" y="9.525" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-08251" x="87.63" y="7.62" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="87.63" y="5.08" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
