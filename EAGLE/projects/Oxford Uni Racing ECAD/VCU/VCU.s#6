@@ -21004,9 +21004,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="12.7" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="144.78" y="68.58" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="J5027-AD7"/>
-<wire x1="149.86" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
+<label x="144.78" y="73.66" size="1.778" layer="95" rot="R180"/>
+<wire x1="149.86" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="J5025-AD5"/>
 </segment>
 </net>
 <net name="TEMP_L_IN" class="0">
@@ -21015,9 +21015,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="12.7" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="144.78" y="73.66" size="1.778" layer="95" rot="R180"/>
-<pinref part="U$1" gate="G$1" pin="J5025-AD5"/>
-<wire x1="149.86" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
+<label x="144.78" y="68.58" size="1.778" layer="95" rot="R180"/>
+<wire x1="149.86" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="J5027-AD7"/>
 </segment>
 </net>
 <net name="TEMP_R_OUT" class="0">
@@ -21059,9 +21059,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="12.7" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="20.32" x2="190.5" y2="15.24" width="0.1524" layer="91"/>
-<label x="190.5" y="7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="U$1" gate="G$1" pin="J5072-D24"/>
+<wire x1="271.78" y1="20.32" x2="271.78" y2="15.24" width="0.1524" layer="91"/>
+<label x="271.78" y="7.62" size="1.778" layer="95" rot="R270"/>
+<pinref part="U$1" gate="G$1" pin="J50734-D23"/>
 </segment>
 </net>
 <net name="PRESSURE_R_SIG_IN" class="0">
@@ -21081,9 +21081,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="12.7" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="271.78" y1="20.32" x2="271.78" y2="15.24" width="0.1524" layer="91"/>
-<label x="271.78" y="7.62" size="1.778" layer="95" rot="R270"/>
-<pinref part="U$1" gate="G$1" pin="J50734-D23"/>
+<wire x1="190.5" y1="20.32" x2="190.5" y2="15.24" width="0.1524" layer="91"/>
+<label x="190.5" y="7.62" size="1.778" layer="95" rot="R270"/>
+<pinref part="U$1" gate="G$1" pin="J5072-D24"/>
 </segment>
 </net>
 <net name="AIR_C_1" class="0">
@@ -22498,7 +22498,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="236.22" y1="142.24" x2="236.22" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BR_PRESS" class="0">
+<net name="BR_PRESS_2" class="0">
 <segment>
 <label x="40.64" y="93.98" size="1.778" layer="95" rot="R90"/>
 <wire x1="48.26" y1="88.9" x2="40.64" y2="88.9" width="0.1524" layer="91"/>
