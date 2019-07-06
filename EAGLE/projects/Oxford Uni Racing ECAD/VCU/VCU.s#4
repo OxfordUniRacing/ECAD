@@ -19717,9 +19717,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="299.72" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G4" pin="+IN"/>
-<wire x1="342.9" y1="-5.08" x2="337.82" y2="-5.08" width="0.1524" layer="91"/>
-<label x="299.72" y="-5.08" size="1.778" layer="95"/>
+<wire x1="342.9" y1="17.78" x2="337.82" y2="17.78" width="0.1524" layer="91"/>
+<label x="299.72" y="17.78" size="1.778" layer="95"/>
+<pinref part="U3" gate="G2" pin="+IN"/>
 </segment>
 </net>
 <net name="PRESSURE_R_SIG_IN_UNREG" class="0">
@@ -19729,9 +19729,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="200.66" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G2" pin="+IN"/>
-<wire x1="342.9" y1="17.78" x2="337.82" y2="17.78" width="0.1524" layer="91"/>
-<label x="299.72" y="17.78" size="1.778" layer="95"/>
+<wire x1="342.9" y1="-5.08" x2="337.82" y2="-5.08" width="0.1524" layer="91"/>
+<label x="299.72" y="-5.08" size="1.778" layer="95"/>
+<pinref part="U3" gate="G4" pin="+IN"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -19750,17 +19750,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="PRESSURE_R_SIG_OUT" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="378.46" y1="-2.54" x2="383.54" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="383.54" y1="-2.54" x2="388.62" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="383.54" y1="-2.54" x2="383.54" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="383.54" y="-2.54"/>
-<label x="383.54" y="-10.16" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="0" y1="111.76" x2="5.08" y2="111.76" width="0.1524" layer="91"/>
 <label x="12.7" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="388.62" y1="20.32" x2="383.54" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="20.32" x2="378.46" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="20.32" x2="383.54" y2="15.24" width="0.1524" layer="91"/>
+<junction x="383.54" y="20.32"/>
+<label x="383.54" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -19808,17 +19808,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="PRESSURE_R_SIG_IN" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="378.46" y1="20.32" x2="383.54" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="383.54" y1="20.32" x2="388.62" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="383.54" y1="20.32" x2="383.54" y2="15.24" width="0.1524" layer="91"/>
-<junction x="383.54" y="20.32"/>
-<label x="383.54" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="0" y1="114.3" x2="5.08" y2="114.3" width="0.1524" layer="91"/>
 <label x="12.7" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="378.46" y1="-2.54" x2="383.54" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="-2.54" x2="388.62" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="-2.54" x2="383.54" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="383.54" y="-2.54"/>
+<label x="383.54" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$21" class="0">
