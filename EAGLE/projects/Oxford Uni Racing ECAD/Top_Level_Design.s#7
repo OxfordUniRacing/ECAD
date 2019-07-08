@@ -146,13 +146,12 @@
 <port name="GND_OUT" side="top" coord="-15.24" direction="io"/>
 <port name="DISPL_SPI_DATA" side="top" coord="-10.16" direction="io"/>
 <port name="DISPL_SPI_CL" side="top" coord="-7.62" direction="io"/>
-<port name="ASS1" side="bottom" coord="7.62" direction="io"/>
-<port name="ASS2" side="bottom" coord="10.16" direction="io"/>
 <port name="BUTTONS_LOTS_OF_LINES" side="top" coord="2.54" direction="io"/>
 <port name="CAN0_OUT" side="top" coord="7.62" direction="io"/>
 <port name="CAN1_OUT" side="top" coord="10.16" direction="io"/>
 <port name="AUDIO+" side="top" coord="15.24" direction="io"/>
 <port name="AUDIO-" side="top" coord="17.78" direction="io"/>
+<port name="DISPL_CS" side="top" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -294,6 +293,7 @@
 <port name="GND" side="right" coord="-5.08" direction="io"/>
 <port name="SDA" side="right" coord="7.62" direction="io"/>
 <port name="SCL" side="right" coord="5.08" direction="io"/>
+<port name="CS" side="right" coord="2.54" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -1107,16 +1107,7 @@
 <segment>
 <portref moduleinst="VCU1" port="ASS1"/>
 <wire x1="91.44" y1="-22.86" x2="91.44" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-12.7" x2="132.08" y2="-12.7" width="0.1524" layer="91"/>
-<portref moduleinst="DASHBOARD1" port="ASS1"/>
-<wire x1="132.08" y1="-12.7" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<portref moduleinst="DASHBOARD1" port="ASS2"/>
-<wire x1="134.62" y1="25.4" x2="134.62" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="-12.7" x2="233.68" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-12.7" x2="233.68" y2="-12.7" width="0.1524" layer="91"/>
 <portref moduleinst="PEDAL_BOARD1" port="ASS1"/>
 <wire x1="233.68" y1="-12.7" x2="233.68" y2="25.4" width="0.1524" layer="91"/>
 </segment>
@@ -1380,6 +1371,14 @@
 <wire x1="132.08" y1="-66.04" x2="132.08" y2="-53.34" width="0.1524" layer="91"/>
 <portref moduleinst="VCU1" port="5V"/>
 <wire x1="132.08" y1="-53.34" x2="116.84" y2="-53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<portref moduleinst="DASHBOARD1" port="DISPL_CS"/>
+<wire x1="119.38" y1="71.12" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
+<portref moduleinst="DISPLAY1" port="CS"/>
+<wire x1="119.38" y1="121.92" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
