@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -156,12 +156,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="152.4" y1="-50.8" x2="152.4" y2="129.54" width="0.1524" layer="20"/>
-<wire x1="152.4" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="20"/>
-<wire x1="38.1" y1="129.54" x2="38.1" y2="-50.8" width="0.1524" layer="20"/>
-<wire x1="38.1" y1="-50.8" x2="38.1" y2="-53.34" width="0.127" layer="20"/>
-<wire x1="38.1" y1="-53.34" x2="152.4" y2="-53.34" width="0.127" layer="20"/>
-<wire x1="152.4" y1="-53.34" x2="152.4" y2="-50.8" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
+<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
+<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="holes">
@@ -486,221 +484,214 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="ACCUMULATOR_LV_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="140.97" y="-12.7" smashed="yes">
-<attribute name="NAME" x="100.33" y="-7.62" size="2.54" layer="25"/>
+<element name="ACCUMULATOR_LV_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-64.77" y="100.33" smashed="yes">
+<attribute name="NAME" x="-58.42" y="99.06" size="2.54" layer="25"/>
 </element>
-<element name="ACCUMULATOR_LV_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="140.97" y="2.54" smashed="yes">
-<attribute name="NAME" x="93.98" y="7.62" size="2.54" layer="25"/>
+<element name="ACCUMULATOR_LV_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-135.89" y="74.93" smashed="yes">
+<attribute name="NAME" x="-129.54" y="73.66" size="2.54" layer="25"/>
 </element>
-<element name="ASS+" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="50.8" y="-12.7" smashed="yes">
-<attribute name="NAME" x="54.61" y="-8.89" size="2.54" layer="25"/>
+<element name="ASS+" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-30.48" y="176.53" smashed="yes">
+<attribute name="NAME" x="-24.13" y="175.26" size="2.54" layer="25"/>
 </element>
-<element name="ASS-" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="50.8" y="-27.94" smashed="yes">
-<attribute name="NAME" x="54.61" y="-24.13" size="2.54" layer="25"/>
+<element name="ASS-" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-53.34" y="176.53" smashed="yes">
+<attribute name="NAME" x="-46.99" y="175.26" size="2.54" layer="25"/>
 </element>
-<element name="ASS_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="140.97" y="106.68" smashed="yes">
-<attribute name="NAME" x="132.08" y="111.76" size="2.54" layer="25"/>
+<element name="ASS_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-69.85" y="151.13" smashed="yes">
+<attribute name="NAME" x="-63.5" y="149.86" size="2.54" layer="25"/>
 </element>
-<element name="ASS_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="140.97" y="120.65" smashed="yes">
-<attribute name="NAME" x="128.27" y="125.73" size="2.54" layer="25"/>
+<element name="ASS_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-81.28" y="138.43" smashed="yes">
+<attribute name="NAME" x="-74.93" y="137.16" size="2.54" layer="25"/>
 </element>
-<element name="COMPETITION_DATALOGGER_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="140.97" y="77.47" smashed="yes">
-<attribute name="NAME" x="83.82" y="82.55" size="2.54" layer="25"/>
+<element name="COMPETITION_DATALOGGER_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-82.55" y="49.53" smashed="yes">
+<attribute name="NAME" x="-76.2" y="48.26" size="2.54" layer="25"/>
 </element>
-<element name="COMPETITION_DATALOGGER_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="140.97" y="91.44" smashed="yes">
-<attribute name="NAME" x="83.82" y="96.52" size="2.54" layer="25"/>
+<element name="COMPETITION_DATALOGGER_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-88.9" y="24.13" smashed="yes">
+<attribute name="NAME" x="-82.55" y="22.86" size="2.54" layer="25"/>
 </element>
-<element name="COOLING_PUMP_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="140.97" y="-43.18" smashed="yes">
-<attribute name="NAME" x="151.13" y="-48.26" size="2.54" layer="25" rot="R180"/>
+<element name="COOLING_PUMP_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-59.69" y="113.03" smashed="yes">
+<attribute name="NAME" x="-53.34" y="111.76" size="2.54" layer="25"/>
 </element>
-<element name="COOLING_PUMP_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="140.97" y="-27.94" smashed="yes">
-<attribute name="NAME" x="100.33" y="-22.86" size="2.54" layer="25"/>
+<element name="COOLING_PUMP_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-125.73" y="87.63" smashed="yes">
+<attribute name="NAME" x="-119.38" y="86.36" size="2.54" layer="25"/>
 </element>
-<element name="F1" library="SamacSys_Parts" package="01530008" value="Unknown" x="119.38" y="111.76" smashed="yes" rot="MR90">
-<attribute name="ALLIED_NUMBER" value="70184304" x="110.49" y="129.54" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="110.49" y="129.54" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="HEIGHT" value="mm" x="110.49" y="129.54" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="110.49" y="129.54" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="110.49" y="129.54" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="108.0582" y="112.5392" size="1.27" layer="26" rot="MR90" align="center"/>
-<attribute name="RS_PART_NUMBER" value="3607317" x="110.49" y="129.54" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="110.49" y="129.54" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="VALUE" x="104.2482" y="111.2692" size="1.27" layer="28" rot="MR90" align="center"/>
+<element name="F1" library="SamacSys_Parts" package="01530008" value="Unknown" x="-17.78" y="8.89" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70184304" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-18.2708" y="8.9982" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-18.2708" y="8.9982" size="1.27" layer="27" align="center"/>
 </element>
-<element name="F2" library="SamacSys_Parts" package="01530008" value="1A" x="74.93" y="-22.86" smashed="yes" rot="R180">
-<attribute name="ALLIED_NUMBER" value="70184304" x="39.37" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="39.37" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="39.37" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="39.37" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="39.37" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="75.4208" y="-22.9682" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="3607317" x="39.37" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="39.37" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="75.4208" y="-22.9682" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="F2" library="SamacSys_Parts" package="01530008" value="1A" x="-35.56" y="8.89" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70184304" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-36.0508" y="8.9982" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-36.0508" y="8.9982" size="1.27" layer="27" align="center"/>
 </element>
-<element name="F3" library="SamacSys_Parts" package="01530008" value="2A" x="93.98" y="-22.86" smashed="yes" rot="R180">
-<attribute name="ALLIED_NUMBER" value="70184304" x="49.53" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="49.53" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="49.53" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="49.53" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="49.53" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="94.4708" y="-22.9682" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="3607317" x="49.53" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="49.53" y="-13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="90.6608" y="-22.9682" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="F3" library="SamacSys_Parts" package="01530008" value="2A" x="-44.45" y="8.89" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70184304" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-44.9408" y="8.9982" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-44.9408" y="8.9982" size="1.27" layer="27" align="center"/>
 </element>
-<element name="F4" library="SamacSys_Parts" package="01530008" value="1A" x="119.38" y="91.44" smashed="yes" rot="R270">
-<attribute name="ALLIED_NUMBER" value="70184304" x="110.49" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="110.49" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="mm" x="110.49" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="110.49" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="110.49" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="119.4882" y="91.9308" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="RS_PART_NUMBER" value="3607317" x="110.49" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="110.49" y="38.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="106.7882" y="91.9308" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="F4" library="SamacSys_Parts" package="01530008" value="1A" x="-53.34" y="8.89" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70184304" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-53.8308" y="8.9982" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-53.8308" y="8.9982" size="1.27" layer="27" align="center"/>
 </element>
-<element name="F5" library="SamacSys_Parts" package="01530008" value="2A" x="119.790209375" y="63.593978125" smashed="yes" rot="R270">
-<attribute name="ALLIED_NUMBER" value="70184304" x="110.900209375" y="1.363978125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="110.900209375" y="1.363978125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="mm" x="110.900209375" y="1.363978125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="110.900209375" y="1.363978125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="110.900209375" y="1.363978125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="119.898409375" y="64.084778125" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="RS_PART_NUMBER" value="3607317" x="110.900209375" y="1.363978125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="110.900209375" y="1.363978125" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="119.898409375" y="64.084778125" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="F5" library="SamacSys_Parts" package="01530008" value="2A" x="-62.23" y="8.89" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70184304" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-62.7208" y="8.9982" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-62.7208" y="8.9982" size="1.27" layer="27" align="center"/>
 </element>
-<element name="F6" library="SamacSys_Parts" package="01530008" value="Unknown" x="120.47855" y="2.599690625" smashed="yes" rot="R270">
-<attribute name="ALLIED_NUMBER" value="70184304" x="111.58855" y="-24.070309375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="111.58855" y="-24.070309375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="mm" x="111.58855" y="-24.070309375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="111.58855" y="-24.070309375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="111.58855" y="-24.070309375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="120.58675" y="3.090490625" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="RS_PART_NUMBER" value="3607317" x="111.58855" y="-24.070309375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="111.58855" y="-24.070309375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="120.58675" y="3.090490625" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="F6" library="SamacSys_Parts" package="01530008" value="Unknown" x="-26.67" y="8.89" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70184304" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-27.1608" y="8.9982" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-27.1608" y="8.9982" size="1.27" layer="27" align="center"/>
 </element>
-<element name="F7" library="SamacSys_Parts" package="01530008" value="2A" x="120.784621875" y="-26.5938" smashed="yes" rot="R270">
-<attribute name="ALLIED_NUMBER" value="70184304" x="111.894621875" y="-97.7138" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="111.894621875" y="-97.7138" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="mm" x="111.894621875" y="-97.7138" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="111.894621875" y="-97.7138" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="111.894621875" y="-97.7138" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="120.892821875" y="-26.103" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="RS_PART_NUMBER" value="3607317" x="111.894621875" y="-97.7138" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="111.894621875" y="-97.7138" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="120.892821875" y="-26.103" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="F7" library="SamacSys_Parts" package="01530008" value="2A" x="-71.12" y="8.89" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70184304" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-71.6108" y="8.9982" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-71.6108" y="8.9982" size="1.27" layer="27" align="center"/>
 </element>
-<element name="F8" library="SamacSys_Parts" package="01530008" value="1A" x="120.5001375" y="32.18053125" smashed="yes" rot="R270">
-<attribute name="ALLIED_NUMBER" value="70184304" x="111.6101375" y="-47.82946875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="111.6101375" y="-47.82946875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="mm" x="111.6101375" y="-47.82946875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="111.6101375" y="-47.82946875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="111.6101375" y="-47.82946875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="109.216878125" y="34.32454375" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="3607317" x="111.6101375" y="-47.82946875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="111.6101375" y="-47.82946875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="109.254978125" y="32.5605125" size="1.27" layer="27" align="center"/>
+<element name="F8" library="SamacSys_Parts" package="01530008" value="1A" x="-80.01" y="8.89" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70184304" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-80.5008" y="8.9982" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-80.5008" y="8.9982" size="1.27" layer="27" align="center"/>
 </element>
-<element name="GLV+_MP" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="50.118009375" y="68.49618125" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.52618125" y="73.071990625" size="2.54" layer="25"/>
+<element name="GLV+_MP" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-100.33" y="151.13" smashed="yes">
+<attribute name="NAME" x="-93.98" y="149.86" size="2.54" layer="25"/>
 </element>
-<element name="GLV-_MP" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="50.118009375" y="51.98618125" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.52618125" y="56.561990625" size="2.54" layer="25"/>
+<element name="GLV-_MP" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-66.04" y="163.83" smashed="yes">
+<attribute name="NAME" x="-59.69" y="162.56" size="2.54" layer="25"/>
 </element>
-<element name="HV_CONTROL_UNIT_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="140.97" y="17.78" smashed="yes">
-<attribute name="NAME" x="99.06" y="22.86" size="2.54" layer="25"/>
+<element name="HV_CONTROL_UNIT_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-66.04" y="87.63" smashed="yes">
+<attribute name="NAME" x="-59.69" y="86.36" size="2.54" layer="25"/>
 </element>
-<element name="HV_CONTROL_UNIT_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="140.97" y="31.75" smashed="yes">
-<attribute name="NAME" x="92.71" y="36.83" size="2.54" layer="25"/>
+<element name="HV_CONTROL_UNIT_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-72.39" y="74.93" smashed="yes">
+<attribute name="NAME" x="-66.04" y="73.66" size="2.54" layer="25"/>
 </element>
-<element name="INS_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="57.19775" y="-42.264834375" smashed="yes">
-<attribute name="NAME" x="52.11775" y="-49.884834375" size="2.54" layer="25" rot="R90"/>
+<element name="INS_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-36.83" y="163.83" smashed="yes">
+<attribute name="NAME" x="-30.48" y="162.56" size="2.54" layer="25"/>
 </element>
-<element name="INS_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="74.0951" y="-42.49851875" smashed="yes">
-<attribute name="NAME" x="69.0151" y="-43.76851875" size="2.54" layer="25" rot="R90"/>
+<element name="INS_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-116.84" y="138.43" smashed="yes">
+<attribute name="NAME" x="-110.49" y="137.16" size="2.54" layer="25"/>
 </element>
-<element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="LED3MM" package3d_urn="urn:adsk.eagle:package:6240537/1" value="" x="92.71" y="60.96" smashed="yes" rot="MR270">
-<attribute name="NAME" x="92.329" y="71.755" size="1.27" layer="26" ratio="10" rot="MR270"/>
-<attribute name="VALUE" x="94.361" y="59.055" size="1.27" layer="28" ratio="10" rot="MR270"/>
+<element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="LED3MM" package3d_urn="urn:adsk.eagle:package:6240537/1" value="" x="-82.55" y="172.72" smashed="yes">
+<attribute name="NAME" x="-80.645" y="173.101" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-80.645" y="171.069" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="LVB+_MP" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="49.9872" y="99.418140625" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.698140625" y="103.6828" size="2.54" layer="25"/>
+<element name="LVB+_MP" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-130.81" y="151.13" smashed="yes">
+<attribute name="NAME" x="-124.46" y="149.86" size="2.54" layer="25"/>
 </element>
-<element name="LV_BATTERY_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="50.69205" y="37.296090625" smashed="yes">
-<attribute name="NAME" x="54.50205" y="41.106090625" size="2.54" layer="25"/>
+<element name="LV_BATTERY_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-106.68" y="125.73" smashed="yes">
+<attribute name="NAME" x="-100.33" y="124.46" size="2.54" layer="25"/>
 </element>
-<element name="LV_BATTERY_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="49.1528125" y="84.7064625" smashed="yes">
-<attribute name="NAME" x="52.9628125" y="88.5164625" size="2.54" layer="25"/>
+<element name="LV_BATTERY_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-59.69" y="125.73" smashed="yes">
+<attribute name="NAME" x="-53.34" y="124.46" size="2.54" layer="25"/>
 </element>
-<element name="LV_MASTER_SWITCH+" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="85.454490625" y="119.43715" smashed="yes">
-<attribute name="NAME" x="91.804490625" y="118.16715" size="2.54" layer="25"/>
+<element name="LV_MASTER_SWITCH+" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-118.11" y="100.33" smashed="yes">
+<attribute name="NAME" x="-111.76" y="99.06" size="2.54" layer="25"/>
 </element>
-<element name="LV_MASTER_SWITCH-" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="68.944490625" y="119.43715" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.594490625" y="120.70715" size="2.54" layer="25" rot="R180"/>
+<element name="LV_MASTER_SWITCH-" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-113.03" y="113.03" smashed="yes">
+<attribute name="NAME" x="-106.68" y="111.76" size="2.54" layer="25"/>
 </element>
-<element name="PEDAL/DASHBOARD_UNIT_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="140.97" y="46.99" smashed="yes">
-<attribute name="NAME" x="87.63" y="52.07" size="2.54" layer="25"/>
+<element name="PEDAL/DASHBOARD_UNIT_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-77.47" y="62.23" smashed="yes">
+<attribute name="NAME" x="-71.12" y="60.96" size="2.54" layer="25"/>
 </element>
-<element name="PEDAL/DASHBOARD_UNIT_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="140.97" y="62.23" smashed="yes">
-<attribute name="NAME" x="83.82" y="67.31" size="2.54" layer="25"/>
+<element name="PEDAL/DASHBOARD_UNIT_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-82.55" y="36.83" smashed="yes">
+<attribute name="NAME" x="-76.2" y="35.56" size="2.54" layer="25"/>
 </element>
-<element name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0207/12" package3d_urn="urn:adsk.eagle:package:6240598/1" value="10K" x="92.71" y="46.99" smashed="yes" rot="R270">
-<attribute name="NAME" x="94.107" y="50.165" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="92.0242" y="49.276" size="1.27" layer="27" ratio="10" rot="R270"/>
+<element name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="0207/12" package3d_urn="urn:adsk.eagle:package:6240598/1" value="10K" x="-67.31" y="171.45" smashed="yes">
+<attribute name="NAME" x="-70.485" y="172.847" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-69.596" y="170.7642" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="TSMS+" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="50.8" y="20.32" smashed="yes">
-<attribute name="NAME" x="54.61" y="24.13" size="2.54" layer="25"/>
+<element name="TSMS+" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-92.71" y="163.83" smashed="yes">
+<attribute name="NAME" x="-86.36" y="162.56" size="2.54" layer="25"/>
 </element>
-<element name="TSMS-" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="50.8" y="5.08" smashed="yes">
-<attribute name="NAME" x="54.61" y="8.89" size="2.54" layer="25"/>
+<element name="TSMS-" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-118.11" y="163.83" smashed="yes">
+<attribute name="NAME" x="-111.76" y="162.56" size="2.54" layer="25"/>
 </element>
-<element name="VCU_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="109.65636875" y="-42.83506875" smashed="yes">
-<attribute name="NAME" x="102.03636875" y="-26.32506875" size="2.54" layer="25" rot="R270"/>
+<element name="VCU_GND" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-38.1" y="151.13" smashed="yes">
+<attribute name="NAME" x="-31.75" y="149.86" size="2.54" layer="25"/>
 </element>
-<element name="VCU_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="94.556071875" y="-42.646853125" smashed="yes">
-<attribute name="NAME" x="89.476071875" y="-45.186853125" size="2.54" layer="25" rot="R90"/>
+<element name="VCU_SUPPLY" library="holes" package="4,1-PAD" package3d_urn="urn:adsk.eagle:package:14285/1" value="MOUNT-PAD-ROUND4.1" x="-44.45" y="138.43" smashed="yes">
+<attribute name="NAME" x="-38.1" y="137.16" size="2.54" layer="25"/>
 </element>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="F2" pad="1"/>
 <contactref element="INS_SUPPLY" pad="B4,1"/>
-<wire x1="73.2028" y1="-26.67" x2="74.0951" y2="-27.5623" width="2.54" layer="16"/>
-<wire x1="74.0951" y1="-27.5623" x2="74.0951" y2="-42.49851875" width="2.54" layer="16"/>
+<wire x1="-116.84" y1="138.43" x2="-33.8328" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="F1" pad="1"/>
 <contactref element="ASS_SUPPLY" pad="B4,1"/>
-<wire x1="123.19" y1="113.4872" x2="130.3528" y2="120.65" width="2.54" layer="16"/>
-<wire x1="130.3528" y1="120.65" x2="140.97" y2="120.65" width="2.54" layer="16"/>
+<wire x1="-16.0528" y1="12.7" x2="-81.28" y2="138.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="F3" pad="1"/>
 <contactref element="VCU_SUPPLY" pad="B4,1"/>
-<wire x1="92.2528" y1="-26.67" x2="92.532959375" y2="-26.950159375" width="2.54" layer="16"/>
-<wire x1="92.532959375" y1="-26.950159375" x2="92.532959375" y2="-40.623740625" width="2.54" layer="16"/>
-<wire x1="92.532959375" y1="-40.623740625" x2="94.556071875" y2="-42.646853125" width="2.54" layer="16"/>
+<wire x1="-42.7228" y1="12.7" x2="-44.45" y2="138.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="F4" pad="1"/>
 <contactref element="COMPETITION_DATALOGGER_SUPPLY" pad="B4,1"/>
-<wire x1="123.19" y1="89.7128" x2="124.9172" y2="91.44" width="2.54" layer="16"/>
-<wire x1="124.9172" y1="91.44" x2="140.97" y2="91.44" width="2.54" layer="16"/>
+<wire x1="-51.6128" y1="12.7" x2="-88.9" y2="24.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="F5" pad="1"/>
 <contactref element="PEDAL/DASHBOARD_UNIT_SUPPLY" pad="B4,1"/>
-<wire x1="123.600209375" y1="61.866778125" x2="140.606778125" y2="61.866778125" width="2.54" layer="16"/>
-<wire x1="140.606778125" y1="61.866778125" x2="140.97" y2="62.23" width="2.54" layer="16"/>
+<wire x1="-82.55" y1="36.83" x2="-60.5028" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="F6" pad="1"/>
 <contactref element="ACCUMULATOR_LV_SUPPLY" pad="B4,1"/>
-<wire x1="124.28855" y1="0.872490625" x2="139.302490625" y2="0.872490625" width="2.54" layer="16"/>
-<wire x1="139.302490625" y1="0.872490625" x2="140.97" y2="2.54" width="2.54" layer="16"/>
+<wire x1="-24.9428" y1="12.7" x2="-135.89" y2="74.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+12V">
 <contactref element="F3" pad="2"/>
@@ -714,45 +705,23 @@ design rules under a new name.</description>
 <contactref element="F6" pad="2"/>
 <contactref element="F7" pad="2"/>
 <contactref element="F8" pad="2"/>
-<wire x1="68.944490625" y1="119.43715" x2="76.507340625" y2="127" width="2.54" layer="16"/>
-<wire x1="98.6028" y1="127" x2="76.507340625" y2="127" width="2.54" layer="16"/>
-<wire x1="114.710209375" y1="92.307409375" x2="114.710209375" y2="66.591178125" width="2.54" layer="16"/>
-<wire x1="115.980209375" y1="65.321178125" x2="114.710209375" y2="66.591178125" width="2.54" layer="16"/>
-<wire x1="115.57" y1="93.1672" x2="114.710209375" y2="92.307409375" width="2.54" layer="16"/>
-<wire x1="115.980209375" y1="68.58" x2="115.980209375" y2="65.321178125" width="2.54" layer="16"/>
-<wire x1="115.980209375" y1="65.321178125" x2="115.4201375" y2="64.76110625" width="2.54" layer="16"/>
-<wire x1="115.4201375" y1="64.76110625" x2="115.4201375" y2="35.17773125" width="2.54" layer="16"/>
-<wire x1="115.4201375" y1="35.17773125" x2="116.6901375" y2="33.90773125" width="2.54" layer="16"/>
-<wire x1="115.39855" y1="32.61614375" x2="115.39855" y2="5.596890625" width="2.54" layer="16"/>
-<wire x1="116.66855" y1="4.326890625" x2="115.39855" y2="5.596890625" width="2.54" layer="16"/>
-<wire x1="115.39855" y1="32.61614375" x2="116.6901375" y2="33.90773125" width="2.54" layer="16"/>
-<wire x1="116.66855" y1="4.326890625" x2="114.434621875" y2="2.0929625" width="2.54" layer="16"/>
-<wire x1="114.434621875" y1="2.0929625" x2="114.434621875" y2="-22.3266" width="2.54" layer="16"/>
-<wire x1="114.434621875" y1="-22.3266" x2="116.974621875" y2="-24.8666" width="2.54" layer="16"/>
-<wire x1="116.974621875" y1="-24.8666" x2="115.704621875" y2="-23.5966" width="2.54" layer="16"/>
-<wire x1="115.704621875" y1="-23.5966" x2="101.5238" y2="-23.5966" width="2.54" layer="16"/>
-<wire x1="101.5238" y1="-23.5966" x2="96.9772" y2="-19.05" width="2.54" layer="16"/>
-<wire x1="96.9772" y1="-19.05" x2="95.7072" y2="-19.05" width="2.54" layer="16"/>
-<wire x1="95.7072" y1="-19.05" x2="94.4372" y2="-17.78" width="2.54" layer="16"/>
-<wire x1="94.4372" y1="-17.78" x2="77.9272" y2="-17.78" width="2.54" layer="16"/>
-<wire x1="77.9272" y1="-17.78" x2="76.6572" y2="-19.05" width="2.54" layer="16"/>
-<wire x1="50.118009375" y1="68.49618125" x2="115.896390625" y2="68.49618125" width="2.54" layer="16"/>
-<wire x1="115.896390625" y1="68.49618125" x2="115.980209375" y2="68.58" width="2.54" layer="16"/>
-<wire x1="115.980209375" y1="65.321178125" x2="112.88903125" y2="62.23" width="0.8128" layer="16"/>
-<wire x1="112.88903125" y1="62.23" x2="92.71" y2="62.23" width="0.8128" layer="16"/>
-<wire x1="115.57" y1="110.0328" x2="98.6028" y2="127" width="2.54" layer="16"/>
-<wire x1="115.57" y1="110.0328" x2="115.57" y2="93.1672" width="2.54" layer="16"/>
+<wire x1="-100.33" y1="151.13" x2="-83.82" y2="172.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-113.03" y1="113.03" x2="-100.33" y2="151.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.7372" y1="5.08" x2="-113.03" y2="113.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-72.8472" y1="5.08" x2="-81.7372" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.9572" y1="5.08" x2="-72.8472" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.0672" y1="5.08" x2="-63.9572" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.1772" y1="5.08" x2="-55.0672" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.2872" y1="5.08" x2="-46.1772" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.3972" y1="5.08" x2="-37.2872" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.5072" y1="5.08" x2="-28.3972" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="LV_BATTERY_SUPPLY" pad="B4,1"/>
 <contactref element="LV_MASTER_SWITCH+" pad="B4,1"/>
 <contactref element="LVB+_MP" pad="B4,1"/>
-<wire x1="85.454490625" y1="119.43715" x2="65.43548125" y2="99.418140625" width="2.54" layer="16"/>
-<wire x1="65.43548125" y1="99.418140625" x2="49.9872" y2="99.418140625" width="2.54" layer="16"/>
-<wire x1="49.1528125" y1="84.7064625" x2="57.659275" y2="76.2" width="2.54" layer="16"/>
-<wire x1="57.659275" y1="76.2" x2="60.96" y2="76.2" width="2.54" layer="16"/>
-<wire x1="60.96" y1="76.2" x2="65.43548125" y2="80.67548125" width="2.54" layer="16"/>
-<wire x1="65.43548125" y1="80.67548125" x2="65.43548125" y2="99.418140625" width="2.54" layer="16"/>
+<wire x1="-118.11" y1="100.33" x2="-59.69" y2="125.73" width="0" layer="19" extent="1-1"/>
+<wire x1="-130.81" y1="151.13" x2="-118.11" y2="100.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND1">
 <contactref element="LV_BATTERY_GND" pad="B4,1"/>
@@ -766,70 +735,41 @@ design rules under a new name.</description>
 <contactref element="HV_CONTROL_UNIT_GND" pad="B4,1"/>
 <contactref element="COOLING_PUMP_GND" pad="B4,1"/>
 <contactref element="ACCUMULATOR_LV_GND" pad="B4,1"/>
-<wire x1="140.97" y1="106.68" x2="149.86" y2="97.79" width="2.54" layer="16"/>
-<wire x1="149.86" y1="86.36" x2="140.97" y2="77.47" width="2.54" layer="16"/>
-<wire x1="149.86" y1="97.79" x2="149.86" y2="86.36" width="2.54" layer="16"/>
-<wire x1="140.97" y1="77.47" x2="149.86" y2="68.58" width="2.54" layer="16"/>
-<wire x1="149.86" y1="55.88" x2="140.97" y2="46.99" width="2.54" layer="16"/>
-<wire x1="149.86" y1="68.58" x2="149.86" y2="55.88" width="2.54" layer="16"/>
-<wire x1="140.97" y1="46.99" x2="149.86" y2="38.1" width="2.54" layer="16"/>
-<wire x1="149.86" y1="26.67" x2="140.97" y2="17.78" width="2.54" layer="16"/>
-<wire x1="149.86" y1="38.1" x2="149.86" y2="26.67" width="2.54" layer="16"/>
-<wire x1="140.97" y1="17.78" x2="149.86" y2="8.89" width="2.54" layer="16"/>
-<wire x1="149.86" y1="-3.81" x2="140.97" y2="-12.7" width="2.54" layer="16"/>
-<wire x1="149.86" y1="8.89" x2="149.86" y2="-3.81" width="2.54" layer="16"/>
-<wire x1="140.97" y1="-12.7" x2="149.86" y2="-21.59" width="2.54" layer="16"/>
-<wire x1="149.86" y1="-34.29" x2="140.97" y2="-43.18" width="2.54" layer="16"/>
-<wire x1="149.86" y1="-21.59" x2="149.86" y2="-34.29" width="2.54" layer="16"/>
-<wire x1="109.65636875" y1="-42.83506875" x2="101.5009375" y2="-50.9905" width="2.54" layer="16"/>
-<wire x1="65.923415625" y1="-50.9905" x2="57.19775" y2="-42.264834375" width="2.54" layer="16"/>
-<wire x1="101.5009375" y1="-50.9905" x2="65.923415625" y2="-50.9905" width="2.54" layer="16"/>
-<wire x1="50.118009375" y1="51.98618125" x2="50.118009375" y2="37.87013125" width="2.54" layer="16"/>
-<wire x1="50.69205" y1="37.296090625" x2="50.118009375" y2="37.87013125" width="2.54" layer="16"/>
-<wire x1="50.69205" y1="37.296090625" x2="67.31" y2="20.678140625" width="2.54" layer="16"/>
-<wire x1="67.31" y1="-32.152584375" x2="57.19775" y2="-42.264834375" width="2.54" layer="16"/>
-<wire x1="67.31" y1="20.678140625" x2="67.31" y2="15.24" width="2.54" layer="16"/>
-<wire x1="67.31" y1="15.24" x2="67.31" y2="-32.152584375" width="2.54" layer="16"/>
-<wire x1="92.71" y1="40.64" x2="67.31" y2="15.24" width="0.8128" layer="16"/>
-<polygon width="0.127" layer="16">
-<vertex x="38.1" y="-53.34"/>
-<vertex x="152.4" y="-53.34"/>
-<vertex x="152.4" y="129.54"/>
-<vertex x="38.1" y="129.54"/>
-</polygon>
-<wire x1="109.65636875" y1="-42.83506875" x2="140.62506875" y2="-42.83506875" width="2.54" layer="16"/>
-<wire x1="140.62506875" y1="-42.83506875" x2="140.97" y2="-43.18" width="2.54" layer="16"/>
+<wire x1="-38.1" y1="151.13" x2="-36.83" y2="163.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.96" y1="171.45" x2="-36.83" y2="163.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.04" y1="163.83" x2="-60.96" y2="171.45" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.85" y1="151.13" x2="-66.04" y2="163.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.69" y1="113.03" x2="-69.85" y2="151.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.77" y1="100.33" x2="-59.69" y2="113.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.04" y1="87.63" x2="-64.77" y2="100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-77.47" y1="62.23" x2="-66.04" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.55" y1="49.53" x2="-77.47" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="-106.68" y1="125.73" x2="-69.85" y2="151.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="F7" pad="1"/>
 <contactref element="COOLING_PUMP_SUPPLY" pad="B4,1"/>
-<wire x1="124.594621875" y1="-28.321" x2="124.975621875" y2="-27.94" width="2.54" layer="16"/>
-<wire x1="124.975621875" y1="-27.94" x2="140.97" y2="-27.94" width="2.54" layer="16"/>
+<wire x1="-125.73" y1="87.63" x2="-69.3928" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="LED1" pad="K"/>
 <contactref element="R1" pad="1"/>
-<wire x1="92.71" y1="59.69" x2="92.71" y2="53.34" width="0.8128" layer="16"/>
+<wire x1="-81.28" y1="172.72" x2="-73.66" y2="171.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="ASS+" pad="B4,1"/>
 <contactref element="TSMS+" pad="B4,1"/>
-<wire x1="50.8" y1="20.32" x2="60.96" y2="10.16" width="2.54" layer="16"/>
-<wire x1="60.96" y1="-2.54" x2="50.8" y2="-12.7" width="2.54" layer="16"/>
-<wire x1="60.96" y1="10.16" x2="60.96" y2="-2.54" width="2.54" layer="16"/>
+<wire x1="-92.71" y1="163.83" x2="-30.48" y2="176.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="TSMS-" pad="B4,1"/>
 <contactref element="ASS-" pad="B4,1"/>
-<wire x1="50.8" y1="-27.94" x2="41.91" y2="-19.05" width="2.54" layer="16"/>
-<wire x1="41.91" y1="-3.81" x2="50.8" y2="5.08" width="2.54" layer="16"/>
-<wire x1="41.91" y1="-19.05" x2="41.91" y2="-3.81" width="2.54" layer="16"/>
+<wire x1="-118.11" y1="163.83" x2="-53.34" y2="176.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="F8" pad="1"/>
 <contactref element="HV_CONTROL_UNIT_SUPPLY" pad="B4,1"/>
-<wire x1="124.3101375" y1="30.45333125" x2="125.60680625" y2="31.75" width="2.54" layer="16"/>
-<wire x1="125.60680625" y1="31.75" x2="140.97" y2="31.75" width="2.54" layer="16"/>
+<wire x1="-72.39" y1="74.93" x2="-78.2828" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
