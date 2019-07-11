@@ -939,7 +939,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="19.939" y="69.85" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
 <element name="U$1" library="Oxford Uni Racing Custom Blueprints" package="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3" value="SAMC21-XPLAINED-PRO_NO_EXT1&amp;2&amp;3" x="64.77" y="29.21" smashed="yes" rot="MR0"/>
-<element name="U$2" library="SparkFun-IC-Amplifiers" library_urn="urn:adsk.eagle:library:520" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:38670/1" value="MCP6021T" x="72.39" y="17.78" smashed="yes" rot="MR270">
+<element name="U$2" library="SparkFun-IC-Amplifiers" library_urn="urn:adsk.eagle:library:520" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:38670/1" value="TLV170IDBVR" x="72.39" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="72.39" y="19.685" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-12504" x="72.39" y="17.78" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="72.39" y="15.24" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="bottom-center"/>

@@ -945,8 +945,6 @@ design rules under a new name.</description>
 <wire x1="93.98" y1="30.48" x2="93.98" y2="27.94" width="1.27" layer="16"/>
 <wire x1="93.98" y1="19.05" x2="93.98" y2="16.51" width="1.27" layer="16"/>
 <contactref element="U$1" pad="J803-3"/>
-<wire x1="64.77" y1="49.53" x2="64.77" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="73.6901" y1="17.78" x2="77.74" y2="19.05" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="12V">
 <contactref element="IC4" pad="3"/>
@@ -1168,6 +1166,15 @@ design rules under a new name.</description>
 <approved hash="5,16,bf55e5695cac18f6"/>
 <approved hash="5,16,3bee421b034b0eba"/>
 <approved hash="5,16,f48cf97ba629dfda"/>
+<approved hash="5,16,a087f59f26cf2de7"/>
+<approved hash="5,16,2dda75a7260f2042"/>
+<approved hash="5,16,6e7adeddbc97b4dd"/>
+<approved hash="5,16,34f0cce8213fdc33"/>
+<approved hash="5,16,cf63199990c9d238"/>
+<approved hash="5,16,280e6af6fdab2b58"/>
+<approved hash="5,16,ee69d6a120c24f00"/>
+<approved hash="5,16,e781925042547535"/>
+<approved hash="5,16,90ef29d390162f4c"/>
 </errors>
 </board>
 </drawing>

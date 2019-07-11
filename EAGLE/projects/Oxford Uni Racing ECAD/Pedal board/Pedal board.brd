@@ -1081,7 +1081,6 @@ design rules under a new name.</description>
 <wire x1="62.23" y1="68.58" x2="67.31" y2="68.58" width="1.27" layer="16"/>
 <wire x1="69.5071" y1="70.7771" x2="67.31" y2="68.58" width="1.27" layer="16"/>
 <wire x1="93.98" y1="70.7771" x2="69.5071" y2="70.7771" width="1.27" layer="16"/>
-<wire x1="61.96" y1="68.85" x2="62.23" y2="68.58" width="0.508" layer="16"/>
 <contactref element="C1" pad="1"/>
 <wire x1="62.23" y1="68.58" x2="26.67" y2="68.58" width="1.27" layer="16"/>
 <wire x1="26.67" y1="68.58" x2="26.67" y2="73.66" width="1.27" layer="16"/>
@@ -1190,7 +1189,6 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="4"/>
 <contactref element="U$2" pad="1"/>
 <contactref element="R16" pad="2"/>
-<wire x1="77.42" y1="16.19" x2="77.74" y2="16.51" width="0.508" layer="16"/>
 <wire x1="71.0899" y1="16.83" x2="72.9899" y2="18.73" width="0.508" layer="16"/>
 <wire x1="72.9899" y1="18.73" x2="73.6901" y2="18.73" width="0.508" layer="16"/>
 <wire x1="73.6901" y1="18.73" x2="75.52" y2="18.73" width="0.508" layer="16"/>
@@ -1205,15 +1203,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="5,16,0e7de6d4381e315d"/>
-<approved hash="5,16,19542932e60f204c"/>
-<approved hash="5,16,9409a90ae6cf2de9"/>
-<approved hash="5,16,6e53221bf478f380"/>
-<approved hash="5,16,f94a01529d856089"/>
-<approved hash="5,16,1fbb5eea4aee5ab5"/>
-<approved hash="5,16,bf55e5695cac18f6"/>
-<approved hash="5,16,3bee421b034b0eba"/>
-<approved hash="5,16,f48cf97ba629dfda"/>
 <approved hash="5,16,a087f59f26cf2de7"/>
 <approved hash="5,16,2dda75a7260f2042"/>
 <approved hash="5,16,6e7adeddbc97b4dd"/>
