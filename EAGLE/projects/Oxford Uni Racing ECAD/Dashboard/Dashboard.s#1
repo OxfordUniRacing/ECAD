@@ -8578,6 +8578,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J3" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="CAN_OUT"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9420,6 +9421,7 @@ Source: http://www.osram.convergy.de/</description>
 <description>MICROCONTROLLER</description>
 <plain>
 <text x="0" y="0" size="1.778" layer="91">CROSS_SHEET_CONNECTIONS</text>
+<text x="220.98" y="-50.8" size="1.778" layer="91" rot="R90">For routing reasons</text>
 </plain>
 <instances>
 <instance part="SUPPLY32" gate="G$1" x="144.78" y="38.1" smashed="yes" rot="R90">
@@ -9446,6 +9448,9 @@ Source: http://www.osram.convergy.de/</description>
 </instance>
 <instance part="SUPPLY21" gate="G$1" x="144.78" y="40.64" smashed="yes" rot="R90">
 <attribute name="VALUE" x="139.7" y="42.926" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="GND5" gate="1" x="220.98" y="-25.4" smashed="yes">
+<attribute name="VALUE" x="220.98" y="-25.654" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -9483,6 +9488,16 @@ Source: http://www.osram.convergy.de/</description>
 <label x="10.16" y="81.28" size="1.778" layer="95"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="38.1" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="EXP-3-13-PA22"/>
+<wire x1="220.98" y1="-22.86" x2="220.98" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="EXP-3-12-PA23"/>
+<wire x1="220.98" y1="-12.7" x2="220.98" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="-7.62" x2="218.44" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="-12.7" x2="220.98" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="220.98" y="-12.7"/>
 </segment>
 </net>
 <net name="CANH" class="0">

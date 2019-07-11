@@ -8724,6 +8724,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$2" library="SparkFun-IC-Amplifiers" library_urn="urn:adsk.eagle:library:520" deviceset="MCP6021" device="T-E/OT" package3d_urn="urn:adsk.eagle:package:38670/1" value="TLV170IDBVR"/>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="050-024X044" package3d_urn="urn:adsk.eagle:package:6240356/1" value="0.47uF"/>
+<part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="050-024X044" package3d_urn="urn:adsk.eagle:package:6240356/1" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -9604,6 +9605,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="259.08" y="65.278" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="259.08" y="73.66" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
+<instance part="C2" gate="G$1" x="251.46" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="250.825" y="79.756" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="255.651" y="79.756" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 <bus name="3.3V,5V,12V,ASS1,ASS2,BATT_CURRENT,BRAKE_LIGHTS_OUT,BR_POSS,BR_POSS2,BR_PRESS,CANH,CANL,GND,ST_WH_POSS,THR1,THR2,THR3">
@@ -9622,7 +9627,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U$2" gate="G2" pin="P$V+"/>
 <pinref part="SUPPLY21" gate="G$1" pin="12V"/>
-<wire x1="246.38" y1="68.58" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="68.58" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="68.58" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="78.74" x2="243.84" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="78.74" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
+<junction x="243.84" y="68.58"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -9693,7 +9703,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="U$2" gate="G2" pin="P$V-"/>
-<wire x1="266.7" y1="68.58" x2="261.62" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="68.58" x2="264.16" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="68.58" x2="261.62" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="78.74" x2="264.16" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="78.74" x2="264.16" y2="68.58" width="0.1524" layer="91"/>
+<junction x="264.16" y="68.58"/>
 </segment>
 </net>
 <net name="CANH" class="0">

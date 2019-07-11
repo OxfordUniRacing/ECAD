@@ -20728,13 +20728,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="MC_1_RXD" class="0">
 <segment>
-<pinref part="U2" gate="G" pin="R1OUT"/>
-<wire x1="195.58" y1="154.94" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
-<label x="170.18" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
 <label x="10.16" y="63.5" size="1.778" layer="95"/>
 <wire x1="10.16" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="233.68" y1="152.4" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
+<label x="233.68" y="152.4" size="1.778" layer="95"/>
+<pinref part="U2" gate="G" pin="R2IN"/>
 </segment>
 </net>
 <net name="MC_1_TXD" class="0">
@@ -20761,13 +20761,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="MC_2_RXD" class="0">
 <segment>
-<pinref part="U2" gate="G" pin="R2OUT"/>
-<wire x1="195.58" y1="152.4" x2="187.96" y2="152.4" width="0.1524" layer="91"/>
-<label x="170.18" y="152.4" size="1.778" layer="95"/>
-</segment>
-<segment>
 <label x="10.16" y="43.18" size="1.778" layer="95"/>
 <wire x1="10.16" y1="43.18" x2="0" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="233.68" y1="154.94" x2="226.06" y2="154.94" width="0.1524" layer="91"/>
+<label x="233.68" y="154.94" size="1.778" layer="95"/>
+<pinref part="U2" gate="G" pin="R1IN"/>
 </segment>
 </net>
 <net name="MC_2_TXD" class="0">
@@ -20899,9 +20899,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="132.08" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G" pin="R2IN"/>
-<wire x1="226.06" y1="152.4" x2="233.68" y2="152.4" width="0.1524" layer="91"/>
-<label x="233.68" y="152.4" size="1.778" layer="95"/>
+<wire x1="195.58" y1="154.94" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
+<label x="170.18" y="154.94" size="1.778" layer="95"/>
+<pinref part="U2" gate="G" pin="R1OUT"/>
 </segment>
 </net>
 <net name="INTER_2_TXD" class="0">
@@ -20923,9 +20923,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="304.8" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G" pin="R1IN"/>
-<wire x1="226.06" y1="154.94" x2="233.68" y2="154.94" width="0.1524" layer="91"/>
-<label x="233.68" y="154.94" size="1.778" layer="95"/>
+<wire x1="195.58" y1="152.4" x2="187.96" y2="152.4" width="0.1524" layer="91"/>
+<label x="170.18" y="152.4" size="1.778" layer="95"/>
+<pinref part="U2" gate="G" pin="R2OUT"/>
 </segment>
 </net>
 <net name="INTER_1_TXD" class="0">

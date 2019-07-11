@@ -10181,6 +10181,11 @@ Source: http://www.osram.convergy.de/</description>
 <label x="10.16" y="20.32" size="1.778" layer="95"/>
 <wire x1="10.16" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<label x="134.62" y="53.34" size="1.778" layer="95"/>
+<wire x1="114.3" y1="53.34" x2="127" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="4"/>
+</segment>
 </net>
 <net name="DRIVER_SELECT_1" class="0">
 <segment>
