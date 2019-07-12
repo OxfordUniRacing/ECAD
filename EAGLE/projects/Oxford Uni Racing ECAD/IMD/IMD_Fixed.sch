@@ -10098,7 +10098,6 @@ http://www.zetex.com&lt;p&gt;
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="050-024X044" package3d_urn="urn:adsk.eagle:package:6240356/1" value="1uF"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
-<part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -10120,6 +10119,9 @@ http://www.zetex.com&lt;p&gt;
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="X2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" value="GREEN_LIGHTS"/>
 <part name="X3" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" value="RED_LIGHTS"/>
+<part name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="050-024X044" package3d_urn="urn:adsk.eagle:package:6240356/1" value="0.1uF"/>
+<part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
+<part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10214,6 +10216,16 @@ http://www.zetex.com&lt;p&gt;
 <instance part="GND3" gate="1" x="17.78" y="33.02" smashed="yes">
 <attribute name="VALUE" x="17.78" y="32.766" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="C3" gate="G$1" x="147.32" y="111.76" smashed="yes">
+<attribute name="NAME" x="148.336" y="112.395" size="1.778" layer="95"/>
+<attribute name="VALUE" x="148.336" y="107.569" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY10" gate="G$1" x="147.32" y="119.38" smashed="yes">
+<attribute name="VALUE" x="147.32" y="122.174" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND9" gate="1" x="147.32" y="99.06" smashed="yes">
+<attribute name="VALUE" x="147.32" y="98.806" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10274,6 +10286,11 @@ http://www.zetex.com&lt;p&gt;
 <wire x1="33.02" y1="43.18" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
 <junction x="17.78" y="43.18"/>
 </segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="101.6" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -10315,6 +10332,11 @@ http://www.zetex.com&lt;p&gt;
 <pinref part="F1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY1" gate="G$1" pin="12V"/>
 <wire x1="25.4" y1="127" x2="22.86" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="SUPPLY10" gate="G$1" pin="12V"/>
+<wire x1="147.32" y1="114.3" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ASS1" class="0">
@@ -10366,11 +10388,11 @@ http://www.zetex.com&lt;p&gt;
 <net name="IMD_REF" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="+IN"/>
-<label x="22.86" y="116.84" size="1.778" layer="95"/>
-<wire x1="7.62" y1="116.84" x2="7.62" y2="134.62" width="0.1524" layer="91"/>
+<label x="22.86" y="114.3" size="1.778" layer="95"/>
+<wire x1="7.62" y1="114.3" x2="7.62" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="134.62" x2="121.92" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="43.18" y1="116.84" x2="7.62" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="114.3" x2="7.62" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -10412,9 +10434,9 @@ http://www.zetex.com&lt;p&gt;
 </net>
 <net name="VCU_OUT" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="114.3" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
-<label x="22.86" y="114.3" size="1.778" layer="95"/>
+<wire x1="43.18" y1="116.84" x2="35.56" y2="116.84" width="0.1524" layer="91"/>
+<label x="22.86" y="116.84" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="4"/>
 </segment>
 </net>
 </nets>
@@ -10484,9 +10506,6 @@ http://www.zetex.com&lt;p&gt;
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="236.22" y="-78.74" smashed="yes">
 <attribute name="VALUE" x="236.22" y="-75.946" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY7" gate="G$1" x="160.02" y="5.08" smashed="yes">
-<attribute name="VALUE" x="160.02" y="7.874" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="200.66" y="45.72" smashed="yes">
 <attribute name="VALUE" x="200.66" y="48.514" size="1.778" layer="96" align="bottom-center"/>
