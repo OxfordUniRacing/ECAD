@@ -10279,8 +10279,8 @@ by R. Vogg  15.March.2002</description>
 <attribute name="VALUE" x="118.745" y="173.355" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="EMSDC" gate="G$1" x="88.9" y="152.4" smashed="yes">
-<attribute name="NAME" x="90.8558" y="119.634" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="88.8238" y="119.634" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="83.566" y="144.1958" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="103.886" y="147.2438" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D6" gate="1" x="7.62" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.1374" y="10.16" size="1.778" layer="95" rot="R90"/>
