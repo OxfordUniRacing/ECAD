@@ -10237,17 +10237,6 @@ Based on the following sources:
 <pin name="VSS" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 <pin name="VDD" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
 </symbol>
-<symbol name="4001" urn="urn:adsk.eagle:symbol:716/1" library_version="3">
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="2.54" x2="1.778" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.4064" layer="94"/>
-<text x="2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="I0" x="-7.62" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
-<pin name="I1" x="-7.62" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
-<pin name="O" x="7.62" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
-</symbol>
 <symbol name="4043" urn="urn:adsk.eagle:symbol:755/1" library_version="3">
 <wire x1="-7.62" y1="-17.78" x2="7.62" y2="-17.78" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.4064" layer="94"/>
@@ -10269,26 +10258,6 @@ Based on the following sources:
 <pin name="S3" x="-12.7" y="-7.62" length="middle" direction="in"/>
 <pin name="R3" x="-12.7" y="-10.16" length="middle" direction="in"/>
 </symbol>
-<symbol name="4071" urn="urn:adsk.eagle:symbol:779/1" library_version="3">
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94" curve="-180"/>
-<wire x1="1.778" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<text x="2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="I0" x="-7.62" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
-<pin name="I1" x="-7.62" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
-<pin name="O" x="7.62" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
-</symbol>
-<symbol name="4081" urn="urn:adsk.eagle:symbol:786/1" library_version="3">
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94" curve="-180"/>
-<text x="2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="I0" x="-7.62" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
-<pin name="I1" x="-7.62" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
-<pin name="O" x="7.62" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
-</symbol>
 <symbol name="4011" urn="urn:adsk.eagle:symbol:725/1" library_version="3">
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94" curve="-180"/>
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
@@ -10300,66 +10269,6 @@ Based on the following sources:
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="4001" urn="urn:adsk.eagle:component:881/4" prefix="IC" library_version="3">
-<description>Quad 2-input &lt;b&gt;NOR&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="4001" x="20.32" y="0" swaplevel="1"/>
-<gate name="B" symbol="4001" x="20.32" y="-15.24" swaplevel="1"/>
-<gate name="C" symbol="4001" x="43.18" y="0" swaplevel="1"/>
-<gate name="D" symbol="4001" x="43.18" y="-15.24" swaplevel="1"/>
-<gate name="P" symbol="PWRN" x="0" y="-5.08" addlevel="request"/>
-</gates>
-<devices>
-<device name="N" package="DIL14">
-<connects>
-<connect gate="A" pin="I0" pad="1"/>
-<connect gate="A" pin="I1" pad="2"/>
-<connect gate="A" pin="O" pad="3"/>
-<connect gate="B" pin="I0" pad="5"/>
-<connect gate="B" pin="I1" pad="6"/>
-<connect gate="B" pin="O" pad="4"/>
-<connect gate="C" pin="I0" pad="8"/>
-<connect gate="C" pin="I1" pad="9"/>
-<connect gate="C" pin="O" pad="10"/>
-<connect gate="D" pin="I0" pad="12"/>
-<connect gate="D" pin="I1" pad="13"/>
-<connect gate="D" pin="O" pad="11"/>
-<connect gate="P" pin="VDD" pad="14"/>
-<connect gate="P" pin="VSS" pad="7"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16407/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="D" package="SO14">
-<connects>
-<connect gate="A" pin="I0" pad="1"/>
-<connect gate="A" pin="I1" pad="2"/>
-<connect gate="A" pin="O" pad="3"/>
-<connect gate="B" pin="I0" pad="5"/>
-<connect gate="B" pin="I1" pad="6"/>
-<connect gate="B" pin="O" pad="4"/>
-<connect gate="C" pin="I0" pad="8"/>
-<connect gate="C" pin="I1" pad="9"/>
-<connect gate="C" pin="O" pad="10"/>
-<connect gate="D" pin="I0" pad="12"/>
-<connect gate="D" pin="I1" pad="13"/>
-<connect gate="D" pin="O" pad="11"/>
-<connect gate="P" pin="VDD" pad="14"/>
-<connect gate="P" pin="VSS" pad="7"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:823/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="4043" urn="urn:adsk.eagle:component:850/4" prefix="IC" library_version="3">
 <description>Quad 3-state NOR R/S &lt;b&gt;LATCH&lt;/b&gt;</description>
 <gates>
@@ -10412,126 +10321,6 @@ Based on the following sources:
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:821/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="4071" urn="urn:adsk.eagle:component:899/4" prefix="IC" library_version="3">
-<description>Quad 2-input &lt;b&gt;OR&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="4071" x="12.7" y="5.08" swaplevel="1"/>
-<gate name="B" symbol="4071" x="12.7" y="-10.16" swaplevel="1"/>
-<gate name="C" symbol="4071" x="35.56" y="5.08" swaplevel="1"/>
-<gate name="D" symbol="4071" x="35.56" y="-10.16" swaplevel="1"/>
-<gate name="P" symbol="PWRN" x="-5.08" y="0" addlevel="request"/>
-</gates>
-<devices>
-<device name="N" package="DIL14">
-<connects>
-<connect gate="A" pin="I0" pad="1"/>
-<connect gate="A" pin="I1" pad="2"/>
-<connect gate="A" pin="O" pad="3"/>
-<connect gate="B" pin="I0" pad="5"/>
-<connect gate="B" pin="I1" pad="6"/>
-<connect gate="B" pin="O" pad="4"/>
-<connect gate="C" pin="I0" pad="8"/>
-<connect gate="C" pin="I1" pad="9"/>
-<connect gate="C" pin="O" pad="10"/>
-<connect gate="D" pin="I0" pad="12"/>
-<connect gate="D" pin="I1" pad="13"/>
-<connect gate="D" pin="O" pad="11"/>
-<connect gate="P" pin="VDD" pad="14"/>
-<connect gate="P" pin="VSS" pad="7"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16407/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="D" package="SO14">
-<connects>
-<connect gate="A" pin="I0" pad="1"/>
-<connect gate="A" pin="I1" pad="2"/>
-<connect gate="A" pin="O" pad="3"/>
-<connect gate="B" pin="I0" pad="5"/>
-<connect gate="B" pin="I1" pad="6"/>
-<connect gate="B" pin="O" pad="4"/>
-<connect gate="C" pin="I0" pad="8"/>
-<connect gate="C" pin="I1" pad="9"/>
-<connect gate="C" pin="O" pad="10"/>
-<connect gate="D" pin="I0" pad="12"/>
-<connect gate="D" pin="I1" pad="13"/>
-<connect gate="D" pin="O" pad="11"/>
-<connect gate="P" pin="VDD" pad="14"/>
-<connect gate="P" pin="VSS" pad="7"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:823/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="4081" urn="urn:adsk.eagle:component:905/4" prefix="IC" library_version="3">
-<description>Quad 2-input &lt;b&gt;AND&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="4081" x="15.24" y="7.62" swaplevel="1"/>
-<gate name="B" symbol="4081" x="15.24" y="-7.62" swaplevel="1"/>
-<gate name="C" symbol="4081" x="38.1" y="7.62" swaplevel="1"/>
-<gate name="D" symbol="4081" x="38.1" y="-7.62" swaplevel="1"/>
-<gate name="P" symbol="PWRN" x="-5.08" y="0" addlevel="request"/>
-</gates>
-<devices>
-<device name="N" package="DIL14">
-<connects>
-<connect gate="A" pin="I0" pad="1"/>
-<connect gate="A" pin="I1" pad="2"/>
-<connect gate="A" pin="O" pad="3"/>
-<connect gate="B" pin="I0" pad="5"/>
-<connect gate="B" pin="I1" pad="6"/>
-<connect gate="B" pin="O" pad="4"/>
-<connect gate="C" pin="I0" pad="8"/>
-<connect gate="C" pin="I1" pad="9"/>
-<connect gate="C" pin="O" pad="10"/>
-<connect gate="D" pin="I0" pad="12"/>
-<connect gate="D" pin="I1" pad="13"/>
-<connect gate="D" pin="O" pad="11"/>
-<connect gate="P" pin="VDD" pad="14"/>
-<connect gate="P" pin="VSS" pad="7"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16407/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="D" package="SO14">
-<connects>
-<connect gate="A" pin="I0" pad="1"/>
-<connect gate="A" pin="I1" pad="2"/>
-<connect gate="A" pin="O" pad="3"/>
-<connect gate="B" pin="I0" pad="5"/>
-<connect gate="B" pin="I1" pad="6"/>
-<connect gate="B" pin="O" pad="4"/>
-<connect gate="C" pin="I0" pad="8"/>
-<connect gate="C" pin="I1" pad="9"/>
-<connect gate="C" pin="O" pad="10"/>
-<connect gate="D" pin="I0" pad="12"/>
-<connect gate="D" pin="I1" pad="13"/>
-<connect gate="D" pin="O" pad="11"/>
-<connect gate="P" pin="VDD" pad="14"/>
-<connect gate="P" pin="VSS" pad="7"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:823/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10832,722 +10621,6 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Switches" urn="urn:adsk.eagle:library:535">
-<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
-In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="TACTILE_SWITCH_PTH_6.0MM" urn="urn:adsk.eagle:footprint:40103/1" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.omron.com/ecb/products/pdf/en-b3f.pdf"&gt;Datasheet&lt;/a&gt; (B3F-1000)&lt;/p&gt;</description>
-<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
-<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<text x="0" y="3.302" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-3.175" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_4.5MM" urn="urn:adsk.eagle:footprint:40104/1" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 4.5mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://spec_sheets.e-switch.com/specs/P010338.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
-<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
-<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="2.25" x2="2.25" y2="2.25" width="0.127" layer="51"/>
-<wire x1="2.25" y1="2.25" x2="2.25" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="2.25" y1="-2.25" x2="-2.25" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="2.25" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="0.8" x2="-2.2" y2="-0.8" width="0.2032" layer="21"/>
-<wire x1="1.3" y1="2.2" x2="-1.3" y2="2.2" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="-0.8" x2="2.2" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="-1.3" y1="-2.2" x2="1.3" y2="-2.2" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="0.8" x2="1.8" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="-0.8" x2="1.8" y2="-0.8" width="0.2032" layer="21"/>
-<wire x1="-1.8" y1="0.8" x2="-2.2" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="-1.8" y1="-0.8" x2="-2.2" y2="-0.8" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
-<smd name="1" x="2.225" y="1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<smd name="2" x="2.225" y="-1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<smd name="3" x="-2.225" y="-1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<smd name="4" x="-2.225" y="1.75" dx="1.1" dy="0.7" layer="1" rot="R90"/>
-<text x="0" y="2.413" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.413" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_PTH_12MM" urn="urn:adsk.eagle:footprint:40105/1" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, 12mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.omron.com/ecb/products/pdf/en-b3f.pdf"&gt;Datasheet&lt;/a&gt; (B3F-5050)&lt;/p&gt;</description>
-<wire x1="5" y1="-1.3" x2="5" y2="-0.7" width="0.2032" layer="51"/>
-<wire x1="5" y1="-0.7" x2="4.5" y2="-0.2" width="0.2032" layer="51"/>
-<wire x1="5" y1="0.2" x2="5" y2="1" width="0.2032" layer="51"/>
-<wire x1="-6" y1="4" x2="-6" y2="5" width="0.2032" layer="21"/>
-<wire x1="-5" y1="6" x2="5" y2="6" width="0.2032" layer="21"/>
-<wire x1="6" y1="5" x2="6" y2="4" width="0.2032" layer="21"/>
-<wire x1="6" y1="1" x2="6" y2="-1" width="0.2032" layer="21"/>
-<wire x1="6" y1="-4" x2="6" y2="-5" width="0.2032" layer="21"/>
-<wire x1="5" y1="-6" x2="-5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-5" x2="-6" y2="-4" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-1" x2="-6" y2="1" width="0.2032" layer="21"/>
-<wire x1="-6" y1="5" x2="-5" y2="6" width="0.2032" layer="21" curve="-90"/>
-<wire x1="5" y1="6" x2="6" y2="5" width="0.2032" layer="21" curve="-90"/>
-<wire x1="6" y1="-5" x2="5" y2="-6" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-5" y1="-6" x2="-6" y2="-5" width="0.2032" layer="21" curve="-90"/>
-<circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
-<circle x="-4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="-4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<pad name="4" x="-6.25" y="2.5" drill="1.2" diameter="2.159"/>
-<pad name="2" x="-6.25" y="-2.5" drill="1.2" diameter="2.159"/>
-<pad name="1" x="6.25" y="-2.5" drill="1.2" diameter="2.159"/>
-<pad name="3" x="6.25" y="2.5" drill="1.2" diameter="2.159"/>
-<text x="0" y="6.223" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-6.223" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_6.0X3.5MM" urn="urn:adsk.eagle:footprint:40106/1" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 6.0 x 3.5 mm&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/1101.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-3" y1="1.1" x2="-3" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="3" y1="1.1" x2="3" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="-2.75" y1="1.75" x2="-3" y2="1.5" width="0.2032" layer="21" curve="90"/>
-<wire x1="-2.75" y1="1.75" x2="2.75" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="2.75" y1="1.75" x2="3" y2="1.5" width="0.2032" layer="21" curve="-90"/>
-<wire x1="3" y1="-1.5" x2="2.75" y2="-1.75" width="0.2032" layer="21" curve="-90"/>
-<wire x1="2.75" y1="-1.75" x2="-2.75" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-1.5" x2="-2.75" y2="-1.75" width="0.2032" layer="21" curve="90"/>
-<wire x1="-3" y1="-1.5" x2="-3" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-3" y1="1.1" x2="-3" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="3" y1="1.1" x2="3" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="3" y1="-1.5" x2="3" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-0.75" x2="1.5" y2="0.75" width="0.2032" layer="21"/>
-<wire x1="-2" y1="0" x2="-1" y2="0" width="0.127" layer="51"/>
-<wire x1="-1" y1="0" x2="0.1" y2="0.5" width="0.127" layer="51"/>
-<wire x1="0.3" y1="0" x2="2" y2="0" width="0.127" layer="51"/>
-<smd name="1" x="-3.15" y="0" dx="2.3" dy="1.6" layer="1" rot="R180"/>
-<smd name="2" x="3.15" y="0" dx="2.3" dy="1.6" layer="1" rot="R180"/>
-<text x="0" y="1.905" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_6.2MM_TALL" urn="urn:adsk.eagle:footprint:40107/1" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 6.2mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.apem.com/files/apem/brochures/ADTS6-ADTSM-KTSC6.pdf"&gt;Datasheet&lt;/a&gt; (ADTSM63NVTR)&lt;/p&gt;</description>
-<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.2032" layer="21"/>
-<wire x1="3" y1="-3" x2="3" y2="3" width="0.2032" layer="21"/>
-<wire x1="3" y1="3" x2="-3" y2="3" width="0.2032" layer="21"/>
-<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
-<smd name="A1" x="-3.975" y="-2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<smd name="A2" x="3.975" y="-2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<smd name="B1" x="-3.975" y="2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<smd name="B2" x="3.975" y="2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
-<text x="0" y="3.175" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-3.175" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT" urn="urn:adsk.eagle:footprint:40108/1" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, Right-angle&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Components/Switches/SW016.JPG"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="1.5" y1="-3.8" x2="-1.5" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="-3.65" y1="-2" x2="-3.65" y2="3.5" width="0.127" layer="51"/>
-<wire x1="-3.65" y1="3.5" x2="-3" y2="3.5" width="0.127" layer="51"/>
-<wire x1="3" y1="3.5" x2="3.65" y2="3.5" width="0.127" layer="51"/>
-<wire x1="3.65" y1="3.5" x2="3.65" y2="-2" width="0.127" layer="51"/>
-<wire x1="-3" y1="2" x2="3" y2="2" width="0.127" layer="51"/>
-<wire x1="-3" y1="2" x2="-3" y2="3.5" width="0.127" layer="51"/>
-<wire x1="3" y1="2" x2="3" y2="3.5" width="0.127" layer="51"/>
-<wire x1="-3.65" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-2" x2="1.5" y2="-2" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-2" x2="3.65" y2="-2" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-2" x2="1.5" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-2" x2="-1.5" y2="-3.8" width="0.127" layer="51"/>
-<wire x1="-3.777" y1="1" x2="-3.777" y2="-2.127" width="0.2032" layer="21"/>
-<wire x1="-3.777" y1="-2.127" x2="3.777" y2="-2.127" width="0.2032" layer="21"/>
-<wire x1="3.777" y1="-2.127" x2="3.777" y2="1" width="0.2032" layer="21"/>
-<wire x1="2" y1="2.127" x2="-2" y2="2.127" width="0.2032" layer="21"/>
-<pad name="ANCHOR1" x="-3.5" y="2.5" drill="1.2" diameter="2.2" stop="no"/>
-<pad name="ANCHOR2" x="3.5" y="2.5" drill="1.2" diameter="2.2" stop="no"/>
-<pad name="1" x="-2.5" y="0" drill="0.8" diameter="1.7" stop="no"/>
-<pad name="2" x="2.5" y="0" drill="0.8" diameter="1.7" stop="no"/>
-<circle x="2.5" y="0" radius="0.4445" width="0" layer="29"/>
-<circle x="-2.5" y="0" radius="0.4445" width="0" layer="29"/>
-<circle x="-3.5" y="2.5" radius="0.635" width="0" layer="29"/>
-<circle x="3.5" y="2.5" radius="0.635" width="0" layer="29"/>
-<circle x="-3.5" y="2.5" radius="1.143" width="0" layer="30"/>
-<circle x="2.5" y="0" radius="0.889" width="0" layer="30"/>
-<circle x="-2.5" y="0" radius="0.889" width="0" layer="30"/>
-<circle x="3.5" y="2.5" radius="1.143" width="0" layer="30"/>
-<text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_12MM" urn="urn:adsk.eagle:footprint:40109/1" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 12mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Components/Switches/N301102.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="5" y1="-1.3" x2="5" y2="-0.7" width="0.2032" layer="51"/>
-<wire x1="5" y1="-0.7" x2="4.5" y2="-0.2" width="0.2032" layer="51"/>
-<wire x1="5" y1="0.2" x2="5" y2="1" width="0.2032" layer="51"/>
-<wire x1="-6" y1="4" x2="-6" y2="5" width="0.2032" layer="21"/>
-<wire x1="-5" y1="6" x2="5" y2="6" width="0.2032" layer="21"/>
-<wire x1="6" y1="5" x2="6" y2="4" width="0.2032" layer="21"/>
-<wire x1="6" y1="1" x2="6" y2="-1" width="0.2032" layer="21"/>
-<wire x1="6" y1="-4" x2="6" y2="-5" width="0.2032" layer="21"/>
-<wire x1="5" y1="-6" x2="-5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-5" x2="-6" y2="-4" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-1" x2="-6" y2="1" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-5" x2="-5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="6" y1="-5" x2="5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="6" y1="5" x2="5" y2="6" width="0.2032" layer="21"/>
-<wire x1="-5" y1="6" x2="-6" y2="5" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="3.5" width="0.2032" layer="21"/>
-<circle x="-4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<circle x="-4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<smd name="4" x="-6.975" y="2.5" dx="1.6" dy="1.55" layer="1"/>
-<smd name="2" x="-6.975" y="-2.5" dx="1.6" dy="1.55" layer="1"/>
-<smd name="1" x="6.975" y="-2.5" dx="1.6" dy="1.55" layer="1"/>
-<smd name="3" x="6.975" y="2.5" dx="1.6" dy="1.55" layer="1"/>
-<text x="0" y="6.223" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-6.223" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_PTH_6.0MM_KIT" urn="urn:adsk.eagle:footprint:40110/1" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.omron.com/ecb/products/pdf/en-b3f.pdf"&gt;Datasheet&lt;/a&gt; (B3F-1000)&lt;/p&gt;</description>
-<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
-<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.8796" stop="no"/>
-<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796" stop="no"/>
-<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796" stop="no"/>
-<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796" stop="no"/>
-<polygon width="0.127" layer="30">
-<vertex x="-3.2664" y="3.142"/>
-<vertex x="-3.2589" y="3.1445" curve="89.986886"/>
-<vertex x="-4.1326" y="2.286"/>
-<vertex x="-4.1351" y="2.2657" curve="90.00652"/>
-<vertex x="-3.2563" y="1.392"/>
-<vertex x="-3.2487" y="1.3869" curve="90.006616"/>
-<vertex x="-2.3826" y="2.2403"/>
-<vertex x="-2.3775" y="2.2683" curve="89.98711"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-3.2462" y="2.7026"/>
-<vertex x="-3.2589" y="2.7051" curve="90.026544"/>
-<vertex x="-3.6881" y="2.2733"/>
-<vertex x="-3.6881" y="2.2632" curve="89.974074"/>
-<vertex x="-3.2562" y="1.8213"/>
-<vertex x="-3.2259" y="1.8186" curve="90.051271"/>
-<vertex x="-2.8093" y="2.2658"/>
-<vertex x="-2.8093" y="2.2606" curve="90.012964"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="3.2411" y="3.1395"/>
-<vertex x="3.2486" y="3.142" curve="89.986886"/>
-<vertex x="2.3749" y="2.2835"/>
-<vertex x="2.3724" y="2.2632" curve="90.00652"/>
-<vertex x="3.2512" y="1.3895"/>
-<vertex x="3.2588" y="1.3844" curve="90.006616"/>
-<vertex x="4.1249" y="2.2378"/>
-<vertex x="4.13" y="2.2658" curve="89.98711"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="3.2613" y="2.7001"/>
-<vertex x="3.2486" y="2.7026" curve="90.026544"/>
-<vertex x="2.8194" y="2.2708"/>
-<vertex x="2.8194" y="2.2607" curve="89.974074"/>
-<vertex x="3.2513" y="1.8188"/>
-<vertex x="3.2816" y="1.8161" curve="90.051271"/>
-<vertex x="3.6982" y="2.2633"/>
-<vertex x="3.6982" y="2.2581" curve="90.012964"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="-3.2613" y="-1.3868"/>
-<vertex x="-3.2538" y="-1.3843" curve="89.986886"/>
-<vertex x="-4.1275" y="-2.2428"/>
-<vertex x="-4.13" y="-2.2631" curve="90.00652"/>
-<vertex x="-3.2512" y="-3.1368"/>
-<vertex x="-3.2436" y="-3.1419" curve="90.006616"/>
-<vertex x="-2.3775" y="-2.2885"/>
-<vertex x="-2.3724" y="-2.2605" curve="89.98711"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-3.2411" y="-1.8262"/>
-<vertex x="-3.2538" y="-1.8237" curve="90.026544"/>
-<vertex x="-3.683" y="-2.2555"/>
-<vertex x="-3.683" y="-2.2656" curve="89.974074"/>
-<vertex x="-3.2511" y="-2.7075"/>
-<vertex x="-3.2208" y="-2.7102" curve="90.051271"/>
-<vertex x="-2.8042" y="-2.263"/>
-<vertex x="-2.8042" y="-2.2682" curve="90.012964"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="3.2411" y="-1.3843"/>
-<vertex x="3.2486" y="-1.3818" curve="89.986886"/>
-<vertex x="2.3749" y="-2.2403"/>
-<vertex x="2.3724" y="-2.2606" curve="90.00652"/>
-<vertex x="3.2512" y="-3.1343"/>
-<vertex x="3.2588" y="-3.1394" curve="90.006616"/>
-<vertex x="4.1249" y="-2.286"/>
-<vertex x="4.13" y="-2.258" curve="89.98711"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="3.2613" y="-1.8237"/>
-<vertex x="3.2486" y="-1.8212" curve="90.026544"/>
-<vertex x="2.8194" y="-2.253"/>
-<vertex x="2.8194" y="-2.2631" curve="89.974074"/>
-<vertex x="3.2513" y="-2.705"/>
-<vertex x="3.2816" y="-2.7077" curve="90.051271"/>
-<vertex x="3.6982" y="-2.2605"/>
-<vertex x="3.6982" y="-2.2657" curve="90.012964"/>
-</polygon>
-<text x="0" y="3.175" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-3.175" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:footprint:40111/1" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/SMD-Button.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-1.54" y1="-2.54" x2="-2.54" y2="-1.54" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-1.24" x2="-2.54" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.54" x2="-1.54" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-1.54" y1="2.54" x2="1.54" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="1.54" y1="2.54" x2="2.54" y2="1.54" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="1.24" x2="2.54" y2="-1.24" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.54" x2="1.54" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="1.54" y1="-2.54" x2="-1.54" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
-<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
-<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
-<smd name="1" x="-2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="2" x="2.794" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="3" x="-2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="4" x="2.794" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_RIGHT_ANGLE" urn="urn:adsk.eagle:footprint:40112/1" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, Right-angle&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;</description>
-<hole x="0" y="0.9" drill="0.7"/>
-<hole x="0" y="-0.9" drill="0.7"/>
-<smd name="1" x="-1.95" y="0" dx="2" dy="1.1" layer="1" rot="R90"/>
-<smd name="2" x="1.95" y="0" dx="2" dy="1.1" layer="1" rot="R90"/>
-<wire x1="-2" y1="1.2" x2="-2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="1.5" x2="2" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-1.2" x2="-2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-2" y1="-1.5" x2="-0.7" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-0.7" y1="-1.5" x2="0.7" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="0.7" y1="-1.5" x2="2" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="2" y1="-1.5" x2="2" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="-0.7" y1="-2.1" x2="0.7" y2="-2.1" width="0.2032" layer="21"/>
-<wire x1="0.7" y1="-2.1" x2="0.7" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-0.7" y1="-2.1" x2="-0.7" y2="-1.5" width="0.2032" layer="21"/>
-<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="TACTILE_SWITCH_SMD_4.6X2.8MM" urn="urn:adsk.eagle:footprint:40113/1" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.ck-components.com/media/1479/kmr2.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<smd name="3" x="2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="2" x="2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="1" x="-2.05" y="-0.8" dx="0.9" dy="1" layer="1"/>
-<smd name="4" x="-2.05" y="0.8" dx="0.9" dy="1" layer="1"/>
-<wire x1="-2.1" y1="1.4" x2="-2.1" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="2.1" y1="-1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-2.1" y1="1.4" x2="2.1" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-2.1" y1="-1.4" x2="2.1" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="1.338" y1="-1.4" x2="-1.338" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="-1.338" y1="1.4" x2="1.338" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="-2.1" y1="0.13" x2="-2.1" y2="-0.13" width="0.2032" layer="21"/>
-<wire x1="2.1" y1="-0.13" x2="2.1" y2="0.13" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="0.805" width="0.127" layer="21"/>
-<rectangle x1="-2.3" y1="0.5" x2="-2.1" y2="1.1" layer="51"/>
-<rectangle x1="-2.3" y1="-1.1" x2="-2.1" y2="-0.5" layer="51"/>
-<rectangle x1="2.1" y1="-1.1" x2="2.3" y2="-0.5" layer="51" rot="R180"/>
-<rectangle x1="2.1" y1="0.5" x2="2.3" y2="1.1" layer="51" rot="R180"/>
-<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="TACTILE_SWITCH_PTH_6.0MM" urn="urn:adsk.eagle:package:40163/1" type="box" library_version="1">
-<description>Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Datasheet (B3F-1000)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_6.0MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_4.5MM" urn="urn:adsk.eagle:package:40162/1" type="box" library_version="1">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, 4.5mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Dimensional Drawing</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_4.5MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_PTH_12MM" urn="urn:adsk.eagle:package:40164/1" type="box" library_version="1">
-<description>Momentary Switch (Pushbutton) - SPST - PTH, 12mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Datasheet (B3F-5050)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_12MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_6.0X3.5MM" urn="urn:adsk.eagle:package:40165/1" type="box" library_version="1">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, 6.0 x 3.5 mm
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Datasheet</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_6.0X3.5MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_6.2MM_TALL" urn="urn:adsk.eagle:package:40172/1" type="box" library_version="1">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, 6.2mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Datasheet (ADTSM63NVTR)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_6.2MM_TALL"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT" urn="urn:adsk.eagle:package:40168/1" type="box" library_version="1">
-<description>Momentary Switch (Pushbutton) - SPST - PTH, Right-angle
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Dimensional Drawing</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_12MM" urn="urn:adsk.eagle:package:40166/1" type="box" library_version="1">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, 12mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Datasheet</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_12MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_PTH_6.0MM_KIT" urn="urn:adsk.eagle:package:40170/1" type="box" library_version="1">
-<description>Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.
-Datasheet (B3F-1000)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_6.0MM_KIT"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:package:40167/1" type="box" library_version="1">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Dimensional Drawing</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_5.2MM"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_RIGHT_ANGLE" urn="urn:adsk.eagle:package:40169/1" type="box" library_version="1">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, Right-angle
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_RIGHT_ANGLE"/>
-</packageinstances>
-</package3d>
-<package3d name="TACTILE_SWITCH_SMD_4.6X2.8MM" urn="urn:adsk.eagle:package:40176/1" type="box" library_version="1">
-<description>Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm
-Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
-Datasheet</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_4.6X2.8MM"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SWITCH-MOMENTARY-2" urn="urn:adsk.eagle:symbol:40102/1" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;</description>
-<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="0" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.508" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MOMENTARY-SWITCH-SPST" urn="urn:adsk.eagle:component:40205/1" prefix="S" library_version="1">
-<description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST&lt;/h3&gt;
-&lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
-&lt;h4&gt;Variants&lt;/h4&gt;
-&lt;h5&gt;PTH-12MM - 12mm square, through-hole&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9190"&gt;Momentary Pushbutton Switch - 12mm Square&lt;/a&gt; (COM-09190)&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;PTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/97"&gt;Mini Pushbutton Switch&lt;/a&gt; (COM-00097)&lt;/li&gt;
-&lt;li&gt;KIT package intended for soldering kit's - only one side of pads' copper is exposed.&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;PTH-RIGHT-ANGLE-KIT - Right-angle, through-hole&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10791"&gt;Right Angle Tactile Button&lt;/a&gt; - Used on &lt;a href="https://www.sparkfun.com/products/11734"&gt;
-SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-12MM - 12mm square, surface-mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12993"&gt;Tactile Button - SMD (12mm)&lt;/a&gt; (COM-12993)&lt;/li&gt;
-&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/11888"&gt;SparkFun PicoBoard&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-4.5MM - 4.5mm Square Trackball Switch&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13169"&gt;SparkFun Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13664"&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8720"&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; (COM-08720)&lt;/li&gt;
-&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/11114"&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;REDUNDANT package connects both switch circuits together&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8229"&gt;Momentary Reset Switch SMD&lt;/a&gt; (COM-08229)&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-6.2MM-TALL - 6.2mm square, surface mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12992"&gt;Tactile Button - SMD (6mm)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/12651"&gt;SparkFun Digital Sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
-&lt;h5&gt;SMD-RIGHT-ANGLE - Right-angle, surface mount&lt;/h5&gt;
-&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13036"&gt;SparkFun Block for Intel® Edison - Arduino&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="SWITCH-MOMENTARY-2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-PTH-6.0MM" package="TACTILE_SWITCH_PTH_6.0MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40163/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value=" SWCH-08441"/>
-<attribute name="SF_SKU" value="COM-00097"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-4.5MM" package="TACTILE_SWITCH_SMD_4.5MM">
-<connects>
-<connect gate="G$1" pin="1" pad="2 3"/>
-<connect gate="G$1" pin="2" pad="1 4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40162/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-09213"/>
-</technology>
-</technologies>
-</device>
-<device name="-PTH-12MM" package="TACTILE_SWITCH_PTH_12MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40164/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-09185"/>
-<attribute name="SF_SKU" value="COM-09190"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-6.0X3.5MM" package="TACTILE_SWITCH_SMD_6.0X3.5MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40165/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-00815"/>
-<attribute name="SF_SKU" value="COM-08229"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-6.2MM-TALL" package="TACTILE_SWITCH_SMD_6.2MM_TALL">
-<connects>
-<connect gate="G$1" pin="1" pad="A2"/>
-<connect gate="G$1" pin="2" pad="B2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40172/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-11966"/>
-<attribute name="SF_SKU" value="COM-12992"/>
-</technology>
-</technologies>
-</device>
-<device name="-PTH-RIGHT-ANGLE-KIT" package="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40168/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-10672"/>
-<attribute name="SF_SKU" value="COM-10791"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-12MM" package="TACTILE_SWITCH_SMD_12MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40166/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-11967"/>
-<attribute name="SF_SKU" value="COM-12993"/>
-</technology>
-</technologies>
-</device>
-<device name="-PTH-6.0MM-KIT" package="TACTILE_SWITCH_PTH_6.0MM_KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40170/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08441"/>
-<attribute name="SF_SKU" value="COM-00097 "/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-5.2MM" package="TACTILE_SWITCH_SMD_5.2MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40167/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08247"/>
-<attribute name="SF_SKU" value="COM-08720"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-5.2-REDUNDANT" package="TACTILE_SWITCH_SMD_5.2MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1 2"/>
-<connect gate="G$1" pin="2" pad="3 4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40167/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08247"/>
-<attribute name="SF_SKU" value="COM-08720"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-RIGHT-ANGLE" package="TACTILE_SWITCH_SMD_RIGHT_ANGLE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40169/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="COMP-12265" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-4.6X2.8MM" package="TACTILE_SWITCH_SMD_4.6X2.8MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1 2"/>
-<connect gate="G$1" pin="2" pad="3 4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40176/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-13065"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11588,34 +10661,25 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 <part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 <part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
-<part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="PAD1-17" package3d_urn="urn:adsk.eagle:package:27949/1"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/12" package3d_urn="urn:adsk.eagle:package:23489/1" value="2.2K"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/12" package3d_urn="urn:adsk.eagle:package:23489/1" value="2.2K"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="IC2" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4001" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
 <part name="IC1" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4043" device="N" package3d_urn="urn:adsk.eagle:package:922/2"/>
-<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
-<part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="IC3" library="SamacSys_Parts" deviceset="LM555CN" device=""/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/15" package3d_urn="urn:adsk.eagle:package:23492/1" value="10K"/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1"/>
-<part name="IC4" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4071" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
-<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="0.1uF"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="220uF"/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="GND" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.0" package3d_urn="urn:adsk.eagle:package:14280/1"/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="IC5" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4081" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
 <part name="IC6" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4011" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
-<part name="IC7" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4011" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="GND1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.0" package3d_urn="urn:adsk.eagle:package:14280/1"/>
 <part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
@@ -11625,8 +10689,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="TP6" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="PAD1-17" package3d_urn="urn:adsk.eagle:package:27949/1"/>
 <part name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="PAD1-17" package3d_urn="urn:adsk.eagle:package:27949/1"/>
 <part name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="PAD1-17" package3d_urn="urn:adsk.eagle:package:27949/1"/>
-<part name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="PAD1-17" package3d_urn="urn:adsk.eagle:package:27949/1"/>
-<part name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="PAD1-17" package3d_urn="urn:adsk.eagle:package:27949/1"/>
 <part name="X1" library="con-wago-508" library_urn="urn:adsk.eagle:library:196" deviceset="W237-3E" device="" package3d_urn="urn:adsk.eagle:package:10747/1"/>
 <part name="F1" library="SamacSys_Parts" deviceset="01530008Z" device=""/>
 <part name="F2" library="SamacSys_Parts" deviceset="01530008Z" device=""/>
@@ -11637,38 +10699,28 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BS170" device="" package3d_urn="urn:adsk.eagle:package:29751/1"/>
 <part name="Q3" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BS170" device="" package3d_urn="urn:adsk.eagle:package:29751/1"/>
-<part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
-<part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
-<part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
-<part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="Q2" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BS170" device="" package3d_urn="urn:adsk.eagle:package:29751/1"/>
-<part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1"/>
-<part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/15" package3d_urn="urn:adsk.eagle:package:23492/1" value="10K"/>
+<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="50uF"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/15" package3d_urn="urn:adsk.eagle:package:23492/1" value="50K"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/15" package3d_urn="urn:adsk.eagle:package:23492/1" value="500K"/>
+<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="205.74" y1="5.08" x2="144.78" y2="5.08" width="0.1524" layer="97"/>
-<wire x1="144.78" y1="5.08" x2="144.78" y2="76.2" width="0.1524" layer="97"/>
-<wire x1="144.78" y1="76.2" x2="205.74" y2="76.2" width="0.1524" layer="97"/>
-<wire x1="205.74" y1="76.2" x2="205.74" y2="5.08" width="0.1524" layer="97"/>
-<text x="203.2" y="7.62" size="1.778" layer="97" rot="R90">positive edge detection</text>
 <text x="241.3" y="137.16" size="1.778" layer="97" rot="R180">Negative edge detection</text>
 <text x="228.6" y="121.92" size="1.778" layer="97" rot="R180">Initial reset pulse for S-R latch</text>
 <text x="154.94" y="109.22" size="1.778" layer="97" rot="R90">Initial reset pulse for S-R latch</text>
-<wire x1="182.88" y1="152.4" x2="259.08" y2="152.4" width="0.1524" layer="97"/>
-<wire x1="259.08" y1="152.4" x2="259.08" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="259.08" y1="104.14" x2="182.88" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="182.88" y1="104.14" x2="182.88" y2="152.4" width="0.1524" layer="97"/>
-<text x="185.42" y="149.86" size="1.778" layer="97">Monostable Reset Pulse Generator</text>
-<wire x1="139.7" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="97"/>
-<wire x1="106.68" y1="76.2" x2="106.68" y2="2.54" width="0.1524" layer="97"/>
-<wire x1="106.68" y1="2.54" x2="139.7" y2="2.54" width="0.1524" layer="97"/>
-<wire x1="139.7" y1="2.54" x2="139.7" y2="76.2" width="0.1524" layer="97"/>
-<text x="109.22" y="7.62" size="1.778" layer="97" rot="R90">Negative edge detection</text>
+<wire x1="175.26" y1="160.02" x2="259.08" y2="160.02" width="0.1524" layer="97"/>
+<wire x1="259.08" y1="160.02" x2="259.08" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="259.08" y1="104.14" x2="175.26" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="175.26" y1="104.14" x2="175.26" y2="160.02" width="0.1524" layer="97"/>
+<text x="177.8" y="149.86" size="1.778" layer="97">Monostable Reset Pulse  (this pulse must exceeed the startup time 
+of the BMS and IMD, the length of the pulse should be considered the
+ startup time for the board)</text>
 </plain>
 <instances>
 <instance part="BMS_INPUTS" gate="G$1" x="-30.48" y="22.86" smashed="yes">
@@ -11694,19 +10746,19 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="NAME" x="-19.7358" y="106.426" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-22.7838" y="106.426" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="EMSDC_TSMS+" gate="G$1" x="45.72" y="55.88" smashed="yes" rot="R270">
-<attribute name="NAME" x="12.954" y="53.9242" size="1.778" layer="95"/>
-<attribute name="VALUE" x="12.954" y="55.9562" size="1.778" layer="96"/>
+<instance part="EMSDC_TSMS+" gate="G$1" x="45.72" y="99.06" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.954" y="97.1042" size="1.778" layer="95"/>
+<attribute name="VALUE" x="12.954" y="99.1362" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY2" gate="+12V" x="12.7" y="83.82" smashed="yes">
-<attribute name="VALUE" x="10.16" y="86.995" size="1.778" layer="96"/>
+<instance part="SUPPLY2" gate="+12V" x="12.7" y="127" smashed="yes">
+<attribute name="VALUE" x="10.16" y="130.175" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY3" gate="+12V" x="78.74" y="83.82" smashed="yes">
-<attribute name="VALUE" x="76.2" y="86.995" size="1.778" layer="96"/>
+<instance part="SUPPLY3" gate="+12V" x="78.74" y="127" smashed="yes">
+<attribute name="VALUE" x="76.2" y="130.175" size="1.778" layer="96"/>
 </instance>
-<instance part="ISOMETER_INPUTS" gate="G$1" x="119.38" y="-22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="114.3" y="-6.35" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="111.76" y="-29.21" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="ISOMETER_INPUTS" gate="G$1" x="111.76" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="106.68" y="72.39" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="104.14" y="49.53" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="D3" gate="1" x="-43.18" y="20.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="-45.72" y="19.8374" size="1.778" layer="95" rot="R180"/>
@@ -11728,13 +10780,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="NAME" x="266.1158" y="86.614" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="269.1638" y="86.614" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="K4" gate="G$1" x="78.74" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="52.07" y="60.96" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="52.07" y="63.5" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="K4" gate="G$1" x="78.74" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="52.07" y="104.14" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="52.07" y="106.68" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="K5" gate="G$1" x="12.7" y="71.12" smashed="yes">
-<attribute name="NAME" x="39.37" y="78.74" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="39.37" y="76.2" size="1.778" layer="96" align="center-left"/>
+<instance part="K5" gate="G$1" x="12.7" y="114.3" smashed="yes">
+<attribute name="NAME" x="39.37" y="121.92" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="39.37" y="119.38" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="R1" gate="G$1" x="266.7" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="265.2014" y="41.91" size="1.778" layer="95" rot="R90"/>
@@ -11743,8 +10795,8 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="SUPPLY4" gate="+12V" x="-58.42" y="15.24" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-61.595" y="12.7" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY5" gate="+12V" x="116.84" y="0" smashed="yes" rot="R90">
-<attribute name="VALUE" x="111.76" y="-0.635" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY5" gate="+12V" x="109.22" y="78.74" smashed="yes" rot="R90">
+<attribute name="VALUE" x="104.14" y="78.105" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="HV_INDICATOR" gate="G$1" x="266.7" y="30.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="267.2842" y="27.686" size="1.778" layer="95" rot="R270"/>
@@ -11754,12 +10806,12 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="NAME" x="-46.99" y="99.06" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="-46.99" y="101.6" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="SUPPLY6" gate="GND" x="119.38" y="-25.4" smashed="yes">
-<attribute name="VALUE" x="117.475" y="-28.575" size="1.778" layer="96"/>
+<instance part="SUPPLY6" gate="GND" x="111.76" y="53.34" smashed="yes">
+<attribute name="VALUE" x="109.855" y="50.165" size="1.778" layer="96"/>
 </instance>
-<instance part="TP1" gate="G$1" x="124.46" y="-27.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="130.81" y="-26.67" size="1.778" layer="95" rot="R180"/>
-<attribute name="TP_SIGNAL_NAME" x="123.19" y="-26.67" size="1.778" layer="97" rot="R180"/>
+<instance part="TP1" gate="G$1" x="116.84" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="123.19" y="52.07" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="115.57" y="52.07" size="1.778" layer="97" rot="R180"/>
 </instance>
 <instance part="K1" gate="G$1" x="76.2" y="160.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="49.53" y="152.4" size="1.778" layer="95" rot="R180" align="center-left"/>
@@ -11772,58 +10824,35 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="NAME" x="53.9242" y="164.846" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="50.8762" y="185.166" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="D6" gate="1" x="7.62" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.1374" y="73.66" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="9.9314" y="73.66" size="1.778" layer="96" rot="R90"/>
+<instance part="D6" gate="1" x="7.62" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="7.1374" y="116.84" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="9.9314" y="116.84" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="D7" gate="1" x="81.28" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="80.7974" y="71.12" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="83.5914" y="71.12" size="1.778" layer="96" rot="R90"/>
+<instance part="D7" gate="1" x="81.28" y="111.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.7974" y="114.3" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="83.5914" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D8" gate="1" x="119.38" y="162.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="119.8626" y="160.02" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="117.0686" y="160.02" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="TP5" gate="G$1" x="129.54" y="5.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="130.81" y="6.35" size="1.778" layer="95" rot="R270"/>
-<attribute name="TP_SIGNAL_NAME" x="128.27" y="3.81" size="1.778" layer="97" rot="R270"/>
+<instance part="R2" gate="G$1" x="129.54" y="71.12" smashed="yes" rot="R270">
+<attribute name="NAME" x="131.0386" y="74.93" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="126.238" y="74.93" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R2" gate="G$1" x="137.16" y="-7.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="138.6586" y="-3.81" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="133.858" y="-3.81" size="1.778" layer="96" rot="R270"/>
+<instance part="R3" gate="G$1" x="129.54" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="128.0414" y="54.61" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="132.842" y="54.61" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="137.16" y="-20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="135.6614" y="-24.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="140.462" y="-24.13" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY10" gate="GND" x="142.24" y="-15.24" smashed="yes" rot="R90">
-<attribute name="VALUE" x="145.415" y="-17.145" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY10" gate="GND" x="134.62" y="50.8" smashed="yes">
+<attribute name="VALUE" x="132.715" y="47.625" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="-15.24" y="-25.4" smashed="yes">
 <attribute name="VALUE" x="-17.145" y="-28.575" size="1.778" layer="96"/>
 </instance>
-<instance part="IC2" gate="A" x="121.92" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="114.427" y="69.342" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="116.84" y="68.58" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="IC2" gate="B" x="124.46" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="121.285" y="53.34" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="129.54" y="53.34" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="IC2" gate="C" x="124.46" y="33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="121.285" y="35.56" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="129.54" y="35.56" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="IC2" gate="D" x="124.46" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="121.285" y="17.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="129.54" y="17.78" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="IC1" gate="A" x="144.78" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="126.365" y="96.52" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="165.1" y="96.52" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY8" gate="+12V" x="160.02" y="88.9" smashed="yes" rot="R180">
-<attribute name="VALUE" x="154.94" y="84.455" size="1.778" layer="96"/>
 </instance>
 <instance part="IC1" gate="P" x="167.64" y="101.6" smashed="yes">
 <attribute name="NAME" x="166.37" y="100.965" size="1.778" layer="95"/>
@@ -11833,15 +10862,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </instance>
 <instance part="SUPPLY13" gate="GND" x="167.64" y="88.9" smashed="yes">
 <attribute name="VALUE" x="165.735" y="85.725" size="1.778" layer="96"/>
-</instance>
-<instance part="IC2" gate="P" x="137.16" y="60.96" smashed="yes">
-<attribute name="NAME" x="133.35" y="60.325" size="1.778" layer="95"/>
-</instance>
-<instance part="SUPPLY14" gate="+12V" x="137.16" y="71.12" smashed="yes">
-<attribute name="VALUE" x="130.556" y="73.533" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY15" gate="GND" x="137.16" y="50.8" smashed="yes">
-<attribute name="VALUE" x="133.731" y="47.117" size="1.778" layer="96"/>
 </instance>
 <instance part="IC3" gate="G$1" x="193.04" y="134.62" smashed="yes">
 <attribute name="NAME" x="201.93" y="139.7" size="1.778" layer="95" align="center-left"/>
@@ -11868,18 +10888,8 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="NAME" x="255.524" y="119.761" size="1.778" layer="95"/>
 <attribute name="VALUE" x="255.524" y="114.681" size="1.778" layer="96"/>
 </instance>
-<instance part="IC4" gate="A" x="93.98" y="127" smashed="yes" rot="R90">
-<attribute name="NAME" x="90.805" y="129.54" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="99.06" y="129.54" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="IC4" gate="P" x="93.98" y="127" smashed="yes" rot="R270">
-<attribute name="NAME" x="93.345" y="128.27" size="1.778" layer="95" rot="R270"/>
-</instance>
-<instance part="SUPPLY7" gate="GND" x="81.28" y="127" smashed="yes" rot="R270">
-<attribute name="VALUE" x="78.105" y="128.905" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="SUPPLY19" gate="+12V" x="106.68" y="127" smashed="yes" rot="R270">
-<attribute name="VALUE" x="109.855" y="129.54" size="1.778" layer="96" rot="R270"/>
+<instance part="SUPPLY19" gate="+12V" x="106.68" y="144.78" smashed="yes" rot="R270">
+<attribute name="VALUE" x="109.855" y="147.32" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY20" gate="+12V" x="127" y="152.4" smashed="yes">
 <attribute name="VALUE" x="124.46" y="155.575" size="1.778" layer="96"/>
@@ -11891,36 +10901,8 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="SUPPLY22" gate="GND" x="210.82" y="-27.94" smashed="yes" rot="R270">
 <attribute name="VALUE" x="207.645" y="-26.035" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC5" gate="A" x="180.34" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="177.8" y="73.025" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="187.96" y="68.58" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="IC5" gate="B" x="160.02" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="157.48" y="73.025" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="167.64" y="68.58" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="IC6" gate="A" x="162.56" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="159.385" y="17.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="167.64" y="17.78" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="IC6" gate="B" x="162.56" y="33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="159.385" y="35.56" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="167.64" y="35.56" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="IC6" gate="C" x="162.56" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="159.385" y="53.34" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="167.64" y="53.34" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="IC7" gate="A" x="182.88" y="33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="179.705" y="35.56" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="187.96" y="35.56" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="IC7" gate="B" x="182.88" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="179.705" y="53.34" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="187.96" y="53.34" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY21" gate="+12V" x="147.32" y="152.4" smashed="yes">
-<attribute name="VALUE" x="144.78" y="155.575" size="1.778" layer="96"/>
+<instance part="SUPPLY21" gate="+12V" x="144.78" y="160.02" smashed="yes">
+<attribute name="VALUE" x="142.24" y="163.195" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="G$1" x="223.52" y="-15.24" smashed="yes">
 <attribute name="NAME" x="218.186" y="-23.4442" size="1.778" layer="95" rot="R180"/>
@@ -11929,8 +10911,8 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="SUPPLY23" gate="+12V" x="208.28" y="-15.24" smashed="yes" rot="R90">
 <attribute name="VALUE" x="205.105" y="-17.78" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="TP2" gate="G$1" x="129.54" y="137.16" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" x="130.81" y="135.89" size="1.778" layer="97"/>
+<instance part="TP2" gate="G$1" x="129.54" y="119.38" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" x="130.81" y="118.11" size="1.778" layer="97"/>
 </instance>
 <instance part="TP3" gate="G$1" x="137.16" y="121.92" smashed="yes">
 <attribute name="NAME" x="133.35" y="118.11" size="1.778" layer="95"/>
@@ -11951,14 +10933,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="TP8" gate="G$1" x="142.24" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="143.51" y="85.09" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="143.51" y="87.63" size="1.778" layer="97" rot="R90"/>
-</instance>
-<instance part="TP9" gate="G$1" x="152.4" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="151.13" y="8.89" size="1.778" layer="95" rot="R180"/>
-<attribute name="TP_SIGNAL_NAME" x="153.67" y="8.89" size="1.778" layer="97" rot="R90"/>
-</instance>
-<instance part="TP10" gate="G$1" x="172.72" y="7.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="171.45" y="6.35" size="1.778" layer="95" rot="R90"/>
-<attribute name="TP_SIGNAL_NAME" x="173.99" y="8.89" size="1.778" layer="97" rot="R90"/>
 </instance>
 <instance part="X1" gate="-1" x="-40.64" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="-39.751" y="59.69" size="1.778" layer="95" rot="R90"/>
@@ -11997,48 +10971,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="NAME" x="-61.468" y="-55.2958" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-61.468" y="-58.3438" size="1.778" layer="96"/>
 </instance>
-<instance part="IC4" gate="B" x="142.24" y="127" smashed="yes" rot="R90">
-<attribute name="NAME" x="149.225" y="129.54" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="147.32" y="129.54" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="Q1" gate="1" x="142.24" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="139.7" y="147.32" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="142.24" y="147.32" size="1.778" layer="96" rot="R90"/>
+<instance part="Q1" gate="1" x="139.7" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="137.16" y="147.32" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="139.7" y="147.32" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="Q3" gate="1" x="93.98" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="91.44" y="147.32" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="93.98" y="147.32" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="IC6" gate="P" x="152.4" y="22.86" smashed="yes" rot="R180">
-<attribute name="NAME" x="153.67" y="23.495" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="IC5" gate="P" x="193.04" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="194.31" y="56.515" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="SUPPLY25" gate="+12V" x="193.04" y="66.04" smashed="yes">
-<attribute name="VALUE" x="190.5" y="69.215" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY26" gate="+12V" x="152.4" y="33.02" smashed="yes">
-<attribute name="VALUE" x="147.32" y="36.195" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY27" gate="GND" x="152.4" y="12.7" smashed="yes">
-<attribute name="VALUE" x="154.305" y="10.795" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="SUPPLY28" gate="GND" x="193.04" y="45.72" smashed="yes">
-<attribute name="VALUE" x="191.135" y="42.545" size="1.778" layer="96"/>
-</instance>
-<instance part="IC7" gate="C" x="182.88" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="179.705" y="17.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="187.96" y="17.78" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="IC7" gate="P" x="200.66" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="201.93" y="56.515" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="SUPPLY29" gate="+12V" x="200.66" y="66.04" smashed="yes">
-<attribute name="VALUE" x="198.12" y="69.215" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY30" gate="GND" x="200.66" y="45.72" smashed="yes">
-<attribute name="VALUE" x="198.755" y="42.545" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="-88.9" y="-76.2" smashed="yes">
 <attribute name="DRAWING_NAME" x="255.27" y="-60.96" size="2.54" layer="94"/>
@@ -12053,12 +10992,42 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="NAME" x="116.84" y="147.32" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="119.38" y="147.32" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="S1" gate="G$1" x="185.42" y="88.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="186.944" y="88.9" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="210.82" y="93.472" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="IC6" gate="P" x="119.38" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="120.015" y="125.73" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="SUPPLY31" gate="+12V" x="185.42" y="99.06" smashed="yes">
-<attribute name="VALUE" x="187.96" y="99.695" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="160.02" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="158.5214" y="64.77" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="163.322" y="64.77" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY7" gate="GND" x="160.02" y="55.88" smashed="yes">
+<attribute name="VALUE" x="158.115" y="52.705" size="1.778" layer="96"/>
+</instance>
+<instance part="IC6" gate="A" x="160.02" y="154.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="156.845" y="157.48" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="165.1" y="157.48" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="IC6" gate="B" x="157.48" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="154.305" y="139.7" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="162.56" y="139.7" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="IC6" gate="C" x="170.18" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="167.005" y="139.7" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="175.26" y="139.7" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C3" gate="G$1" x="182.88" y="127" smashed="yes">
+<attribute name="NAME" x="184.404" y="127.381" size="1.778" layer="95"/>
+<attribute name="VALUE" x="184.404" y="122.301" size="1.778" layer="96"/>
+</instance>
+<instance part="R6" gate="G$1" x="182.88" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="181.3814" y="135.89" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="186.182" y="135.89" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R7" gate="G$1" x="177.8" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="176.3014" y="123.19" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="181.102" y="123.19" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY8" gate="GND" x="182.88" y="116.84" smashed="yes">
+<attribute name="VALUE" x="180.975" y="113.665" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -12118,10 +11087,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="167.64" y1="91.44" x2="167.64" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="P" pin="VSS"/>
-<pinref part="SUPPLY15" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
 <pinref part="IC3" gate="G$1" pin="GND"/>
 <wire x1="193.04" y1="139.7" x2="193.04" y2="134.62" width="0.1524" layer="91"/>
@@ -12135,11 +11100,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="238.76" y1="114.3" x2="238.76" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY7" gate="GND" pin="GND"/>
-<pinref part="IC4" gate="P" pin="VSS"/>
-<wire x1="83.82" y1="127" x2="86.36" y2="127" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND" gate="G$1" pin="MOUNT"/>
 <wire x1="220.98" y1="-27.94" x2="213.36" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
@@ -12150,24 +11110,26 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="-55.88" y1="53.34" x2="-55.88" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="P" pin="VDD"/>
-<pinref part="SUPPLY27" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="P" pin="VDD"/>
-<pinref part="SUPPLY28" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="P" pin="VDD"/>
-<pinref part="SUPPLY30" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="-15.24" x2="137.16" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="53.34" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="63.5" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="-12.7" x2="137.16" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="137.16" y="-15.24"/>
+<wire x1="129.54" y1="66.04" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
+<junction x="129.54" y="63.5"/>
+</segment>
+<segment>
+<pinref part="SUPPLY7" gate="GND" pin="GND"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="58.42" x2="160.02" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="GND" pin="GND"/>
+<wire x1="182.88" y1="119.38" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
+<junction x="182.88" y="121.92"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -12194,15 +11156,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </net>
 <net name="EMSDC_IMD+" class="0">
 <segment>
-<wire x1="48.26" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="71.12" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="91.44" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
-<junction x="45.72" y="71.12"/>
-<label x="73.66" y="91.44" size="1.778" layer="95"/>
+<wire x1="48.26" y1="114.3" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="114.3" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
+<junction x="45.72" y="114.3"/>
+<label x="73.66" y="134.62" size="1.778" layer="95"/>
 <pinref part="K4" gate="G$1" pin="NO"/>
 <pinref part="K5" gate="G$1" pin="COM"/>
-<wire x1="45.72" y1="91.44" x2="45.72" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="114.3" x2="45.72" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="K1" gate="G$1" pin="COM"/>
 </segment>
 </net>
@@ -12210,20 +11170,21 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <segment>
 <pinref part="K5" gate="G$1" pin="COIL_2"/>
 <pinref part="D6" gate="1" pin="A"/>
-<wire x1="7.62" y1="68.58" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="7.62" x2="185.42" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="-33.02" x2="76.2" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-33.02" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
-<junction x="12.7" y="68.58"/>
-<wire x1="76.2" y1="22.86" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="45.72" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="45.72" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="7.62" x2="182.9562" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="C" pin="I1"/>
-<junction x="185.42" y="7.62"/>
+<wire x1="7.62" y1="111.76" x2="12.7" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+<junction x="12.7" y="111.76"/>
+<wire x1="73.66" y1="27.94" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="83.82" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="83.82" x2="12.7" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="BMS_INPUTS" gate="G$1" pin="2"/>
-<wire x1="-10.16" y1="22.86" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
-<junction x="76.2" y="22.86"/>
+<wire x1="-10.16" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="22.86" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+<junction x="73.66" y="27.94"/>
+<pinref part="IC1" gate="A" pin="S2"/>
+<wire x1="144.78" y1="91.44" x2="144.78" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="TP8" gate="G$1" pin="PP"/>
+<junction x="144.78" y="86.36"/>
+<wire x1="144.78" y1="86.36" x2="144.78" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DISCHARGE_ENABLE" class="0">
@@ -12232,57 +11193,50 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="78.74" y1="20.32" x2="-10.16" y2="20.32" width="0.1524" layer="91"/>
 <label x="-5.08" y="20.32" size="1.778" layer="95" rot="R270"/>
 <pinref part="K4" gate="G$1" pin="COIL_1"/>
-<wire x1="78.74" y1="68.58" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="111.76" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="D7" gate="1" pin="A"/>
-<wire x1="81.28" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="66.04" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
-<junction x="78.74" y="68.58"/>
-<pinref part="IC6" gate="A" pin="I0"/>
-<pinref part="IC6" gate="A" pin="I1"/>
-<wire x1="160.02" y1="7.62" x2="165.1" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="B" pin="I0"/>
-<wire x1="157.48" y1="60.96" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="60.96" x2="154.94" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="7.62" x2="160.02" y2="7.62" width="0.1524" layer="91"/>
-<junction x="160.02" y="7.62"/>
-<wire x1="165.1" y1="7.62" x2="165.1" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="-30.48" x2="78.74" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-30.48" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
-<junction x="165.1" y="7.62"/>
-<junction x="78.74" y="20.32"/>
-<pinref part="TP9" gate="G$1" pin="PP"/>
-<junction x="154.94" y="7.62"/>
+<wire x1="78.74" y1="30.48" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="109.22" x2="78.74" y2="111.76" width="0.1524" layer="91"/>
+<junction x="78.74" y="111.76"/>
+<pinref part="IC1" gate="A" pin="S1"/>
+<wire x1="137.16" y1="91.44" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="TP7" gate="G$1" pin="PP"/>
+<junction x="137.16" y="86.36"/>
+<wire x1="137.16" y1="86.36" x2="137.16" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
+<junction x="78.74" y="30.48"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="K5" gate="G$1" pin="NO"/>
 <pinref part="EMSDC_TSMS+" gate="G$1" pin="MOUNT"/>
-<wire x1="43.18" y1="68.58" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="68.58" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="111.76" x2="45.72" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="K4" gate="G$1" pin="COM"/>
-<wire x1="48.26" y1="68.58" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
-<junction x="45.72" y="68.58"/>
+<wire x1="48.26" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
+<junction x="45.72" y="111.76"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="SUPPLY2" gate="+12V" pin="+12V"/>
 <pinref part="K5" gate="G$1" pin="COIL_1"/>
-<wire x1="12.7" y1="81.28" x2="12.7" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="71.12" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="71.12" x2="10.16" y2="73.66" width="0.1524" layer="91"/>
-<junction x="12.7" y="71.12"/>
+<wire x1="12.7" y1="124.46" x2="12.7" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="114.3" x2="10.16" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="114.3" x2="10.16" y2="116.84" width="0.1524" layer="91"/>
+<junction x="12.7" y="114.3"/>
 <pinref part="D6" gate="1" pin="C"/>
-<wire x1="10.16" y1="73.66" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="116.84" x2="7.62" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="+12V" pin="+12V"/>
 <pinref part="K4" gate="G$1" pin="COIL_2"/>
-<wire x1="78.74" y1="81.28" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="124.46" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="D7" gate="1" pin="C"/>
-<wire x1="81.28" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
-<junction x="78.74" y="71.12"/>
+<wire x1="81.28" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
+<junction x="78.74" y="114.3"/>
 </segment>
 <segment>
 <pinref part="D3" gate="1" pin="C"/>
@@ -12297,18 +11251,10 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="-55.88" y1="15.24" x2="-45.72" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="81.28" y="76.2" size="1.778" layer="95"/>
+<label x="81.28" y="119.38" size="1.778" layer="95"/>
 <pinref part="SUPPLY5" gate="+12V" pin="+12V"/>
 <pinref part="ISOMETER_INPUTS" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="0" x2="119.38" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY8" gate="+12V" pin="+12V"/>
-<pinref part="IC1" gate="A" pin="EN"/>
-</segment>
-<segment>
-<pinref part="SUPPLY14" gate="+12V" pin="+12V"/>
-<pinref part="IC2" gate="P" pin="VDD"/>
+<wire x1="111.76" y1="78.74" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="VCC"/>
@@ -12317,47 +11263,31 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="254" y1="139.7" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
 <junction x="238.76" y="139.7"/>
-<pinref part="IC3" gate="G$1" pin="TRIGGER"/>
-<wire x1="193.04" y1="132.08" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="132.08" x2="187.96" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="127" x2="187.96" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="147.32" x2="231.14" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="147.32" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="139.7" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="RESET"/>
 <wire x1="193.04" y1="127" x2="187.96" y2="127" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="127" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
-<junction x="187.96" y="132.08"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="144.78" x2="182.88" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="147.32" x2="187.96" y2="147.32" width="0.1524" layer="91"/>
+<junction x="187.96" y="147.32"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="P" pin="VDD"/>
 <pinref part="SUPPLY19" gate="+12V" pin="+12V"/>
-<wire x1="101.6" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="127" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="144.78" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
-<junction x="104.14" y="127"/>
 <pinref part="Q3" gate="1" pin="S"/>
 </segment>
 <segment>
 <pinref part="SUPPLY21" gate="+12V" pin="+12V"/>
 <pinref part="Q1" gate="1" pin="S"/>
-<wire x1="147.32" y1="149.86" x2="147.32" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="157.48" x2="144.78" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY23" gate="+12V" pin="+12V"/>
 <pinref part="GND1" gate="G$1" pin="MOUNT"/>
 <wire x1="210.82" y1="-15.24" x2="220.98" y2="-15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="P" pin="VSS"/>
-<pinref part="SUPPLY25" gate="+12V" pin="+12V"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="P" pin="VSS"/>
-<pinref part="SUPPLY26" gate="+12V" pin="+12V"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="P" pin="VSS"/>
-<pinref part="SUPPLY29" gate="+12V" pin="+12V"/>
 </segment>
 <segment>
 <pinref part="SUPPLY20" gate="+12V" pin="+12V"/>
@@ -12366,14 +11296,14 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="127" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY31" gate="+12V" pin="+12V"/>
-<pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="96.52" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY12" gate="+12V" pin="+12V"/>
 <pinref part="IC1" gate="P" pin="VDD"/>
 <wire x1="167.64" y1="111.76" x2="167.64" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
+<junction x="167.64" y="109.22"/>
+<wire x1="165.1" y1="109.22" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="EN"/>
+<wire x1="160.02" y1="91.44" x2="165.1" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -12400,11 +11330,11 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <net name="N$10" class="0">
 <segment>
 <pinref part="ISOMETER_INPUTS" gate="G$1" pin="5"/>
-<wire x1="124.46" y1="-22.86" x2="124.46" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="55.88" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="TP1" gate="G$1" pin="PP"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="-25.4" x2="137.16" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="124.46" y="-25.4"/>
+<wire x1="116.84" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
+<junction x="116.84" y="53.34"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -12440,67 +11370,17 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <junction x="-33.02" y="17.78"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="TP5" gate="G$1" pin="PP"/>
-<pinref part="ISOMETER_INPUTS" gate="G$1" pin="8"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="-2.54" x2="127" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="127" y="-2.54"/>
-<wire x1="127" y1="7.62" x2="127" y2="5.08" width="0.1524" layer="91"/>
-<junction x="127" y="5.08"/>
-<wire x1="121.92" y1="5.08" x2="121.92" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="D" pin="I0"/>
-<pinref part="IC2" gate="D" pin="I1"/>
-<wire x1="127" y1="5.08" x2="121.92" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="127" y1="-2.54" x2="127" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="127" y1="5.08" x2="114.3" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="A" pin="I0"/>
-<wire x1="114.3" y1="5.08" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="60.96" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="I0"/>
-<wire x1="91.44" y1="119.38" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
-<junction x="114.3" y="60.96"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="IC2" gate="D" pin="O"/>
-<pinref part="IC2" gate="C" pin="I1"/>
-<wire x1="124.46" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="C" pin="I0"/>
-<wire x1="124.46" y1="22.86" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="25.4" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="IC2" gate="C" pin="O"/>
-<pinref part="IC2" gate="B" pin="I1"/>
-<wire x1="124.46" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="B" pin="I0"/>
-<wire x1="121.92" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="43.18" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="IC2" gate="B" pin="O"/>
-<pinref part="IC2" gate="A" pin="I1"/>
-<wire x1="124.46" y1="58.42" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="IC2" gate="A" pin="O"/>
 <pinref part="IC1" gate="A" pin="S0"/>
-<wire x1="121.92" y1="76.2" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="78.74" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="78.74" x2="129.54" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="TP6" gate="G$1" pin="PP"/>
 <wire x1="129.54" y1="86.36" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
 <junction x="129.54" y="86.36"/>
+<pinref part="ISOMETER_INPUTS" gate="G$1" pin="8"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="76.2" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="86.36" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
+<junction x="129.54" y="76.2"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -12521,51 +11401,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="IC3" gate="G$1" pin="CONTROL_VOLTAGE"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="127" x2="238.76" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="R0"/>
-<wire x1="132.08" y1="91.44" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="OUTPUT"/>
-<wire x1="193.04" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="129.54" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="121.92" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="121.92" x2="193.04" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="78.74" x2="185.42" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="R1"/>
-<wire x1="185.42" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="78.74" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="91.44" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
-<junction x="139.7" y="78.74"/>
-<pinref part="IC1" gate="A" pin="R2"/>
-<wire x1="147.32" y1="91.44" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
-<junction x="147.32" y="78.74"/>
-<pinref part="TP4" gate="G$1" pin="PP"/>
-<junction x="190.5" y="121.92"/>
-<pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="83.82" x2="185.42" y2="78.74" width="0.1524" layer="91"/>
-<junction x="185.42" y="78.74"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="Q0"/>
-<junction x="129.54" y="116.84"/>
-<pinref part="TP2" gate="G$1" pin="PP"/>
-<wire x1="129.54" y1="134.62" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="D" pin="I0"/>
-<wire x1="129.54" y1="116.84" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="116.84" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="D" pin="I1"/>
-<wire x1="121.92" y1="116.84" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
-<junction x="121.92" y="116.84"/>
-<pinref part="IC4" gate="A" pin="I1"/>
-<wire x1="96.52" y1="116.84" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
-<junction x="116.84" y="116.84"/>
 </segment>
 </net>
 <net name="IMD_LED_OUT" class="0">
@@ -12591,93 +11426,11 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <junction x="114.3" y="160.02"/>
 </segment>
 </net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="IC6" gate="B" pin="I0"/>
-<pinref part="IC6" gate="B" pin="I1"/>
-<wire x1="160.02" y1="25.4" x2="162.56" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="A" pin="O"/>
-<wire x1="162.56" y1="25.4" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="22.86" x2="162.56" y2="25.4" width="0.1524" layer="91"/>
-<junction x="162.56" y="25.4"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="IC6" gate="C" pin="I0"/>
-<pinref part="IC6" gate="C" pin="I1"/>
-<wire x1="160.02" y1="43.18" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="B" pin="O"/>
-<wire x1="162.56" y1="43.18" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="40.64" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
-<junction x="162.56" y="43.18"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="IC6" gate="C" pin="O"/>
-<pinref part="IC5" gate="B" pin="I1"/>
-<wire x1="162.56" y1="58.42" x2="162.56" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="IC7" gate="B" pin="O"/>
-<wire x1="182.88" y1="58.42" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A" pin="I1"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="IC7" gate="B" pin="I0"/>
-<pinref part="IC7" gate="B" pin="I1"/>
-<wire x1="180.34" y1="43.18" x2="182.88" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="A" pin="O"/>
-<wire x1="182.88" y1="43.18" x2="185.42" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="40.64" x2="182.88" y2="43.18" width="0.1524" layer="91"/>
-<junction x="182.88" y="43.18"/>
-</segment>
-</net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="IC7" gate="A" pin="I0"/>
-<pinref part="IC7" gate="A" pin="I1"/>
-<wire x1="180.34" y1="25.4" x2="182.88" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="25.4" x2="185.42" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="22.86" x2="182.88" y2="25.4" width="0.1524" layer="91"/>
-<junction x="182.88" y="25.4"/>
-<pinref part="IC7" gate="C" pin="O"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<wire x1="160.02" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="S1"/>
-<wire x1="137.16" y1="91.44" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="86.36" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="TP7" gate="G$1" pin="PP"/>
-<junction x="137.16" y="86.36"/>
-<pinref part="IC5" gate="B" pin="O"/>
-<wire x1="160.02" y1="76.2" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="IC5" gate="A" pin="O"/>
-<wire x1="180.34" y1="76.2" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="83.82" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="A" pin="S2"/>
-<wire x1="144.78" y1="91.44" x2="144.78" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="86.36" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="TP8" gate="G$1" pin="PP"/>
-<junction x="144.78" y="86.36"/>
-</segment>
-</net>
 <net name="AMS_LED_OUT" class="0">
 <segment>
-<label x="139.7" y="142.24" size="1.778" layer="95" rot="R90"/>
+<label x="137.16" y="149.86" size="1.778" layer="95" rot="R90"/>
 <pinref part="Q1" gate="1" pin="D"/>
-<wire x1="137.16" y1="149.86" x2="137.16" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="157.48" x2="134.62" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="MISC_I/O" gate="G$1" pin="5"/>
@@ -12699,49 +11452,22 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="-48.26" y1="53.34" x2="-48.26" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="IC1" gate="A" pin="Q1"/>
-<pinref part="TP3" gate="G$1" pin="PP"/>
-<wire x1="137.16" y1="119.38" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="B" pin="I0"/>
-<wire x1="139.7" y1="119.38" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
-<junction x="137.16" y="116.84"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="IC4" gate="B" pin="I1"/>
-<pinref part="IC1" gate="A" pin="Q2"/>
-<wire x1="144.78" y1="119.38" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="IC4" gate="B" pin="O"/>
-<wire x1="142.24" y1="137.16" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="1" pin="G"/>
-</segment>
-</net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="IC4" gate="A" pin="O"/>
 <pinref part="Q3" gate="1" pin="G"/>
-<wire x1="93.98" y1="134.62" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="IC5" gate="A" pin="I0"/>
-<wire x1="177.8" y1="60.96" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="60.96" x2="175.26" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="TP10" gate="G$1" pin="PP"/>
-<junction x="175.26" y="7.62"/>
-<wire x1="180.34" y1="7.62" x2="175.26" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="C" pin="I0"/>
-<wire x1="182.88" y1="7.62" x2="180.34" y2="7.62" width="0.1524" layer="91"/>
-<junction x="180.34" y="7.62"/>
+<pinref part="IC1" gate="A" pin="Q0"/>
+<junction x="129.54" y="116.84"/>
+<pinref part="TP2" gate="G$1" pin="PP"/>
+<pinref part="IC6" gate="D" pin="I0"/>
+<wire x1="129.54" y1="116.84" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="116.84" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="D" pin="I1"/>
+<wire x1="121.92" y1="116.84" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
+<junction x="121.92" y="116.84"/>
+<wire x1="116.84" y1="116.84" x2="93.98" y2="116.84" width="0.1524" layer="91"/>
+<junction x="116.84" y="116.84"/>
+<wire x1="93.98" y1="137.16" x2="93.98" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -12751,12 +11477,107 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="Q2" gate="1" pin="G"/>
 </segment>
 </net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="R0"/>
+<wire x1="132.08" y1="91.44" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="R2"/>
+<wire x1="147.32" y1="91.44" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="78.74" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A" pin="R1"/>
+<wire x1="139.7" y1="91.44" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
+<junction x="139.7" y="78.74"/>
+<wire x1="139.7" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
+<junction x="147.32" y="78.74"/>
+<pinref part="IC3" gate="G$1" pin="OUTPUT"/>
+<wire x1="193.04" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="129.54" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="121.92" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="121.92" x2="193.04" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="TP4" gate="G$1" pin="PP"/>
+<junction x="190.5" y="121.92"/>
+<wire x1="147.32" y1="78.74" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="160.02" y1="78.74" x2="193.04" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="73.66" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
+<junction x="160.02" y="78.74"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="IC6" gate="B" pin="I0"/>
+<pinref part="IC6" gate="B" pin="I1"/>
+<wire x1="154.94" y1="129.54" x2="160.02" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="129.54" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
+<junction x="154.94" y="129.54"/>
+<pinref part="IC1" gate="A" pin="Q1"/>
+<pinref part="TP3" gate="G$1" pin="PP"/>
+<wire x1="137.16" y1="119.38" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
+<junction x="137.16" y="116.84"/>
+<wire x1="139.7" y1="129.54" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="IC6" gate="A" pin="I0"/>
+<pinref part="IC6" gate="B" pin="O"/>
+<wire x1="157.48" y1="147.32" x2="157.48" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="IC6" gate="A" pin="I1"/>
+<pinref part="IC6" gate="C" pin="O"/>
+<wire x1="162.56" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="147.32" x2="170.18" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="IC6" gate="A" pin="O"/>
+<wire x1="160.02" y1="162.56" x2="149.86" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="162.56" x2="149.86" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="137.16" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="1" pin="G"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="Q2"/>
+<wire x1="144.78" y1="124.46" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="C" pin="I0"/>
+<pinref part="IC6" gate="C" pin="I1"/>
+<wire x1="172.72" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="129.54" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
+<junction x="170.18" y="129.54"/>
+<wire x1="170.18" y1="124.46" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="132.08" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="TRIGGER"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="132.08" x2="193.04" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="134.62" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
+<junction x="182.88" y="132.08"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="129.54" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
