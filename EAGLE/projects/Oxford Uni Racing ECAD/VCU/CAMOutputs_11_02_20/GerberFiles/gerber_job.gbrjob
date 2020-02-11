@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-02-11T13:28:07Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "VCU"
+        },
+        "Owner": "Dimitar Ruzhev <dimitar.ruzhev@gmail.com>",
+        "Size": {
+            "X": 165.1,
+            "Y": 114.3
+        }
+    }
+}
