@@ -11350,7 +11350,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="CAN_TERMINATION1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="120"/>
-<part name="J1" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="Connector A"/>
+<part name="J1" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="CAN + POWER"/>
 <part name="IC4" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LM317TS" device="" package3d_urn="urn:adsk.eagle:package:30353/1"/>
 <part name="R7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="240"/>
 <part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="723"/>
@@ -11383,7 +11383,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="47K"/>
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="J2" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="Connector C, D, ii"/>
+<part name="J2" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="AIR Coil, TSAL, AUDIO"/>
 <part name="F1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="FUSE" device="" package3d_urn="urn:adsk.eagle:package:26650/1" value="1A"/>
 <part name="5V_IND" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:6240537/1"/>
 <part name="R24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:6240566/1" value="1.8K"/>
@@ -11403,7 +11403,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND26" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY36" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND28" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="X1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" value="Connector i"/>
+<part name="X1" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" value="ASS"/>
 <part name="J6" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="LEFT_COOLING_SENSOR"/>
 <part name="J8" library="T821108A1S100CEU" deviceset="T821108A1S100CEU" device="" value="RIGHT_COOLING_SENSOR"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
@@ -11493,7 +11493,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1Q" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="JP3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1Q" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="JP4" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1Q" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
-<part name="X3" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" value="Connector i"/>
+<part name="X3" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-102" device="" package3d_urn="urn:adsk.eagle:package:10688/1" value="Brake Lights"/>
 <part name="SUPPLY44" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 </parts>
 <sheets>
@@ -12019,7 +12019,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="144.78" y="42.291" size="1.778" layer="95"/>
 </instance>
 <instance part="X3" gate="-2" x="157.48" y="43.18" smashed="yes">
-<attribute name="VALUE" x="152.4" y="52.197" size="1.778" layer="96"/>
+<attribute name="VALUE" x="157.48" y="47.117" size="1.778" layer="96"/>
 <attribute name="NAME" x="157.48" y="44.069" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="SUPPLY44" gate="G$1" x="137.16" y="55.88" smashed="yes" rot="R90">
