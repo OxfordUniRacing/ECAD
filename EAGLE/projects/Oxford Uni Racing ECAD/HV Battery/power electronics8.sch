@@ -13161,11 +13161,11 @@ of the BMS and IMD, the length of the pulse should be considered the
 input bypass capacitor used as reccomended for circuits powered from
  a battery voltage source in the application notes</text>
 <text x="170.18" y="152.4" size="1.778" layer="97">1: Chassis GND (LV connector)
-2: IMD LED + (LV connector)
+2: AMS/IMD LED + (LV connector)
 3: IMD LED - (LV connector)
-4: AMS LED + (LV connector)
+4: CAN1 H (LV connector)
 5: AMS LED - (LV connector)
-6: NC
+6: CAN1 L (LV connector)
 7: CAN2 H (LV connector)
 8: CAN2 L (LV connector)</text>
 <text x="83.82" y="142.24" size="1.778" layer="97">1: GND (for supply) 
@@ -13910,12 +13910,6 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <wire x1="157.48" y1="165.1" x2="167.64" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="+12V" pin="+12V"/>
 <wire x1="167.64" y1="167.64" x2="167.64" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="MISC_I/O" gate="G$1" pin="4"/>
-<wire x1="157.48" y1="157.48" x2="160.02" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="157.48" x2="160.02" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="160.02" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="165.1" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
-<junction x="167.64" y="165.1"/>
 </segment>
 </net>
 <net name="M_HS" class="0">
@@ -14575,6 +14569,13 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <wire x1="43.18" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
 <label x="30.48" y="139.7" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="MISC_I/O" gate="G$1" pin="4"/>
+<wire x1="157.48" y1="157.48" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="157.48" x2="165.1" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="160.02" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
+<label x="160.02" y="160.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CAN1_L" class="0">
 <segment>
@@ -14588,6 +14589,13 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <wire x1="40.64" y1="129.54" x2="40.64" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
 <label x="30.48" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MISC_I/O" gate="G$1" pin="6"/>
+<wire x1="157.48" y1="154.94" x2="165.1" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="154.94" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
+<label x="162.56" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
