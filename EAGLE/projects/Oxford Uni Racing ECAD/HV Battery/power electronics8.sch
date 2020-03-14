@@ -13149,6 +13149,9 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="Q4" library="m-pad-2.1" deviceset="BSS138" device=""/>
 <part name="Q5" library="m-pad-2.1" deviceset="BSS138" device=""/>
 <part name="IC3" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4011" device="D" package3d_urn="urn:adsk.eagle:package:823/2"/>
+<part name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="TP11R" package3d_urn="urn:adsk.eagle:package:27961/1" value="TPSTP11R"/>
+<part name="TP11" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="TP11R" package3d_urn="urn:adsk.eagle:package:27961/1" value="TPSTP11R"/>
+<part name="TP12" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="TP11R" package3d_urn="urn:adsk.eagle:package:27961/1" value="TPSTP11R"/>
 </parts>
 <sheets>
 <sheet>
@@ -13613,6 +13616,18 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <instance part="IC3" gate="P" x="-53.34" y="38.1" smashed="yes">
 <attribute name="NAME" x="-54.61" y="37.465" size="1.778" layer="95"/>
 </instance>
+<instance part="TP10" gate="G$1" x="-38.1" y="73.66" smashed="yes">
+<attribute name="NAME" x="-39.37" y="74.93" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-36.83" y="72.39" size="1.778" layer="97"/>
+</instance>
+<instance part="TP11" gate="G$1" x="83.82" y="43.18" smashed="yes">
+<attribute name="NAME" x="82.55" y="44.45" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="85.09" y="41.91" size="1.778" layer="97"/>
+</instance>
+<instance part="TP12" gate="G$1" x="83.82" y="35.56" smashed="yes">
+<attribute name="NAME" x="82.55" y="36.83" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="85.09" y="34.29" size="1.778" layer="97"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13934,6 +13949,9 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <wire x1="-38.1" y1="68.58" x2="-38.1" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="OK2" gate="A" pin="A"/>
 <wire x1="-38.1" y1="68.58" x2="-45.72" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="TP10" gate="G$1" pin="PP"/>
+<wire x1="-38.1" y1="68.58" x2="-38.1" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-38.1" y="68.58"/>
 </segment>
 </net>
 <net name="N$37" class="0">
