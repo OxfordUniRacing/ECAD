@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13628,6 +13628,14 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <attribute name="NAME" x="82.55" y="36.83" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="85.09" y="34.29" size="1.778" layer="97"/>
 </instance>
+<instance part="IC3" gate="C" x="160.02" y="10.16" smashed="yes">
+<attribute name="NAME" x="162.56" y="13.335" size="1.778" layer="95"/>
+<attribute name="VALUE" x="162.56" y="5.08" size="1.778" layer="96"/>
+</instance>
+<instance part="IC3" gate="D" x="160.02" y="22.86" smashed="yes">
+<attribute name="NAME" x="162.56" y="26.035" size="1.778" layer="95"/>
+<attribute name="VALUE" x="162.56" y="17.78" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13670,7 +13678,8 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <wire x1="-15.24" y1="2.54" x2="48.26" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="P" pin="VSS"/>
 <wire x1="48.26" y1="2.54" x2="139.7" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="2.54" x2="175.26" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="2.54" x2="152.4" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="2.54" x2="175.26" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="2.54" x2="193.04" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="30.48" x2="-66.04" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-66.04" y="2.54"/>
@@ -13737,6 +13746,18 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <pinref part="Q5" gate="G$1" pin="S"/>
 <wire x1="241.3" y1="66.04" x2="241.3" y2="2.54" width="0.1524" layer="91"/>
 <junction x="241.3" y="2.54"/>
+<pinref part="IC3" gate="D" pin="I0"/>
+<pinref part="IC3" gate="D" pin="I1"/>
+<wire x1="152.4" y1="25.4" x2="152.4" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="C" pin="I0"/>
+<wire x1="152.4" y1="20.32" x2="152.4" y2="12.7" width="0.1524" layer="91"/>
+<junction x="152.4" y="20.32"/>
+<pinref part="IC3" gate="C" pin="I1"/>
+<wire x1="152.4" y1="12.7" x2="152.4" y2="7.62" width="0.1524" layer="91"/>
+<junction x="152.4" y="12.7"/>
+<wire x1="152.4" y1="7.62" x2="152.4" y2="2.54" width="0.1524" layer="91"/>
+<junction x="152.4" y="7.62"/>
+<junction x="152.4" y="2.54"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -14026,14 +14047,18 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <net name="N$13" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="Q2"/>
-<wire x1="86.36" y1="30.48" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="C" pin="I0"/>
 <pinref part="IC6" gate="C" pin="I1"/>
+<wire x1="83.82" y1="30.48" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="22.86" x2="88.9" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="25.4" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="30.48" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="25.4" x2="88.9" y2="25.4" width="0.1524" layer="91"/>
 <junction x="88.9" y="25.4"/>
+<pinref part="TP12" gate="G$1" pin="PP"/>
+<wire x1="83.82" y1="33.02" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
+<junction x="83.82" y="30.48"/>
 </segment>
 </net>
 <net name="READY_POWER" class="3">
@@ -14211,15 +14236,16 @@ by the bms. They also control mosfets Q4 and Q5</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="IC6" gate="B" pin="I1"/>
-<pinref part="IC6" gate="B" pin="I0"/>
-<wire x1="88.9" y1="43.18" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="40.64" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="40.64" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
-<junction x="88.9" y="40.64"/>
 <pinref part="IC1" gate="A" pin="Q1"/>
-<wire x1="91.44" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="TP11" gate="G$1" pin="PP"/>
+<wire x1="83.82" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="40.64" x2="83.82" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="B" pin="I1"/>
+<wire x1="83.82" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
+<junction x="83.82" y="38.1"/>
+<pinref part="IC6" gate="B" pin="I0"/>
+<wire x1="88.9" y1="38.1" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
+<junction x="88.9" y="38.1"/>
 </segment>
 </net>
 <net name="IMD_COIL_OUT" class="0">
@@ -14667,6 +14693,9 @@ by the bms. They also control mosfets Q4 and Q5</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,189.483,121.92,X1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
