@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13141,8 +13141,8 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="TP11R" package3d_urn="urn:adsk.eagle:package:27961/1" value="TPSTP11R"/>
 <part name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="TP11R" package3d_urn="urn:adsk.eagle:package:27961/1" value="TPSTP11R"/>
 <part name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPS" device="TP11R" package3d_urn="urn:adsk.eagle:package:27961/1" value="TPSTP11R"/>
-<part name="X1" library="con-subd" library_urn="urn:adsk.eagle:library:189" deviceset="F09" device="V" package3d_urn="urn:adsk.eagle:package:10277/1"/>
-<part name="X2" library="con-subd" library_urn="urn:adsk.eagle:library:189" deviceset="F09" device="V" package3d_urn="urn:adsk.eagle:package:10277/1"/>
+<part name="X1" library="con-subd" library_urn="urn:adsk.eagle:library:189" deviceset="F09" device="V" package3d_urn="urn:adsk.eagle:package:10277/1" value="CAN 1"/>
+<part name="X2" library="con-subd" library_urn="urn:adsk.eagle:library:189" deviceset="F09" device="V" package3d_urn="urn:adsk.eagle:package:10277/1" value="CAN 2"/>
 <part name="BMS_POWER/GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="KK-156-3" device=""/>
 <part name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="HCPL0453" device="" package3d_urn="urn:adsk.eagle:package:21945/1"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="2.2K"/>
