@@ -1,0 +1,411 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 16774 9868
+encoding utf-8
+Sheet 1 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Bus Line
+	2700 7600 2700 700 
+Wire Wire Line
+	7600 5500 7700 5500
+Wire Wire Line
+	7700 5500 7900 5500
+Wire Wire Line
+	7700 5500 7700 5400
+Wire Wire Line
+	7700 5400 7600 5400
+Connection ~ 7700 5500
+Text GLabel 7600 5500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	5500 5200 6800 5200
+Text GLabel 5500 5200 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	6800 5500 5500 5500
+Text GLabel 6800 5500 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	9200 5300 7600 5300
+Text GLabel 9200 5300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	2800 4100 4200 4100
+Text GLabel 2800 4100 2    70   BiDi ~ 0
+GND
+Wire Wire Line
+	6800 5300 6700 5300
+Text GLabel 6700 5300 2    70   BiDi ~ 0
+MC_2_RXD
+Wire Wire Line
+	3100 5900 2800 5900
+Text GLabel 2800 5900 2    70   BiDi ~ 0
+MC_2_RXD
+Wire Wire Line
+	6800 5400 6700 5400
+Text GLabel 6700 5400 2    70   BiDi ~ 0
+MC_2_TXD
+Wire Wire Line
+	3100 6000 2800 6000
+Text GLabel 2800 6000 2    70   BiDi ~ 0
+MC_2_TXD
+Wire Wire Line
+	3600 3800 2800 3800
+Text GLabel 2800 3800 2    70   BiDi ~ 0
+12V
+Wire Wire Line
+	3800 3900 2800 3900
+Text GLabel 2800 3900 2    70   BiDi ~ 0
+5V
+Wire Wire Line
+	4000 4000 2800 4000
+Text GLabel 2800 4000 2    70   BiDi ~ 0
+3.3V
+Wire Wire Line
+	3100 4300 2800 4300
+Text GLabel 2800 4300 2    70   BiDi ~ 0
+CANH
+Wire Wire Line
+	3100 4400 2800 4400
+Text GLabel 2800 4400 2    70   BiDi ~ 0
+CANL
+Wire Wire Line
+	3100 4600 2800 4600
+Text GLabel 2800 4600 2    70   BiDi ~ 0
+ASS1
+Wire Wire Line
+	3100 4700 2800 4700
+Text GLabel 2800 4700 2    70   BiDi ~ 0
+ASS2
+Wire Wire Line
+	3100 5000 2800 5000
+Text GLabel 2800 5000 2    70   BiDi ~ 0
+MC_1_BRAKE_INPUT
+Wire Wire Line
+	3100 5100 2800 5100
+Text GLabel 2800 5100 2    70   BiDi ~ 0
+MC_1_RXD
+Wire Wire Line
+	3100 5200 2800 5200
+Text GLabel 2800 5200 2    70   BiDi ~ 0
+MC_1_TXD
+Wire Wire Line
+	3100 5300 2800 5300
+Text GLabel 2800 5300 2    70   BiDi ~ 0
+MC_1_REVERSE_SWITCH
+Wire Wire Line
+	3100 5400 2800 5400
+Text GLabel 2800 5400 2    70   BiDi ~ 0
+MC_1_THROTTLE_INPUT
+Wire Wire Line
+	3100 5500 2800 5500
+Text GLabel 2800 5500 2    70   BiDi ~ 0
+MC_1_IMPULSE_INPUT
+Wire Wire Line
+	3100 5800 2800 5800
+Text GLabel 2800 5800 2    70   BiDi ~ 0
+MC_2_BRAKE_INPUT
+Wire Wire Line
+	3100 6100 2800 6100
+Text GLabel 2800 6100 2    70   BiDi ~ 0
+MC_2_REVERSE_SWITCH
+Wire Wire Line
+	3100 6200 2800 6200
+Text GLabel 2800 6200 2    70   BiDi ~ 0
+MC_2_THROTTLE_INPUT
+Wire Wire Line
+	3100 6300 2800 6300
+Text GLabel 2800 6300 2    70   BiDi ~ 0
+MC_2_IMPULSE_INPUT
+Wire Wire Line
+	2800 1800 3100 1800
+Text GLabel 2800 1800 2    70   BiDi ~ 0
+BRAKE_LIGHTS_OUT
+Wire Wire Line
+	3100 1900 2800 1900
+Text GLabel 2800 1900 2    70   BiDi ~ 0
+BRAKE_LIGHTS-
+Wire Wire Line
+	2800 1200 3100 1200
+Text GLabel 2800 1200 2    70   BiDi ~ 0
+BR_PRESS_2
+Wire Wire Line
+	2800 2300 2900 2300
+Text GLabel 2800 2300 2    70   BiDi ~ 0
+TEMP_L_OUT
+Wire Wire Line
+	2800 2400 2900 2400
+Text GLabel 2800 2400 2    70   BiDi ~ 0
+TEMP_L_IN
+Wire Wire Line
+	2800 2500 2900 2500
+Text GLabel 2800 2500 2    70   BiDi ~ 0
+TEMP_R_OUT
+Wire Wire Line
+	2800 2600 2900 2600
+Text GLabel 2800 2600 2    70   BiDi ~ 0
+TEMP_R_IN
+Wire Wire Line
+	2800 3200 2900 3200
+Text GLabel 2800 3200 2    70   BiDi ~ 0
+PRESSURE_R_SIG_OUT
+Wire Wire Line
+	2800 3000 2900 3000
+Text GLabel 2800 3000 2    70   BiDi ~ 0
+PRESSURE_L_SIG_OUT
+Wire Wire Line
+	2800 3100 2900 3100
+Text GLabel 2800 3100 2    70   BiDi ~ 0
+PRESSURE_R_SIG_IN
+Wire Wire Line
+	2800 2900 2900 2900
+Text GLabel 2800 2900 2    70   BiDi ~ 0
+PRESSURE_L_SIG_IN
+Wire Wire Line
+	3100 1500 2800 1500
+Text GLabel 2800 1500 2    70   BiDi ~ 0
+AIR_C_1
+Wire Wire Line
+	2800 1600 3100 1600
+Text GLabel 2800 1600 2    70   BiDi ~ 0
+AIR_C_2
+Wire Wire Line
+	2800 1700 3100 1700
+Text GLabel 2800 1700 2    70   BiDi ~ 0
+AIR_C_3
+Wire Wire Line
+	2800 1400 3100 1400
+Text GLabel 2800 1400 2    70   BiDi ~ 0
+TSAL_STATE
+Wire Wire Line
+	2800 1000 3100 1000
+Text GLabel 2800 1000 2    70   BiDi ~ 0
+AUDIO_OUT-
+Wire Wire Line
+	2800 1100 3000 1100
+Wire Wire Line
+	2800 1100 3100 1100
+Text GLabel 3100 1100 2    70   BiDi ~ 0
+CURR_S_SIG
+Entry Wire Line
+	2700 4000 2800 4100
+Entry Wire Line
+	2700 5800 2800 5900
+Entry Wire Line
+	2700 5900 2800 6000
+Entry Wire Line
+	2700 3700 2800 3800
+Entry Wire Line
+	2700 3800 2800 3900
+Entry Wire Line
+	2700 3900 2800 4000
+Entry Wire Line
+	2700 4200 2800 4300
+Entry Wire Line
+	2700 4300 2800 4400
+Entry Wire Line
+	2700 4500 2800 4600
+Entry Wire Line
+	2700 4600 2800 4700
+Entry Wire Line
+	2700 4900 2800 5000
+Entry Wire Line
+	2700 5000 2800 5100
+Entry Wire Line
+	2700 5100 2800 5200
+Entry Wire Line
+	2700 5200 2800 5300
+Entry Wire Line
+	2700 5300 2800 5400
+Entry Wire Line
+	2700 5400 2800 5500
+Entry Wire Line
+	2700 5700 2800 5800
+Entry Wire Line
+	2700 6000 2800 6100
+Entry Wire Line
+	2700 6100 2800 6200
+Entry Wire Line
+	2700 6200 2800 6300
+Entry Wire Line
+	2700 1700 2800 1800
+Entry Wire Line
+	2700 1800 2800 1900
+Entry Wire Line
+	2700 1100 2800 1200
+Entry Wire Line
+	2700 2200 2800 2300
+Entry Wire Line
+	2700 2300 2800 2400
+Entry Wire Line
+	2700 2400 2800 2500
+Entry Wire Line
+	2700 2500 2800 2600
+Entry Wire Line
+	2700 3100 2800 3200
+Entry Wire Line
+	2700 2900 2800 3000
+Entry Wire Line
+	2700 3000 2800 3100
+Entry Wire Line
+	2700 2800 2800 2900
+Entry Wire Line
+	2700 1400 2800 1500
+Entry Wire Line
+	2700 1500 2800 1600
+Entry Wire Line
+	2700 1600 2800 1700
+Entry Wire Line
+	2700 1300 2800 1400
+Entry Wire Line
+	2700 900  2800 1000
+Entry Wire Line
+	2700 1000 2800 1100
+$Comp
+L VCU-eagle-import:T821108A1S100CEU J4
+U 1 1 FCD7343D
+P 6800 5200
+AR Path="/FCD7343D" Ref="J4"  Part="1" 
+AR Path="/61703EA8/FCD7343D" Ref="J4"  Part="1" 
+F 0 "J4" H 6850 5500 59  0000 L CNN
+F 1 "MC_RIGHT" H 6850 5400 59  0000 L CNN
+F 2 "VCU:HDRV8W64P254_2X4_1778X895X915P" H 6800 5200 50  0001 C CNN
+F 3 "" H 6800 5200 50  0001 C CNN
+	1    6800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCU-eagle-import:GND #GND9
+U 1 1 928DF91D
+P 8000 5500
+AR Path="/928DF91D" Ref="#GND9"  Part="1" 
+AR Path="/61703EA8/928DF91D" Ref="#GND09"  Part="1" 
+F 0 "#GND09" H 8000 5500 50  0001 C CNN
+F 1 "GND" V 8010 5400 59  0000 C TNN
+F 2 "" H 8000 5500 50  0001 C CNN
+F 3 "" H 8000 5500 50  0001 C CNN
+	1    8000 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCU-eagle-import:GND #GND17
+U 1 1 0A5A0AC8
+P 9300 5300
+AR Path="/0A5A0AC8" Ref="#GND17"  Part="1" 
+AR Path="/61703EA8/0A5A0AC8" Ref="#GND017"  Part="1" 
+F 0 "#GND017" H 9300 5300 50  0001 C CNN
+F 1 "GND" V 9310 5200 59  0000 C TNN
+F 2 "" H 9300 5300 50  0001 C CNN
+F 3 "" H 9300 5300 50  0001 C CNN
+	1    9300 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCU-eagle-import:GND #GND18
+U 1 1 E0081D19
+P 5400 5200
+AR Path="/E0081D19" Ref="#GND18"  Part="1" 
+AR Path="/61703EA8/E0081D19" Ref="#GND018"  Part="1" 
+F 0 "#GND018" H 5400 5200 50  0001 C CNN
+F 1 "GND" V 5410 5100 59  0000 C TNN
+F 2 "" H 5400 5200 50  0001 C CNN
+F 3 "" H 5400 5200 50  0001 C CNN
+	1    5400 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L VCU-eagle-import:GND #GND19
+U 1 1 48B3EBD8
+P 5400 5500
+AR Path="/48B3EBD8" Ref="#GND19"  Part="1" 
+AR Path="/61703EA8/48B3EBD8" Ref="#GND019"  Part="1" 
+F 0 "#GND019" H 5400 5500 50  0001 C CNN
+F 1 "GND" V 5410 5400 59  0000 C TNN
+F 2 "" H 5400 5500 50  0001 C CNN
+F 3 "" H 5400 5500 50  0001 C CNN
+	1    5400 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L VCU-eagle-import:12V #SUPPLY16
+U 1 1 268EB7DE
+P 3600 3800
+AR Path="/268EB7DE" Ref="#SUPPLY16"  Part="1" 
+AR Path="/61703EA8/268EB7DE" Ref="#SUPPLY016"  Part="1" 
+F 0 "#SUPPLY016" H 3600 3800 50  0001 C CNN
+F 1 "12V" H 3600 3910 59  0000 C BNN
+F 2 "" H 3600 3800 50  0001 C CNN
+F 3 "" H 3600 3800 50  0001 C CNN
+	1    3600 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L VCU-eagle-import:5V #SUPPLY17
+U 1 1 65B39815
+P 3800 3900
+AR Path="/65B39815" Ref="#SUPPLY17"  Part="1" 
+AR Path="/61703EA8/65B39815" Ref="#SUPPLY017"  Part="1" 
+F 0 "#SUPPLY017" H 3800 3900 50  0001 C CNN
+F 1 "5V" H 3800 4010 59  0000 C BNN
+F 2 "" H 3800 3900 50  0001 C CNN
+F 3 "" H 3800 3900 50  0001 C CNN
+	1    3800 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L VCU-eagle-import:3.3V #SUPPLY18
+U 1 1 F59CD171
+P 4000 4000
+AR Path="/F59CD171" Ref="#SUPPLY18"  Part="1" 
+AR Path="/61703EA8/F59CD171" Ref="#SUPPLY018"  Part="1" 
+F 0 "#SUPPLY018" H 4000 4000 50  0001 C CNN
+F 1 "3.3V" H 4000 4110 59  0000 C BNN
+F 2 "" H 4000 4000 50  0001 C CNN
+F 3 "" H 4000 4000 50  0001 C CNN
+	1    4000 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L VCU-eagle-import:GND #GND6
+U 1 1 A07C0193
+P 4300 4100
+AR Path="/A07C0193" Ref="#GND6"  Part="1" 
+AR Path="/61703EA8/A07C0193" Ref="#GND06"  Part="1" 
+F 0 "#GND06" H 4300 4100 50  0001 C CNN
+F 1 "GND" H 4300 4090 59  0000 C TNN
+F 2 "" H 4300 4100 50  0001 C CNN
+F 3 "" H 4300 4100 50  0001 C CNN
+	1    4300 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCU-eagle-import:A3L-LOC #FRAME7
+U 1 1 9CE31C40
+P 900 9000
+AR Path="/9CE31C40" Ref="#FRAME7"  Part="1" 
+AR Path="/61703EA8/9CE31C40" Ref="#FRAME7"  Part="1" 
+F 0 "#FRAME7" H 900 9000 50  0001 C CNN
+F 1 "A3L-LOC" H 900 9000 50  0001 C CNN
+F 2 "" H 900 9000 50  0001 C CNN
+F 3 "" H 900 9000 50  0001 C CNN
+	1    900  9000
+	1    0    0    -1  
+$EndComp
+Text Notes 5600 5200 0    59   ~ 0
+MC_2_BRAKE_INPUT
+Text Notes 5600 5500 0    59   ~ 0
+MC_2_REVERSE_SWITCH
+Text Notes 8100 5300 0    59   ~ 0
+MC_2_IMPULSE_INPUT
+Text Notes 2700 7600 0    59   ~ 0
+CROSS_SHEET_CONNECTIONS
+$EndSCHEMATC
