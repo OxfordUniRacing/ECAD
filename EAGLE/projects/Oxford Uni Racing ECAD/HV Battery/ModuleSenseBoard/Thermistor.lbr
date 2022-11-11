@@ -74,14 +74,14 @@
 <library>
 <packages>
 <package name="THERMISTOR_CUTOUT">
-<wire x1="11" y1="2.5" x2="8.5" y2="0" width="0.127" layer="46" curve="-90"/>
-<wire x1="8.5" y1="0" x2="2.5" y2="0" width="0.127" layer="46"/>
-<wire x1="2.5" y1="0" x2="0" y2="2.5" width="0.127" layer="46" curve="-90"/>
-<wire x1="0" y1="2.5" x2="2.5" y2="5" width="0.127" layer="46" curve="-90"/>
-<wire x1="2.5" y1="5" x2="8.5" y2="5" width="0.127" layer="46"/>
-<wire x1="8.5" y1="5" x2="11" y2="2.5" width="0.127" layer="46" curve="-90"/>
-<smd name="1" x="14.19" y="4" dx="5.08" dy="2.54" layer="1" roundness="83"/>
-<smd name="2" x="14.19" y="1" dx="5.08" dy="2.54" layer="1" roundness="83"/>
+<wire x1="8.46" y1="1.23" x2="7.23" y2="0" width="0.127" layer="46" curve="-90"/>
+<wire x1="7.23" y1="0" x2="2.5" y2="0" width="0.127" layer="46"/>
+<wire x1="2.5" y1="0" x2="1.27" y2="1.23" width="0.127" layer="46" curve="-90"/>
+<wire x1="1.27" y1="1.23" x2="2.5" y2="2.46" width="0.127" layer="46" curve="-90"/>
+<wire x1="2.5" y1="2.46" x2="7.23" y2="2.46" width="0.127" layer="46"/>
+<wire x1="7.23" y1="2.46" x2="8.46" y2="1.23" width="0.1016" layer="46" curve="-90"/>
+<smd name="1" x="9.525" y="2.73" dx="1.778" dy="0.9144" layer="1" roundness="83"/>
+<smd name="2" x="9.525" y="-0.27" dx="1.778" dy="0.9144" layer="1" roundness="83"/>
 </package>
 </packages>
 <symbols>
