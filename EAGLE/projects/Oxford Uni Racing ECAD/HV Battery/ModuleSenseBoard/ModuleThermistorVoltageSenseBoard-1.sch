@@ -473,8 +473,8 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="1.27" y1="1.23" x2="2.5" y2="2.46" width="0.127" layer="46" curve="-90"/>
 <wire x1="2.5" y1="2.46" x2="7.23" y2="2.46" width="0.127" layer="46"/>
 <wire x1="7.23" y1="2.46" x2="8.46" y2="1.23" width="0.1016" layer="46" curve="-90"/>
-<smd name="1" x="9.525" y="2.73" dx="1.778" dy="0.9144" layer="1" roundness="83"/>
-<smd name="2" x="9.525" y="-0.27" dx="1.778" dy="0.9144" layer="1" roundness="83"/>
+<smd name="1" x="5.715" y="-1.524" dx="1.778" dy="0.9144" layer="1" roundness="83" rot="R180"/>
+<smd name="2" x="3.175" y="-1.524" dx="1.778" dy="0.9144" layer="1" roundness="83"/>
 </package>
 </packages>
 <symbols>
@@ -543,9 +543,122 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SFML-107-01-L-D-A">
+<library name="SFML-105-02-L-D-A">
 <packages>
-<package name="SAMTEC_SFML-107-01-L-D-A">
+<package name="SAMTEC_SFML-105-02-L-D-A">
+<wire x1="-3.365" y1="1.525" x2="3.365" y2="1.525" width="0.1" layer="51"/>
+<wire x1="3.365" y1="-1.525" x2="-3.365" y2="-1.525" width="0.1" layer="51"/>
+<wire x1="3.365" y1="1.525" x2="3.365" y2="0.635" width="0.1" layer="51"/>
+<wire x1="3.365" y1="0.635" x2="4.255" y2="0.635" width="0.1" layer="51"/>
+<wire x1="4.255" y1="0.635" x2="4.765" y2="0.125" width="0.1" layer="51" curve="-90"/>
+<wire x1="4.765" y1="0.125" x2="4.765" y2="-0.125" width="0.1" layer="51"/>
+<wire x1="4.255" y1="-0.635" x2="4.765" y2="-0.125" width="0.1" layer="51" curve="90"/>
+<wire x1="4.255" y1="-0.635" x2="3.365" y2="-0.635" width="0.1" layer="51"/>
+<wire x1="3.365" y1="-0.635" x2="3.365" y2="-1.525" width="0.1" layer="51"/>
+<wire x1="-3.365" y1="-1.525" x2="-3.365" y2="-0.635" width="0.1" layer="51"/>
+<wire x1="-3.365" y1="-0.635" x2="-4.255" y2="-0.635" width="0.1" layer="51"/>
+<wire x1="-4.255" y1="-0.635" x2="-4.765" y2="-0.125" width="0.1" layer="51" curve="-90"/>
+<wire x1="-4.765" y1="-0.125" x2="-4.765" y2="0.125" width="0.1" layer="51"/>
+<wire x1="-4.765" y1="0.125" x2="-4.255" y2="0.635" width="0.1" layer="51" curve="-90"/>
+<wire x1="-4.255" y1="0.635" x2="-3.365" y2="0.635" width="0.1" layer="51"/>
+<wire x1="-3.365" y1="0.635" x2="-3.365" y2="1.525" width="0.1" layer="51"/>
+<wire x1="3.365" y1="-0.635" x2="3.365" y2="-1.525" width="0.2" layer="21"/>
+<wire x1="-3.365" y1="-0.635" x2="-3.365" y2="-1.525" width="0.2" layer="21"/>
+<wire x1="3.365" y1="1.525" x2="3.365" y2="0.635" width="0.2" layer="21"/>
+<wire x1="-3.365" y1="1.525" x2="-3.365" y2="0.635" width="0.2" layer="21"/>
+<wire x1="-3.365" y1="1.525" x2="-3.26" y2="1.525" width="0.2" layer="21"/>
+<wire x1="3.365" y1="1.525" x2="3.26" y2="1.525" width="0.2" layer="21"/>
+<wire x1="-3.365" y1="-1.525" x2="-3.26" y2="-1.525" width="0.2" layer="21"/>
+<wire x1="3.365" y1="-1.525" x2="3.26" y2="-1.525" width="0.2" layer="21"/>
+<wire x1="-3.615" y1="2.725" x2="3.615" y2="2.725" width="0.05" layer="39"/>
+<wire x1="3.615" y1="2.725" x2="3.615" y2="0.95" width="0.05" layer="39"/>
+<wire x1="3.615" y1="0.95" x2="5.08" y2="0.95" width="0.05" layer="39"/>
+<wire x1="5.08" y1="0.95" x2="5.08" y2="-0.95" width="0.05" layer="39"/>
+<wire x1="5.08" y1="-0.95" x2="3.615" y2="-0.95" width="0.05" layer="39"/>
+<wire x1="3.615" y1="-0.95" x2="3.615" y2="-2.725" width="0.05" layer="39"/>
+<wire x1="3.615" y1="-2.725" x2="-3.615" y2="-2.725" width="0.05" layer="39"/>
+<wire x1="-3.615" y1="-2.725" x2="-3.615" y2="-0.95" width="0.05" layer="39"/>
+<wire x1="-3.615" y1="-0.95" x2="-5.08" y2="-0.95" width="0.05" layer="39"/>
+<wire x1="-5.08" y1="-0.95" x2="-5.08" y2="0.95" width="0.05" layer="39"/>
+<wire x1="-5.08" y1="0.95" x2="-3.615" y2="0.95" width="0.05" layer="39"/>
+<wire x1="-3.615" y1="0.95" x2="-3.615" y2="2.725" width="0.05" layer="39"/>
+<text x="-3.365" y="3.725" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.365" y="-4.74" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-2.54" y="3.075" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.54" y="3.075" radius="0.1" width="0.2" layer="51"/>
+<hole x="-4.13" y="0" drill="1.4"/>
+<hole x="4.13" y="0" drill="1.4"/>
+<smd name="01" x="-2.54" y="1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="03" x="-1.27" y="1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="05" x="0" y="1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="07" x="1.27" y="1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="09" x="2.54" y="1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="02" x="-2.54" y="-1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="04" x="-1.27" y="-1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="06" x="0" y="-1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="08" x="1.27" y="-1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="10" x="2.54" y="-1.365" dx="0.74" dy="2.22" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SFML-105-02-L-D-A">
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<text x="-8.12" y="8.736" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="01" x="-12.7" y="5.08" length="middle" direction="pas"/>
+<pin name="02" x="12.7" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="03" x="-12.7" y="2.54" length="middle" direction="pas"/>
+<pin name="04" x="12.7" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="05" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="06" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="07" x="-12.7" y="-2.54" length="middle" direction="pas"/>
+<pin name="08" x="12.7" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="09" x="-12.7" y="-5.08" length="middle" direction="pas"/>
+<pin name="10" x="12.7" y="-5.08" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SFML-105-02-L-D-A" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/SFML-105-02-L-D-A/Samtec/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SFML-105-02-L-D-A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SAMTEC_SFML-105-02-L-D-A">
+<connects>
+<connect gate="G$1" pin="01" pad="01"/>
+<connect gate="G$1" pin="02" pad="02"/>
+<connect gate="G$1" pin="03" pad="03"/>
+<connect gate="G$1" pin="04" pad="04"/>
+<connect gate="G$1" pin="05" pad="05"/>
+<connect gate="G$1" pin="06" pad="06"/>
+<connect gate="G$1" pin="07" pad="07"/>
+<connect gate="G$1" pin="08" pad="08"/>
+<connect gate="G$1" pin="09" pad="09"/>
+<connect gate="G$1" pin="10" pad="10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" SFML - Samtec 1.27mm Tiger Eye High-Reliability Surface Mount Locking Socket "/>
+<attribute name="MF" value="Samtec"/>
+<attribute name="MP" value="SFML-105-02-L-D-A"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SFML-105-02-L-D-A/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SFML-107-02-L-D-A">
+<packages>
+<package name="SAMTEC_SFML-107-02-L-D-A">
 <wire x1="-4.635" y1="1.525" x2="4.635" y2="1.525" width="0.1" layer="51"/>
 <wire x1="4.635" y1="-1.525" x2="-4.635" y2="-1.525" width="0.1" layer="51"/>
 <wire x1="4.635" y1="1.525" x2="4.635" y2="0.635" width="0.1" layer="51"/>
@@ -562,44 +675,50 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-6.035" y1="0.125" x2="-5.525" y2="0.635" width="0.1" layer="51" curve="-90"/>
 <wire x1="-5.525" y1="0.635" x2="-4.635" y2="0.635" width="0.1" layer="51"/>
 <wire x1="-4.635" y1="0.635" x2="-4.635" y2="1.525" width="0.1" layer="51"/>
-<wire x1="-4.635" y1="1.525" x2="4.635" y2="1.525" width="0.2" layer="21"/>
-<wire x1="-4.635" y1="-1.525" x2="4.635" y2="-1.525" width="0.2" layer="21"/>
-<wire x1="-4.885" y1="1.775" x2="4.885" y2="1.775" width="0.05" layer="39"/>
-<wire x1="4.885" y1="1.775" x2="4.885" y2="0.925" width="0.05" layer="39"/>
-<wire x1="4.885" y1="0.925" x2="6.325" y2="0.925" width="0.05" layer="39"/>
-<wire x1="6.325" y1="0.925" x2="6.325" y2="-0.925" width="0.05" layer="39"/>
-<wire x1="6.325" y1="-0.925" x2="4.885" y2="-0.925" width="0.05" layer="39"/>
-<wire x1="4.885" y1="-0.925" x2="4.885" y2="-1.775" width="0.05" layer="39"/>
-<wire x1="4.885" y1="-1.775" x2="-4.885" y2="-1.775" width="0.05" layer="39"/>
-<wire x1="-4.885" y1="-1.775" x2="-4.885" y2="-0.925" width="0.05" layer="39"/>
-<wire x1="-4.885" y1="-0.925" x2="-6.325" y2="-0.925" width="0.05" layer="39"/>
-<wire x1="-6.325" y1="-0.925" x2="-6.325" y2="0.925" width="0.05" layer="39"/>
-<wire x1="-6.325" y1="0.925" x2="-4.885" y2="0.925" width="0.05" layer="39"/>
-<wire x1="-4.885" y1="0.925" x2="-4.885" y2="1.775" width="0.05" layer="39"/>
-<text x="-4.635" y="2.775" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.635" y="-3.79" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="-3.81" y="2.125" radius="0.1" width="0.2" layer="21"/>
-<circle x="-3.81" y="2.125" radius="0.1" width="0.2" layer="51"/>
-<hole x="-5.4" y="0" drill="1.35"/>
-<hole x="5.4" y="0" drill="1.35"/>
-<pad name="01" x="-3.81" y="0.635" drill="0.71" diameter="1.06" shape="square"/>
-<pad name="03" x="-2.54" y="0.635" drill="0.71" diameter="1.06"/>
-<pad name="05" x="-1.27" y="0.635" drill="0.71" diameter="1.06"/>
-<pad name="07" x="0" y="0.635" drill="0.71" diameter="1.06"/>
-<pad name="09" x="1.27" y="0.635" drill="0.71" diameter="1.06"/>
-<pad name="11" x="2.54" y="0.635" drill="0.71" diameter="1.06"/>
-<pad name="13" x="3.81" y="0.635" drill="0.71" diameter="1.06"/>
-<pad name="02" x="-3.81" y="-0.635" drill="0.71" diameter="1.06"/>
-<pad name="04" x="-2.54" y="-0.635" drill="0.71" diameter="1.06"/>
-<pad name="06" x="-1.27" y="-0.635" drill="0.71" diameter="1.06"/>
-<pad name="08" x="0" y="-0.635" drill="0.71" diameter="1.06"/>
-<pad name="10" x="1.27" y="-0.635" drill="0.71" diameter="1.06"/>
-<pad name="12" x="2.54" y="-0.635" drill="0.71" diameter="1.06"/>
-<pad name="14" x="3.81" y="-0.635" drill="0.71" diameter="1.06"/>
+<wire x1="4.635" y1="-0.635" x2="4.635" y2="-1.525" width="0.2" layer="21"/>
+<wire x1="-4.635" y1="-0.635" x2="-4.635" y2="-1.525" width="0.2" layer="21"/>
+<wire x1="4.635" y1="1.525" x2="4.635" y2="0.635" width="0.2" layer="21"/>
+<wire x1="-4.635" y1="1.525" x2="-4.635" y2="0.635" width="0.2" layer="21"/>
+<wire x1="-4.635" y1="1.525" x2="-4.53" y2="1.525" width="0.2" layer="21"/>
+<wire x1="4.635" y1="1.525" x2="4.53" y2="1.525" width="0.2" layer="21"/>
+<wire x1="-4.635" y1="-1.525" x2="-4.53" y2="-1.525" width="0.2" layer="21"/>
+<wire x1="4.635" y1="-1.525" x2="4.53" y2="-1.525" width="0.2" layer="21"/>
+<wire x1="-4.885" y1="2.725" x2="4.885" y2="2.725" width="0.05" layer="39"/>
+<wire x1="4.885" y1="2.725" x2="4.885" y2="0.95" width="0.05" layer="39"/>
+<wire x1="4.885" y1="0.95" x2="6.35" y2="0.95" width="0.05" layer="39"/>
+<wire x1="6.35" y1="0.95" x2="6.35" y2="-0.95" width="0.05" layer="39"/>
+<wire x1="6.35" y1="-0.95" x2="4.885" y2="-0.95" width="0.05" layer="39"/>
+<wire x1="4.885" y1="-0.95" x2="4.885" y2="-2.725" width="0.05" layer="39"/>
+<wire x1="4.885" y1="-2.725" x2="-4.885" y2="-2.725" width="0.05" layer="39"/>
+<wire x1="-4.885" y1="-2.725" x2="-4.885" y2="-0.95" width="0.05" layer="39"/>
+<wire x1="-4.885" y1="-0.95" x2="-6.35" y2="-0.95" width="0.05" layer="39"/>
+<wire x1="-6.35" y1="-0.95" x2="-6.35" y2="0.95" width="0.05" layer="39"/>
+<wire x1="-6.35" y1="0.95" x2="-4.885" y2="0.95" width="0.05" layer="39"/>
+<wire x1="-4.885" y1="0.95" x2="-4.885" y2="2.725" width="0.05" layer="39"/>
+<text x="-4.635" y="3.725" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.635" y="-4.74" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-3.81" y="3.075" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3.81" y="3.075" radius="0.1" width="0.2" layer="51"/>
+<hole x="-5.4" y="0" drill="1.4"/>
+<hole x="5.4" y="0" drill="1.4"/>
+<smd name="01" x="-3.81" y="1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="03" x="-2.54" y="1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="05" x="-1.27" y="1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="07" x="0" y="1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="09" x="1.27" y="1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="11" x="2.54" y="1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="13" x="3.81" y="1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="02" x="-3.81" y="-1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="04" x="-2.54" y="-1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="06" x="-1.27" y="-1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="08" x="0" y="-1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="10" x="1.27" y="-1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="12" x="2.54" y="-1.365" dx="0.74" dy="2.22" layer="1"/>
+<smd name="14" x="3.81" y="-1.365" dx="0.74" dy="2.22" layer="1"/>
 </package>
 </packages>
 <symbols>
-<symbol name="SFML-107-01-L-D-A">
+<symbol name="SFML-107-02-L-D-A">
 <wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
@@ -623,13 +742,13 @@ DIN A3, landscape with location and doc. field</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SFML-107-01-L-D-A" prefix="J">
-<description> &lt;a href="https://pricing.snapeda.com/parts/SFML-107-01-L-D-A/Samtec%20Inc./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<deviceset name="SFML-107-02-L-D-A" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/SFML-107-02-L-D-A/Samtec/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="SFML-107-01-L-D-A" x="0" y="0"/>
+<gate name="G$1" symbol="SFML-107-02-L-D-A" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SAMTEC_SFML-107-01-L-D-A">
+<device name="" package="SAMTEC_SFML-107-02-L-D-A">
 <connects>
 <connect gate="G$1" pin="01" pad="01"/>
 <connect gate="G$1" pin="02" pad="02"/>
@@ -649,131 +768,12 @@ DIN A3, landscape with location and doc. field</description>
 <technologies>
 <technology name="">
 <attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" SFML Series .050 Tiger Eye™ High-Reliability Locking Socket Strip "/>
-<attribute name="MF" value="Samtec Inc."/>
-<attribute name="MP" value="SFML-107-01-L-D-A"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SFML-107-01-L-D-A/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SFML-105-01-L-D">
-<packages>
-<package name="SAMTEC_SFML-105-01-L-D">
-<wire x1="-3.365" y1="1.525" x2="3.365" y2="1.525" width="0.1" layer="51"/>
-<wire x1="3.365" y1="-1.525" x2="-3.365" y2="-1.525" width="0.1" layer="51"/>
-<wire x1="3.365" y1="1.525" x2="3.365" y2="0.635" width="0.1" layer="51"/>
-<wire x1="3.365" y1="0.635" x2="4.635" y2="0.635" width="0.1" layer="51"/>
-<wire x1="4.635" y1="0.635" x2="5.145" y2="0.125" width="0.1" layer="51" curve="-90"/>
-<wire x1="5.145" y1="0.125" x2="5.145" y2="-0.125" width="0.1" layer="51"/>
-<wire x1="4.635" y1="-0.635" x2="5.145" y2="-0.125" width="0.1" layer="51" curve="90"/>
-<wire x1="4.635" y1="-0.635" x2="3.365" y2="-0.635" width="0.1" layer="51"/>
-<wire x1="3.365" y1="-0.635" x2="3.365" y2="-1.525" width="0.1" layer="51"/>
-<wire x1="-3.365" y1="-1.525" x2="-3.365" y2="-0.635" width="0.1" layer="51"/>
-<wire x1="-3.365" y1="-0.635" x2="-4.635" y2="-0.635" width="0.1" layer="51"/>
-<wire x1="-4.635" y1="-0.635" x2="-5.145" y2="-0.125" width="0.1" layer="51" curve="-90"/>
-<wire x1="-5.145" y1="-0.125" x2="-5.145" y2="0.125" width="0.1" layer="51"/>
-<wire x1="-5.145" y1="0.125" x2="-4.635" y2="0.635" width="0.1" layer="51" curve="-90"/>
-<wire x1="-4.635" y1="0.635" x2="-3.365" y2="0.635" width="0.1" layer="51"/>
-<wire x1="-3.365" y1="0.635" x2="-3.365" y2="1.525" width="0.1" layer="51"/>
-<wire x1="-3.365" y1="1.525" x2="3.365" y2="1.525" width="0.2" layer="21"/>
-<wire x1="-3.365" y1="-1.525" x2="3.365" y2="-1.525" width="0.2" layer="21"/>
-<wire x1="3.365" y1="1.525" x2="3.365" y2="0.635" width="0.2" layer="21"/>
-<wire x1="3.365" y1="0.635" x2="4.635" y2="0.635" width="0.2" layer="21"/>
-<wire x1="4.635" y1="0.635" x2="5.145" y2="0.125" width="0.2" layer="21" curve="-90"/>
-<wire x1="5.145" y1="0.125" x2="5.145" y2="-0.125" width="0.2" layer="21"/>
-<wire x1="4.635" y1="-0.635" x2="5.145" y2="-0.125" width="0.2" layer="21" curve="90"/>
-<wire x1="4.635" y1="-0.635" x2="3.365" y2="-0.635" width="0.2" layer="21"/>
-<wire x1="3.365" y1="-0.635" x2="3.365" y2="-1.525" width="0.2" layer="21"/>
-<wire x1="-3.365" y1="-1.525" x2="-3.365" y2="-0.635" width="0.2" layer="21"/>
-<wire x1="-3.365" y1="-0.635" x2="-4.635" y2="-0.635" width="0.2" layer="21"/>
-<wire x1="-4.635" y1="-0.635" x2="-5.145" y2="-0.125" width="0.2" layer="21" curve="-90"/>
-<wire x1="-5.145" y1="-0.125" x2="-5.145" y2="0.125" width="0.2" layer="21"/>
-<wire x1="-5.145" y1="0.125" x2="-4.635" y2="0.635" width="0.2" layer="21" curve="-90"/>
-<wire x1="-4.635" y1="0.635" x2="-3.365" y2="0.635" width="0.2" layer="21"/>
-<wire x1="-3.365" y1="0.635" x2="-3.365" y2="1.525" width="0.2" layer="21"/>
-<wire x1="-3.615" y1="1.775" x2="3.615" y2="1.775" width="0.05" layer="39"/>
-<wire x1="3.615" y1="1.775" x2="3.615" y2="0.885" width="0.05" layer="39"/>
-<wire x1="3.615" y1="0.885" x2="5.395" y2="0.885" width="0.05" layer="39"/>
-<wire x1="5.395" y1="0.885" x2="5.395" y2="-0.885" width="0.05" layer="39"/>
-<wire x1="5.395" y1="-0.885" x2="3.615" y2="-0.885" width="0.05" layer="39"/>
-<wire x1="3.615" y1="-0.885" x2="3.615" y2="-1.775" width="0.05" layer="39"/>
-<wire x1="3.615" y1="-1.775" x2="-3.615" y2="-1.775" width="0.05" layer="39"/>
-<wire x1="-3.615" y1="-1.775" x2="-3.615" y2="-0.885" width="0.05" layer="39"/>
-<wire x1="-3.615" y1="-0.885" x2="-5.395" y2="-0.885" width="0.05" layer="39"/>
-<wire x1="-5.395" y1="-0.885" x2="-5.395" y2="0.885" width="0.05" layer="39"/>
-<wire x1="-5.395" y1="0.885" x2="-3.615" y2="0.885" width="0.05" layer="39"/>
-<wire x1="-3.615" y1="0.885" x2="-3.615" y2="1.775" width="0.05" layer="39"/>
-<text x="-3.365" y="2.775" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.365" y="-3.79" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="-2.54" y="2.125" radius="0.1" width="0.2" layer="21"/>
-<circle x="-2.54" y="2.125" radius="0.1" width="0.2" layer="51"/>
-<pad name="01" x="-2.54" y="0.635" drill="0.71" diameter="1.06" shape="square"/>
-<pad name="03" x="-1.27" y="0.635" drill="0.71" diameter="1.06"/>
-<pad name="05" x="0" y="0.635" drill="0.71" diameter="1.06"/>
-<pad name="07" x="1.27" y="0.635" drill="0.71" diameter="1.06"/>
-<pad name="09" x="2.54" y="0.635" drill="0.71" diameter="1.06"/>
-<pad name="02" x="-2.54" y="-0.635" drill="0.71" diameter="1.06"/>
-<pad name="04" x="-1.27" y="-0.635" drill="0.71" diameter="1.06"/>
-<pad name="06" x="0" y="-0.635" drill="0.71" diameter="1.06"/>
-<pad name="08" x="1.27" y="-0.635" drill="0.71" diameter="1.06"/>
-<pad name="10" x="2.54" y="-0.635" drill="0.71" diameter="1.06"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SFML-105-01-L-D">
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<text x="-8.12" y="8.736" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="01" x="-12.7" y="5.08" length="middle" direction="pas"/>
-<pin name="02" x="12.7" y="5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="03" x="-12.7" y="2.54" length="middle" direction="pas"/>
-<pin name="04" x="12.7" y="2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="05" x="-12.7" y="0" length="middle" direction="pas"/>
-<pin name="06" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
-<pin name="07" x="-12.7" y="-2.54" length="middle" direction="pas"/>
-<pin name="08" x="12.7" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="09" x="-12.7" y="-5.08" length="middle" direction="pas"/>
-<pin name="10" x="12.7" y="-5.08" length="middle" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SFML-105-01-L-D" prefix="J">
-<description> &lt;a href="https://pricing.snapeda.com/parts/SFML-105-01-L-D/Samtec/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="SFML-105-01-L-D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SAMTEC_SFML-105-01-L-D">
-<connects>
-<connect gate="G$1" pin="01" pad="01"/>
-<connect gate="G$1" pin="02" pad="02"/>
-<connect gate="G$1" pin="03" pad="03"/>
-<connect gate="G$1" pin="04" pad="04"/>
-<connect gate="G$1" pin="05" pad="05"/>
-<connect gate="G$1" pin="06" pad="06"/>
-<connect gate="G$1" pin="07" pad="07"/>
-<connect gate="G$1" pin="08" pad="08"/>
-<connect gate="G$1" pin="09" pad="09"/>
-<connect gate="G$1" pin="10" pad="10"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" 10 Position Receptacle Connector 0.050 (1.27mm) Through Hole Gold "/>
+<attribute name="DESCRIPTION" value=" 14 Position Receptacle Connector 0.050 (1.27mm) Surface Mount Gold "/>
 <attribute name="MF" value="Samtec"/>
-<attribute name="MP" value="SFML-105-01-L-D"/>
+<attribute name="MP" value="SFML-107-02-L-D-A"/>
 <attribute name="PACKAGE" value="None"/>
 <attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SFML-105-01-L-D/?ref=eda"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/SFML-107-02-L-D-A/?ref=eda"/>
 </technology>
 </technologies>
 </device>
@@ -803,9 +803,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="T5" library="Thermistor" deviceset="THERMISTOR" device=""/>
 <part name="T6" library="Thermistor" deviceset="THERMISTOR" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J1" library="SFML-107-01-L-D-A" deviceset="SFML-107-01-L-D-A" device=""/>
-<part name="J2" library="SFML-105-01-L-D" deviceset="SFML-105-01-L-D" device=""/>
-<part name="T7" library="Thermistor" deviceset="THERMISTOR" device=""/>
+<part name="J1" library="SFML-107-02-L-D-A" deviceset="SFML-107-02-L-D-A" device=""/>
+<part name="J2" library="SFML-105-02-L-D-A" deviceset="SFML-105-02-L-D-A" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -868,10 +867,6 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="NAME" x="84.32" y="158.904" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="83.82" y="177.8" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="T7" gate="G$1" x="261.62" y="152.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="265.43" y="154.94" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="255.27" y="154.94" size="1.778" layer="96" rot="R270"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -902,74 +897,42 @@ DIN A3, landscape with location and doc. field</description>
 <junction x="304.8" y="139.7"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <junction x="292.1" y="139.7"/>
+<wire x1="243.84" y1="139.7" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
+<junction x="243.84" y="139.7"/>
+<wire x1="314.96" y1="139.7" x2="320.04" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="139.7" x2="320.04" y2="175.26" width="0.1524" layer="91"/>
 <junction x="314.96" y="139.7"/>
-<wire x1="314.96" y1="139.7" x2="322.58" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="139.7" x2="322.58" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="172.72" x2="302.26" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="13"/>
-<wire x1="302.26" y1="172.72" x2="302.26" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="TSENSE1" class="0">
-<segment>
-<pinref part="T1" gate="G$1" pin="2"/>
-<pinref part="J1" gate="G$1" pin="01"/>
-<wire x1="243.84" y1="160.02" x2="243.84" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="175.26" x2="287.02" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="T2" gate="G$1" pin="2"/>
-<wire x1="256.54" y1="172.72" x2="256.54" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="172.72" x2="289.56" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="03"/>
-<wire x1="289.56" y1="172.72" x2="289.56" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="T3" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="170.18" x2="274.32" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="05"/>
-<wire x1="274.32" y1="170.18" x2="292.1" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="170.18" x2="292.1" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="T6" gate="G$1" pin="2"/>
-<wire x1="314.96" y1="170.18" x2="314.96" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="170.18" x2="299.72" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="11"/>
-<wire x1="299.72" y1="170.18" x2="299.72" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="175.26" x2="302.26" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V3+" class="0">
 <segment>
 <pinref part="V3+" gate="G$1" pin="MOUNT"/>
-<wire x1="134.62" y1="185.42" x2="91.44" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="185.42" x2="91.44" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="07"/>
-<wire x1="91.44" y1="170.18" x2="88.9" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="185.42" x2="55.88" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="04"/>
+<wire x1="55.88" y1="185.42" x2="55.88" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="165.1" x2="63.5" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V2+" class="0">
 <segment>
 <pinref part="V2+" gate="G$1" pin="MOUNT"/>
 <wire x1="93.98" y1="172.72" x2="134.62" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="172.72" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="05"/>
-<wire x1="93.98" y1="167.64" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="172.72" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="180.34" x2="60.96" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="10"/>
+<wire x1="60.96" y1="180.34" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="172.72" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V1+" class="0">
 <segment>
 <pinref part="V1+" gate="G$1" pin="MOUNT"/>
 <wire x1="134.62" y1="160.02" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="160.02" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="03"/>
-<wire x1="93.98" y1="165.1" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="160.02" x2="93.98" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="07"/>
+<wire x1="93.98" y1="170.18" x2="88.9" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V1-" class="0">
@@ -981,22 +944,60 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="91.44" y1="162.56" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="T4" gate="G$1" pin="2"/>
-<wire x1="284.48" y1="160.02" x2="284.48" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="167.64" x2="294.64" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="07"/>
-<wire x1="294.64" y1="167.64" x2="294.64" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="T5" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="160.02" x2="304.8" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="167.64" x2="297.18" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="T6" gate="G$1" pin="2"/>
+<wire x1="314.96" y1="160.02" x2="317.5" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="160.02" x2="314.96" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="170.18" x2="297.18" y2="170.18" width="0.1524" layer="91"/>
+<junction x="314.96" y="160.02"/>
 <pinref part="J1" gate="G$1" pin="09"/>
-<wire x1="297.18" y1="167.64" x2="297.18" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="170.18" x2="297.18" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="T5" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="05"/>
+<wire x1="304.8" y1="160.02" x2="292.1" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="160.02" x2="292.1" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="T4" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="01"/>
+<wire x1="284.48" y1="160.02" x2="284.48" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="175.26" x2="287.02" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="T3" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="160.02" x2="274.32" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="02"/>
+<wire x1="274.32" y1="208.28" x2="287.02" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="208.28" x2="287.02" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="T2" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="160.02" x2="269.24" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="160.02" x2="269.24" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="06"/>
+<wire x1="269.24" y1="215.9" x2="292.1" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="215.9" x2="292.1" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="160.02" x2="251.46" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="160.02" x2="251.46" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="10"/>
+<wire x1="251.46" y1="220.98" x2="297.18" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="220.98" x2="297.18" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

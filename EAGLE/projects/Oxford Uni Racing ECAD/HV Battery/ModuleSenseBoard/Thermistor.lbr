@@ -80,8 +80,8 @@
 <wire x1="1.27" y1="1.23" x2="2.5" y2="2.46" width="0.127" layer="46" curve="-90"/>
 <wire x1="2.5" y1="2.46" x2="7.23" y2="2.46" width="0.127" layer="46"/>
 <wire x1="7.23" y1="2.46" x2="8.46" y2="1.23" width="0.1016" layer="46" curve="-90"/>
-<smd name="1" x="9.525" y="2.73" dx="1.778" dy="0.9144" layer="1" roundness="83"/>
-<smd name="2" x="9.525" y="-0.27" dx="1.778" dy="0.9144" layer="1" roundness="83"/>
+<smd name="1" x="5.715" y="-1.524" dx="1.778" dy="0.9144" layer="1" roundness="83" rot="R180"/>
+<smd name="2" x="3.175" y="-1.524" dx="1.778" dy="0.9144" layer="1" roundness="83"/>
 </package>
 </packages>
 <symbols>
