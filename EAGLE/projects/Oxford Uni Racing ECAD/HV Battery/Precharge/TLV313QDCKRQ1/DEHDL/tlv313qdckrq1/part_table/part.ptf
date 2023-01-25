@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLV313QDCKRQ1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TLV313QDCKRQ1" (!) = "", "SOT65P210X110-5N", "SOT23 (5-Pin)", "595-TLV313QDCKRQ1", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV313QDCKRQ1?qs=j%252B1pi9TdxUax6BuGmY%2Ft0g%3D%3D", "TLV313QDCKRQ1", "https://www.arrow.com/en/products/tlv313qdckrq1/texas-instruments?region=nac", "", "", "Low-Power, Rail-to-Rail In/Out, Op Amp", "http://www.ti.com/lit/gpn/tlv313-q1", "1.1 mm"
+END_PART
+
+END.
