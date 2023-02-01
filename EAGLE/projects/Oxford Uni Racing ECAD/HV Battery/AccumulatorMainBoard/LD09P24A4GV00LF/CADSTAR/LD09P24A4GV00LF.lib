@@ -1,0 +1,21 @@
+.LD09P24A4GV00LF :1 ;Amphenol FCI LD Series, 9 Way Plug-In Mount D-sub Connector Plug, 2.74mm Pitch, with Screw
+LD09P24A4GV00LF
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=MH1 11=MH2
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="9" 10="MH1" 11="MH2"
+*MXP 11
+*DFN LD09P24A4GV00LF
+~!Manufacturer_Name (Amphenol Communication Solutions)
+~!Manufacturer_Part_Number (LD09P24A4GV00LF)
+~!Mouser Part Number (649-LD09P24A4GV00LF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/LD09P24A4GV00LF?qs=tZOhSuJQg1nfkziarphghA%3D%3D)
+~!Arrow Part Number (LD09P24A4GV00LF)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ld09p24a4gv00lf/amphenol-fci?region=nac)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://www.mouser.com/datasheet/2/18/10130912-1362365.pdf)
+~!Height (12.15mm)
+~!3D_Model (LD09P24A4GV00LF)
+LD09P24A4GV00LF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 

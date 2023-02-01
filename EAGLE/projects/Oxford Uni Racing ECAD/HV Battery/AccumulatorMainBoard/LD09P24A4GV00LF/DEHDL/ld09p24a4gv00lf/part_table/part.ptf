@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LD09P24A4GV00LF'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol Communication Solutions", "LD09P24A4GV00LF" (!) = "", "LD09P24A4GV00LF", "Other", "649-LD09P24A4GV00LF", "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/LD09P24A4GV00LF?qs=tZOhSuJQg1nfkziarphghA%3D%3D", "LD09P24A4GV00LF", "https://www.arrow.com/en/products/ld09p24a4gv00lf/amphenol-fci?region=nac", "", "", "Amphenol FCI LD Series, 9 Way Plug-In Mount D-sub Connector Plug, 2.74mm Pitch, with Screw", "https://www.mouser.com/datasheet/2/18/10130912-1362365.pdf", "12.15 mm"
+END_PART
+
+END.

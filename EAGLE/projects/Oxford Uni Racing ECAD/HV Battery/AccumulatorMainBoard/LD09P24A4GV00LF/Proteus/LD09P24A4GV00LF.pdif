@@ -1,0 +1,186 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LD09P24A4GV00LF"
+   (description "Amphenol FCI LD Series, 9 Way Plug-In Mount D-sub Connector Plug, 2.74mm Pitch, with Screw")
+   (family "CON")
+   (package "LD09P24A4GV00LF")
+   (attribute "Datasheet Link" "https://www.mouser.com/datasheet/2/18/10130912-1362365.pdf")
+   (attribute "Geometry.Height" "12.15mm")
+   (attribute "Manufacturer_Name" "Amphenol Communication Solutions")
+   (attribute "Manufacturer_Part_Number" "LD09P24A4GV00LF")
+   (attribute "Mouser Part Number" "649-LD09P24A4GV00LF")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/LD09P24A4GV00LF?qs=tZOhSuJQg1nfkziarphghA%3D%3D")
+   (attribute "Arrow Part Number" "LD09P24A4GV00LF")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/ld09p24a4gv00lf/amphenol-fci?region=nac")
+   (attribute "Mouser Testing Part Number" "")
+   (attribute "Mouser Testing Price/Stock" "")
+   (gate
+    (symbol "LD09P24A4GV00LF")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+    (pin "7" 7 PS)
+    (pin "8" 8 PS)
+    (pin "9" 9 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+   )
+  )
+  (symbol "LD09P24A4GV00LF"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 300) (pt 800 300) (pt 800 -300) (pt 200 -300) (pt 200 300) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 300 500) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 500) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 500) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 500) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 500) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 300 -500) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 -500) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 -500) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 -500) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LD09P24A4GV00LF"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.925 4.855)
+      (pt 20.885 4.855)
+      (pt 20.885 -7.695)
+      (pt -9.925 -7.695)
+      (pt -9.925 4.855))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -9.925 4.855)
+      (pt 20.885 4.855)
+      (pt 20.885 -7.695)
+      (pt -9.925 -7.695)
+      (pt -9.925 4.855))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -10.925 5.855)
+      (pt 21.885 5.855)
+      (pt 21.885 -8.695)
+      (pt -10.925 -8.695)
+      (pt -10.925 5.855))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 5.4)
+      (arc (pt 0.000 5.400) (pt -0.050 5.400) (pt 0.050 5.500) (start 180.0) (sweep -90.0))
+      (pt 0 5.5)
+      (arc (pt 0.000 5.500) (pt -0.050 5.400) (pt 0.050 5.500) (start 180.0) (sweep 90.0))
+      (pt 0 5.4))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 2.740 0.000) (padstack 0))
+   (leg 3 (pt 5.480 0.000) (padstack 0))
+   (leg 4 (pt 8.220 0.000) (padstack 0))
+   (leg 5 (pt 10.960 0.000) (padstack 0))
+   (leg 6 (pt 1.370 -2.840) (padstack 0))
+   (leg 7 (pt 4.110 -2.840) (padstack 0))
+   (leg 8 (pt 6.850 -2.840) (padstack 0))
+   (leg 9 (pt 9.590 -2.840) (padstack 0))
+   (leg MH1 (pt -7.015 -1.420) (padstack 10))
+   (leg MH2 (pt 17.975 -1.420) (padstack 11))
+   (padstack 0
+    (hole 0.9)
+    (plated true)
+    (pad (layer TCOP) (round 1.400))
+    (pad (layer INNER) (round 1.400))
+    (pad (layer BCOP) (round 1.400))
+   )
+   (padstack 1
+    (hole 0.9)
+    (plated true)
+    (pad (layer TCOP) (square 1.400))
+    (pad (layer INNER) (round 1.400))
+    (pad (layer BCOP) (square 1.400))
+   )
+   (padstack 10
+    (hole 3.2)
+    (plated true)
+    (pad (layer TCOP) (round 4.800))
+    (pad (layer INNER) (round 4.800))
+    (pad (layer BCOP) (round 4.800))
+   )
+   (padstack 11
+    (hole 3.2)
+    (plated true)
+    (pad (layer TCOP) (round 4.800))
+    (pad (layer INNER) (round 4.800))
+    (pad (layer BCOP) (round 4.800))
+   )
+   (model "LD09P24A4GV00LF.stp"
+    (euler 0 0 180)
+    (offset 5.480000019073486 -1.4199999570846558 5.96999979019165)
+   )
+  )
+ )
+)
