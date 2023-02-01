@@ -1,0 +1,20 @@
+.TLV313QDCKRQ1 :1 ;Low-Power, Rail-to-Rail In/Out, Op Amp
+SOT65P210X110-5N
+*STM IC
+*NGS
+*PLB 1="+IN" 2="V-" 3="-IN" 4="OUT" 5="V+"
+*MXP 5
+*DFN TLV313QDCKRQ1
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TLV313QDCKRQ1)
+~!Mouser Part Number (595-TLV313QDCKRQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV313QDCKRQ1?qs=j%252B1pi9TdxUax6BuGmY%2Ft0g%3D%3D)
+~!Arrow Part Number (TLV313QDCKRQ1)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tlv313qdckrq1/texas-instruments?region=nac)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tlv313-q1)
+~!Height (1.1mm)
+~!3D_Model (TLV313QDCKRQ1)
+TLV313QDCKRQ1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 
