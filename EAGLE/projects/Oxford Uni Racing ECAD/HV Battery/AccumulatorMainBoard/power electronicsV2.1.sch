@@ -16448,8 +16448,8 @@ PC board mounted ribbon cable connectors (IEC 52141), vertical&lt;p&gt;
 <part name="TP29" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP17R" package3d_urn="urn:adsk.eagle:package:27971/1"/>
 <part name="TP30" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP17R" package3d_urn="urn:adsk.eagle:package:27971/1"/>
 <part name="TP31" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP17R" package3d_urn="urn:adsk.eagle:package:27971/1"/>
-<part name="CAM1" library="LD09P24A4GV00LF" deviceset="LD09P24A4GV00LF" device=""/>
-<part name="CAM2" library="LD09P24A4GV00LF" deviceset="LD09P24A4GV00LF" device=""/>
+<part name="CAN1" library="LD09P24A4GV00LF" deviceset="LD09P24A4GV00LF" device=""/>
+<part name="CAN2" library="LD09P24A4GV00LF" deviceset="LD09P24A4GV00LF" device=""/>
 <part name="PL1" library="con-harting-v" library_urn="urn:adsk.eagle:library:150" deviceset="06V" device="" package3d_urn="urn:adsk.eagle:package:7042/1"/>
 </parts>
 <sheets>
@@ -16776,11 +16776,11 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <attribute name="NAME" x="62.23" y="44.45" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="64.77" y="46.99" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="CAM1" gate="G$1" x="220.98" y="139.7" smashed="yes">
+<instance part="CAN1" gate="G$1" x="220.98" y="139.7" smashed="yes">
 <attribute name="NAME" x="218.44" y="138.43" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="242.57" y="149.86" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="CAM2" gate="G$1" x="162.56" y="139.7" smashed="yes">
+<instance part="CAN2" gate="G$1" x="162.56" y="139.7" smashed="yes">
 <attribute name="VALUE" x="184.15" y="149.86" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="PL1" gate="G$1" x="124.46" y="154.94" smashed="yes">
@@ -17376,7 +17376,7 @@ by the bms. They also control mosfets Q4 and Q5</text>
 </net>
 <net name="CAN1_L" class="0">
 <segment>
-<pinref part="CAM1" gate="G$1" pin="5"/>
+<pinref part="CAN1" gate="G$1" pin="5"/>
 <wire x1="238.76" y1="152.4" x2="238.76" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="157.48" x2="254" y2="157.48" width="0.1524" layer="91"/>
 <label x="254" y="157.48" size="1.778" layer="95"/>
@@ -17384,7 +17384,7 @@ by the bms. They also control mosfets Q4 and Q5</text>
 </net>
 <net name="CAN1_H" class="0">
 <segment>
-<pinref part="CAM1" gate="G$1" pin="3"/>
+<pinref part="CAN1" gate="G$1" pin="3"/>
 <wire x1="233.68" y1="152.4" x2="233.68" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="167.64" x2="254" y2="167.64" width="0.1524" layer="91"/>
 <label x="254" y="167.64" size="1.778" layer="95"/>
@@ -17392,7 +17392,7 @@ by the bms. They also control mosfets Q4 and Q5</text>
 </net>
 <net name="CAN2_L" class="0">
 <segment>
-<pinref part="CAM2" gate="G$1" pin="5"/>
+<pinref part="CAN2" gate="G$1" pin="5"/>
 <wire x1="180.34" y1="152.4" x2="180.34" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="157.48" x2="195.58" y2="157.48" width="0.1524" layer="91"/>
 <label x="195.58" y="157.48" size="1.778" layer="95"/>
@@ -17400,7 +17400,7 @@ by the bms. They also control mosfets Q4 and Q5</text>
 </net>
 <net name="CAN2_H" class="0">
 <segment>
-<pinref part="CAM2" gate="G$1" pin="3"/>
+<pinref part="CAN2" gate="G$1" pin="3"/>
 <wire x1="175.26" y1="152.4" x2="175.26" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="167.64" x2="195.58" y2="167.64" width="0.1524" layer="91"/>
 <label x="195.58" y="167.64" size="1.778" layer="95"/>
