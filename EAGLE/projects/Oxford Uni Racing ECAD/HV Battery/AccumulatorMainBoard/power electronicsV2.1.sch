@@ -17445,17 +17445,17 @@ input bypass capacitor used as reccomended for circuits powered from
 <attribute name="NAME" x="263.144" y="142.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="263.144" y="137.541" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="304.8" y="137.16" smashed="yes">
-<attribute name="NAME" x="306.324" y="137.541" size="1.778" layer="95"/>
-<attribute name="VALUE" x="306.324" y="132.461" size="1.778" layer="96"/>
+<instance part="C7" gate="G$1" x="309.88" y="137.16" smashed="yes">
+<attribute name="NAME" x="311.404" y="137.541" size="1.778" layer="95"/>
+<attribute name="VALUE" x="311.404" y="132.461" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="304.8" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="303.3014" y="153.67" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="308.102" y="153.67" size="1.778" layer="96" rot="R90"/>
+<instance part="R5" gate="G$1" x="309.88" y="157.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="308.3814" y="153.67" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="313.182" y="153.67" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R9" gate="G$1" x="294.64" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="293.1414" y="133.35" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="297.942" y="133.35" size="1.778" layer="96" rot="R90"/>
+<instance part="R9" gate="G$1" x="299.72" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="298.2214" y="133.35" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="303.022" y="133.35" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R10" gate="G$1" x="246.38" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="244.8814" y="163.83" size="1.778" layer="95" rot="R90"/>
@@ -17550,7 +17550,7 @@ input bypass capacitor used as reccomended for circuits powered from
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="132.08" x2="304.8" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="132.08" x2="309.88" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="GND"/>
 <wire x1="271.78" y1="144.78" x2="269.24" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="144.78" x2="269.24" y2="129.54" width="0.1524" layer="91"/>
@@ -17562,9 +17562,9 @@ input bypass capacitor used as reccomended for circuits powered from
 <wire x1="246.38" y1="129.54" x2="254" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="254" y1="129.54" x2="261.62" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="129.54" x2="269.24" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="129.54" x2="294.64" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="129.54" x2="304.8" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="129.54" x2="314.96" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="129.54" x2="299.72" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="129.54" x2="309.88" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="129.54" x2="320.04" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="147.32" x2="246.38" y2="129.54" width="0.1524" layer="91"/>
 <junction x="246.38" y="129.54"/>
 <wire x1="254" y1="147.32" x2="254" y2="129.54" width="0.1524" layer="91"/>
@@ -17572,9 +17572,9 @@ input bypass capacitor used as reccomended for circuits powered from
 <junction x="261.62" y="129.54"/>
 <junction x="269.24" y="129.54"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="132.08" x2="294.64" y2="129.54" width="0.1524" layer="91"/>
-<junction x="294.64" y="129.54"/>
-<junction x="304.8" y="129.54"/>
+<wire x1="299.72" y1="132.08" x2="299.72" y2="129.54" width="0.1524" layer="91"/>
+<junction x="299.72" y="129.54"/>
+<junction x="309.88" y="129.54"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 </segment>
 </net>
@@ -17610,12 +17610,12 @@ input bypass capacitor used as reccomended for circuits powered from
 <net name="STARTUP_RESET" class="0">
 <segment>
 <pinref part="IC2" gate="A" pin="Q"/>
-<wire x1="292.1" y1="160.02" x2="294.64" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="160.02" x2="294.64" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="160.02" x2="299.72" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="160.02" x2="299.72" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="294.64" y1="142.24" x2="322.58" y2="142.24" width="0.1524" layer="91"/>
-<junction x="294.64" y="142.24"/>
-<label x="317.5" y="144.78" size="1.778" layer="95"/>
+<wire x1="299.72" y1="142.24" x2="327.66" y2="142.24" width="0.1524" layer="91"/>
+<junction x="299.72" y="142.24"/>
+<label x="322.58" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -17646,16 +17646,16 @@ input bypass capacitor used as reccomended for circuits powered from
 <wire x1="246.38" y1="175.26" x2="266.7" y2="175.26" width="0.1524" layer="91"/>
 <junction x="246.38" y="175.26"/>
 <pinref part="IC2" gate="A" pin="V+"/>
-<wire x1="292.1" y1="144.78" x2="297.18" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="144.78" x2="297.18" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="175.26" x2="297.18" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="144.78" x2="294.64" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="144.78" x2="294.64" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="175.26" x2="294.64" y2="175.26" width="0.1524" layer="91"/>
 <junction x="266.7" y="175.26"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="162.56" x2="304.8" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="175.26" x2="304.8" y2="175.26" width="0.1524" layer="91"/>
-<junction x="297.18" y="175.26"/>
-<wire x1="304.8" y1="175.26" x2="312.42" y2="175.26" width="0.1524" layer="91"/>
-<junction x="304.8" y="175.26"/>
+<wire x1="309.88" y1="162.56" x2="309.88" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="175.26" x2="309.88" y2="175.26" width="0.1524" layer="91"/>
+<junction x="294.64" y="175.26"/>
+<wire x1="309.88" y1="175.26" x2="317.5" y2="175.26" width="0.1524" layer="91"/>
+<junction x="309.88" y="175.26"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
@@ -17664,13 +17664,13 @@ input bypass capacitor used as reccomended for circuits powered from
 <pinref part="IC2" gate="A" pin="DIS"/>
 <pinref part="IC2" gate="A" pin="THR"/>
 <wire x1="292.1" y1="154.94" x2="292.1" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="149.86" x2="304.8" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="149.86" x2="309.88" y2="149.86" width="0.1524" layer="91"/>
 <junction x="292.1" y="149.86"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="304.8" y1="149.86" x2="304.8" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="149.86" x2="309.88" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="304.8" y1="139.7" x2="304.8" y2="149.86" width="0.1524" layer="91"/>
-<junction x="304.8" y="149.86"/>
+<wire x1="309.88" y1="139.7" x2="309.88" y2="149.86" width="0.1524" layer="91"/>
+<junction x="309.88" y="149.86"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -18294,9 +18294,6 @@ Selected diode rated to 3A</text>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="113,1,189.483,121.92,X1,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
