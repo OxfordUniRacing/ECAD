@@ -8654,9 +8654,9 @@ Source: &lt;a href="https://www.ti.com/lit/ds/symlink/tlv9001.pdf?&amp;ts=158946
 <attribute name="NAME" x="92.71" y="77.6986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.71" y="72.898" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="-73.66" y="40.64" smashed="yes">
-<attribute name="NAME" x="-77.47" y="42.1386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-77.47" y="37.338" size="1.778" layer="96"/>
+<instance part="R7" gate="G$1" x="149.86" y="63.5" smashed="yes">
+<attribute name="NAME" x="146.05" y="64.9986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="146.05" y="60.198" size="1.778" layer="96"/>
 </instance>
 <instance part="R8" gate="G$1" x="-83.82" y="2.54" smashed="yes">
 <attribute name="NAME" x="-87.63" y="6.5786" size="1.778" layer="95"/>
@@ -8670,9 +8670,9 @@ Source: &lt;a href="https://www.ti.com/lit/ds/symlink/tlv9001.pdf?&amp;ts=158946
 <attribute name="NAME" x="-107.95" y="29.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-107.95" y="24.638" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="-86.36" y="33.02" smashed="yes">
-<attribute name="NAME" x="-90.17" y="34.5186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-90.17" y="29.718" size="1.778" layer="96"/>
+<instance part="R11" gate="G$1" x="127" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="125.5014" y="54.61" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="130.302" y="54.61" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R12" gate="G$1" x="-101.6" y="33.02" smashed="yes">
 <attribute name="NAME" x="-105.41" y="34.5186" size="1.778" layer="95"/>
@@ -9078,11 +9078,10 @@ Source: &lt;a href="https://www.ti.com/lit/ds/symlink/tlv9001.pdf?&amp;ts=158946
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 <junction x="111.76" y="76.2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="83.82" x2="127" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="127" y1="83.82" x2="127" y2="63.5" width="0.1524" layer="91"/>
 <junction x="111.76" y="83.82"/>
-<pinref part="IC2" gate="G$1" pin="IN+"/>
-<wire x1="127" y1="83.82" x2="127" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="127" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -9192,9 +9191,15 @@ Source: &lt;a href="https://www.ti.com/lit/ds/symlink/tlv9001.pdf?&amp;ts=158946
 <net name="N$15" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
-<wire x1="162.56" y1="48.26" x2="190.5" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="48.26" x2="167.64" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="48.26" x2="190.5" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="48.26" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="48.26" x2="167.64" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="48.26" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
+<junction x="190.5" y="48.26"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -9212,7 +9217,31 @@ Source: &lt;a href="https://www.ti.com/lit/ds/symlink/tlv9001.pdf?&amp;ts=158946
 <segment>
 <pinref part="IC4" gate="G$1" pin="OUT"/>
 <wire x1="160.02" y1="-7.62" x2="175.26" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="-7.62" x2="175.26" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="-7.62" x2="175.26" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="-33.02" x2="177.8" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="IN+"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="63.5" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
+<junction x="134.62" y="53.34"/>
+<wire x1="127" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="CHARGE_POWER" class="0">
+<segment>
+<wire x1="114.3" y1="-53.34" x2="127" y2="-53.34" width="0.1524" layer="91"/>
+<label x="101.6" y="-53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="READY_POWER" class="0">
+<segment>
+<wire x1="116.84" y1="-63.5" x2="129.54" y2="-63.5" width="0.1524" layer="91"/>
+<label x="96.52" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
