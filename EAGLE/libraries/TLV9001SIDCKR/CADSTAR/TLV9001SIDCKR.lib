@@ -1,0 +1,20 @@
+.TLV9001SIDCKR :1 ;Operational Amplifiers - Op Amps 1-Channel, 1MHz, RRIO, 1.8V to 5.5V Operational Amplifier for Cost-Optimized Systems 6-SC70 -40 to 125
+SOT65P210X110-6N
+*STM IC
+*NGS
+*PLB 1="IN+" 2="V-" 3="IN-" 4="OUT" 5="'SHDN'" 6="V+"
+*MXP 6
+*DFN TLV9001SIDCKR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TLV9001SIDCKR)
+~!Mouser Part Number (595-TLV9001SIDCKR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9001SIDCKR?qs=OlC7AqGiEDm%252BHGQGq0Yv1w%3D%3D)
+~!Arrow Part Number (TLV9001SIDCKR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tlv9001sidckr/texas-instruments?region=nac)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/tlv9001.pdf?&ts=1589463649736)
+~!Height (1.1mm)
+~!3D_Model (TLV9001SIDCKR)
+TLV9001SIDCKR
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

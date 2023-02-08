@@ -1176,33 +1176,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
-<library name="TLV313QDCKRQ1">
-<description>&lt;Low-Power, Rail-to-Rail In/Out, Op Amp&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SOT65P210X110-5N">
-<description>&lt;b&gt;DCK(R-PDSO-G5)&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.95" y="0.65" dx="1.2" dy="0.4" layer="1"/>
-<smd name="2" x="-0.95" y="0" dx="1.2" dy="0.4" layer="1"/>
-<smd name="3" x="-0.95" y="-0.65" dx="1.2" dy="0.4" layer="1"/>
-<smd name="4" x="0.95" y="-0.65" dx="1.2" dy="0.4" layer="1"/>
-<smd name="5" x="0.95" y="0.65" dx="1.2" dy="0.4" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.8" y1="1.325" x2="1.8" y2="1.325" width="0.05" layer="51"/>
-<wire x1="1.8" y1="1.325" x2="1.8" y2="-1.325" width="0.05" layer="51"/>
-<wire x1="1.8" y1="-1.325" x2="-1.8" y2="-1.325" width="0.05" layer="51"/>
-<wire x1="-1.8" y1="-1.325" x2="-1.8" y2="1.325" width="0.05" layer="51"/>
-<wire x1="-0.625" y1="1" x2="0.625" y2="1" width="0.1" layer="51"/>
-<wire x1="0.625" y1="1" x2="0.625" y2="-1" width="0.1" layer="51"/>
-<wire x1="0.625" y1="-1" x2="-0.625" y2="-1" width="0.1" layer="51"/>
-<wire x1="-0.625" y1="-1" x2="-0.625" y2="1" width="0.1" layer="51"/>
-<wire x1="-0.625" y1="0.35" x2="0.025" y2="1" width="0.1" layer="51"/>
-<wire x1="-1.55" y1="1.1" x2="-0.35" y2="1.1" width="0.2" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="AMC1350QDWVRQ1">
 <packages>
 <package name="AMC1350QDWVRQ1_TEX-M">
@@ -1334,6 +1307,34 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <text x="-6.0452" y="2.3368" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+</packages>
+</library>
+<library name="TLV9001SIDCKR">
+<description>&lt;Operational Amplifiers - Op Amps 1-Channel, 1MHz, RRIO, 1.8V to 5.5V Operational Amplifier for Cost-Optimized Systems 6-SC70 -40 to 125&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT65P210X110-6N">
+<description>&lt;b&gt;DCK (R-PDSO-G6)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.95" y="0.65" dx="1.2" dy="0.4" layer="1"/>
+<smd name="2" x="-0.95" y="0" dx="1.2" dy="0.4" layer="1"/>
+<smd name="3" x="-0.95" y="-0.65" dx="1.2" dy="0.4" layer="1"/>
+<smd name="4" x="0.95" y="-0.65" dx="1.2" dy="0.4" layer="1"/>
+<smd name="5" x="0.95" y="0" dx="1.2" dy="0.4" layer="1"/>
+<smd name="6" x="0.95" y="0.65" dx="1.2" dy="0.4" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.8" y1="1.325" x2="1.8" y2="1.325" width="0.05" layer="51"/>
+<wire x1="1.8" y1="1.325" x2="1.8" y2="-1.325" width="0.05" layer="51"/>
+<wire x1="1.8" y1="-1.325" x2="-1.8" y2="-1.325" width="0.05" layer="51"/>
+<wire x1="-1.8" y1="-1.325" x2="-1.8" y2="1.325" width="0.05" layer="51"/>
+<wire x1="-0.625" y1="1" x2="0.625" y2="1" width="0.1" layer="51"/>
+<wire x1="0.625" y1="1" x2="0.625" y2="-1" width="0.1" layer="51"/>
+<wire x1="0.625" y1="-1" x2="-0.625" y2="-1" width="0.1" layer="51"/>
+<wire x1="-0.625" y1="-1" x2="-0.625" y2="1" width="0.1" layer="51"/>
+<wire x1="-0.625" y1="0.35" x2="0.025" y2="1" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="1.2" x2="-0.35" y2="1.2" width="0.2" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1578,12 +1579,6 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-21.59" y="34.29" size="1.27" layer="27"/>
 </element>
-<element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="-25.4" y="36.83" smashed="yes">
-<attribute name="NAME" x="-26.67" y="38.1" size="1.27" layer="25"/>
-<attribute name="POPULARITY" value="88" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-26.67" y="34.29" size="1.27" layer="27"/>
-</element>
 <element name="C2-1NF" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="-19.05" y="26.67" smashed="yes">
 <attribute name="NAME" x="-20.32" y="27.94" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="88" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -1631,34 +1626,6 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="88" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-16.51" y="44.45" size="1.27" layer="27"/>
-</element>
-<element name="IC1" library="TLV313QDCKRQ1" package="SOT65P210X110-5N" value="TLV313QDCKRQ1" x="-25.4" y="46.99" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="TLV313QDCKRQ1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/tlv313qdckrq1/texas-instruments?region=nac" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Low-Power, Rail-to-Rail In/Out, Op Amp" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TLV313QDCKRQ1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-TLV313QDCKRQ1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV313QDCKRQ1?qs=j%252B1pi9TdxUax6BuGmY%2Ft0g%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_TESTING_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_TESTING_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-25.4" y="46.99" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-25.4" y="46.99" size="1.27" layer="27" align="center"/>
-</element>
-<element name="IC2" library="TLV313QDCKRQ1" package="SOT65P210X110-5N" value="TLV313QDCKRQ1" x="-41.91" y="46.99" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="TLV313QDCKRQ1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/tlv313qdckrq1/texas-instruments?region=nac" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Low-Power, Rail-to-Rail In/Out, Op Amp" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1.1mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TLV313QDCKRQ1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-TLV313QDCKRQ1" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV313QDCKRQ1?qs=j%252B1pi9TdxUax6BuGmY%2Ft0g%3D%3D" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_TESTING_PART_NUMBER" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_TESTING_PRICE-STOCK" value="" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-41.91" y="46.99" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-41.91" y="46.99" size="1.27" layer="27" align="center"/>
 </element>
 <element name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="-33.02" y="26.67" smashed="yes">
 <attribute name="NAME" x="-33.655" y="27.94" size="1.27" layer="25"/>
@@ -1770,23 +1737,139 @@ design rules under a new name.</description>
 </element>
 <element name="U1" library="AMC1350QDWVRQ1" package="AMC1350QDWVRQ1_TEX-M" value="AMC1350QDWVRQ1AMC1350QDWVRQ1_TEX-M" x="-53.34" y="16.51" smashed="yes">
 <attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="AMC1350QDWVRQ1" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AMC1350" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MFR_NAME" value="Texas Instruments" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-56.6166" y="15.875" size="1.27" layer="27" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="-55.0672" y="15.875" size="1.27" layer="21" ratio="6" rot="SR0"/>
+</element>
+<element name="IC3" library="TLV9001SIDCKR" package="SOT65P210X110-6N" value="TLV9001SIDCKR" x="-64.77" y="-2.54" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="TLV9001SIDCKR" x="-64.77" y="-2.54" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/tlv9001sidckr/texas-instruments?region=nac" x="-64.77" y="-2.54" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 1-Channel, 1MHz, RRIO, 1.8V to 5.5V Operational Amplifier for Cost-Optimized Systems 6-SC70 -40 to 125" x="-64.77" y="-2.54" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="-64.77" y="-2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-64.77" y="-2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TLV9001SIDCKR" x="-64.77" y="-2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TLV9001SIDCKR" x="-64.77" y="-2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9001SIDCKR?qs=OlC7AqGiEDm%252BHGQGq0Yv1w%3D%3D" x="-64.77" y="-2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PART_NUMBER" value="" x="-64.77" y="-2.54" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PRICE-STOCK" value="" x="-64.77" y="-2.54" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-64.77" y="-2.54" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-64.77" y="-2.54" size="1.27" layer="27" align="center"/>
+</element>
+<element name="RSNS1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="-60.96" y="-33.02" smashed="yes">
+<attribute name="NAME" x="-61.595" y="-31.75" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="86" x="-69.85" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-69.85" y="-7.62" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-61.595" y="-35.56" size="1.27" layer="27"/>
+</element>
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="-63.5" y="-38.1" smashed="yes">
+<attribute name="NAME" x="-64.135" y="-36.83" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="86" x="-69.85" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-69.85" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-64.135" y="-40.64" size="1.27" layer="27"/>
+</element>
+<element name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="-52.07" y="-33.02" smashed="yes">
+<attribute name="NAME" x="-52.705" y="-31.75" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="86" x="-69.85" y="-17.78" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-69.85" y="-17.78" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-52.705" y="-35.56" size="1.27" layer="27"/>
+</element>
+<element name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="-45.72" y="-33.02" smashed="yes">
+<attribute name="NAME" x="-46.355" y="-31.75" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="86" x="-69.85" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-69.85" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-46.355" y="-35.56" size="1.27" layer="27"/>
+</element>
+<element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="-39.37" y="-33.02" smashed="yes">
+<attribute name="NAME" x="-40.005" y="-31.75" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="86" x="-69.85" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-69.85" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-40.005" y="-35.56" size="1.27" layer="27"/>
+</element>
+<element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="-69.85" y="-38.1" smashed="yes">
+<attribute name="NAME" x="-70.485" y="-36.83" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="86" x="-69.85" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-69.85" y="-33.02" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-70.485" y="-40.64" size="1.27" layer="27"/>
+</element>
+<element name="C2-1NF1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="-69.85" y="-33.02" smashed="yes">
+<attribute name="NAME" x="-71.12" y="-31.75" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="88" x="-69.85" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-69.85" y="-38.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-71.12" y="-35.56" size="1.27" layer="27"/>
+</element>
+<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="-58.42" y="-38.1" smashed="yes">
+<attribute name="NAME" x="-59.69" y="-36.83" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="88" x="-69.85" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-69.85" y="-43.18" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-59.69" y="-40.64" size="1.27" layer="27"/>
+</element>
+<element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="" x="-53.34" y="-38.1" smashed="yes">
+<attribute name="NAME" x="-54.61" y="-36.83" size="1.27" layer="25"/>
+<attribute name="POPULARITY" value="88" x="-69.85" y="-48.26" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-69.85" y="-48.26" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-54.61" y="-40.64" size="1.27" layer="27"/>
+</element>
+<element name="U2" library="AMC1350QDWVRQ1" package="AMC1350QDWVRQ1_TEX-M" value="AMC1350QDWVRQ1AMC1350QDWVRQ1_TEX-M" x="-55.88" y="-12.7" smashed="yes">
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." x="-55.88" y="-58.42" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="AMC1350" x="-55.88" y="-58.42" size="1.778" layer="27" display="off"/>
+<attribute name="MFR_NAME" value="Texas Instruments" x="-55.88" y="-58.42" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-59.1566" y="-13.335" size="1.27" layer="27" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="-57.6072" y="-13.335" size="1.27" layer="21" ratio="6" rot="SR0"/>
+</element>
+<element name="IC1" library="TLV9001SIDCKR" package="SOT65P210X110-6N" value="TLV9001SIDCKR" x="-43.18" y="-35.56" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="TLV9001SIDCKR" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/tlv9001sidckr/texas-instruments?region=nac" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 1-Channel, 1MHz, RRIO, 1.8V to 5.5V Operational Amplifier for Cost-Optimized Systems 6-SC70 -40 to 125" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TLV9001SIDCKR" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TLV9001SIDCKR" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9001SIDCKR?qs=OlC7AqGiEDm%252BHGQGq0Yv1w%3D%3D" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PART_NUMBER" value="" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PRICE-STOCK" value="" x="-67.31" y="-76.2" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-43.18" y="-35.56" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-43.18" y="-35.56" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC2" library="TLV9001SIDCKR" package="SOT65P210X110-6N" value="TLV9001SIDCKR" x="-67.31" y="-40.64" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="TLV9001SIDCKR" x="-67.31" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/tlv9001sidckr/texas-instruments?region=nac" x="-67.31" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 1-Channel, 1MHz, RRIO, 1.8V to 5.5V Operational Amplifier for Cost-Optimized Systems 6-SC70 -40 to 125" x="-67.31" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="-67.31" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-67.31" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TLV9001SIDCKR" x="-67.31" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TLV9001SIDCKR" x="-67.31" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9001SIDCKR?qs=OlC7AqGiEDm%252BHGQGq0Yv1w%3D%3D" x="-67.31" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PART_NUMBER" value="" x="-67.31" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PRICE-STOCK" value="" x="-67.31" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-67.31" y="-40.64" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-67.31" y="-40.64" size="1.27" layer="27" align="center"/>
+</element>
+<element name="IC4" library="TLV9001SIDCKR" package="SOT65P210X110-6N" value="TLV9001SIDCKR" x="-69.85" y="-44.45" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="TLV9001SIDCKR" x="-69.85" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/tlv9001sidckr/texas-instruments?region=nac" x="-69.85" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Operational Amplifiers - Op Amps 1-Channel, 1MHz, RRIO, 1.8V to 5.5V Operational Amplifier for Cost-Optimized Systems 6-SC70 -40 to 125" x="-69.85" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.1mm" x="-69.85" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-69.85" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TLV9001SIDCKR" x="-69.85" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TLV9001SIDCKR" x="-69.85" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9001SIDCKR?qs=OlC7AqGiEDm%252BHGQGq0Yv1w%3D%3D" x="-69.85" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PART_NUMBER" value="" x="-69.85" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_TESTING_PRICE-STOCK" value="" x="-69.85" y="-44.45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-69.85" y="-44.45" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="-69.85" y="-44.45" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
 <signal name="VDD1">
 <contactref element="U1" pad="1"/>
+<contactref element="U2" pad="1"/>
+<wire x1="-58.547" y1="18.415" x2="-61.087" y2="-10.795" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD2">
 <contactref element="U1" pad="8"/>
-</signal>
-<signal name="N$2">
-<contactref element="C3" pad="2"/>
-<contactref element="C12" pad="1"/>
-<wire x1="-45.4" y1="31.75" x2="-29.53" y2="41.91" width="0" layer="19" extent="1-1"/>
+<contactref element="U2" pad="8"/>
+<wire x1="-48.133" y1="18.415" x2="-50.673" y2="-10.795" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R2" pad="2"/>
@@ -1800,11 +1883,165 @@ design rules under a new name.</description>
 <signal name="GND">
 <contactref element="RSNS" pad="1"/>
 <contactref element="C2-1NF" pad="2"/>
-<contactref element="U1" pad="3"/>
 <contactref element="U1" pad="4"/>
+<contactref element="U1" pad="3"/>
+<contactref element="U1" pad="5"/>
+<contactref element="RSNS1" pad="1"/>
+<contactref element="C2-1NF1" pad="2"/>
+<contactref element="U2" pad="4"/>
+<contactref element="U2" pad="3"/>
+<contactref element="U2" pad="5"/>
+<contactref element="IC2" pad="2"/>
+<contactref element="R16" pad="2"/>
+<contactref element="R18" pad="1"/>
+<contactref element="IC4" pad="2"/>
+<contactref element="R13" pad="2"/>
+<wire x1="-68.26" y1="-40.64" x2="-70.8" y2="-44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.9" y1="-33.02" x2="-68.26" y2="-40.64" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.91" y1="-33.02" x2="-68.9" y2="-33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.087" y1="-14.605" x2="-61.91" y2="-33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.087" y1="-13.335" x2="-61.087" y2="-14.605" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.673" y1="-14.605" x2="-61.087" y2="-14.605" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.547" y1="14.605" x2="-61.087" y2="-13.335" width="0" layer="19" extent="1-1"/>
 <wire x1="-58.547" y1="15.875" x2="-58.547" y2="14.605" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.62" y1="26.67" x2="-58.547" y2="15.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.133" y1="14.605" x2="-58.547" y2="14.605" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.77" y1="26.67" x2="-48.133" y2="14.605" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.16" y1="31.75" x2="-44.77" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.62" y1="26.67" x2="-30.16" y2="31.75" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.1" y1="26.67" x2="-27.62" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.56" y1="31.75" x2="-18.1" y2="26.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="R2" pad="1"/>
+<contactref element="R1" pad="1"/>
+<wire x1="-36.51" y1="36.83" x2="-64.45" y2="-38.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="U1" pad="7"/>
+<contactref element="R3" pad="1"/>
+<wire x1="-41.59" y1="36.83" x2="-48.133" y2="17.145" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="U1" pad="6"/>
+<contactref element="R4" pad="1"/>
+<wire x1="-46.67" y1="36.83" x2="-48.133" y2="15.875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="R5" pad="2"/>
+<contactref element="C3" pad="2"/>
+<contactref element="R3" pad="2"/>
+<contactref element="IC3" pad="1"/>
+<wire x1="-49.85" y1="36.83" x2="-65.72" y2="-1.89" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.69" y1="36.83" x2="-49.85" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.53" y1="41.91" x2="-39.69" y2="36.83" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="R5" pad="1"/>
+<contactref element="C3" pad="1"/>
+<wire x1="-31.43" y1="41.91" x2="-51.75" y2="36.83" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="R6" pad="1"/>
+<contactref element="C6" pad="1"/>
+<contactref element="R4" pad="2"/>
+<contactref element="IC3" pad="3"/>
+<wire x1="-56.83" y1="36.83" x2="-65.72" y2="-3.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.67" y1="41.91" x2="-56.83" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.77" y1="36.83" x2="-46.67" y2="41.91" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+3V3">
+<contactref element="IC3" pad="6"/>
+<contactref element="IC1" pad="6"/>
+<contactref element="IC2" pad="6"/>
+<contactref element="IC4" pad="6"/>
+<contactref element="R14" pad="1"/>
+<wire x1="-66.36" y1="-39.99" x2="-68.9" y2="-43.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.23" y1="-34.91" x2="-66.36" y2="-39.99" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.82" y1="-1.89" x2="-66.36" y2="-39.99" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.02" y1="26.67" x2="-63.82" y2="-1.89" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="IC3" pad="4"/>
+<contactref element="C6" pad="2"/>
+<contactref element="R6" pad="2"/>
+<contactref element="IC2" pad="1"/>
+<wire x1="-63.82" y1="-3.19" x2="-68.26" y2="-39.99" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.93" y1="36.83" x2="-63.82" y2="-3.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.77" y1="41.91" x2="-54.93" y2="36.83" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="R1" pad="2"/>
+<contactref element="RSNS1" pad="2"/>
+<contactref element="C2-1NF1" pad="1"/>
+<contactref element="U2" pad="2"/>
+<wire x1="-62.55" y1="-38.1" x2="-70.8" y2="-33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.01" y1="-33.02" x2="-62.55" y2="-38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.087" y1="-12.065" x2="-60.01" y2="-33.02" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$10">
+<contactref element="U2" pad="7"/>
+<contactref element="R19" pad="1"/>
+<wire x1="-50.673" y1="-12.065" x2="-53.02" y2="-33.02" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="U2" pad="6"/>
+<contactref element="R20" pad="1"/>
+<wire x1="-50.673" y1="-13.335" x2="-46.67" y2="-33.02" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="R21" pad="2"/>
+<contactref element="C1" pad="2"/>
+<contactref element="R19" pad="2"/>
+<contactref element="IC1" pad="1"/>
+<wire x1="-51.12" y1="-33.02" x2="-57.47" y2="-38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.13" y1="-34.91" x2="-51.12" y2="-33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.42" y1="-33.02" x2="-44.13" y2="-34.91" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$13">
+<contactref element="R21" pad="1"/>
+<contactref element="C1" pad="1"/>
+<wire x1="-40.32" y1="-33.02" x2="-59.37" y2="-38.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$14">
+<contactref element="R22" pad="1"/>
+<contactref element="C2" pad="1"/>
+<contactref element="R20" pad="2"/>
+<contactref element="IC1" pad="3"/>
+<wire x1="-54.29" y1="-38.1" x2="-70.8" y2="-38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.13" y1="-36.21" x2="-54.29" y2="-38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.77" y1="-33.02" x2="-44.13" y2="-36.21" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="R16" pad="1"/>
+<contactref element="IC1" pad="4"/>
+<contactref element="C2" pad="2"/>
+<contactref element="R22" pad="2"/>
+<contactref element="R15" pad="1"/>
+<contactref element="IC2" pad="3"/>
+<contactref element="R15" pad="2"/>
+<contactref element="IC4" pad="1"/>
+<wire x1="-68.26" y1="-41.29" x2="-70.8" y2="-43.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.9" y1="-38.1" x2="-68.26" y2="-41.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.39" y1="-38.1" x2="-68.26" y2="-41.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.23" y1="-36.21" x2="-52.39" y2="-38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.47" y1="26.67" x2="-42.23" y2="-36.21" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.37" y1="26.67" x2="-57.47" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.46" y1="31.75" x2="-57.47" y2="26.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="IC2" pad="4"/>
+<contactref element="R18" pad="2"/>
+<wire x1="-28.26" y1="31.75" x2="-66.36" y2="-41.29" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="R13" pad="1"/>
+<contactref element="R14" pad="2"/>
+<contactref element="IC4" pad="3"/>
+<wire x1="-51.12" y1="26.67" x2="-70.8" y2="-45.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.67" y1="26.67" x2="-51.12" y2="26.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="IC4" pad="4"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
