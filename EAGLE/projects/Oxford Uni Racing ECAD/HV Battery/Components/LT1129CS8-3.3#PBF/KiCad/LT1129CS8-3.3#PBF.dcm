@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1129CS8-3.3#PBF
+D Linear Technology LT1129CS8-3.3#PBF, LDO Voltage Regulator, 700mA, 3.3 V, -30  30 Vin, 8-Pin
+K
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+#End Doc Library

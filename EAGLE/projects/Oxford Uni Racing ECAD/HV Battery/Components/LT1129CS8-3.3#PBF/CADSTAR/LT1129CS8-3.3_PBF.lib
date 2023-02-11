@@ -1,0 +1,20 @@
+.LT1129CS8-3.3_PBF :1 ;Linear Technology LT1129CS8-3.3#PBF, LDO Voltage Regulator, 700mA, 3.3 V, -30  30 Vin, 8-Pin
+SOIC127P599X175-8N
+*STM IC
+*NGS
+*PLB 1="OUTPUT" 2="SENSE/ADJ" 3="GND_1" 4="NC" 5="'SHDN'" 6="GND_2" 7="GND_3" 8="VIN"
+*MXP 8
+*DFN LT1129CS8-3.3_PBF
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (LT1129CS8-3.3#PBF)
+~!Mouser Part Number (584-LT1129CS8-3.3PBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT1129CS8-3.3PBF?qs=ytflclh7QUUPxIiRT3KdTw%3D%3D)
+~!Arrow Part Number (LT1129CS8-3.3#PBF)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lt1129cs8-3.3pbf/analog-devices?region=nac)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (http://cds.linear.com/docs/en/datasheet/112935ff.pdf)
+~!Height (1.752mm)
+~!3D_Model (LT1129CS8-3.3#PBF)
+LT1129CS8-3.3_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

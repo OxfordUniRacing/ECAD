@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LT1129CS8_3.3#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LT1129CS8-3.3#PBF" (!) = "", "SOIC127P599X175-8N", "Small Outline Packages", "584-LT1129CS8-3.3PBF", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT1129CS8-3.3PBF?qs=ytflclh7QUUPxIiRT3KdTw%3D%3D", "LT1129CS8-3.3#PBF", "https://www.arrow.com/en/products/lt1129cs8-3.3pbf/analog-devices?region=nac", "", "", "Linear Technology LT1129CS8-3.3#PBF, LDO Voltage Regulator, 700mA, 3.3 V, -30  30 Vin, 8-Pin", "http://cds.linear.com/docs/en/datasheet/112935ff.pdf", "1.752 mm"
+END_PART
+
+END.
