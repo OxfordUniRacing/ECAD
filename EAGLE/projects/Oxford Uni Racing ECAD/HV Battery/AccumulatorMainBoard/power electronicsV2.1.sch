@@ -15372,7 +15372,6 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/18/10130912-1362365.pdf"&
 <part name="BMS_POWER/GND" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="KK-156-3" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="IC9" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4011" device="D" package3d_urn="urn:adsk.eagle:package:823/2"/>
-<part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
 <part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
@@ -15642,9 +15641,6 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <attribute name="NAME" x="-10.16" y="43.815" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-10.16" y="30.48" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY12" gate="GND" x="134.62" y="-50.8" smashed="yes" rot="R270">
-<attribute name="VALUE" x="127.635" y="-51.435" size="1.778" layer="96"/>
-</instance>
 <instance part="R24" gate="G$1" x="119.38" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="117.1194" y="46.228" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="122.682" y="44.45" size="1.778" layer="96" rot="R90"/>
@@ -15787,10 +15783,6 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <wire x1="-22.86" y1="-43.18" x2="-22.86" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="-22.86" y="-48.26"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<wire x1="137.16" y1="-50.8" x2="165.1" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="SUPPLY12" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
