@@ -15668,7 +15668,7 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <attribute name="TP_SIGNAL_NAME" x="196.85" y="24.13" size="1.778" layer="97" rot="R180"/>
 </instance>
 <instance part="TP4" gate="G$1" x="48.26" y="33.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="46.99" y="32.512" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="46.99" y="35.052" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="46.99" y="34.29" size="1.778" layer="97" rot="R180"/>
 </instance>
 <instance part="TP12" gate="G$1" x="33.02" y="40.64" smashed="yes">
@@ -15942,12 +15942,14 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <segment>
 <pinref part="IC1" gate="A" pin="R0"/>
 <wire x1="50.8" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="43.18" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
+<label x="48.26" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC1" gate="A" pin="R1"/>
 <wire x1="50.8" y1="35.56" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="35.56" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
-<label x="48.26" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP4" gate="G$1" pin="TP"/>
+<wire x1="48.26" y1="35.56" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <junction x="48.26" y="35.56"/>
+<junction x="48.26" y="43.18"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
