@@ -215,32 +215,6 @@
 <wire x1="8.89" y1="12.6" x2="8.89" y2="-7.11" width="0.2" layer="21"/>
 <wire x1="8.89" y1="-7.11" x2="-8.89" y2="-7.11" width="0.2" layer="21"/>
 </package>
-<package name="HDRV8W64P254_2X4_1778X895X915P">
-<description>&lt;b&gt;T821108A1S100CEU&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square"/>
-<pad name="2" x="0" y="2.54" drill="1.1" diameter="1.65"/>
-<pad name="3" x="2.54" y="0" drill="1.1" diameter="1.65"/>
-<pad name="4" x="2.54" y="2.54" drill="1.1" diameter="1.65"/>
-<pad name="5" x="5.08" y="0" drill="1.1" diameter="1.65"/>
-<pad name="6" x="5.08" y="2.54" drill="1.1" diameter="1.65"/>
-<pad name="7" x="7.62" y="0" drill="1.1" diameter="1.65"/>
-<pad name="8" x="7.62" y="2.54" drill="1.1" diameter="1.65"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-5.48" y1="-3.555" x2="-5.48" y2="6.095" width="0.05" layer="51"/>
-<wire x1="-5.48" y1="6.095" x2="13.1" y2="6.095" width="0.05" layer="51"/>
-<wire x1="13.1" y1="6.095" x2="13.1" y2="-3.555" width="0.05" layer="51"/>
-<wire x1="13.1" y1="-3.555" x2="-5.48" y2="-3.555" width="0.05" layer="51"/>
-<wire x1="-5.23" y1="-3.305" x2="-5.23" y2="5.845" width="0.1" layer="51"/>
-<wire x1="-5.23" y1="5.845" x2="12.85" y2="5.845" width="0.1" layer="51"/>
-<wire x1="12.85" y1="5.845" x2="12.85" y2="-3.305" width="0.1" layer="51"/>
-<wire x1="12.85" y1="-3.305" x2="-5.23" y2="-3.305" width="0.1" layer="51"/>
-<wire x1="-5.23" y1="0" x2="-5.23" y2="-3.305" width="0.2" layer="21"/>
-<wire x1="-5.23" y1="-3.305" x2="12.85" y2="-3.305" width="0.2" layer="21"/>
-<wire x1="12.85" y1="-3.305" x2="12.85" y2="5.845" width="0.2" layer="21"/>
-<wire x1="12.85" y1="5.845" x2="0" y2="5.845" width="0.2" layer="21"/>
-</package>
 <package name="01530008">
 <description>&lt;b&gt;01530008&lt;/b&gt;&lt;br&gt;
 </description>
@@ -303,22 +277,6 @@
 <pin name="3" x="0" y="-5.08" length="middle"/>
 <pin name="4" x="20.32" y="0" length="middle" rot="R180"/>
 <pin name="5" x="20.32" y="-2.54" length="middle" rot="R180"/>
-</symbol>
-<symbol name="T821108A1S100CEU">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" length="middle"/>
-<pin name="3" x="0" y="-2.54" length="middle"/>
-<pin name="5" x="0" y="-5.08" length="middle"/>
-<pin name="7" x="0" y="-7.62" length="middle"/>
-<pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
-<pin name="4" x="20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="6" x="20.32" y="-5.08" length="middle" rot="R180"/>
-<pin name="8" x="20.32" y="-7.62" length="middle" rot="R180"/>
 </symbol>
 <symbol name="01530008Z">
 <wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
@@ -399,37 +357,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="T9AS5D12-12=T9A" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="6802528" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/6802528" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="T821108A1S100CEU" prefix="J">
-<description>&lt;b&gt;HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://uk.rs-online.com/web/p/products/8323569"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="T821108A1S100CEU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HDRV8W64P254_2X4_1778X895X915P">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="HEADER, VERTICAL, 2.54MM, 8WAY Amphenol T821 Series, 2.54mm Pitch 8 Way 2 Row Straight PCB Header, Solder Termination, 3A" constant="no"/>
-<attribute name="HEIGHT" value="9.15mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Amphenol" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="T821108A1S100CEU" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="8323569" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8323569" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -15082,31 +15009,27 @@ NS Package M08A</description>
 <package name="T816108A1S102CEU">
 <description>&lt;b&gt;T816108A1S102CEU-1&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="0" y="0" drill="1.02" diameter="1.53" shape="square"/>
-<pad name="2" x="0" y="2.54" drill="1.02" diameter="1.53"/>
-<pad name="3" x="2.54" y="0" drill="1.02" diameter="1.53"/>
-<pad name="4" x="2.54" y="2.54" drill="1.02" diameter="1.53"/>
-<pad name="5" x="5.08" y="0" drill="1.02" diameter="1.53"/>
-<pad name="6" x="5.08" y="2.54" drill="1.02" diameter="1.53"/>
-<pad name="7" x="7.62" y="0" drill="1.02" diameter="1.53"/>
-<pad name="8" x="7.62" y="2.54" drill="1.02" diameter="1.53"/>
-<text x="3.81" y="1.27" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="3.81" y="1.27" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-5.77" y1="-2.88" x2="13.39" y2="-2.88" width="0.1" layer="51"/>
-<wire x1="13.39" y1="-2.88" x2="13.39" y2="5.42" width="0.1" layer="51"/>
-<wire x1="13.39" y1="5.42" x2="-5.77" y2="5.42" width="0.1" layer="51"/>
+<pad name="1" x="5.1" y="0" drill="1.02" diameter="1.53" shape="square"/>
+<pad name="2" x="5.1" y="2.54" drill="1.02" diameter="1.53"/>
+<pad name="3" x="7.64" y="0" drill="1.02" diameter="1.53"/>
+<pad name="4" x="7.64" y="2.54" drill="1.02" diameter="1.53"/>
+<pad name="5" x="10.18" y="0" drill="1.02" diameter="1.53"/>
+<pad name="6" x="10.18" y="2.54" drill="1.02" diameter="1.53" rot="R180"/>
+<pad name="7" x="12.72" y="0" drill="1.02" diameter="1.53"/>
+<pad name="8" x="12.72" y="2.54" drill="1.02" diameter="1.53"/>
+<wire x1="-5.77" y1="-2.88" x2="23.59" y2="-2.88" width="0.1" layer="51"/>
+<wire x1="23.59" y1="-2.88" x2="23.59" y2="5.42" width="0.1" layer="51"/>
+<wire x1="23.59" y1="5.42" x2="-5.77" y2="5.42" width="0.1" layer="51"/>
 <wire x1="-5.77" y1="5.42" x2="-5.77" y2="-2.88" width="0.1" layer="51"/>
-<wire x1="-6.77" y1="6.42" x2="14.39" y2="6.42" width="0.1" layer="51"/>
-<wire x1="14.39" y1="6.42" x2="14.39" y2="-3.88" width="0.1" layer="51"/>
-<wire x1="14.39" y1="-3.88" x2="-6.77" y2="-3.88" width="0.1" layer="51"/>
+<wire x1="-6.77" y1="6.42" x2="24.59" y2="6.42" width="0.1" layer="51"/>
+<wire x1="24.59" y1="6.42" x2="24.59" y2="-3.88" width="0.1" layer="51"/>
+<wire x1="24.59" y1="-3.88" x2="-6.77" y2="-3.88" width="0.1" layer="51"/>
 <wire x1="-6.77" y1="-3.88" x2="-6.77" y2="6.42" width="0.1" layer="51"/>
-<wire x1="-5.77" y1="5.42" x2="13.39" y2="5.42" width="0.2" layer="21"/>
-<wire x1="13.39" y1="5.42" x2="13.39" y2="-2.88" width="0.2" layer="21"/>
-<wire x1="13.39" y1="-2.88" x2="-5.77" y2="-2.88" width="0.2" layer="21"/>
+<wire x1="-5.77" y1="5.42" x2="23.59" y2="5.42" width="0.2" layer="21"/>
+<wire x1="23.59" y1="5.42" x2="23.59" y2="-2.88" width="0.2" layer="21"/>
+<wire x1="23.59" y1="-2.88" x2="-5.77" y2="-2.88" width="0.2" layer="21"/>
 <wire x1="-5.77" y1="-2.88" x2="-5.77" y2="5.42" width="0.2" layer="21"/>
-<wire x1="0" y1="-3.5" x2="0" y2="-3.5" width="0.1" layer="21"/>
 <wire x1="0" y1="-3.5" x2="0" y2="-3.4" width="0.1" layer="21" curve="180"/>
-<wire x1="0" y1="-3.4" x2="0" y2="-3.4" width="0.1" layer="21"/>
 <wire x1="0" y1="-3.4" x2="0" y2="-3.5" width="0.1" layer="21" curve="180"/>
 </package>
 </packages>
@@ -15356,8 +15279,8 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/18/10130912-1362365.pdf"&
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
-<part name="THERAL_EX_I/O" library="SamacSys_Parts" deviceset="T821108A1S100CEU" device=""/>
-<part name="WIFI_I/O" library="SamacSys_Parts" deviceset="T821108A1S100CEU" device=""/>
+<part name="THERAL_EX_I/O" library="T816108A1S102CEU" deviceset="T816108A1S102CEU" device=""/>
+<part name="WIFI_I/O" library="T816108A1S102CEU" deviceset="T816108A1S102CEU" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="120"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="120"/>
@@ -15668,7 +15591,7 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <attribute name="TP_SIGNAL_NAME" x="196.85" y="24.13" size="1.778" layer="97" rot="R180"/>
 </instance>
 <instance part="TP4" gate="G$1" x="48.26" y="33.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="46.99" y="35.052" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="46.99" y="32.512" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="46.99" y="34.29" size="1.778" layer="97" rot="R180"/>
 </instance>
 <instance part="TP12" gate="G$1" x="33.02" y="40.64" smashed="yes">
@@ -15942,14 +15865,12 @@ by the bms. They also control mosfets Q4 and Q5</text>
 <segment>
 <pinref part="IC1" gate="A" pin="R0"/>
 <wire x1="50.8" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="43.18" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
-<label x="48.26" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC1" gate="A" pin="R1"/>
 <wire x1="50.8" y1="35.56" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
 <wire x1="48.26" y1="35.56" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
+<label x="48.26" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
 <junction x="48.26" y="35.56"/>
-<junction x="48.26" y="43.18"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
