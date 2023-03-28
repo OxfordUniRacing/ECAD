@@ -1,0 +1,205 @@
+# Created by Ultra Librarian Gold 8.3.307 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'CON_22035085_MOL.pac';
+Grid Mil;
+Change Drill 31;
+Pad '1' Square 0 45 R0 (0 0);
+Change Drill 31;
+Pad '2' Round 0 45 R0 (-98 0);
+Change Drill 31;
+Pad '3' Round 0 45 R0 (-197 0);
+Change Drill 31;
+Pad '4' Round 0 45 R0 (-295 0);
+Change Drill 31;
+Pad '5' Round 0 45 R0 (-394 0);
+Change Drill 31;
+Pad '6' Round 0 45 R0 (-492 0);
+Change Drill 31;
+Pad '7' Round 0 45 R0 (-591 0);
+Change Drill 31;
+Pad '8' Round 0 45 R0 (-689 0);
+Layer 21;
+Wire 6 (106 0) (166 25);
+Wire 6 (166 25) (166 -25);
+Wire 6 (166 -25) (106 0);
+Wire 6 (-785 71) (-785 -122);
+Wire 6 (-785 -122) (96 -122);
+Wire 6 (96 -122) (96 71);
+Wire 6 (96 71) (-785 71);
+Change Size 50;
+Change Ratio 6;
+Text '22035085' SR0 (-526 574);
+Change Size 50;
+Change Ratio 6;
+Text 'MINI-SPOX_2.5_W/B_VERT_PLUG_ASSY_-8_CKT' SR0 (-1222 474);
+Change Size 50;
+Change Ratio 6;
+Text 'WITHOUT_COIN,_COPPER_UNDERPLATING' SR0 (-1086 374);
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-413 225);
+Layer 51;
+Wire 6 (106 0) (166 25);
+Wire 6 (166 25) (166 -25);
+Wire 6 (166 -25) (106 0);
+Wire 6 (-785 -122) (96 -122);
+Wire 6 (96 -122) (96 71);
+Wire 6 (96 71) (-785 71);
+Wire 6 (-785 71) (-785 -122);
+Change Size 50;
+Change Ratio 6;
+Text '22035085' SR0 (-526 574);
+Change Size 50;
+Change Ratio 6;
+Text 'MINI-SPOX_2.5_W/B_VERT_PLUG_ASSY_-8_CKT' SR0 (-1222 474);
+Change Size 50;
+Change Ratio 6;
+Text 'WITHOUT_COIN,_COPPER_UNDERPLATING' SR0 (-1086 374);
+Layer 48;
+Change Size 50;
+Change Ratio 6;
+Text 'NOTE' SR0 (-785 -379);
+Change Size 50;
+Change Ratio 6;
+Text 'MAXIMUM_PACKAGE_HEIGHT:_5.9_MM' SR0 (-785 -479);
+Layer 48;
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-473 225);
+Layer 25;
+
+Edit 'CON_22035085.sym';
+Grid Mil;
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Pin '5' Pas None Middle R0 Pad 0 (0 -400)
+Pin '6' Pas None Middle R0 Pad 0 (0 -500)
+Pin '7' Pas None Middle R0 Pad 0 (0 -600)
+Pin '8' Pas None Middle R0 Pad 0 (0 -700)
+Wire 6 (400 0) (200 0);
+Wire 6 (400 -100) (200 -100);
+Wire 6 (400 -200) (200 -200);
+Wire 6 (400 -300) (200 -300);
+Wire 6 (400 -400) (200 -400);
+Wire 6 (400 -500) (200 -500);
+Wire 6 (400 -600) (200 -600);
+Wire 6 (400 -700) (200 -700);
+Wire 6 (400 0) (350 33);
+Wire 6 (400 -100) (350 -67);
+Wire 6 (400 -200) (350 -167);
+Wire 6 (400 -300) (350 -267);
+Wire 6 (400 -400) (350 -367);
+Wire 6 (400 -500) (350 -467);
+Wire 6 (400 -600) (350 -567);
+Wire 6 (400 -700) (350 -667);
+Wire 6 (400 0) (350 -33);
+Wire 6 (400 -100) (350 -133);
+Wire 6 (400 -200) (350 -233);
+Wire 6 (400 -300) (350 -333);
+Wire 6 (400 -400) (350 -433);
+Wire 6 (400 -500) (350 -533);
+Wire 6 (400 -600) (350 -633);
+Wire 6 (400 -700) (350 -733);
+Wire 6 (200 100) (200 -800);
+Wire 6 (200 -800) (500 -800);
+Wire 6 (500 -800) (500 100);
+Wire 6 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit 'CON_22035085_2.sym';
+Grid Mil;
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Pin '5' Pas None Middle R0 Pad 0 (0 -400)
+Pin '6' Pas None Middle R0 Pad 0 (0 -500)
+Pin '7' Pas None Middle R0 Pad 0 (0 -600)
+Pin '8' Pas None Middle R0 Pad 0 (0 -700)
+Wire 6 (300 0) (200 0);
+Wire 6 (300 -100) (200 -100);
+Wire 6 (300 -200) (200 -200);
+Wire 6 (300 -300) (200 -300);
+Wire 6 (300 -400) (200 -400);
+Wire 6 (300 -500) (200 -500);
+Wire 6 (300 -600) (200 -600);
+Wire 6 (300 -700) (200 -700);
+Wire 6 (300 0) (350 33);
+Wire 6 (300 -100) (350 -67);
+Wire 6 (300 -200) (350 -167);
+Wire 6 (300 -300) (350 -267);
+Wire 6 (300 -400) (350 -367);
+Wire 6 (300 -500) (350 -467);
+Wire 6 (300 -600) (350 -567);
+Wire 6 (300 -700) (350 -667);
+Wire 6 (300 0) (350 -33);
+Wire 6 (300 -100) (350 -133);
+Wire 6 (300 -200) (350 -233);
+Wire 6 (300 -300) (350 -333);
+Wire 6 (300 -400) (350 -433);
+Wire 6 (300 -500) (350 -533);
+Wire 6 (300 -600) (350 -633);
+Wire 6 (300 -700) (350 -733);
+Wire 6 (200 100) (200 -800);
+Wire 6 (200 -800) (500 -800);
+Wire 6 (500 -800) (500 100);
+Wire 6 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit 'CON_22035085_3.sym';
+Grid Mil;
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Pin '5' Pas None Middle R0 Pad 0 (0 -400)
+Pin '6' Pas None Middle R0 Pad 0 (0 -500)
+Pin '7' Pas None Middle R0 Pad 0 (0 -600)
+Pin '8' Pas None Middle R0 Pad 0 (0 -700)
+Wire 6 (200 100) (200 -800);
+Wire 6 (200 -800) (500 -800);
+Wire 6 (500 -800) (500 100);
+Wire 6 (500 100) (200 100);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit '22035085.dev';
+Prefix 'J';
+Description '';
+Value Off;
+Add CON_22035085 'A' Next  0 (0 0);
+Package 'CON_22035085_MOL';
+Technology '';
+Attribute Copyright 'Copyright (C) 2023 Ultra Librarian. All rights reserved.';
+Attribute Mfr_Name 'Molex Connector Corporation';
+Attribute Manufacturer_Part_Number '22035085';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+Connect 'A.3' '3';
+Connect 'A.4' '4';
+Connect 'A.5' '5';
+Connect 'A.6' '6';
+Connect 'A.7' '7';
+Connect 'A.8' '8';
