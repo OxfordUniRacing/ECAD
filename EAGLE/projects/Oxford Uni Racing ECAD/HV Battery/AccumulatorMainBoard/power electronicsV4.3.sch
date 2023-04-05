@@ -17039,11 +17039,11 @@ Selected diode rated to 3A</text>
 </net>
 <net name="CHARGE_SAFE" class="0">
 <segment>
-<pinref part="BMS_I/O" gate="A" pin="2"/>
-<wire x1="73.66" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="63.5" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
 <label x="45.72" y="71.12" size="1.778" layer="95"/>
+<pinref part="BMS_I/O" gate="A" pin="2"/>
+<wire x1="66.04" y1="63.5" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FAN_ENABLE" class="0">
@@ -17189,10 +17189,10 @@ Selected diode rated to 3A</text>
 </segment>
 <segment>
 <pinref part="MISC_I/O" gate="A" pin="4"/>
-<wire x1="193.04" y1="208.28" x2="177.8" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="208.28" x2="177.8" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="210.82" x2="175.26" y2="210.82" width="0.1524" layer="91"/>
 <label x="167.64" y="210.82" size="1.778" layer="95"/>
+<wire x1="193.04" y1="208.28" x2="177.8" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BMS_I/O" gate="A" pin="1"/>
@@ -17241,7 +17241,7 @@ Selected diode rated to 3A</text>
 <label x="200.66" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IMD_LED" class="0">
+<net name="IMD_LED-" class="0">
 <segment>
 <pinref part="MISC_I/O" gate="A" pin="3"/>
 <wire x1="193.04" y1="210.82" x2="180.34" y2="210.82" width="0.1524" layer="91"/>
@@ -17250,7 +17250,7 @@ Selected diode rated to 3A</text>
 <label x="167.64" y="215.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AMS_LED" class="0">
+<net name="AMS_LED-" class="0">
 <segment>
 <pinref part="MISC_I/O" gate="A" pin="5"/>
 <wire x1="193.04" y1="205.74" x2="175.26" y2="205.74" width="0.1524" layer="91"/>
