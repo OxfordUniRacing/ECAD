@@ -97,7 +97,6 @@
 <wire x1="2.4384" y1="-3.0988" x2="2.4384" y2="1.8034" width="0.1524" layer="51"/>
 <wire x1="2.4384" y1="1.8034" x2="-19.939" y2="1.8034" width="0.1524" layer="51"/>
 <wire x1="-19.939" y1="1.8034" x2="-19.939" y2="-3.0988" width="0.1524" layer="51"/>
-<text x="-19.939" y="-12.1666" size="1.27" layer="48" ratio="6" rot="SR0">MAXIMUM_PACKAGE_HEIGHT:_5.9_MM</text>
 <text x="-12.0142" y="5.715" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
