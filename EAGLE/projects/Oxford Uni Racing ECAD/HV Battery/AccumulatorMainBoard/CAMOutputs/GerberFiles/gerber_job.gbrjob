@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2023-06-08T13:07:22Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.586,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "power electronicsV5.1"
+        },
+        "Owner": "Xianming Liu <xianming.liu@pmb.ox.ac.uk>",
+        "Size": {
+            "X": 167.62,
+            "Y": 103.81
+        }
+    }
+}

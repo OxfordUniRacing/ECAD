@@ -185,23 +185,6 @@
 <wire x1="8.89" y1="12.6" x2="8.89" y2="-7.11" width="0.2" layer="21"/>
 <wire x1="8.89" y1="-7.11" x2="-8.89" y2="-7.11" width="0.2" layer="21"/>
 </package>
-<package name="01530008">
-<description>&lt;b&gt;01530008&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="1.7272" y="3.81" drill="1.27" diameter="2"/>
-<pad name="2" x="-1.7272" y="-3.81" drill="1.27" diameter="2"/>
-<hole x="0" y="0" drill="3.7846"/>
-<text x="-0.4908" y="0.1082" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.4908" y="0.1082" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.81" y1="8.636" x2="3.81" y2="8.636" width="0.2" layer="51"/>
-<wire x1="3.81" y1="8.636" x2="3.81" y2="-8.636" width="0.2" layer="51"/>
-<wire x1="3.81" y1="-8.636" x2="-3.81" y2="-8.636" width="0.2" layer="51"/>
-<wire x1="-3.81" y1="-8.636" x2="-3.81" y2="8.636" width="0.2" layer="51"/>
-<wire x1="-3.81" y1="8.636" x2="-3.81" y2="-8.636" width="0.2" layer="21"/>
-<wire x1="-3.81" y1="-8.636" x2="3.81" y2="-8.636" width="0.2" layer="21"/>
-<wire x1="3.81" y1="-8.636" x2="3.81" y2="8.636" width="0.2" layer="21"/>
-<wire x1="3.81" y1="8.636" x2="-3.81" y2="8.636" width="0.2" layer="21"/>
-</package>
 <package name="DIOM7959X262N">
 <description>&lt;b&gt;DO-214AB (SMC)&lt;/b&gt;&lt;br&gt;
 </description>
@@ -235,16 +218,6 @@
 <pin name="3" x="0" y="-5.08" length="middle"/>
 <pin name="4" x="20.32" y="0" length="middle" rot="R180"/>
 <pin name="5" x="20.32" y="-2.54" length="middle" rot="R180"/>
-</symbol>
-<symbol name="01530008Z">
-<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" length="middle"/>
-<pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
 </symbol>
 <symbol name="VS-30BQ100-M3_9AT">
 <wire x1="7.62" y1="0" x2="12.7" y2="2.54" width="0.254" layer="94"/>
@@ -288,32 +261,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="T9AS5D12-12=T9A" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="6802528" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/6802528" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="01530008Z" prefix="F">
-<description>&lt;b&gt;Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.littelfuse.com/data/en/data_sheets/153_pcmount.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="01530008Z" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="01530008">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ALLIED_NUMBER" value="70184304" constant="no"/>
-<attribute name="DESCRIPTION" value="Mini fuseholder,15A 32V Littelfuse 15A PCB Mount Fuse Holder Automotive Fuse, 32 V" constant="no"/>
-<attribute name="HEIGHT" value="mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="LITTELFUSE" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="01530008Z" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="3607317" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/3607317" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -15139,6 +15086,63 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 </deviceset>
 </devicesets>
 </library>
+<library name="DIP-PPTC-2.5A-30V_D11.4MM_">
+<packages>
+<package name="F2-5.1-11.4X3.0X18.3MM">
+<wire x1="-5.7" y1="1.5" x2="5.7" y2="1.5" width="0.127" layer="51"/>
+<wire x1="5.7" y1="1.5" x2="5.7" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="5.7" y1="-1.5" x2="-5.7" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-5.7" y1="-1.5" x2="-5.7" y2="1.5" width="0.127" layer="21"/>
+<rectangle x1="-5.71963125" y1="-1.52523125" x2="5.715" y2="1.524" layer="39"/>
+<text x="-1.27196875" y="2.03515" size="0.890375" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.270590625" y="-3.0494" size="0.889409375" layer="27" ratio="11">&gt;VALUE</text>
+<wire x1="-5.7" y1="1.5" x2="-3.4" y2="1.5" width="0.127" layer="21"/>
+<wire x1="5.7" y1="1.5" x2="-1.7" y2="1.5" width="0.127" layer="21"/>
+<wire x1="5.7" y1="-1.5" x2="3.4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-5.7" y1="-1.5" x2="1.7" y2="-1.5" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="1.1" drill="0.889" diameter="1.397"/>
+<pad name="2" x="2.54" y="-1.1" drill="0.889" diameter="1.397"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FUSE">
+<wire x1="-1.016" y1="0" x2="0" y2="-1.016" width="0.254" layer="94" curve="-300.51"/>
+<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.254" layer="94" curve="-300.51"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+<text x="-3.81681875" y="2.54455" size="1.27226875" layer="95" ratio="10">&gt;NAME</text>
+<text x="-3.81263125" y="-2.541759375" size="1.27088125" layer="96" ratio="10">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DIP-PPTC-2.5A-30V(D11.4MM)" prefix="F">
+<description>307010009 &lt;a href="https://pricing.snapeda.com/parts/30R250/Littelfuse/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="F2-5.1-11.4X3.0X18.3MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" Polymeric PTC Resettable Fuse 30V 2.5A Ih Through Hole Radial, Disc "/>
+<attribute name="MF" value="Littelfuse"/>
+<attribute name="MP" value="30R250"/>
+<attribute name="PACKAGE" value="Radial Littelfuse Inc."/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15196,18 +15200,26 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="510K"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="POPULARITY" value="88F"/>
+</part>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
-<part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
+<part name="LED4-DISCHARGE-ENABLE" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
+<part name="LED5-CHARGE-SAFE" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
 <part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="F1" library="SamacSys_Parts" deviceset="01530008Z" device=""/>
-<part name="F2" library="SamacSys_Parts" deviceset="01530008Z" device=""/>
+<part name="F1" library="DIP-PPTC-2.5A-30V_D11.4MM_" deviceset="DIP-PPTC-2.5A-30V(D11.4MM)" device=""/>
+<part name="F2" library="DIP-PPTC-2.5A-30V_D11.4MM_" deviceset="DIP-PPTC-2.5A-30V(D11.4MM)" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
@@ -15376,7 +15388,7 @@ of the BMS and IMD, the length of the pulse should be considered the
 </instance>
 <instance part="R6" gate="G$1" x="-15.24" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="-13.7414" y="72.39" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-18.542" y="64.77" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="-10.922" y="72.39" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R7" gate="G$1" x="-20.32" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="-18.8214" y="72.39" size="1.778" layer="95" rot="R270"/>
@@ -15448,11 +15460,11 @@ of the BMS and IMD, the length of the pulse should be considered the
 <instance part="+3V3" gate="G$1" x="-58.42" y="-27.94" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="-53.34" y="-25.4" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED4" gate="G$1" x="-20.32" y="58.42" smashed="yes">
+<instance part="LED4-DISCHARGE-ENABLE" gate="G$1" x="-20.32" y="58.42" smashed="yes">
 <attribute name="NAME" x="-16.764" y="53.848" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-14.605" y="53.848" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED5" gate="G$1" x="-15.24" y="58.42" smashed="yes">
+<instance part="LED5-CHARGE-SAFE" gate="G$1" x="-15.24" y="58.42" smashed="yes">
 <attribute name="NAME" x="-11.684" y="53.848" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-9.525" y="53.848" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -15526,8 +15538,9 @@ of the BMS and IMD, the length of the pulse should be considered the
 <attribute name="VALUE" x="130.302" y="26.67" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R14" gate="G$1" x="162.56" y="101.6" smashed="yes" rot="MR90">
-<attribute name="NAME" x="164.0586" y="97.79" size="1.778" layer="95" rot="MR90"/>
+<attribute name="NAME" x="164.0586" y="99.822" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="159.258" y="97.79" size="1.778" layer="96" rot="MR90"/>
+<attribute name="POPULARITY" x="159.512" y="100.33" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="LED7" gate="G$1" x="162.56" y="91.44" smashed="yes">
 <attribute name="NAME" x="166.116" y="86.868" size="1.778" layer="95" rot="R90"/>
@@ -15797,7 +15810,7 @@ of the BMS and IMD, the length of the pulse should be considered the
 <wire x1="149.86" y1="30.48" x2="149.86" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED4" gate="G$1" pin="C"/>
+<pinref part="LED4-DISCHARGE-ENABLE" gate="G$1" pin="C"/>
 <wire x1="-20.32" y1="53.34" x2="-20.32" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="IC9" gate="D" pin="I1"/>
 <wire x1="-20.32" y1="35.56" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
@@ -15978,7 +15991,7 @@ of the BMS and IMD, the length of the pulse should be considered the
 <label x="-17.78" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC9" gate="D" pin="I0"/>
 <wire x1="-17.78" y1="40.64" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="LED5-CHARGE-SAFE" gate="G$1" pin="C"/>
 <wire x1="-15.24" y1="40.64" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="53.34" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
 <junction x="-15.24" y="40.64"/>
@@ -16083,13 +16096,13 @@ of the BMS and IMD, the length of the pulse should be considered the
 <net name="N$25" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="LED4-DISCHARGE-ENABLE" gate="G$1" pin="A"/>
 <wire x1="-20.32" y1="60.96" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="LED5-CHARGE-SAFE" gate="G$1" pin="A"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="-15.24" y1="60.96" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -16331,9 +16344,9 @@ Selected diode rated to 3A</text>
 <instance part="SUPPLY22" gate="GND" x="50.8" y="215.9" smashed="yes" rot="R90">
 <attribute name="VALUE" x="53.975" y="213.995" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="F1" gate="G$1" x="66.04" y="233.68" smashed="yes" rot="R180">
-<attribute name="NAME" x="64.77" y="236.22" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="62.23" y="238.76" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="F1" gate="G$1" x="63.5" y="233.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="62.23" y="236.22" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="59.69" y="238.76" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="F2" gate="G$1" x="66.04" y="226.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.77" y="223.52" size="1.778" layer="95" rot="R180" align="center-left"/>
@@ -16538,7 +16551,6 @@ Selected diode rated to 3A</text>
 <net name="READY_POWER" class="3">
 <segment>
 <wire x1="71.12" y1="226.06" x2="71.12" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="226.06" x2="71.12" y2="226.06" width="0.1524" layer="91"/>
 <junction x="71.12" y="226.06"/>
 <pinref part="F2" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="226.06" x2="71.12" y2="243.84" width="0.1524" layer="91"/>
@@ -16571,7 +16583,7 @@ Selected diode rated to 3A</text>
 <wire x1="78.74" y1="238.76" x2="78.74" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="233.68" x2="78.74" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="233.68" x2="78.74" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="233.68" x2="78.74" y2="233.68" width="0.1524" layer="91"/>
 <junction x="78.74" y="233.68"/>
 <label x="83.82" y="238.76" size="1.778" layer="95"/>
 <wire x1="78.74" y1="238.76" x2="81.28" y2="238.76" width="0.1524" layer="91"/>
@@ -16732,14 +16744,14 @@ Selected diode rated to 3A</text>
 <segment>
 <pinref part="POWER/GND" gate="-2" pin="S"/>
 <pinref part="F2" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="226.06" x2="45.72" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="226.06" x2="60.96" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="3">
 <segment>
 <pinref part="POWER/GND" gate="-1" pin="S"/>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="233.68" x2="45.72" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="233.68" x2="58.42" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_H" class="0">
