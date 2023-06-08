@@ -15213,8 +15213,8 @@ Source: &lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?A
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="LED4-DISCHARGE-ENABLE" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
-<part name="LED5-CHARGE-SAFE" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
+<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
+<part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
 <part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="SML0805" package3d_urn="urn:adsk.eagle:package:15830/1"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -15460,11 +15460,11 @@ of the BMS and IMD, the length of the pulse should be considered the
 <instance part="+3V3" gate="G$1" x="-58.42" y="-27.94" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="-53.34" y="-25.4" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="LED4-DISCHARGE-ENABLE" gate="G$1" x="-20.32" y="58.42" smashed="yes">
+<instance part="LED4" gate="G$1" x="-20.32" y="58.42" smashed="yes">
 <attribute name="NAME" x="-16.764" y="53.848" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-14.605" y="53.848" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED5-CHARGE-SAFE" gate="G$1" x="-15.24" y="58.42" smashed="yes">
+<instance part="LED5" gate="G$1" x="-15.24" y="58.42" smashed="yes">
 <attribute name="NAME" x="-11.684" y="53.848" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-9.525" y="53.848" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -15810,7 +15810,7 @@ of the BMS and IMD, the length of the pulse should be considered the
 <wire x1="149.86" y1="30.48" x2="149.86" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED4-DISCHARGE-ENABLE" gate="G$1" pin="C"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
 <wire x1="-20.32" y1="53.34" x2="-20.32" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="IC9" gate="D" pin="I1"/>
 <wire x1="-20.32" y1="35.56" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
@@ -15991,7 +15991,7 @@ of the BMS and IMD, the length of the pulse should be considered the
 <label x="-17.78" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="IC9" gate="D" pin="I0"/>
 <wire x1="-17.78" y1="40.64" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="LED5-CHARGE-SAFE" gate="G$1" pin="C"/>
+<pinref part="LED5" gate="G$1" pin="C"/>
 <wire x1="-15.24" y1="40.64" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="53.34" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
 <junction x="-15.24" y="40.64"/>
@@ -16096,13 +16096,13 @@ of the BMS and IMD, the length of the pulse should be considered the
 <net name="N$25" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="LED4-DISCHARGE-ENABLE" gate="G$1" pin="A"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
 <wire x1="-20.32" y1="60.96" x2="-20.32" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="LED5-CHARGE-SAFE" gate="G$1" pin="A"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="-15.24" y1="60.96" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
 </segment>
